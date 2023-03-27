@@ -1,0 +1,716 @@
+@namespace m url('http://www.w3.org/1998/Math/MathML');
+
+/*General Styles*/
+html {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #aaa; /* to extend the footer on short pages */
+	line-height: 1.55;
+	-webkit-text-size-adjust: 100%;
+}
+body {
+	background-color: #fff;
+	color: #222;
+	margin: 0;
+	padding: 0;
+}
+article {
+	padding: 0 2em;
+	min-width: 13em;
+	max-width: 50em;
+	margin: auto;
+}
+a {
+	text-decoration: none;
+}
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
+a:link {
+	color: #00c;
+}
+a:visited {
+	color: #608;
+}
+sup,
+sub {
+	line-height: 0;
+}
+svg {
+	/*fix scrolling*/
+	pointer-events: none;
+}
+text {
+	fill: currentColor;
+	stroke: none;
+}
+
+/*Header, Footer*/
+header,
+footer {
+	background-color: #aaa;
+	color: #000;
+	line-height: 1.4;
+	clear: both;
+}
+h1 {
+	font-size: 175%;
+	font-weight: bold;
+	background-color: #a04;
+	color: #fff;
+	margin: 0;
+	padding: 0.3em 1em;
+	text-align: center;
+	line-height: 1;
+	border-bottom: 0.15em solid #502;
+}
+h1 .ar {
+	display: inline-block;
+	font-size: 45%;
+	text-align: right;
+}
+h1 .ar span {
+	text-align: left;
+}
+h1 .ar span::after {
+	content: "\A";
+	white-space: pre-line;
+}
+header > *:not(h1),
+footer > * {
+	margin: 0 auto;
+	padding: 0.5rem 2rem;
+	max-width: 50rem;
+}
+nav ol,
+nav ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+nav ol li,
+nav ul li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+nav ol li.prev {
+	float: left;
+	margin-right: 2em;
+	margin-left: -2em;
+}
+nav ol li.prev a::before {
+	content: "← ";
+}
+nav ol li.next {
+	float: right;
+	margin-left: 2em;
+	margin-right: -2em;
+}
+nav ol li.next a::after {
+	content: " →";
+}
+@media (max-width: 56em) {
+	nav ol li.prev {
+		margin-left: 0;
+	}
+	nav ol li.next {
+		margin-right: 0;
+	}
+}
+nav ol::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+nav ul li:not(:first-child)::before {
+	content: "\A0 • \A0";
+}
+
+/*Basic formatting*/
+figcaption {
+	text-align: center;
+}
+table {
+	border-collapse: collapse;
+	margin: 1em 0;
+}
+
+th {
+	text-align: left;
+}
+
+th,
+td {
+	vertical-align: top;
+	padding: 1px 0.5em;
+}
+
+.n th,
+.n td {
+	padding: 1px;
+}
+
+.c1 tr > :nth-child(1),
+.c2 tr > :nth-child(2),
+.c3 tr > :nth-child(3),
+.c4 tr > :nth-child(4),
+.c5 tr > :nth-child(5),
+.c6 tr > :nth-child(6),
+.c7 tr > :nth-child(7),
+.c8 tr > :nth-child(8),
+.c9 tr > :nth-child(9),
+.c10 tr > :nth-child(10) {
+	text-align: center;
+}
+
+.r1 tr > :nth-child(1),
+.r2 tr > :nth-child(2),
+.r3 tr > :nth-child(3),
+.r4 tr > :nth-child(4),
+.r5 tr > :nth-child(5),
+.r6 tr > :nth-child(6),
+.r7 tr > :nth-child(7),
+.r8 tr > :nth-child(8),
+.r9 tr > :nth-child(9),
+.r10 tr > :nth-child(10) {
+	text-align: right;
+}
+
+.b th,
+.b td {
+	border: solid thin;
+}
+
+.b0 tr > :nth-child(1) {
+	border-left: solid thin;
+}
+.b1 tr > :nth-child(1),
+.b2 tr > :nth-child(2),
+.b3 tr > :nth-child(3),
+.b4 tr > :nth-child(4),
+.b5 tr > :nth-child(5),
+.b6 tr > :nth-child(6),
+.b7 tr > :nth-child(7),
+.b8 tr > :nth-child(8),
+.b9 tr > :nth-child(9),
+.b10 tr > :nth-child(10) {
+	border-right: solid thin;
+}
+
+.d0 tr > :nth-child(1) {
+	border-left: double medium;
+}
+.d1 tr > :nth-child(1),
+.d2 tr > :nth-child(2),
+.d3 tr > :nth-child(3),
+.d4 tr > :nth-child(4),
+.d5 tr > :nth-child(5),
+.d6 tr > :nth-child(6),
+.d7 tr > :nth-child(7),
+.d8 tr > :nth-child(8),
+.d9 tr > :nth-child(9),
+.d10 tr > :nth-child(10) {
+	border-right: double medium;
+}
+
+.continue {
+	margin-top: -1em;
+}
+.center {
+	text-align: center;
+}
+.center table {
+	margin: 1em auto;
+	text-align: left;
+}
+
+@font-face {
+	font-family: FiraMath;
+	src: local('Fira Math'), local('FiraMath-Regular'), url('fonts/FiraMath-Regular.woff');
+}
+
+m|mtext {
+	font-family: sans-serif;
+}
+
+m|math,
+var {
+	font-family: FiraMath, math, sans-serif;
+}
+
+/*doesn't seem to work, but also does not harm*/
+math:not([display=block])::before,
+math:not([display=block])::after {
+	content: "\2060";
+}
+
+/*Headlines*/
+h2 {
+	font-size: 175%;
+	font-weight: bold;
+}
+h3 {
+	font-size: 150%;
+	font-weight: bold;
+}
+h4 {
+	font-size: 125%;
+	font-weight: bold;
+}
+h5 {
+	font-size: 112.5%;
+	font-weight: bold;
+}
+h6 {
+	font-size: 100%;
+	font-weight: bold;
+}
+.subtitle {
+	font-size: 125%;
+}
+.fakeheadline {
+	font-weight: bold;
+}
+h2,
+h3,
+h4,
+h5,
+h6,
+.subtitle,
+.fakeheadline {
+	margin-bottom: 1em;
+	clear: both;
+}
+
+h2 + .subtitle,
+h3 + .subtitle,
+h4 + .subtitle {
+	margin-top: -0.5em;
+}
+
+/*Fonts*/
+/*
+https://unifraktur.sourceforge.net/maguntia.html
+or https://unifraktur.sourceforge.net/cook.html
+*/
+@font-face {
+	font-family: "Unifraktur Maguntia";
+	src: local("UnifrakturMaguntia-Regular"),
+		local("UnifrakturMaguntia"),
+		url("fonts/UnifrakturMaguntia.woff") format("woff");
+}
+.textfrak {
+	font-family: "Unifraktur Maguntia", "Old English Text MT", cursive;
+}
+
+/*Figures and Images*/
+figure {
+	margin: 0.5em auto;
+	position: relative;
+}
+figure.float-left,
+figure.float-right {
+	max-width: 35%;
+	width: -moz-available;
+	width: -webkit-fill-available;
+	width: stretch;
+}
+figure.float-left {
+	float: left;
+	margin-left: 0;
+	margin-right: 0.5em;
+}
+figure.float-right {
+	float: right;
+	margin-left: 0.5em;
+	margin-right: 0;
+}
+figure img,
+figure svg {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+}
+figure img[src$=".svg"] {
+	width: 100%;
+}
+figcaption {
+	text-align: center;
+}
+.float-left figcaption {
+	text-align: left;
+}
+.float-right figcaption {
+	text-align: right;
+}
+@media (max-width: 35em) {
+	figure.float-left,
+	figure.float-right {
+		max-width: none;
+		float: none;
+		margin: 0.5em auto;
+		width: auto;
+	}
+	.float-left figcaption,
+	.float-right figcaption {
+		text-align: center;
+	}
+}
+.transcription {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-height: 100%;
+	overflow: hidden;
+	color: transparent;
+}
+
+/*Footnotes*/
+.footnote a::before {
+	content: "[";
+}
+.footnote a::after {
+	content: "]";
+}
+.footnotes {
+	font-size: 90%;
+}
+.footnotes::before {
+	width: 50%;
+	border-top: solid thin;
+	display: block;
+	height: 0;
+	content: "";
+}
+/*.footnotes li:target {
+	TODO highlight?
+}*/
+.footnote-popup {
+	position: fixed;
+	border: solid thin;
+	background-color: #fff;
+	padding: 0.5em;
+	margin: 0.25em;
+	max-width: 30em;
+}
+
+/*Special Elements*/
+.after-hfill,
+.after-dotfill,
+.after-hrulefill {
+	float: right;
+}
+.motto {
+	margin-left: 5em;
+	font-style: italic;
+	font-size: 90%;
+}
+.signature {
+	text-align: right;
+	font-style: italic;
+}
+.formulae td:first-child {
+	border-right: solid thin;
+	max-width: 20em;
+}
+.small-remark {
+	font-size: 90%;
+}
+hr {
+	clear: both;
+}
+hr.alice-stars,
+hr.stars {
+	border: 0;
+	height: auto;
+	color: inherit;
+	text-align: justify;
+	-moz-text-align-last: justify;
+	text-align-last: justify;
+	margin: 1em 5em;
+}
+hr.alice-stars::before {
+	/*
+		The content is
+		* | * | * | *
+		| * | * | * |
+		* | * | * | *
+		where | is an invisible char (ZWSP).
+		With text-align: justify (also for the last line)
+		this stretches over the whole width with equal distances.
+	*/
+	content: "* \200B\20* \200B\20* \200B\20*\A\200B\20* \200B\20* \200B\20* \200B\A* \200B\20* \200B\20* \200B\20*";
+	white-space: pre-line;
+}
+hr.stars::before {
+	content: "* * * * * * *";
+}
+hr.smallskip,
+hr.medskip,
+hr.bigskip {
+	border: none;
+	margin: 0;
+	color: inherit;
+}
+hr.smallskip {
+	margin-top: 2em;
+}
+hr.medskip {
+	margin: 1em auto;
+	border-top: solid thin;
+	width: 50%;
+}
+hr.bigskip {
+	margin-top: 1.5em;
+	border-top: solid thin;
+	margin-bottom: 1.5em;
+}
+div.verse {
+	margin: 0 3em;
+}
+
+/*Annotations*/
+.annotated-forced,
+.annotated[tabindex] {
+	text-decoration: underline;
+	-moz-text-decoration-style: dotted;
+	text-decoration-style: dotted;
+	cursor: pointer;
+}
+
+/*TODO
+html {
+	--color-remark: blue;
+	--color-variant: gray;
+	--color-corrected: red;
+	--color-omitted: red;
+	--color-quoted: green;
+	--color-parody: yellow;
+}
+
+.annotated.remark {
+	text-decoration-color: var(--color-remark);
+}
+.annotated.variant {
+	text-decoration-color: var(--color-variant);
+}
+.annotated.corrected {
+	text-decoration-color: var(--color-corrected);
+}
+.annotated.omitted {
+	text-decoration-color: var(--color-omitted);
+}
+.annotated.quoted {
+	text-decoration-color: var(--color-quoted);
+}
+.annotated.parody {
+	text-decoration-color: var(--color-parody);
+}
+aside.remark {
+	border-color: var(--color-remark);
+}
+aside.variant {
+	border-color: var(--color-variant);
+}
+aside.corrected {
+	border-color: var(--color-corrected);
+}
+aside.omitted {
+	border-color: var(--color-omitted);
+}
+aside.quoted {
+	border-color: var(--color-quoted);
+}
+aside.parody {
+	border-color: var(--color-parody);
+}
+*/
+
+aside {
+	border: solid thin;
+	width: 8rem;
+	padding: 0.5rem;
+	margin: 0.5rem;
+	float: right;
+	margin-right: -9.7rem;
+	text-align: left;
+	font-style: normal;
+	font-size: 90%;
+}
+aside :first-child {
+	margin-top: 0;
+}
+aside :last-child {
+	margin-bottom: 0;
+}
+aside div.verse {
+	margin: 0 0.5em;
+}
+aside.wide {
+	width: 15rem;
+	margin-right: -16.7rem;
+}
+div.verse aside {
+	margin-right: -12.7rem;
+}
+div.verse aside.wide {
+	margin-right: -19.7rem;
+}
+@media (max-width: 80em) {
+	aside.wide {
+		margin-right: -7.5rem;
+	}
+	div.verse aside.wide {
+		margin-right: -10.5rem;
+	}
+}
+@media (max-width: 70em) {
+	aside {
+		margin-right: -4.5rem;
+	}
+	div.verse aside {
+		margin-right: -7.5rem;
+	}
+	aside.wide {
+		width: auto;
+		max-width: 10rem;
+		margin-right: 0;
+	}
+}
+@media (max-width: 60em) {
+	aside {
+		width: auto;
+		max-width: 8rem;
+		margin-right: 0;
+	}
+	div.verse aside {
+		margin-right: -3rem;
+	}
+}
+aside.toggle {
+	display: none;
+}
+/*alternative:
+
+article {
+	counter-reset: annotated annotation;
+}
+.annotated::after {
+	content: counter(annotated);
+	counter-increment: annotated;
+	vertical-align: super;
+	line-height: 0;
+}
+aside.toggle::before {
+	content: counter(annotation) ". ";
+	counter-increment: annotation;
+}
+aside.toggle {
+	display: inline-block;
+	float: none;
+	width: auto;
+	max-width: 8rem;
+	margin-right: 2rem;
+	vertical-align: top;
+}
+aside.toggle.wide {
+	max-width: 12rem;
+}
+*/
+
+/*Dark Skin*/
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color: #333;
+	}
+	body,
+	.footnote-popup {
+		background-color: #222;
+		color: #ddd;
+	}
+	a:link {
+		color: #99f;
+	}
+	a:visited {
+		color: #d7f;
+	}
+	header,
+	footer {
+		background-color: #333;
+		color: #eee;
+	}
+	img {
+		filter: brightness(0.5); /*brightness(0.133) would align the background, but is too low of contrast*/
+	}
+	img[src$=".svg"],
+	img.invert {
+		filter: invert(0.867) hue-rotate(180deg);
+	}
+}
+/*Print*/
+@media print {
+	html {
+		font-family: serif;
+	}
+	html,
+	body,
+	header,
+	footer {
+		background-color: #fff;
+		color: #000;
+	}
+	a {
+		color: inherit !important;
+	}
+	h1,
+	nav,
+	aside,
+	.footnote-popup {
+		display: none !important;
+	}
+	.annotated {
+		text-decoration: none !important;
+	}
+	header {
+		margin-bottom: 2em;
+	}
+	footer {
+		margin-top: 2em;
+	}
+	html::after {
+		display: block;
+		margin-top: 1em;
+		border-top: solid thin;
+		content: "Source: The (almost really) Complete Works of Lewis Carroll";
+	}
+	div.verse p {
+		widows: 4;
+		orphans: 4;
+	}
+	hr {
+		break-before: avoid;
+	}
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		break-after: avoid;
+	}
+	figure,
+	img,
+	svg,
+	hr,
+	tr {
+		break-inside: avoid;
+	}
+	img {
+		filter: none !important; /*just in case*/
+	}
+}

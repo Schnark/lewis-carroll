@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Abridged Long Division</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#a04">
+<link rel="icon" href="../../res/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="../../res/favicon.svg" sizes="any" type="image/svg+xml">
+<link rel="stylesheet" href="../../res/main.css">
+<script src="../../res/main.js" defer></script>
+</head><body>
+<header>
+<h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
+<h2>Abridged Long Division</h2>
+<p>Source: Nature, January 20, 1898</p>
+<p>Other version: <a href="../manuscripts-proofs/curiosa-mathematica-part-iii.html#divide-other:1">Curiosa Mathematica. Part III.</a></p><nav><ol>
+<li class="prev"><a href="brief-method-of-dividing.html">Brief Method of Dividing</a></li>
+<li>Abridged Division</li>
+</ol></nav>
+</header>
+<article>
+
+<p class="subtitle">A Brief Method of dividing a given Number by a Divisior of the Form <math><mrow><mo stretchy="false">(</mo><mi>h</mi><mo>.</mo><msup><mn>10</mn><mi>n</mi></msup><mo>±</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></math>, where at least <i>one</i> of the two numbers, <var>h</var> and <var>k</var>, is greater than 1.</p>
+
+<p>My former paper on this subject, which appeared in <span style="font-variant: small-caps;">Nature</span> for October 14, 1897, dealt only with the case where <math><mrow><mi>h</mi><mo>=</mo><mn>1</mn></mrow></math> and <math><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow></math>. It elicted, from other correspondents of <span style="font-variant: small-caps;">Nature</span>, several interesting letters, which the editor kindly allowed me to see. One, from Mr.&nbsp;Alfred Sang, quotes Mons.&nbsp;L.&nbsp;Richard’s “Sténarithmie,” as containing my Rule for dividing by 11. Mons.&nbsp;Richard’s book, which I had not previously met with, does certainly contain the rule, but the author has failed to see that the test, which this Method furnishes, for the correctness of the working, is absolutely <i>definite</i>. He says “La dernière difference, ou cette difference augmontée de 1, égalera le chiffre de gauche du nombre proposé.” So ambiguous a test as this would of course be useless. But the “difference” he is speaking of is really the <i>last but one:</i> the very <i>last</i> will always (as I stated in my former paper) be equal to zero. Another correspondent, Mr.&nbsp;Otto Sonne, says that my Rules, both for 9 and for 11, are to be found in a school-book, by a Mr.&nbsp;Adolph Steen, which was published at Copenhagen in 1847. So I fear I must reduce my claim, from that of being the first to discover them, to that of being the first to publish them in English.</p>
+
+<p>The Method, now to be described, is applicable to three distinct cases:—</p>
+
+<div class="center">
+<p>(1) where <math><mrow><mi>h</mi><mo>&gt;</mo><mn>1</mn></mrow></math>, <math><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow></math>;<br>
+(2) where <math><mrow><mi>h</mi><mo>=</mo><mn>1</mn></mrow></math>, <math><mrow><mi>k</mi><mo>&gt;</mo><mn>1</mn></mrow></math>;<br>
+(3) where <math><mrow><mi>h</mi><mo>&gt;</mo><mn>1</mn></mrow></math>, <math><mrow><mi>k</mi><mo>&gt;</mo><mn>1</mn></mrow></math>.
+</p></div>
+
+<p>With certain limitations of the values of <var>h</var>, <var>k</var>, and <var>n</var>, this Method will be found to be a shorter and safer process than that of ordinary Long Division. These limitations are that neither <var>h</var> nor <var>k</var> should exceed 12, and that, when <math><mrow><mi>k</mi><mo>&gt;</mo><mn>1</mn></mrow></math>, <var>n</var> should not be less than 3; outside these limits, it involves difficulties which make the ordinary process preferable.</p>
+
+<p>In this Method, two distinct processes are required—one, for dealing with cases where <math><mrow><mi>h</mi><mo>&gt;</mo><mn>1</mn></mrow></math>, the other, for cases where <math><mrow><mi>k</mi><mo>&gt;</mo><mn>1</mn></mrow></math>. The former of these processes was, I believe, first discovered by myself, the latter by my nephew, Mr.&nbsp;Bertram J.&nbsp;Collingwood, who communicated to me his Method of dealing with Divisors of the form <math><mrow><mo stretchy="false">(</mo><msup><mn>10</mn><mi>n</mi></msup><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></math>.</p>
+
+<p>In what follows, I shall represent 10 by <var>t</var>.</p>
+
+<p>Mr.&nbsp;Collingwood’s Method, for Divisors of the form <math><mrow><mo stretchy="false">(</mo><msup><mi>t</mi><mi>n</mi></msup><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></math>, may be enunciated as follows:—</p>
+
+<p>“To divide a given Number by <math><mrow><mo stretchy="false">(</mo><msup><mi>t</mi><mi>n</mi></msup><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></math>, mark off from it a period of <var>n</var> digits, at the units-end, and under it write <var>k</var>-times what would be left of it if its last period were erased. If this number contains more than <var>n</var> digits, treat it in the same way; and so on, till a number is reached which does not contain more than <var>n</var> digits. Then add up. If the last period of the result, <i>plus</i> <var>k</var>-times whatever was carried out of it, in the adding-up, be less than the Divisor, it is the required Remainder; and the rest of the result is the required Quotient. If it be not less, find what number of times it contains the Divisor, and add that number to the Quotient, and subtract that multiple of the Divisor from the Remainder.”</p>
+
+<p>For example, to divide 86781592485703152764092 by 9993 (<i>i.&thinsp;e.</i>, by <math><mrow><msup><mi>t</mi><mn>4</mn></msup><mo>−</mo><mn>7</mn></mrow></math>), he would proceed thus:—</p>
+
+<table class="n r2 r3 r4 r5 r6 r7">
+<tr><td>9993||</td><td>867</td><td>8159</td><td>2485</td><td>7031</td><td>5276</td><td>4092</td></tr>
+<tr><td></td><td></td><td>6074</td><td>7114</td><td>7399</td><td>9220</td><td>6932</td></tr>
+<tr><td></td><td></td><td>4</td><td>2522</td><td>9803</td><td>1799</td><td>4540</td></tr>
+<tr><td></td><td></td><td></td><td>29</td><td>7660</td><td>8622</td><td>2593</td></tr>
+<tr><td></td><td></td><td></td><td></td><td>208</td><td>3626</td><td>0354</td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td>1458</td><td>5382</td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td>1</td><td>0206</td></tr>
+<tr><td></td><td style="border-bottom: solid thin;"></td><td style="border-bottom: solid thin;"></td><td style="border-bottom: solid thin;"></td><td style="border-bottom: solid thin;"></td><td style="border-bottom: solid thin;"></td><td style="border-bottom: solid thin;">7</td></tr>
+<tr><td>Quot.</td><td>868</td><td>4238</td><td>2153</td><td>2104</td><td>0004</td><td>||4106</td><td>+ 14 = 4120 Rem.</td></tr>
+</table>
+
+<p>The new Method will be best explained by beginning with case (3): it will be easily seen what changes have to be made in it when dealing with cases (1) and (2).</p>
+
+<p>The Rule for case (3), when the sign is “−,” may be enunciated thus:—</p>
+
+<p>Mark off the Dividend, beginning at its units-end, in periods of <var>n</var> digits. If there be an overplus, at the left-hand end, less than <var>h</var>, do not mark it off, but reckon it and the next <var>n</var> digits as one period.</p>
+
+<p>To set the sum, write the Divisor, followed by a double vertical; then the Dividend, divided into its periods by single verticals, with width allowed in each space for <math><mrow><mo stretchy="false">(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo stretchy="false">)</mo></mrow></math> digits. Below the Dividend draw a single line, and, further down, a double one, leaving a space between, in which to enter the Quotient, having its units-digit below that of the last period but one of the Dividend, and also the Remainder, having its units-digit below that of the last period of the Dividend. In this space, and in the space below the double line, draw verticals, corresponding to those in the Dividend; and make the last in the upper space double, to separate the Quotient from the Remainder.</p>
+
+<p>For example, if we had to divide 5984407103826 by 6997 (<i>i.&thinsp;e.</i>, <math><mrow><mn>7</mn><mo>.</mo><msup><mi>t</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn></mrow></math>), the sum, as set for working, would stand thus:—</p>
+
+<div class="center">
+<table class="r2 b2 r3 b3 r4 b4 r5">
+<tr><td style="border-bottom: solid thin;">6997||</td><td style="border-bottom: solid thin;">5984</td><td style="border-bottom: solid thin;">407</td><td style="border-bottom: solid thin;">103</td><td style="border-bottom: solid thin;">826</td></tr>
+<tr><td style="border-bottom: double medium;">Quot.</td><td style="border-bottom: double medium;"></td><td style="border-bottom: double medium;"></td><td style="border-right: double medium; border-bottom: double medium;"></td><td style="border-bottom: double medium;"></td><td>Rem.</td></tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td></tr>
+</table></div>
+
+<p>To work the sum, divide the 1st period by <var>h</var>: enter its quotient in the 1st Column below the double line, and place its Remainder above the 2nd period, where it is to be regarded as <i>prefixed</i> to that period. To the 2nd period, with its prefix, add <var>k</var>-times the number in the 1st Column, and enter the result at the top of the 2nd Column. If this number <i>is not</i> less than the Divisor, find what number of times it contains the Divisor, and enter that number in the 1st Column, and <var>k</var>-times it in the 2nd; and then draw a line below the 2nd Column, and add in this new item, deducting from the result <math><msup><mi>t</mi><mi>n</mi></msup></math>-times the number just entered in the 1st Column; and then add up the 1st Column, entering the result in the Quotient. If the number at the top of the 2nd Column <i>is</i> less than the Divisor, the number in the 1st Column may be at once entered in the Quotient. The number entered in the Quotient, and the number at the foot of the 2nd Column, are the Quotient and Remainder that would result if the Dividend ended with its 2nd period. Now take the number at the foot of the 2nd Column as a new 1st period, and the 3rd period as a new 2nd period, and proceed as before.</p>
+
+<p>The above example, worked according to this Rule, would stand thus:—
+</p><div class="continue"><div class="center">
+<table class="r2 b2 r3 b3 r4 b4 r5">
+<tr><td></td><td style="border-right: none;"></td><td style="border-right: none;">6<span style="visibility: hidden;">00</span></td><td style="border-right: none;">5<span style="visibility: hidden;">00</span></td><td>3<span style="visibility: hidden;">00</span></td></tr>
+<tr><td>6997||</td><td style="border-bottom: solid thin;">5984</td><td style="border-bottom: solid thin;">407</td><td style="border-bottom: solid thin;">103</td><td style="border-bottom: solid thin;">826</td></tr>
+<tr><td>Quot.</td><td style="border-bottom: double medium;">855</td><td style="border-bottom: double medium;">281</td><td style="border-right: double medium; border-bottom: double medium;">849</td><td style="border-bottom: double medium;">6373</td><td>Rem.</td></tr>
+<tr><td></td><td>854</td><td>8969</td><td style="border-bottom: double medium;">5946</td></tr>
+<tr><td></td><td>1</td><td style="border-bottom: solid thin;">3</td><td>849</td></tr>
+<tr><td></td><td style="border-right: none;"></td><td style="border-bottom: double medium;">1972</td></tr>
+<tr><td></td><td style="border-right: none;"></td><td>281</td></tr>
+</table></div></div>
+<p class="continue">the Mental Process being as follows:—</p>
+
+<p>Divide the 5984 by 7, entering its Quotient, 854, in the 1st Column, and placing its Remainder, 6, above the 2nd period. Then add, to the 6407, 3-times the 854, entering the result in the 2nd Column, thus: “7 and 12, 19.” Enter the 9, and carry the 1. “1 and 15, 16.” Enter the 6, and carry the 1. “5 and 24, 29.” Enter the 9, and carry the 2, which, added to the prefix 6, makes 8, which also you enter. Observing that this 8969 <i>is not</i> less than the Divisor, and that it contains the Divisor <i>once</i>, enter 1 in the 1st Column, and 3-times 1 in the 2nd, and then draw a line below, and add in this new item, remembering to deduct from the result 7-times <math><msup><mi>t</mi><mn>3</mn></msup></math>, <i>i.&thinsp;e.</i>, 7000: the result is 1972. Then add up the 1st Column, as far as the double line, and enter the result, 855, in the Quotient. Now take the 1972 as a new 1st period, and the 3rd period, 103, as a new 2nd period, and proceed as before.</p>
+
+<p>The Rule for case (3), when the sign is “+,” may be deduced from the above Rule by simply changing the sign of <var>k</var>. This will, however, introduce a new phenomenon, which must be provided for by the following additional clause:—</p>
+
+<p>When you add, to the 2nd period with its prefix, <math><mrow><mo stretchy="false">(</mo><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></math>-times the number in the 1st Column, <i>i.&thinsp;e.</i>, when you <i>subtract</i> <var>k</var>-times this number <i>from</i> the 2nd period with its prefix, it will sometimes happen that the subtrahend exceeds the minuend. In this case the subtraction will end with a <i>minus</i> digit, which may be indicated by an asterisk. Now find what number of Divisors must be added to the 2nd Column to cancel this <i>minus</i> digit, and enter that number, marked with an asterisk, in the 1st Column, and that multiple of the Divisor in the 2nd; and then draw a line below the 2nd Column, and add in this new item.</p>
+
+<p>As an example, let us take a new Dividend, but retain the previous Divisor, changing the sign of <var>k</var>, so that it will become 7003 (<i>i.&thinsp;e.</i>, <math><mrow><mn>7</mn><mo>.</mo><msup><mi>t</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn></mrow></math>). The sum, as set for working, would stand thus:—</p>
+
+<div class="center">
+<table class="r2 b2 r3 b3 r4 b4 r5">
+<tr><td>7003||</td><td style="border-bottom: solid thin;">6504</td><td style="border-bottom: solid thin;">318</td><td style="border-bottom: solid thin;">972</td><td style="border-bottom: solid thin;">526</td></tr>
+<tr><td>Quot.</td><td style="border-bottom: double medium;"></td><td style="border-bottom: double medium;"></td><td style="border-right: double medium; border-bottom: double medium;"></td><td style="border-bottom: double medium;"></td><td>Rem.</td></tr>
+<tr><td>&nbsp;</td><td></td><td></td><td></td><td></td><td></td></tr>
+</table></div>
+
+<p>After working, it would stand thus:—
+</p><div class="continue"><div class="center">
+<table class="r1 r2 b2 r3 b3 r4 b4 r5">
+<tr><td></td><td style="border-right: none;"></td><td style="border-right: none;">1<span style="visibility: hidden;">00</span></td><td style="border-right: none;">4<span style="visibility: hidden;">00</span></td><td>5<span style="visibility: hidden;">00</span></td></tr>
+<tr><td>7003||</td><td style="border-bottom: solid thin;">6504</td><td style="border-bottom: solid thin;">318</td><td style="border-bottom: solid thin;">972</td><td style="border-bottom: solid thin;">526</td></tr>
+<tr><td>Quot.</td><td style="border-bottom: double medium;">928</td><td style="border-bottom: double medium;">790</td><td style="border-right: double-medium; border-bottom: double medium;">371</td><td style="border-bottom: double medium;">4413</td><td>Rem.</td></tr>
+<tr><td></td><td>929<span style="visibility: hidden;">*</span></td><td>2*531</td><td style="border-bottom: double medium;">2602</td></tr>
+<tr><td></td><td>1*</td><td style="border-bottom: solid thin;">7<span style="visibility: hidden;">*</span>003</td><td>371</td></tr>
+<tr><td></td><td style="border-right: none;"></td><td style="border-bottom: double medium;">5<span style="visibility: hidden;">*</span>534</td></tr>
+<tr><td></td><td style="border-right: none;"></td><td>790</td></tr>
+</table></div></div>
+<p class="continue">the Mental Process being as follows:—</p>
+
+<p>Divide the 6504 by 7, and enter the Quotient, 929, in the 1st Column, and the Remainder, 1, above the 2nd period. Then subtract, from the 1318, 3-times the 929, entering the result in the 2nd Column, thus: “27 from 8 I ca’n’t, but 27 from 28, 1.” Enter the 1, and carry the borrowed 2. “8 from 1 I ca’n’t, but 8 from 11, 3.” Enter the 3, and carry the borrowed 1. “28 from 3 I ca’n’t, but 28 from 33, 5.” Enter the 5, and carry the borrowed 3. “3 from 1, <i>minus</i> 2.” Enter it, with an asterisk. Observing that, to cancel this <i>minus</i> 2, it will suffice to add <i>once</i> the Divisor, enter a <math><mrow><mo stretchy="false">(</mo><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math> in the 1st Column, and 7003 in the 2nd; and then draw a line below the 2nd Column, and add in this new item: the result is 5534. Then add up the 1st Column, and enter the result, 928, in the Quotient. Now take the 5534 as a new 1st period, and the third period, 972, as a new 2nd period, and proceed as before.</p>
+
+<p>The Rules for case <span class="annotated corrected" data-ref="annotation-1">(1)</span> may be derived, from the above, by making <math><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow></math>; and those for case <span class="annotated corrected" data-ref="annotation-2">(2)</span> by making <math><mrow><mi>h</mi><mo>=</mo><mn>1</mn></mrow></math>. I will give worked examples of these; but it will not be necessary to give the Mental Processes.</p>
+<aside class="toggle corrected" id="annotation-1">mistakenly (2)</aside>
+<aside class="toggle corrected" id="annotation-2">mistakenly (3)</aside>
+
+<p>By making <math><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow></math>, we get Divisors of the form <math><mrow><mo stretchy="false">(</mo><mi>h</mi><mo>.</mo><msup><mi>t</mi><mi>n</mi></msup><mo>±</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math>: let us take <math><mrow><mo stretchy="false">(</mo><mn>11</mn><msup><mi>t</mi><mn>4</mn></msup><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math> and <math><mrow><mo stretchy="false">(</mo><mn>6</mn><msup><mi>t</mi><mn>5</mn></msup><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math></p>
+
+<div class="center">
+<table class="r1 r2 b2 r3 b3 r4 b4 r5">
+<tr><td></td><td style="border-right: none;"></td><td style="border-right: none;">9<span style="visibility: hidden;">000</span></td><td style="border-right: none;">10<span style="visibility: hidden;">000</span></td><td>4<span style="visibility: hidden;">000</span></td></tr>
+<tr><td>109999||</td><td style="border-bottom: solid thin;">107523</td><td style="border-bottom: solid thin;">8168</td><td style="border-bottom: solid thin;">9662</td><td style="border-bottom: solid thin;">0985</td></tr>
+<tr><td>Quot.</td><td style="border-bottom: double medium;">9774</td><td style="border-bottom: double medium;">9813</td><td style="border-right: double medium; border-bottom: double medium;">0861</td><td style="border-bottom: double medium;">41846</td><td>Rem.</td></tr>
+<tr><td></td><td>9774</td><td style="border-bottom: double medium;">107942</td><td>119474</td></tr>
+<tr><td></td><td style="border-right: none;"></td><td>9812</td><td style="border-bottom: solid thin;">1</td></tr>
+<tr><td></td><td style="border-right: none;"></td><td>1</td><td style="border-bottom: double medium;">9475</td></tr>
+<tr><td></td><td style="border-right: none;"></td><td style="border-right: none;"></td><td>861</td></tr>
+</table></div>
+
+<div class="center">
+<table class="r1 r2 b2 r3 b3 r4 b4 r5">
+<tr><td></td><td style="border-right: none;"></td><td style="border-right: none;">3<span style="visibility: hidden;">0000*</span></td><td style="border-right: none;"></td><td>3<span style="visibility: hidden;">0000</span></td></tr>
+<tr><td>600001||</td><td style="border-bottom: solid thin;">7239</td><td style="border-bottom: solid thin;">51798<span style="visibility: hidden;">*</span></td><td style="border-bottom: solid thin;">2<span style="visibility: hidden;">*</span>6004</td><td style="border-bottom: solid thin;">13825</td></tr>
+<tr><td>Quot.</td><td style="border-bottom: double medium;">1206</td><td style="border-bottom: double medium;">58431<span style="visibility: hidden;">*</span></td><td style="border-right: double medium; border-bottom: double medium;">9<span style="visibility: hidden;">*</span>4595</td><td style="border-bottom: double medium;">219230</td><td>Rem.</td></tr>
+<tr><td></td><td></td><td style="border-bottom: double medium;">350592<span style="visibility: hidden;">*</span></td><td>4*7572</td></tr>
+<tr><td></td><td style="border-right: none;"></td><td>58432<span style="visibility: hidden;">*</span></td><td style="border-bottom: solid thin;">60<span style="visibility: hidden;">*</span>0001</td></tr>
+<tr><td></td><td style="border-right: none;"></td><td>1*</td><td style="border-bottom: double medium;">56<span style="visibility: hidden;">*</span>7573</td></tr>
+<tr><td></td><td style="border-right: none;"></td><td style="border-right: none;"></td><td>9<span style="visibility: hidden;">*</span>4595</td></tr>
+</table></div>
+
+<p>In this last example there is no need to enter the Quotient, produced by dividing the 7239 by 7, in the 1st Column: we easily foresee that the number at the top of the 2nd Column <i>will be</i> less than the Divisor, so that there will be no new item in the 1st: hence we at once enter the 1206 in the Quotient.</p>
+
+<p>By making <math><mrow><mi>h</mi><mo>=</mo><mn>1</mn></mrow></math>, we get Divisors of the form <math><mrow><mo stretchy="false">(</mo><msup><mi>t</mi><mi>n</mi></msup><mo>±</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></math>: let us take <math><mrow><mo stretchy="false">(</mo><msup><mi>t</mi><mn>4</mn></msup><mo>−</mo><mn>7</mn><mo stretchy="false">)</mo></mrow></math> and <math><mrow><mo stretchy="false">(</mo><msup><mi>t</mi><mn>5</mn></msup><mo>+</mo><mn>12</mn><mo stretchy="false">)</mo></mrow></math>.</p>
+
+<div class="center">
+<table class="r1 r2 b2 r3 b3 r4 b4 r5 b5 r6 b6 r7">
+<tr><td>9993||</td><td style="border-bottom: solid thin;">867</td><td style="border-bottom: solid thin;">8159</td><td style="border-bottom: solid thin;">2485</td><td style="border-bottom: solid thin;">7031</td><td style="border-bottom: solid thin;">5276</td><td style="border-bottom: solid thin;">4092</td></tr>
+<tr><td>Quot.</td><td style="border-bottom: double medium;">868</td><td style="border-bottom: double medium;">4238</td><td style="border-bottom: double medium;">2153</td><td style="border-bottom: double medium;">2104</td><td style="border-right: double medium; border-bottom: double medium;">0004</td><td style="border-bottom: double medium;">4120</td><td>Rem.</td></tr>
+<tr><td></td><td>867</td><td>14228</td><td>32130</td><td>22088</td><td>19990</td></tr>
+<tr><td></td><td>1</td><td style="border-bottom: solid thin;">7</td><td style="border-bottom: solid thin;">21</td><td style="border-bottom: solid thin;">14</td><td style="border-bottom: solid thin;">14</td></tr>
+<tr><td></td><td style="border-right: none;"></td><td>4235</td><td>2151</td><td>2102</td><td>4</td></tr>
+<tr><td></td><td style="border-right: none;"></td><td>3</td><td>2</td><td>2</td></tr>
+</table></div>
+
+<div class="center">
+<table class="r1 r2 b2 r3 b3 r4 b4 r5">
+<tr><td>100012||</td><td style="border-bottom: solid thin;">7185<span style="visibility: hidden;">*</span></td><td style="border-bottom: solid thin;">6<span style="visibility: hidden;">*</span>2039<span style="visibility: hidden;">*</span></td><td style="border-bottom: solid thin;">10327</td><td style="border-bottom: solid thin;">53118</td></tr>
+<tr><td></td><td style="border-bottom: double medium;">7184<span style="visibility: hidden;">*</span></td><td style="border-bottom: double medium;">7<span style="visibility: hidden;">*</span>5822<span style="visibility: hidden;">*</span></td><td style="border-right: double medium; border-bottom: double medium;">00463</td><td style="border-bottom: double medium;">47562</td></tr>
+<tr><td></td><td>7185<span style="visibility: hidden;">*</span></td><td>3*5819<span style="visibility: hidden;">*</span></td><td>9*00355</td></tr>
+<tr><td></td><td>1*</td><td style="border-bottom: solid thin;">10<span style="visibility: hidden;">*</span>0012<span style="visibility: hidden;">*</span></td><td style="border-bottom: solid thin;">9<span style="visibility: hidden;">*</span>00108</td></tr>
+<tr><td></td><td style="border-right: none;"></td><td>7<span style="visibility: hidden;">*</span>5831<span style="visibility: hidden;">*</span></td><td>463</td></tr>
+<tr><td></td><td style="border-right: none;"></td><td>9*</td></tr>
+</table></div>
+
+<p>The first of these two sums is the one I gave to illustrate Mr.&nbsp;Collingwood’s Method of working with Divisors of the the form <math><mrow><mo stretchy="false">(</mo><msup><mi>t</mi><mi>n</mi></msup><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></math>.</p>
+
+<p>It may interest the reader to see the 3 Methods of working the above example—ordinary Division, Mr.&nbsp;Collingwood’s Method, and my version of it—compared as to the amount of labour which each entails in the working:—</p>
+
+<table class="r2 r3 r4">
+<tr style="font-size: 95%;"><td></td><td style="text-align: center;"><div style="width: 4em;">Ordinary Division.</div></td><td style="text-align: center;"><div style="width: 4em;">Mr.&nbsp;C’s Method.</div></td><td style="text-align: center;"><div style="width: 5em;">My version of it.</div></td></tr>
+<tr><td>Digits written:</td><td>202</td><td>82</td><td>44</td></tr>
+<tr><td>Additions, or Subtractions:</td><td>204</td><td>97</td><td>25</td></tr>
+<tr><td>Multiplications:</td><td>0</td><td>70</td><td>22</td></tr>
+</table>
+
+<p>I am assuming that any one, working this example by ordinary Division, would begin by making a table of Multiples of 9993 for reference: so that he would have <i>no</i> Multiplications to do. Still, the great number of digits he would have to write, and of Additions and Subtractions he would have to do, involving a far greater risk of error than either of the other Methods, would quite outweigh this advantage.</p>
+
+<p>By whatever process a Question in Long Division has been worked, it is very desirable to be able to test, easily and quickly, the correctness of the Answer. The ordinary test is to multiply together the Divisor and Quotient, add the Remainder, and observe whether these together make up the given Number, as they ought to do.</p>
+
+<p>Thus, if <var>N</var> be the given Number, <var>D</var> the given Divisor, <var>Q</var> the Quotient, and <var>R</var> the Remainder, we ought to have
+<math display="block"><mrow><mi>N</mi><mo>=</mo><mi>D</mi><mo>.</mo><mi>Q</mi><mo>+</mo><mi>R</mi><mtext>.</mtext></mrow></math></p>
+
+<p>This test is specially easy to apply, when <math><mrow><mi>D</mi><mo>=</mo><mo stretchy="false">(</mo><mi>h</mi><mo>.</mo><msup><mi>t</mi><mi>n</mi></msup><mo>±</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></math>, for then we ought to have
+<math display="block"><mtable displaystyle="false" rowspacing="0.5ex" columnalign="right left"><mtr><mtd><mi>N</mi></mtd><mtd><mo>=</mo><mo stretchy="false">(</mo><mi>h</mi><mo>.</mo><msup><mi>t</mi><mi>n</mi></msup><mo>±</mo><mi>k</mi><mo stretchy="false">)</mo><mo>.</mo><mi>Q</mi><mo>+</mo><mi>R</mi><mo>;</mo></mtd></mtr><mtr><mtd></mtd><mtd><mo>=</mo><mo stretchy="false">(</mo><mi>h</mi><mo>.</mo><mi>Q</mi><mo>.</mo><msup><mi>t</mi><mi>n</mi></msup><mo>+</mo><mi>R</mi><mo stretchy="false">)</mo><mo>±</mo><mi>k</mi><mi>Q</mi><mo>.</mo></mtd></mtr></mtable></math></p>
+
+<p>Now <math><mrow><mi>h</mi><mi>Q</mi><mo>.</mo><msup><mi>t</mi><mi>n</mi></msup></mrow></math> may be found by multiplying <var>Q</var> by <var>h</var>, and tacking on <var>n</var> ciphers. Hence <math><mrow><mo stretchy="false">(</mo><mi>h</mi><mi>Q</mi><mo>.</mo><msup><mi>t</mi><mi>n</mi></msup><mo>+</mo><mi>R</mi><mo stretchy="false">)</mo></mrow></math> may be found by making <var>R</var> occupy the place of the <var>n</var> ciphers. If <var>R</var> contains less than <var>n</var> digits it must have ciphers prefixed; if more, the overplus must be carried on into the next period, and added to <math><mrow><mi>h</mi><mi>Q</mi></mrow></math>.</p>
+
+<p>Having found our “Test,” viz. <math><mrow><mo stretchy="false">(</mo><mi>h</mi><mi>Q</mi><mo>.</mo><msup><mi>t</mi><mi>n</mi></msup><mo>+</mo><mi>R</mi><mo stretchy="false">)</mo></mrow></math>, we can write it on a separate slip of paper, and place it below the working of the example, so as to come vertically below <var>N</var>, which is at the top. When the sign in <var>D</var> is ‘−,’ we must add <math><mrow><mi>k</mi><mi>Q</mi></mrow></math> to <var>N</var>, and see if the result <math><mrow><mo>=</mo><mi>T</mi></mrow></math>; when it is ‘+,’ we must add <math><mrow><mi>k</mi><mi>Q</mi></mrow></math> to <var>T</var>, and see if the result <math><mrow><mo>=</mo><mi>N</mi></mrow></math>.</p>
+
+<p>Now it has been already pointed out that when, in the new Method, the 1st and 2nd Columns have been worked, the 1st period of the Quotient and the number at the foot of the 2nd Column are the Quotient and Remainder that would result if the Dividend ended with its 2nd period. Hence the Test can be at once applied, before dealing with the 3rd Column. This constitutes a very important new feature in my version of Mr.&nbsp;Collingwood’s Method. Every two adjacent Columns contain a separate Division-sum, which can be tested <i>by itself</i>. Hence, in working my Method, as soon as I have entered the 1st period of the Quotient, I can test it, and, if I have made any mistake, I can correct it. But the hapless computator, who has spent, say, an hour in working some gigantic sum in Long Division—whether by the ordinary process or by Mr.&nbsp;Collingwood’s Method—and who has chanced to get a figure wrong at the very outset, which makes every subsequent figure wrong, has no warning of the fatal error till he has worked out the whole thing “to the bitter end,” and has begun to test his Answer. Whereas, if working by <i>my</i> Method, he would have been warned of his mistake almost as soon as he made it, and would have been able to set it right before going any further.</p>
+
+<p>As an aid to the Reader, I will give the Mental Process in full, for the 2nd and 3rd Columns of the first of the examples worked above.</p>
+
+<figure class="float-right" style="max-width:8em;">
+<table class="b1 r2 b2 r3 b3">
+<tr><td style="border-right: none;"></td><td style="border-right: none;">6<span style="visibility: hidden;">00</span></td><td style="border-right: none;">5<span style="visibility: hidden;">00</span></td></tr>
+<tr><td></td><td style="border-bottom: solid thin;">407</td><td style="border-bottom: solid thin;">103</td></tr>
+<tr><td></td><td style="border-bottom: double medium;">281</td><td style="border-bottom: double medium;"></td></tr>
+<tr><td></td><td>8969</td><td style="border-right: none;">5946</td></tr>
+<tr><td style="border-right: none;"></td><td style="border-bottom: solid thin;">3</td></tr>
+<tr><td style="border-right: none;"></td><td style="border-bottom: double medium;">1972</td></tr>
+<tr style="border-bottom: solid thin;"><td style="border-right: none;"></td><td>281</td></tr>
+<tr style="border-top: solid thin;border-bottom: solid thin;"><td style="border-left: solid thin; border-right: none;">Test</td><td>1972</td><td>946</td></tr>
+</table>
+</figure>
+
+<p>The Divisor is 6997 (where <math><mrow><mi>h</mi><mo>=</mo><mn>7</mn></mrow></math>, <math><mrow><mi>k</mi><mo>=</mo><mn>3</mn></mrow></math>). Here you are supposed to have just entered the 281 in the Quotient. The Dividend, for these 2 columns, is 1972 | 103; the Quotient is 281, and the Remainder 5946. The Test is <math><mrow><mi>h</mi><mi>Q</mi><mo>.</mo><msup><mi>t</mi><mi>n</mi></msup><mo>+</mo><mi>R</mi></mrow></math> (<i>i.&thinsp;e.</i>, <math><mrow><mn>7</mn><mo>×</mo><mn>281000</mn><mo>+</mo><mn>5946</mn></mrow></math>), the Mental Process being as follows. You write, on a separate slip of paper, the last 3 digits of <var>R</var>, viz., 946, and carry the 5 into the next period, adding it to the <math><mrow><mn>7</mn><mo>×</mo><mn>281</mn></mrow></math>: thus, “5 and 7, 12.” Enter the 2, and carry the 1. “1 and 56, 57.” Enter the 7, and carry the 5. “5 and 14, 19.” Enter it. Having got your Test, try whether <math><mrow><mo stretchy="false">(</mo><mi>N</mi><mo>+</mo><mi>k</mi><mi>Q</mi><mo stretchy="false">)</mo></mrow></math> is equal to it. This you compute, comparing it with your Test, digit by digit, as you go on, thus, “3 and 3, 6.” Observe it in the Test. “0 and 24, 24.” Observe the 4, and carry the 2. “3 and 6, 9.” Observe it. “1972 and 0, 1972.” Observe it. The Test is satisfied.</p>
+
+<p>For Divisors of the form <math><mrow><mo stretchy="false">(</mo><msup><mi>t</mi><mi>n</mi></msup><mo>±</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></math> there is no need to write out the Test: the numbers, which compose it, already occur in the working, and may be used as they stand.</p>
+
+<div class="signature"><p>Charles L. Dodgson.<br>
+Ch.&nbsp;Ch., Oxford, December 21, 1897.</p></div>
+</article>
+<footer>
+<nav><ol>
+<li class="prev"><a href="brief-method-of-dividing.html">Brief Method of Dividing</a></li>
+<li>Abridged Division</li>
+</ol></nav>
+<nav><ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../about/introduction.html">Introduction</a></li>
+<li><a href="../about/contents-by-source.html">Contents by Source</a></li>
+<li><a href="../about/contents-by-topic.html">Contents by Topic</a></li>
+<li><a href="../about/copyright.html">Copyright</a></li>
+</ul></nav>
+</footer>
+</body></html>

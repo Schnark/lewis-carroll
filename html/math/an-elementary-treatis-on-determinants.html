@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>An Elementary Treatis on Determinants</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#a04">
+<link rel="icon" href="../../res/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="../../res/favicon.svg" sizes="any" type="image/svg+xml">
+<link rel="stylesheet" href="../../res/main.css">
+<script src="../../res/main.js" defer></script>
+</head><body>
+<header>
+<h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
+<h2>An Elementary Treatis on Determinants</h2>
+<p>Source: An Elementary Treatis on Determinants</p>
+
+<p>Currently only small part</p></header>
+<article>
+
+<p class="subtitle">with Their Application to Simultaneous Linear Equations and Algebraical Geometry</p>
+
+<h3>Preface</h3>
+
+<p>Of the seventy Propositions contained in the following treatise, ten are substantially taken from Baltzer’s treatise on Determinants; also the Geometrical Tests, given in Chapter VIII, are to be found in most works on Algebraical Geometry: the rest of the matter is, so far as I know, original, and consists of a series of Propositions which the object I had in view obliged me to introduce. That object was to present the subject as a continuous chain of argument, separated from all accessories of explanation or illustration, a form which I venture to think better suited for a treatise on exact science than the semi-colloquial semi-logical form often adopted by Mathematical writers. I say ‘semi-logical’ advisedly, for nothing is more easy than to forget, in an argument thus interwoven with illustrative matter, what has, and what has not, been proved.</p>
+
+<p>With this object in view I have introduced all such explanation and illustration as seemed necessary for a beginner, either in the form of footnotes, or, where that would have occupied too much room, of Appendices.</p>
+
+<p>New words and symbols are always a most unwelcome addition to a Science, especially to one already burdened with an enormous vocabulary, yet I think the Definitions given of them wall be found to justify their introduction, as the only way of avoiding tedious periphrasis. The symbols employed to represent the single elements of a Determinant, (<math><mrow><mrow style="border-top-left-radius: 50%; border-top: solid thin;"><mn>1</mn></mrow><mo>|</mo><mrow style="border-bottom-right-radius: 50%; border-bottom: solid thin;"><mn>2</mn></mrow></mrow></math>, <math><mrow><mrow style="border-top-left-radius: 50%; border-top: solid thin;"><mn>1</mn></mrow><mo>|</mo><mrow style="border-bottom-right-radius: 50%; border-bottom: solid thin;"><mn>3</mn></mrow></mrow></math>, &amp;c.) require perhaps a word of apology, and it may be well to enumerate those already in use, and to point out what seem to be their chief defects.</p>
+
+<p>We may commence with <math><mrow><mo>{</mo><mtable displaystyle="false" rowspacing="0.5ex"><mtr><mtd><msub><mi>a</mi><mn>1</mn></msub><mo>,</mo><msub><mi>b</mi><mn>1</mn></msub><mo>,</mo><mo>…</mo></mtd></mtr><mtr><mtd><msub><mi>a</mi><mn>2</mn></msub><mo>,</mo><msub><mi>b</mi><mn>2</mn></msub><mo>,</mo><mo>…</mo></mtd></mtr></mtable><mo>}</mo></mrow></math>, where the change of <i>letter</i> indicates a change of <i>column</i>, and the change of <i>subscript</i> a change of <i>row</i>. Now the properties of Determinants, relating to columns, being always convertible into properties relating to rows, and vice versa, it was a sufficient objection to this system of notation, that it represented things distinctly analogous by methods so different, and it was properly superseded by the notation introduced by Leibnitz, <math><mrow><mo>{</mo><mtable displaystyle="false" rowspacing="0.5ex"><mtr><mtd><msub><mi>a</mi><mrow><mn>1</mn><mo>,</mo><mn>1</mn></mrow></msub><mo>,</mo><msub><mi>a</mi><mrow><mn>1</mn><mo>,</mo><mn>2</mn></mrow></msub><mo>,</mo><mo>…</mo></mtd></mtr><mtr><mtd><msub><mi>a</mi><mrow><mn>2</mn><mo>,</mo><mn>1</mn></mrow></msub><mo>,</mo><msub><mi>a</mi><mrow><mn>2</mn><mo>,</mo><mn>2</mn></mrow></msub><mo>,</mo><mo>…</mo></mtd></mtr></mtable><mo>}</mo></mrow></math>, where the changes, both of column and row, are alike denoted by subscripts. But it seems a fatal objection to this system that most of the space is occupied by a number of <var>a</var>’s, which are wholly superfluous, while the only important part of the notation is reduced to minute subscripts, alike difficult to the writer and the reader. It was almost an obvious improvement on this system to raise the subscripts into the line, and omit the <var>a</var>’s altogether, as suggested by Baltzer, thus— <math><mrow><mo>{</mo><mtable displaystyle="false" rowspacing="0.5ex"><mtr><mtd><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy="false">)</mo><mo>,</mo><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy="false">)</mo><mo>,</mo><mo>…</mo></mtd></mtr><mtr><mtd><mo stretchy="false">(</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo stretchy="false">)</mo><mo>,</mo><mo stretchy="false">(</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo stretchy="false">)</mo><mo>,</mo><mo>…</mo></mtd></mtr></mtable><mo>}</mo></mrow></math> and this system, though tedious for writing, might serve very well, were it not for its liability to be confused with the notation, common in Plane Algebraical Geometry, by which <math><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math> denotes the Point <math><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>, <math><mrow><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math>. The symbol <math><mrow><mrow style="border-top-left-radius: 50%; border-top: solid thin;"><mn>1</mn></mrow><mo>|</mo><mrow style="border-bottom-right-radius: 50%; border-bottom: solid thin;"><mn>1</mn></mrow></mrow></math>, which I have ventured to suggest as an emendation on this last, will be found, I have great hopes, sufficiently simple, distinct, and easy to be written. I have turned the symbol towards the left, in order to avoid all chance of confusion with ∫, the symbol for integration.</p>
+
+<p>I proceed to make a few introductory remarks on the various portions of the book, taken in order.</p>
+
+<p><i>Chap.&nbsp;II. Def.&nbsp;I.</i> I am aware that the word ‘Matrix’ is already in use to express the very meaning for which I use the word ‘Block’; but surely the former word means rather the mould, or form, into which algebraical quantities may be introduced, than an actual assemblage of such quantities; for instance, <math><mfrac><mrow><mo stretchy="false">(</mo><mphantom><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mphantom><mo stretchy="false">)</mo><mo>×</mo><mo stretchy="false">(</mo><mphantom><mrow><mi>c</mi><mo>+</mo><mi>d</mi></mrow></mphantom><mo stretchy="false">)</mo></mrow><mrow><mo stretchy="false">(</mo><mphantom><mrow><mi>e</mi><mo>+</mo><mi>f</mi></mrow></mphantom><mo stretchy="false">)</mo></mrow></mfrac></math> would deserve the name, rather than <math><mfrac><mrow><mo stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo stretchy="false">)</mo><mo>×</mo><mo stretchy="false">(</mo><mi>c</mi><mo>+</mo><mi>d</mi><mo stretchy="false">)</mo></mrow><mrow><mo stretchy="false">(</mo><mi>e</mi><mo>+</mo><mi>f</mi><mo stretchy="false">)</mo></mrow></mfrac></math>.</p>
+
+<p><i>Chap.&nbsp;II. Def.&nbsp;I, VIII.</i> Those who have read the chapters on Determinants in Mr.&nbsp;Todhunter’s ‘Theory of Equations’ will notice that the meanings of the words ‘Element’ and ‘Constituent’ are here transposed: as to the former, I have only returned to Baltzer’s nomenclature; and the word ‘Constituent’ seems to me more expressive than his word ‘Term’.</p>
+
+<p><i>Chap.&nbsp;III.</i> A complete analysis of a system of simultaneous Linear Equations has always appeared to me to be a desideratum in Algebra: the subject is only touched on in Baltzer; a more complete attempt will be found in Peacock’s Algebra, but I have nowhere seen anything like an exhaustive analysis. This chapter aims at furnishing this, but it has been so often altered and re-written that I put it forth at last, hoping, rather than expecting, that it will be found complete and satisfactory.</p>
+
+<p><i>Chap.&nbsp;VII.</i> This chapter will also, I hope, fulfil my aim at furnishing an <i>exhaustive</i> analysis of such properties of the Loci here considered, as can be conveniently exhibited in the form of Determinants. I had added propositions concerning the Line in Solid Geometry, but these I omit, believing that its properties are more simply investigated by other methods.</p>
+
+<p><i>Appendix II. Section 4.</i> This process, though extremely convenient where no ciphers, or where one or two at most, occur in the interior of a Block, nevertheless fails entirely, it must be admitted, where they occur in larger numbers: I therefore offer it merely as a fanciful addition to the processes already in use, which may in some cases lessen the labour of computation.</p>
+
+<p><i>Appendix V.</i> I am doubtful whether this process will ever prove of much practical use: still I think cases might arise, where in the course of a problem an algebraical function is proved to vanish, and where, by throwing it into the form of a Determinant, and so forming a set of simultaneous Equations, whose consistency depends on its vanishing, new and curious properties of the function under consideration might be evolved.</p>
+
+<p>The formulæ given at the end of the book are so arranged that the student may, by covering one or more of the columns on the right hand, test for himself his knowledge of the theorems from which they are taken.</p>
+
+<div class="signature"><p>Ch. Ch. Oxford.<br>
+Oct.&nbsp;31, 1867.</p></div>
+
+<h3>Chapter I. Laws of Arrangement</h3>
+<h4>Definitions</h4>
+<h5>I.</h5>
+<p>A set of different numerals, arranged in an ascending order, is said to be <b>orderly arranged</b>: but if there be among them 2, of which the second is less than the first, the set is said to contain a <b>derangement</b>.<sup class="footnote"><a href="#footnote-1">1</a></sup></p>
+
+<h5>II.</h5>
+<p>If 2 numbers be both even, or both odd, they are said to be <b>similar</b>; if otherwise, <b>dissimilar</b>.</p>
+
+<h4>Proposition I. Th.</h4>
+<p>If there be a set of different numerals, arranged in any order, and if one of them be made to pass over the next <var>r</var> of them, either way: the number of derangements is increased, or diminished, by a number similar to <var>r</var>.</p>
+
+<p>If it be made to pass over <i>one</i>, the number is increasecb or diminished, by unity;</p>
+
+<p>∴ if over <i>two</i>, by an even number;</p>
+
+<p>∴ if over <i>three</i>, by an odd number; and so on.</p>
+
+<p>Therefore, if there be a set, &amp;c. Q.&nbsp;E.&nbsp;D.<sup class="footnote"><a href="#footnote-2">2</a></sup></p>
+
+<h4>Proposition II. Th.</h4>
+<p>If there be a set of different numerals, and if 2 of them be interchanged: the number of derangements is increased, or diminished, by an <i>odd</i> number.</p>
+
+<p>Call the 2 numerals, <var>α</var>, <var>β</var>; and let there be <var>r</var> numerals between them;</p>
+
+<p>firstly, let <var>α</var> be made to pass over these <var>r</var> numerals;</p>
+
+<p>then the number of derangements is increased, or diminished, by a number similar to <var>r</var>; <span class="after-hfill">(Prop.&nbsp;I.</span></p>
+
+<p>secondly, let <var>β</var> be made to pass over <var>α</var> and over these <var>r</var> numerals;</p>
+
+<p>then the number of derangements is thereby increased, or diminished, by a number similar to <math><mover><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow><mo>¯</mo></mover></math>; <span class="after-hfill">(Prop.&nbsp;I.</span></p>
+
+<p>∴ it is ultimately increased, or diminished, by the sum or difference of 2 dissimilar numbers;</p>
+
+<p>i.&thinsp;e. it is increased, or diminished, by an <i>odd</i> number.</p>
+
+<p>Therefore, if there be a set, &amp;c. Q.&nbsp;E.&nbsp;D.<sup class="footnote"><a href="#footnote-3">3</a></sup></p>
+
+<h4>Proposition III. Th.</h4>
+<p>If there be a set of pairs of numerals, in which the antecedents are all different, as also are the consequents; and if they be arranged, firstly in order of antecedents, and secondly in order of consequents: the number of derangements among the consequents in the first case, and the number of derangements among the antecedents in the second case, are equal.</p>
+
+<p>Let the pairs be so placed that the antecedents are orderly arranged, and let 2 of them be selected, and call them <math><mrow><mo stretchy="false">(</mo><mi>H</mi><mo>,</mo><mi>r</mi><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mi>K</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></math>;</p>
+
+<p><math><mrow><mo>∴</mo><mi>H</mi><mo>&lt;</mo><mi>K</mi></mrow></math>;</p>
+
+<p>now, if these 2 pairs contain a derangement of consequents, <math><mrow><mi>r</mi><mo>&gt;</mo><mi>s</mi></mrow></math>;</p>
+
+<p>∴ when the pairs are re-arranged in order of consequents, these 2 will stand in the order … <math><mrow><mo stretchy="false">(</mo><mi>K</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></math> … <math><mrow><mo stretchy="false">(</mo><mi>H</mi><mo>,</mo><mi>r</mi><mo stretchy="false">)</mo></mrow></math> …;</p>
+
+<p>∴ they will then contain a derangement of antecedents;</p>
+
+<p>but if these 2 pairs do not contain a derangement of consequents, <math><mrow><mi>r</mi><mo>&lt;</mo><mi>s</mi></mrow></math>;</p>
+
+<p>∴ when the pairs are re-arranged in order of consequents, these 2 will stand in the order … <math><mrow><mo stretchy="false">(</mo><mi>H</mi><mo>,</mo><mi>r</mi><mo stretchy="false">)</mo></mrow></math> … <math><mrow><mo stretchy="false">(</mo><mi>K</mi><mo>,</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></math> …;</p>
+
+<p>∴ they will then not contain a derangement of antecedents.</p>
+
+<p>And the same thing may be proved for every other 2 pairs.</p>
+
+<p>Therefore, if there be, &amp;c. Q.&nbsp;E.&nbsp;D.<sup class="footnote"><a href="#footnote-4">4</a></sup></p>
+
+<h4>Definition III.</h4>
+
+<p>If there be a set of pairs of numerals, in which the antecedents are all different, as also are the consequents; and if, when they are arranged in order of antecedents, the number of derangements among the consequents be <i>even</i>, or (which is the same thing) if, when they are arranged in order of consequents, the number of derangements among the antecedents be <i>even:</i> the set is said to be <b>of the even class</b>; if otherwise, <b>of the uneven class</b>.<sup class="footnote"><a href="#footnote-5">5</a></sup></p>
+
+<h4>Proposition IV. Th.</h4>
+
+<p>If there be a set of pairs of uumerals, in which the antecedents are all different, as also are the consequents; and if 2 of the antecedents, or 2 of the consequents, be interchanged: the class, to which the set belongs, is changed.</p>
+
+<p>Let the set be arranged iu order of antecedents, and let 2 of the consequents be interchanged;</p>
+
+<p>then the number of derangements among them is increased, or diminished, by an <i>odd</i> number; <span class="after-hfill">(Prop.&nbsp;II.</span></p>
+
+<p>i.&thinsp;e. if even, it becomes odd; if odd, even;</p>
+
+<p>∴ the class, to which the set belongs, is changed;</p>
+
+<p>hence, if the set be arranged in any order, and 3 of the consequents be interchanged, the class, to which the set belongs, is changed.</p>
+
+<p>Similarly, if 2 of the antecedents be interchanged.</p>
+
+<p>Therefore, if there be, &amp;c. Q.&nbsp;E.&nbsp;D.<sup class="footnote"><a href="#footnote-6">6</a></sup></p>
+
+<h4>Proposition V. Th.</h4>
+
+<p>If there be a set of <var>n</var> pairs of numerals, in which the antecedents are a certam permutation of the numbers from 1 to <var>n</var>, as also are the consequents; and if one pair be erased: the class, to which the remaining set belongs, is the same as that of the original set, or different, accordmg as the numerals in the erased pair are similar or dissimilar.</p>
+
+<p>Let the set be arranged in order of antecedents; and call the pair that is to be erased <math><mrow><mo stretchy="false">(</mo><mi>H</mi><mo>,</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></math>;</p>
+
+<p>firstly, let it be brought to the first place, by making it pass over the preceding <math><mover><mrow><mi>H</mi><mo>−</mo><mn>1</mn></mrow><mo>¯</mo></mover></math> pairs;</p>
+
+<p>then the number of derangements among the consequents is increased, or diminished, by a number similar to <math><mover><mrow><mi>H</mi><mo>−</mo><mn>1</mn></mrow><mo>¯</mo></mover></math>; <span class="after-hfill">(Prop.&nbsp;I.</span></p>
+
+<p>and, since the consequent <var>k</var> now precedes the <math><mover><mrow><mi>k</mi><mo>−</mo><mn>1</mn></mrow><mo>¯</mo></mover></math> consequents which are less than it, there are now, by reason of this pair, <math><mover><mrow><mi>k</mi><mo>−</mo><mn>1</mn></mrow><mo>¯</mo></mover></math> derangements among the consequents;</p>
+
+<p>secondly, let the pair <math><mrow><mo stretchy="false">(</mo><mi>H</mi><mo>,</mo><mi>k</mi><mo stretchy="false">)</mo></mrow></math> be erased;</p>
+
+<p>then the number of derangements among the consequents is thereby diminished by a number similar to <math><mover><mrow><mi>k</mi><mo>−</mo><mn>1</mn></mrow><mo>¯</mo></mover></math>;</p>
+
+<p>∴ it is ultimately increased, or diminished, by a number similar to the sum or difference of <math><mover><mrow><mi>H</mi><mo>−</mo><mn>1</mn></mrow><mo>¯</mo></mover></math> and <math><mover><mrow><mi>k</mi><mo>−</mo><mn>1</mn></mrow><mo>¯</mo></mover></math>;</p>
+
+<p>i.&thinsp;e. it is ultimately increased, or diminished, by an even, or odd, number, according as <math><mover><mrow><mi>H</mi><mo>−</mo><mn>1</mn></mrow><mo>¯</mo></mover></math> and <math><mover><mrow><mi>k</mi><mo>−</mo><mn>1</mn></mrow><mo>¯</mo></mover></math> are similar or dissimilar;</p>
+
+<p>i.&thinsp;e. according as <var>H</var> and <var>k</var> are similar or dissimilar.</p>
+
+<p>Therefore, if there be a set, &amp;c. Q.&nbsp;E.&nbsp;D.<sup class="footnote"><a href="#footnote-7">7</a></sup>.</p>
+
+<div class="footnotes"><ol>
+<li id="footnote-1"><i>Def.&nbsp;I.</i> Thus the set 12346789 is <i>orderly</i> arranged; but the same set placed thus, 43186972, contains one derangement on account of the 4 and 3, another on account of the 4 and 1, another on account of the 8 and 7, and so on.</li>
+<li id="footnote-2"><i>Prop.&nbsp;I.</i> In the set 43186972, let us make the 7 pass over the preceding 3 numerals. By passing it over the 9, a derangement is lost, i.&thinsp;e. the number of derangements is diminished by unity; by passing it over the 6, a derangement is gained, i.&thinsp;e. the number is what it was at first, i.&thinsp;e. it is increased by zero, which is <i>even</i>; by passing it over the 8, a derangement is lost, i.&thinsp;e. the number is diminished by unity, which is <i>odd</i>; and so on.</li>
+<li id="footnote-3"><i>Prop.&nbsp;II.</i> In the set 43186972, let us interchange the 1 and the 7. By passing the 1 over the intermediate 3 numerals, 3 derangements are gained, i.&thinsp;e. the number of derangements is increased by a number similar to 3; and the set now stands thus, 43869172; by passing the 7 over the 1 and over the same 3 numerals, two derangements are gained and two lost, i.&thinsp;e. the number is increased by zero, which is similar to <math><mrow><mo stretchy="false">(</mo><mn>3</mn><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math>; hence it is on the whole increased by. a number similar to the <i>sum</i> of 3 and <math><mrow><mo stretchy="false">(</mo><mn>3</mn><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math>, and, as these are <i>dissimilar</i> numbers, their sum is <i>odd</i>.</li>
+<li id="footnote-4"><i>Prop.&nbsp;III.</i> Let the set be <math><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>3</mn><mo>,</mo><mn>8</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>4</mn><mo>,</mo><mn>6</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>7</mn><mo>,</mo><mn>5</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>8</mn><mo>,</mo><mn>2</mn><mo stretchy="false">)</mo></mrow></math>, which is arranged in order of antecedents: if this be rearranged in order of consequents, it will stand thus:—<math><mrow><mo stretchy="false">(</mo><mn>8</mn><mo>,</mo><mn>2</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>7</mn><mo>,</mo><mn>5</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>4</mn><mo>,</mo><mn>6</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>3</mn><mo>,</mo><mn>8</mn><mo stretchy="false">)</mo></mrow></math>. Now let us select 2 of these pairs, <math><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo stretchy="false">)</mo></mrow></math> and <math><mrow><mo stretchy="false">(</mo><mn>7</mn><mo>,</mo><mn>5</mn><mo stretchy="false">)</mo></mrow></math>; these, as they stand in the first arrangement, contain no derangement of consequents; hence, in the second arrangement, they preserve the same relative order, and so contain no derangement of antecedents. Again, let us select <math><mrow><mo stretchy="false">(</mo><mn>3</mn><mo>,</mo><mn>8</mn><mo stretchy="false">)</mo></mrow></math> and <math><mrow><mo stretchy="false">(</mo><mn>7</mn><mo>,</mo><mn>5</mn><mo stretchy="false">)</mo></mrow></math>; these, as they stand in the first arrangement, contain a derangement of consequents; hence, in the second arrangement, they take the order <math><mrow><mo stretchy="false">(</mo><mn>7</mn><mo>,</mo><mn>6</mn><mo stretchy="false">)</mo></mrow></math>, … <math><mrow><mo stretchy="false">(</mo><mn>3</mn><mo>,</mo><mn>8</mn><mo stretchy="false">)</mo></mrow></math>, and so contain a derangement of antecedents. And so for every other 2.</li>
+<li id="footnote-5"><p><i>Def.&nbsp;III.</i> Taking the set <math><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>3</mn><mo>,</mo><mn>8</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>4</mn><mo>,</mo><mn>6</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>7</mn><mo>,</mo><mn>5</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>8</mn><mo>,</mo><mn>2</mn><mo stretchy="false">)</mo></mrow></math>, let us ascertain, by counting the derangements among the consequents, to which class it belongs. This may be conveniently done by observing, for each consequent in turn, how many of its predecessors are <i>greater</i> than it, since every instance of this will constitute a derangement: thus the 3 gives none, the 8 gives none, the 6 gives one, the 5 gives two, and the 2 gives four; hence there are seven derangements among the consequents. Again, let us arrange the set in order of consequents, <math><mrow><mo stretchy="false">(</mo><mn>8</mn><mo>,</mo><mn>2</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>7</mn><mo>,</mo><mn>5</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>4</mn><mo>,</mo><mn>6</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>3</mn><mo>,</mo><mn>8</mn><mo stretchy="false">)</mo></mrow></math>, and count the derangements among the antecedents: thus the 8 gives none, the 1 gives one, the 7 gives one, the 4 gives two, and the 3 gives three; hence there are now seven derangements among the antecedents. Thus the set of pairs of numerals, tried by either test, is of the uneven class.</p>
+
+<p>It should be observed that the class, to which a set of pairs of numerals belongs, is unaffected by the order in which they happen to be given.</p></li>
+<li id="footnote-6"><i>Prop.&nbsp;IV.</i> In the set (arranged, for convenience, in order of antecedents), <math><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>3</mn><mo>,</mo><mn>8</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>4</mn><mo>,</mo><mn>6</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>7</mn><mo>,</mo><mn>5</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>8</mn><mo>,</mo><mn>2</mn><mo stretchy="false">)</mo></mrow></math>, let us interchange the two consequents, 8 and 5; the set will thus become <math><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>4</mn><mo>,</mo><mn>6</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>7</mn><mo>,</mo><mn>8</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>8</mn><mo>,</mo><mn>2</mn><mo stretchy="false">)</mo></mrow></math>. Now, by this interchange, the number of derangements among the consequents is diminished by three; i.&thinsp;e. from being <i>odd</i>, it becomes <i>even</i>; and the set of numerals is therefore transferred from the <i>uneven</i> to the <i>even</i> class.</li>
+<li id="footnote-7"><p><i>Prop.&nbsp;V.</i> Let us take the following set, (arranged, for convenience, in order of antecedents), <math><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>3</mn><mo>,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>6</mn><mo>,</mo><mn>3</mn><mo stretchy="false">)</mo></mrow></math>; and let us select <math><mrow><mo stretchy="false">(</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo stretchy="false">)</mo></mrow></math> as the pair to be erased, in which the numerals are dissimilar. Firstly, let us bring it to the first place, so that the set now stands thus:— <math><mrow><mo stretchy="false">(</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy="false">)</mo></mrow></math>, &amp;c.; in doing this, we have made the consequent 5 pass over the preceding <math><mrow><mo stretchy="false">(</mo><mn>4</mn><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math> consequents, and have thus increased, or diminished, the number of derangements among the consequents, by a number similar to <math><mrow><mo stretchy="false">(</mo><mn>4</mn><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math>. And since this consequent 5 now precedes all the lesser consequents, 1, 2, 3, 4, there are now, by reason of it, <math><mrow><mo stretchy="false">(</mo><mn>5</mn><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math> derangements among the consequents. Next, let the pair <math><mrow><mo stretchy="false">(</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo stretchy="false">)</mo></mrow></math> be erased; then these <math><mrow><mo stretchy="false">(</mo><mn>5</mn><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math> derangements are done away with, and the number of derangements is, on the whole, increased, or diminished, by a number similar to the sum, or difference, of <math><mrow><mo stretchy="false">(</mo><mn>4</mn><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math> and <math><mrow><mo stretchy="false">(</mo><mn>5</mn><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math>, i.&thinsp;e. to the sum, or difference, of 4 and 5, and since they are <i>dissimilar</i> numbers, their sum, or difference, is <i>odd</i>; hence the class, to which the set belongs, is <i>changed</i></p>
+
+<p>In this instance it will be found that the given set contains 5 derangements of consequents, and so is of the uneven class; and that the new set, <math><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>3</mn><mo>,</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo stretchy="false">)</mo></mrow></math>, <math><mrow><mo stretchy="false">(</mo><mn>6</mn><mo>,</mo><mn>3</mn><mo stretchy="false">)</mo></mrow></math>, contains 4, and so is of the even class.</p></li>
+</ol></div>
+</article>
+<footer>
+<nav><ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../about/introduction.html">Introduction</a></li>
+<li><a href="../about/contents-by-source.html">Contents by Source</a></li>
+<li><a href="../about/contents-by-topic.html">Contents by Topic</a></li>
+<li><a href="../about/copyright.html">Copyright</a></li>
+</ul></nav>
+</footer>
+</body></html>

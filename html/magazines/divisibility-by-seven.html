@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Divisibility by Seven</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#a04">
+<link rel="icon" href="../../res/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="../../res/favicon.svg" sizes="any" type="image/svg+xml">
+<link rel="stylesheet" href="../../res/main.css">
+<script src="../../res/main.js" defer></script>
+</head><body>
+<header>
+<h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
+<h2>Divisibility by Seven</h2>
+<p>Source: Knowledge, July 4, 1884</p><nav><ol>
+<li>Abridged Division</li>
+<li class="next"><a href="brief-method-of-dividing.html">Brief Method of Dividing</a></li>
+</ol></nav>
+</header>
+<article>
+
+<p>[1324]—Mr.&nbsp;Askew, in 1274, May 30, asks for a proof of a method for ascertaining the divisibility of a number by 7, which he states to have been discovered by Mr.&nbsp;Rickard, of Birmingham. Probably many have discovered it: my father did, for one, and taught it to me some thirty years ago. The test-number is equally useful for 7, 11, and 13. The method, as worked by my father, gives, in the case of a number divisible by all three factors, the other factor as well, without further labour: and in this respect it has an advantage over that of Mr.&nbsp;Rickard.</p>
+
+<p>If a number, <var>N</var>, be marked off from the right-hand end in periods of three digits; and if <var>a</var>, <var>b</var>, <var>c</var>, &amp;., be the periods; and if <var>M</var> be the difference between the sums of the alternate periods; we have, writing <var>r</var> for 1000,
+<math display="block"><mtable displaystyle="false" rowspacing="0.5ex" columnalign="right left"><mtr><mtd><mi>N</mi></mtd><mtd><mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi><mi>r</mi><mo>+</mo><mi>c</mi><msup><mi>r</mi><mn>2</mn></msup><mo>+</mo><mi>d</mi><msup><mi>r</mi><mn>3</mn></msup><mo>+</mo><mtext>&amp;c.</mtext></mtd></mtr><mtr><mtd><mi>M</mi></mtd><mtd><mo>=</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>−</mo><mi>d</mi><mo>+</mo><mtext>&amp;c.</mtext></mtd></mtr><mtr><mtd><mo>∴</mo><mi>N</mi><mo>−</mo><mi>M</mi></mtd><mtd><mo>=</mo><mi>b</mi><mo stretchy="false">(</mo><mi>r</mi><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mo>+</mo><mi>c</mi><mo stretchy="false">(</mo><msup><mi>r</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo stretchy="false">)</mo><mo>+</mo><mi>d</mi><mo stretchy="false">(</mo><msup><mi>r</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mo>+</mo><mtext>&amp;c.</mtext></mtd></mtr></mtable></math>
+and is divisible by <math><mrow><mo stretchy="false">(</mo><mi>r</mi><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math>; hence, if <var>M</var> be divisible by <math><mrow><mo stretchy="false">(</mo><mi>r</mi><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math> or any factor of it, so also is <var>N</var>. And in this case <math><mrow><mi>r</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>1001</mn><mo>=</mo><mn>7</mn><mo>×</mo><mn>11</mn><mo>×</mo><mn>13</mn></mrow></math>.</p>
+
+<figure class="float-left" style="max-width:13em;">
+<table class="r1 b1 r2 b2 r3 b3 r4">
+<tr><td>8</td><td>026</td><td>518</td><td>423</td></tr>
+<tr><td style="border-bottom: solid thin;">931</td><td>095</td><td>423</td></tr>
+<tr><td style="border-right: none;">924</td></tr>
+</table>
+</figure>
+
+<p>My father’s rule was to set the right-hand period under the next, and subtract, setting the remainder under the next, and so on. In the last period, the subtraction is <i>downwards</i> if the lower number be the larger. In this instance, since we have 1 to carry into the last period, the 931 must be read as 932. The ultimate remainder, 924, is the test-number; and, since this is divisible by 7 and 11, so also is the whole number.</p>
+
+<p>If the test-number chanced to be zero, the second line would be the quotient produced by dividing the given number by 1001; <i>i.&thinsp;e.</i>, it is the factor remaining after dividing out 7, 11, and 13. For let us call the second line “<var>V</var>;” writing three ciphers at the end, we get <math><mrow><mn>1000</mn><mi>V</mi></mrow></math>; and we know that, if this be deducted from the upper line, the remainder <math><mrow><mo>=</mo><mi>V</mi></mrow></math>. Hence <math><mrow><mi>N</mi><mo>=</mo><mn>1001</mn><mi>V</mi><mo>=</mo><mn>7</mn><mo>×</mo><mn>11</mn><mo>×</mo><mn>13</mn><mo>×</mo><mi>V</mi></mrow></math>. In the above example, if the left-hand period were 932 instead of 8, the test-number would be zero.</p>
+
+<figure class="float-left" style="max-width:10em;">
+<table class="c1 c2 c3 c4 c5 c6 c7 c8 c9 n">
+<tr><td></td><td>6</td><td>4</td><td>3</td><td>7</td><td>2</td><td>5</td><td>8</td><td>3</td></tr>
+<tr><td>0</td><td>5</td><td>8</td><td>5</td><td>2</td><td>0</td><td>5</td><td>3</td></tr>
+</table>
+</figure>
+
+<p>If the periods be <i>single</i> digits, <i>i.&thinsp;e.</i>, if <math><mrow><mi>r</mi><mo>=</mo><mn>10</mn></mrow></math>, we get a test for divisibility by 11, and at the same time the quotient after dividing out 11. The rule is to set the last digit under the next, and subtract, setting the remainder under the next, and so on. In this instance the test-number <math><mrow><mo>=</mo><mn>0</mn></mrow></math>; hence the given number <math><mrow><mo>=</mo><mn>11</mn><mo>×</mo><mn>5852053</mn></mrow></math>.</p>
+
+<p>With periods of two digits, we get a test for divisibility by 101; and so for four or more digits.</p><div class="signature"><p>C. L. Dodgson.<br>Ch.&nbsp;Ch., Oxford.</p></div>
+
+<p>P.S.—The sum of <i>all</i> the periods gives us, for periods of 1, 2, 3, &amp;c., digits, a test for divisibility by 9, 99, 999 (<math><mrow><mo>=</mo><mn>27</mn><mo>×</mo><mn>37</mn></mrow></math>), &amp;c., or for any factors of these numbers. This method may also be worked by a rule analogous to that given above; <i>e.&thinsp;g.</i>, to test for 999, mark off in periods of three, write 000 over the right-hand period, and subtract, writing the remainder over the next, and so on. Hence, also, if the test-number chanced to be zero, the upper line (omitting the 000) would be the quotient produced by dividing the given number by 999.</p>
+
+<p>Probably similar rules may be made for most primes. I have myself made fairly simple rules for 17 and for 19; but such processes are rather curious than useful.</p>
+</article>
+<footer>
+<nav><ol>
+<li>Abridged Division</li>
+<li class="next"><a href="brief-method-of-dividing.html">Brief Method of Dividing</a></li>
+</ol></nav>
+<nav><ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../about/introduction.html">Introduction</a></li>
+<li><a href="../about/contents-by-source.html">Contents by Source</a></li>
+<li><a href="../about/contents-by-topic.html">Contents by Topic</a></li>
+<li><a href="../about/copyright.html">Copyright</a></li>
+</ul></nav>
+</footer>
+</body></html>

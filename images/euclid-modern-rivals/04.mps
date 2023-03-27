@@ -1,0 +1,34 @@
+%!PS
+%%BoundingBox: -8 -18 114 32 
+%%HiResBoundingBox: -7.98134 -17.38342 113.6358 31.55663 
+%%Creator: MetaPost 0.993
+%%CreationDate: 2021.11.27:1711
+%%Pages: 1
+%*Font: cmr10 9.96265 9.96265 31:e
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor 0 0.5 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 0 0 moveto
+113.3858 0 lineto stroke
+newpath 0 28.34645 moveto
+1.75424 30.39655 4.40242 31.45589 7.08661 31.18127 curveto
+12.27228 30.65074 15.98132 25.36757 21.25984 25.51163 curveto
+26.51445 25.65503 30.15488 31.21916 35.43306 31.18127 curveto
+40.70433 31.14343 44.32921 25.50404 49.6063 25.51163 curveto
+54.88196 25.51921 58.50385 31.17369 63.77951 31.18127 curveto
+69.0566 31.18886 72.68147 25.54947 77.95274 25.51163 curveto
+83.23093 25.47374 86.87135 31.03787 92.12596 31.18127 curveto
+97.40448 31.32533 101.11353 26.04216 106.2992 25.51163 curveto
+108.98338 25.23701 111.63156 26.29636 113.3858 28.34645 curveto stroke
+newpath 0 -14.17323 moveto
+56.6929 22.67725 lineto stroke
+-7.98134 -3.21019 moveto
+(1) cmr10 9.96265 fshow
+-7.98134 25.13626 moveto
+(2) cmr10 9.96265 fshow
+-7.98134 -17.38342 moveto
+(3) cmr10 9.96265 fshow
+showpage
+%%EOF

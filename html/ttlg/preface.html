@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Through the Looking-Glass, and What Alice Found There</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#a04">
+<link rel="icon" href="../../res/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="../../res/favicon.svg" sizes="any" type="image/svg+xml">
+<link rel="stylesheet" href="../../res/main.css">
+<script src="../../res/main.js" defer></script>
+</head><body>
+<header>
+<h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
+<h2>Through the Looking-Glass, and What Alice Found There</h2>
+<p>Source: Through the Looking-Glass, “Dramatis Personæ” only in early editions, preface only in later ones</p><nav><ol>
+<li>Through the Looking-Glass</li>
+<li class="next"><a href="../poems/child-of-the-pure-unclouded-brow.html">Child of the Pure Unclouded Brow</a></li>
+</ol></nav>
+</header>
+<article>
+
+<figure style="max-width:7em;">
+<img src="../../images/glass/cover.jpg" width="130" height="130" class="invert" alt="circular ornament with the Red Queen">
+</figure>
+
+<h3 id="lookingglass:dramatis">Dramatis Personæ</h3>
+<p class="subtitle">(As arranged before commencement of game.)</p>
+<table class="b2">
+<tr><td colspan="2" style="text-align: center;"><span style="font-variant: small-caps;">White.</span></td><td colspan="2" style="text-align: center; border: none;"><span style="font-variant: small-caps;">Red.</span></td></tr>
+<tr><td><span style="display: inline-block; width: 1em;"></span><span style="font-variant: small-caps;">Pieces.</span><span style="display: inline-block; width: 5em;"></span></td><td><span style="font-variant: small-caps;">Pawns.</span></td><td><span style="font-variant: small-caps;">Pawns.</span><span style="display: inline-block; width: 5em;"></span></td><td style="text-align: center;"><span style="font-variant: small-caps;">Pieces.</span></td></tr>
+<tr><td>Tweedledee<span class="after-dotfill"></span></td><td>Daisy.</td><td>Daisy<span class="after-dotfill"></span></td><td>Humpty Dumpty.</td></tr>
+<tr><td>Unicorn<span class="after-dotfill"></span></td><td>Haigha.</td><td>Messenger<span class="after-dotfill"></span></td><td>Carpenter.</td></tr>
+<tr><td>Sheep<span class="after-dotfill"></span></td><td>Oyster.</td><td>Oyster<span class="after-dotfill"></span></td><td>Walrus.</td></tr>
+<tr><td>W.&nbsp;Queen<span class="after-dotfill"></span></td><td>“Lilly.”</td><td>Tiger-lily<span class="after-dotfill"></span></td><td>R.&nbsp;Queen.</td></tr>
+<tr><td>W.&nbsp;King<span class="after-dotfill"></span></td><td>Fawn.</td><td>Rose<span class="after-dotfill"></span></td><td>R.&nbsp;King.</td></tr>
+<tr><td>Aged man<span class="after-dotfill"></span></td><td>Oyster.</td><td>Oyster<span class="after-dotfill"></span></td><td>Crow.</td></tr>
+<tr><td>W.&nbsp;Knight<span class="after-dotfill"></span></td><td>Hatta.</td><td>Frog<span class="after-dotfill"></span></td><td>R.&nbsp;Knight.</td></tr>
+<tr><td>Tweedledum<span class="after-dotfill"></span></td><td>Daisy.</td><td>Daisy<span class="after-dotfill"></span></td><td>Lion.</td></tr>
+</table>
+
+<h3 id="lookingglass:chess">Chess Game</h3>
+
+<!--NOTE: We could just \usepackage{skak}, and then do this:-->
+
+<!--\notationOff--><!--\fenboard{6n1/8/2K5/5N2/4k3/8/3Pq3/2Q2R2 w KQkq - 0 1}--><!--$$\showboard$$-->
+
+<!--But, a) we don't need the complexity of skak, and b) for some reason it breaks \thickcline{}.--><!--So we just load the font and typeset the board manually.-->
+
+<div class="center">
+<p>RED</p>
+<svg viewbox="0 0 588 588" style="max-width: 30em;">
+	<defs>
+		<clipPath id="rect">
+			<rect x="0" y="0" width="72" height="72" />
+		</clipPath>
+		<g id="blacksquare">
+			<g clip-path="url(#rect)" stroke="#000">
+				<line x1="-63" y1="72" x2="9" y2="0" />
+				<line x1="-54" y1="72" x2="18" y2="0" />
+				<line x1="-45" y1="72" x2="27" y2="0" />
+				<line x1="-36" y1="72" x2="36" y2="0" />
+				<line x1="-27" y1="72" x2="45" y2="0" />
+				<line x1="-18" y1="72" x2="54" y2="0" />
+				<line x1="-9" y1="72" x2="63" y2="0" />
+				<line x1="0" y1="72" x2="72" y2="0" />
+				<line x1="9" y1="72" x2="81" y2="0" />
+				<line x1="18" y1="72" x2="90" y2="0" />
+				<line x1="27" y1="72" x2="99" y2="0" />
+				<line x1="36" y1="72" x2="108" y2="0" />
+				<line x1="45" y1="72" x2="117" y2="0" />
+				<line x1="54" y1="72" x2="126" y2="0" />
+				<line x1="63" y1="72" x2="135" y2="0" />
+			</g>
+		</g>
+		<g id="whitepawn">
+			<path stroke-dashoffset="10" stroke-linecap="round" stroke-width="2.4" stroke="#000" fill="#fff" d="M36 14.204a6.402 6.402 0 0 0-5.15 10.2c-3.122 1.795-5.25 5.14-5.25 9a10.352 10.352 0 0 0 3.85 8.05c-4.799 1.694-11.85 8.875-11.85 21.55h36.8c0-12.675-7.051-19.856-11.85-21.55a10.352 10.352 0 0 0 3.85-8.05c0-3.86-2.128-7.205-5.25-9a6.402 6.402 0 0 0-5.15-10.2" />
+		</g>
+		<g id="whiteknight"
+		   stroke-linecap="round" stroke="#000">
+			<path stroke-width="2.4" fill-rule="evenodd" fill="#fff" d="M35.977 16.604c16.8 1.6 26.4 12.8 25.6 46.4h-36.8c0-14.4 16-10.4 12.8-33.6" />
+			<path stroke-linejoin="round" stroke-width="2.4" fill-rule="evenodd" fill="#fff" d="M39.177 29.404c.614 4.658-8.885 11.79-12.8 14.4-4.8 3.2-4.512 6.949-8 6.4-1.667-1.51 2.26-4.86 0-4.8-1.6 0 .3 1.971-1.6 3.2-1.6 0-6.405 1.6-6.4-6.4 0-3.2 9.6-19.2 9.6-19.2s3.018-3.043 3.2-5.6c-1.162-1.59-.8-3.2-.8-4.8 1.6-1.6 4.8 4 4.8 4h3.2s1.251-3.187 4-4.8c1.6 0 1.6 4.8 1.6 4.8" />
+			<path stroke-linejoin="round" stroke-width="2.4" d="M15.977 41.404a.8.8 0 1 1-1.6 0 .8.8 0 0 1 1.6 0" />
+			<path stroke-linejoin="round" stroke-width="2.4" d="M24.67 25.804c-.663 1.148-1.51 1.9-1.893 1.678-.383-.22-.155-1.33.507-2.478.663-1.148 1.51-1.9 1.893-1.678.383.22.155 1.33-.507 2.478" />
+			<path fill-rule="evenodd" fill-opacity=".75" fill="none" d="M59.977 63.004c1.6-32-8.8-44-19.2-45.6" />
+		</g>
+		<g id="blackknight"
+		   stroke-width="1.6">
+			<path stroke-linecap="round" stroke="#000" fill-rule="evenodd" d="M35.977 16.602c16.8 1.6 26.4 12.8 25.6 46.4h-36.8c0-14.4 16-10.4 12.8-33.6" />
+			<path stroke-linejoin="round" stroke-linecap="round" stroke="#000" fill-rule="evenodd" d="M39.177 29.402c.614 4.658-8.885 11.79-12.8 14.4-4.8 3.2-4.512 6.949-8 6.4-1.667-1.51 2.26-4.86 0-4.8-1.6 0 .3 1.971-1.6 3.2-1.6 0-6.405 1.6-6.4-6.4 0-3.2 9.6-19.2 9.6-19.2s3.018-3.043 3.2-5.6c-1.162-1.59-.8-3.2-.8-4.8 1.6-1.6 4.8 4 4.8 4h3.2s1.251-3.187 4-4.8c1.6 0 1.6 4.8 1.6 4.8" />
+			<path stroke-linejoin="round" stroke-linecap="round" stroke="#fff" d="M15.977 41.402a.8.8 0 1 1-1.6 0 .8.8 0 0 1 1.6 0" />
+			<path stroke-linejoin="round" stroke-linecap="round" stroke="#fff" d="M24.67 25.802c-.318.551-.697 1.038-1.052 1.353-.355.314-.657.432-.841.325-.184-.106-.234-.426-.138-.891.095-.465.327-1.036.645-1.587.318-.551.697-1.038 1.052-1.353.355-.314.657-.432.841-.325.184.106.234.426.138.891-.095.465-.327 1.036-.645 1.587" />
+			<path stroke-linecap="square" fill-rule="evenodd" fill="#fff" d="M40.057 17.242l-.48 1.76.88.16c4.962.763 10.118 3.574 13.72 10.39 3.602 6.816 4.675 17.541 3.88 33.45l-.08.8h2.8v-.8c.805-16.091-1.402-26.965-5.2-34.15-3.798-7.184-9.262-10.613-14.7-11.45l-.82-.16" />
+		</g>
+		<g id="whiterook"
+		   stroke="#000" fill-rule="evenodd">
+			<path stroke-linejoin="round" stroke-width="2.4" fill="#fff" d="M14.4 63.004h43.2v-4.8H14.4v4.8" />
+			<path stroke-linejoin="round" stroke-width="2.4" fill="#fff" d="M19.2 58.204v-6.4h33.6v6.4H19.2" />
+			<path stroke-linejoin="round" stroke-width="2.4" fill="#fff" d="M17.6 23.004v-8H24v3.2h8v-3.2h8v3.2h8v-3.2h6.4v8" />
+			<path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.4" fill="#fff" d="M54.4 23.004l-4.8 4.8H22.4l-4.8-4.8" />
+			<path stroke-width="2.4" fill="#fff" d="M49.6 27.804v20H22.4v-20" />
+			<path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.4" fill="#fff" d="M49.6 47.804l2.4 4H20l2.4-4" />
+			<path stroke-linecap="round" fill-opacity=".75" fill="none" d="M17.6 23.004h36.8" />
+		</g>
+		<g id="whitequeen"
+		   stroke-linejoin="round" stroke="#000" stroke-width="2.4">
+			<path stroke-linecap="round" fill="#fff" d="M12.8 19.396a3.2 3.2 0 1 1-6.4 0 3.2 3.2 0 0 1 6.4 0" />
+			<path stroke-linecap="round" fill="#fff" d="M39.2 12.196a3.2 3.2 0 1 1-6.4 0 3.2 3.2 0 0 1 6.4 0" />
+			<path stroke-linecap="round" fill="#fff" d="M65.6 19.396a3.2 3.2 0 1 1-6.4 0 3.2 3.2 0 0 1 6.4 0" />
+			<path stroke-linecap="round" fill="#fff" d="M25.6 13.796a3.2 3.2 0 1 1-6.4 0 3.2 3.2 0 0 1 6.4 0" />
+			<path stroke-linecap="round" fill="#fff" d="M52.8 14.596a3.2 3.2 0 1 1-6.4 0 3.2 3.2 0 0 1 6.4 0" />
+			<path fill-rule="evenodd" fill="#fff" d="M14.4 41.796c13.6-2.4 33.6-2.4 43.2 0l3.2-19.2-11.2 17.6v-22.4l-8.8 21.6-4.8-24-4.8 24-8.8-22.4v23.2l-11.2-17.6 3.2 19.2" />
+			<path fill-rule="evenodd" fill="#fff" d="M14.4 41.796c0 3.2 2.4 3.2 4 6.4 1.6 2.4 1.6 1.6.8 5.6-2.4 1.6-2.4 4-2.4 4-2.4 2.4.8 4 .8 4 10.4 1.6 26.4 1.6 36.8 0 0 0 2.4-1.6 0-4 0 0 .8-2.4-1.6-4-.8-4-.8-3.2.8-5.6 1.6-3.2 4-3.2 4-6.4-13.6-2.4-29.6-2.4-43.2 0" />
+			<path stroke-linecap="round" stroke-width="1.6" fill-rule="evenodd" fill-opacity=".75" fill="none" d="M18.4 48.196c5.6-1.6 29.6-1.6 35.2 0" />
+			<path stroke-linecap="round" stroke-width="1.6" fill-rule="evenodd" fill-opacity=".75" fill="none" d="M19.2 53.796c9.6-1.6 24-1.6 33.6 0" />
+			<path stroke-linecap="round" stroke-width="1.6" fill-rule="evenodd" fill-opacity=".75" fill="none" d="M16.8 57.796c8-1.6 29.6-1.6 37.6 0" />
+		</g>
+		<g id="blackqueen"
+		   stroke-linejoin="round" stroke-width="1.6">
+			<path stroke-linecap="round" stroke="#000" d="M12.8 19.398a3.2 3.2 0 1 1-6.4 0 3.2 3.2 0 0 1 6.4 0" />
+			<path stroke-linecap="round" stroke="#000" d="M39.2 12.198a3.2 3.2 0 1 1-6.4 0 3.2 3.2 0 0 1 6.4 0" />
+			<path stroke-linecap="round" stroke="#000" d="M65.6 19.398a3.2 3.2 0 1 1-6.4 0 3.2 3.2 0 0 1 6.4 0" />
+			<path stroke-linecap="round" stroke="#000" d="M25.6 13.798a3.2 3.2 0 1 1-6.4 0 3.2 3.2 0 0 1 6.4 0" />
+			<path stroke-linecap="round" stroke="#000" d="M52.8 14.598a3.2 3.2 0 1 1-6.4 0 3.2 3.2 0 0 1 6.4 0" />
+			<path stroke="#000" fill-rule="evenodd" d="M14.4 41.798c13.6-2.4 33.6-2.4 43.2 0l3.2-19.2-11.2 17.6v-22.4l-8.8 21.6-4.8-24-4.8 24-8.8-22.4v23.2l-11.2-17.6 3.2 19.2" />
+			<path stroke="#000" fill-rule="evenodd" d="M14.4 41.798c0 3.2 2.4 3.2 4 6.4 1.6 2.4 1.6 1.6.8 5.6-2.4 1.6-2.4 4-2.4 4-2.4 2.4.8 4 .8 4 10.4 1.6 26.4 1.6 36.8 0 0 0 2.4-1.6 0-4 0 0 .8-2.4-1.6-4-.8-4-.8-3.2.8-5.6 1.6-3.2 4-3.2 4-6.4-13.6-2.4-29.6-2.4-43.2 0" />
+			<path stroke-linecap="round" stroke="#fff" fill-rule="evenodd" fill-opacity=".75" fill="none" d="M18.4 48.198c5.6-1.6 29.6-1.6 35.2 0" />
+			<path stroke-linecap="round" stroke="#fff" fill-rule="evenodd" fill-opacity=".75" fill="none" d="M19.2 53.798c9.6-1.6 24-1.6 33.6 0" />
+			<path stroke-linecap="round" stroke="#fff" fill-rule="evenodd" fill-opacity=".75" fill="none" d="M16.8 57.798c8-1.6 29.6-1.6 37.6 0" />
+		</g>
+		<g id="whiteking"
+		   stroke-width="2.4" stroke="#000" fill-rule="evenodd">
+			<path stroke-linecap="round" fill-opacity=".75" fill="none" d="M36.05 18.204v-9" />
+			<path fill="#fff" d="M36.05 39.604s7.2-12 4.8-16.8c0 0-1.6-4-4.8-4-3.2 0-4.8 4-4.8 4-2.4 4.8 4.8 16.8 4.8 16.8" />
+			<path stroke-linejoin="round" stroke-linecap="round" fill="#fff" d="M18.45 58.804c8.8 5.6 24.8 5.6 33.6 0v-11.2s14.4-7.2 9.6-16.8c-6.4-10.4-21.6-5.6-25.6 6.4v5.6v-5.6c-5.6-12-20.8-16.8-25.6-6.4-4.8 9.6 8 16 8 16v12" />
+			<path stroke-linecap="round" fill-opacity=".75" fill="none" d="M32.05 12.404h8" />
+			<path stroke-linecap="round" fill-opacity=".75" fill="none" d="M18.45 46.804c8.8-4 24.8-4 33.6.8" />
+			<path stroke-linejoin="round" stroke-linecap="round" fill-opacity=".75" fill="none" d="M18.45 58.804c8.8-4 24.8-4 33.6 0" />
+			<path stroke-linejoin="round" stroke-linecap="round" fill-opacity=".75" fill="none" d="M18.45 53.204c8.8-3.2 24.8-3.2 33.6 0" />
+		</g>
+		<g id="blackking"
+		   stroke-width="2.4" fill-rule="evenodd">
+			<path stroke-linecap="round" stroke="#000" fill="none" d="M36.05 17.802v-9" />
+			<path stroke="#000" d="M36.05 39.202s7.2-12 4.8-16.8c0 0-1.6-4-4.8-4-3.2 0-4.8 4-4.8 4-2.4 4.8 4.8 16.8 4.8 16.8" />
+			<path stroke-linejoin="round" stroke-linecap="round" stroke="#000" d="M18.45 58.402c8.8 5.6 24.8 5.6 33.6 0v-11.2s14.4-7.2 9.6-16.8c-6.4-10.4-21.6-5.6-25.6 6.4v0c-5.6-12-20.8-16.8-25.6-6.4-4.8 9.6 8 16 8 16v12" />
+			<path stroke-linecap="round" stroke="#000" fill="none" d="M32.05 12.002h8" />
+			<path stroke-linecap="round" stroke="#fff" fill="none" d="M18.45 46.402c8.8-4 24.8-4 33.6.8" />
+			<path stroke-linejoin="round" stroke-linecap="round" stroke="#fff" fill="none" d="M18.45 58.402c8.8-4 24.8-4 33.6 0" />
+			<path stroke-linejoin="round" stroke-linecap="round" stroke="#fff" fill="none" d="M18.45 52.802c8.8-3.2 24.8-3.2 33.6 0" />
+			<path stroke-linejoin="round" stroke-linecap="round" stroke="#fff" fill="none" d="M51.25 46.402s13.6-6.4 9.642-15.445c-6.207-9.36-20.842-2.955-24.842 7.445l.02 3.355-.02-3.355c-4-10.4-20.15-16.805-24.805-7.445-3.995 9.045 7.759 14.4 7.759 14.4" />
+		</g>
+	</defs>
+	<rect x="2" y="2" width="584" height="584" fill="#fff" stroke="#000" stroke-width="3" />
+	<rect x="6" y="6" width="576" height="576" fill="none" stroke="#000" stroke-width="1" />
+	<use xlink:href="#blacksquare" x="6" y="78" />
+	<use xlink:href="#blacksquare" x="6" y="222" />
+	<use xlink:href="#blacksquare" x="6" y="366" />
+	<use xlink:href="#blacksquare" x="6" y="510" />
+	<use xlink:href="#blacksquare" x="78" y="6" />
+	<use xlink:href="#blacksquare" x="78" y="150" />
+	<use xlink:href="#blacksquare" x="78" y="294" />
+	<use xlink:href="#blacksquare" x="78" y="438" />
+	<use xlink:href="#blacksquare" x="150" y="78" />
+	<use xlink:href="#blacksquare" x="150" y="222" />
+	<use xlink:href="#blacksquare" x="150" y="366" />
+	<use xlink:href="#blacksquare" x="150" y="510" />
+	<use xlink:href="#blacksquare" x="222" y="6" />
+	<use xlink:href="#blacksquare" x="222" y="150" />
+	<use xlink:href="#blacksquare" x="222" y="294" />
+	<use xlink:href="#blacksquare" x="222" y="438" />
+	<use xlink:href="#blacksquare" x="294" y="78" />
+	<use xlink:href="#blacksquare" x="294" y="222" />
+	<use xlink:href="#blacksquare" x="294" y="366" />
+	<use xlink:href="#blacksquare" x="294" y="510" />
+	<use xlink:href="#blacksquare" x="366" y="6" />
+	<use xlink:href="#blacksquare" x="366" y="150" />
+	<use xlink:href="#blacksquare" x="366" y="294" />
+	<use xlink:href="#blacksquare" x="366" y="438" />
+	<use xlink:href="#blacksquare" x="438" y="78" />
+	<use xlink:href="#blacksquare" x="438" y="222" />
+	<use xlink:href="#blacksquare" x="438" y="366" />
+	<use xlink:href="#blacksquare" x="438" y="510" />
+	<use xlink:href="#blacksquare" x="510" y="6" />
+	<use xlink:href="#blacksquare" x="510" y="150" />
+	<use xlink:href="#blacksquare" x="510" y="294" />
+	<use xlink:href="#blacksquare" x="510" y="438" />
+	
+	<use xlink:href="#blackknight" x="438" y="6" />
+	<use xlink:href="#whiteking" x="150" y="150" />
+	<use xlink:href="#whiteknight" x="366" y="222" />
+	<use xlink:href="#blackking" x="294" y="294" />
+	<use xlink:href="#whitepawn" x="222" y="438" />
+	<use xlink:href="#blackqueen" x="294" y="438" />
+	<use xlink:href="#whitequeen" x="150" y="510" />
+	<use xlink:href="#whiterook" x="366" y="510" />
+</svg>
+<p>WHITE
+</p></div>
+
+<p><i>White Pawn (Alice) to play, and win in eleven moves.</i></p>
+
+<table class="r1 r3 b3 r4 r6">
+<tr><td></td><td></td><td><small>PAGE</small></td><td></td><td></td><td><small>PAGE</small></td></tr>
+<tr><td>1.</td><td>Alice meets R. Q.<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:35">35</a></td><td>1.</td><td>R. Q. to K. R.’s 4th<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:45">45</a></td></tr>
+<tr><td>2.</td><td>Alice through Q.’s 3d (<i>by railway</i>)<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:48">48</a></td></tr>
+<tr><td></td><td>to Q.’s 4th (<i>Tweedledum and Tweedledee</i>)<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:54">54</a></td><td>2.</td><td>W. Q. to Q. B.’s 4th (<i>after shawl</i>)<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:91">91</a></td></tr>
+<tr><td>3.</td><td>Alice meets W. Q. (<i>with shawl</i>)<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:91">91</a></td><td>3.</td><td>W. Q. to Q. B.’s 5th (<i>becomes sheep</i>)<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:100">100</a></td></tr>
+<tr><td>4.</td><td>Alice to Q.’s 5th (<i>shop, river, shop</i>)<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:101">101</a></td><td>4.</td><td>W. Q. to K. B.’s 8th (<i>leaves egg on shelf</i>)<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:111">111</a></td></tr>
+<tr><td>5.</td><td>Alice to Q.’s 6th (<i>Humpty Dumpty</i>)<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:112">112</a></td><td>5.</td><td>W. Q. to Q. B.’s 8th (<i>flying from R. Kt.</i>)<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:149">149</a></td></tr>
+<tr><td>6.</td><td>Alice to Q.’s 7th (<i>forest</i>)<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:155">155</a></td><td>6.</td><td>R. Kt. to K.’s 2nd (ch.)<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:158">158</a></td></tr>
+<tr><td>7.</td><td>W. Kt. takes R. Kt.<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:161">161</a></td><td>7.</td><td>W. Kt. to K. B.’s 5th<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:182">182</a></td></tr>
+<tr><td>8.</td><td>Alice to Q.’s 8th (<i>coronation</i>)<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:183">183</a></td><td>8.</td><td>R. Q. to K.’s sq. (<i>examination</i>)<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:186">186</a></td></tr>
+<tr><td>9.</td><td>Alice becomes Queen<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:196">196</a></td><td>9.</td><td>Queens castle<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:199">199</a></td></tr>
+<tr><td>10.</td><td>Alice castles (<i>feast</i>)<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:204">204</a></td><td>10.</td><td>W. Q. to Q. R.’s 6th (<i>soup</i>)<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:211">211</a></td></tr>
+<tr><td>11.</td><td>Alice takes R. Q. &amp; wins<span class="after-dotfill"></span></td><td><a href="content.html#lookingglass:215">215</a></td></tr>
+</table>
+
+<h3 id="lookingglass:preface">Preface</h3>
+
+<p>As the chess-problem, given on a previous page, has puzzled some of my readers, it may be well to explain that it is correctly worked out, so far as the <i>moves</i> are concerned. The <i>alternation</i> of Red and White is perhaps not so strictly observed as it might be, and the “castling” of the three Queens is merely a way of saying that they entered the palace: but the “check” of the White King at move 6, the capture of the Red Knight at move 7, and the final “checkmate” of the Red King, will be found, by any one who will take the trouble to set the pieces and play the moves as directed, to be strictly in accordance with the laws of the game.</p>
+
+<p>The new words, in the poem “Jabberwocky” (see <a href="content.html#lookingglass:jabberwocky">p.&nbsp;21</a>), have given rise to some difference of opinion as to their pronunciation: so it may be well to give instructions on <i>that</i> point also. Pronounce “slithy” as if it were the two words “sly, the”: make the ‘g’ <i>hard</i> in “gyre” and “gimble”: and pronounce “rath” to
+rhyme with “bath.”</p>
+
+<p>For this sixty-first thousand, fresh electrotypes have been taken from the wood-blocks (which, never having been used for printing from, are in as good condition as when first cut in 1871), and the whole book has been set up afresh with new type. If the artistic qualities of this re-issue fall short, in any particular, of those possessed by the original issue, it will not be for want of painstaking on the part of author, publisher, or printer.</p>
+
+<p>I take this opportunity of announcing that the Nursery “Alice,” hitherto priced at four shillings, net, is now to be had on the same terms as the ordinary shilling picture-books—although I feel sure that it is, in every quality (except the <i>text</i> itself, in which I am not qualified to pronounce), greatly superior to them. Four shillings was a perfectly reasonable price to charge, considering
+the very heavy initial outlay I had incurred: still, as the Public have practically said, “We will <i>not</i> give more than a shilling for a picture-book, however artistically got-up,” I am content to reckon my outlay on the book as so much dead loss, and, rather than let the little ones, for whom it was written, go without it, I am selling it at a price which is, to me, much the same thing as <i>giving</i> it away.</p>
+
+<div class="signature"><p>Christmas, 1896</p></div>
+
+<figure style="max-width:7em;">
+<img src="../../images/glass/back.jpg" width="130" height="130" class="invert" alt="circular ornament with the White Queen">
+</figure>
+</article>
+<footer>
+<nav><ol>
+<li>Through the Looking-Glass</li>
+<li class="next"><a href="../poems/child-of-the-pure-unclouded-brow.html">Child of the Pure Unclouded Brow</a></li>
+</ol></nav>
+<nav><ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../about/introduction.html">Introduction</a></li>
+<li><a href="../about/contents-by-source.html">Contents by Source</a></li>
+<li><a href="../about/contents-by-topic.html">Contents by Topic</a></li>
+<li><a href="../about/copyright.html">Copyright</a></li>
+</ul></nav>
+</footer>
+</body></html>

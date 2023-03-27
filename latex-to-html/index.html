@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<title>LaTeX to HTML</title>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="res/define.css">
+<script src="res/lib/TeXZilla-min.js" defer></script>
+<script src="res/latex-parse.js" defer></script>
+<script src="res/to-html.js" defer></script>
+<script src="res/define.js" defer></script>
+<script src="res/main.js" defer></script>
+<style>
+html {
+	font-family: sans-serif;
+}
+textarea {
+	display: block;
+	width: 100%;
+	height: 10em;
+}
+#html {
+	border: thin dashed;
+	height: 10em;
+	overflow: auto;
+	white-space: pre-line;
+}
+</style>
+</head><body>
+<p><label>LaTeX input:
+<textarea id="latex">
+\section{Test}
+
+Ein {\small kleiner} Test--\marginpar{Randbemerkung}\textit{kursiv \textbf{und fett}}.
+
+\section*{Formel}
+
+$a^2+b^2=c^2$ %Pythagoras
+
+\verb*|&lt;code ...&gt;|
+\begin{verbatim}
+&lt;pre ...&gt;
+\end{verbatim}
+Ohne Einrückung
+\begin{verbatim*}
+&lt;pre ...&gt;
+\end{verbatim*}
+
+Mit Einrückung
+\begin{small}
+klein
+\end{small}
+
+\begin{large}
+groß
+
+immer noch groß
+\Huge RIESIG
+\end{large}
+
+\begin{verse}\itshape
+Ein Gedicht!\\
+Ein Gedicht?
+\end{verse}
+
+\begin{itemize}
+\item A
+\item B
+\end{itemize}
+
+\begin{description}
+\item[a] A
+\item[b] B
+\end{description}
+
+\begin{tabular}{cc}
+1 &amp; 2 \\
+3 &amp; 4
+\end{tabular}
+
+Ende
+</textarea>
+</label></p>
+<p>HTML:</p>
+<pre id="html"></pre>
+<p>Result:</p>
+<div id="result"></div>
+</body></html>

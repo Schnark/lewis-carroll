@@ -1,0 +1,349 @@
+% \documentclass[a4paper,10pt]{article}
+% \usepackage[T1]{fontenc}
+% \usepackage[utf8]{inputenc}
+
+\newenvironment{logicDiagram}[4][]{
+\begingroup
+\setlength{\unitlength}{#2}
+\begin{picture}(#3,#4)#1
+}{
+\end{picture}
+\endgroup
+}
+
+\newcommand{\logicDiagramHorizontalLine}[3][1]{
+\put(#2,#3){\line(1,0){#1}}
+}
+\newcommand{\logicDiagramVerticalLine}[3][1]{
+\put(#2,#3){\line(0,1){#1}}
+}
+\newcommand{\logicDiagramBrokenHorizontalLine}[3]{
+\put(#2.2,#3){\parbox{0.8\unitlength}{\vspace*{0.5\unitlength}\hfil #1\hfil}}
+\put(#2,#3){\line(1,0){0.2}}
+\put(#2.8,#3){\line(1,0){0.2}}
+}
+\newcommand{\logicDiagramBrokenVerticalLine}[3]{
+\put(#2,#3.2){\hspace*{-0.5\unitlength}\parbox{\unitlength}{\hfil #1\hfil}}
+\put(#2,#3){\line(0,1){0.2}}
+\put(#2,#3.8){\line(0,1){0.2}}
+}
+\newcommand{\logicDiagramText}[3]{
+\put(#2,#3){\parbox[bottom][\unitlength][c]{\unitlength}{\vfil\vbox{\hfil #1\hfil}\vfil\rule{0pt}{0pt}}}
+}
+
+\newcommand{\monoliteralDiagram}[4][1.5em]{\begin{logicDiagram}{#1}{2}{1}
+\logicDiagramHorizontalLine[2]{0}{0}
+\logicDiagramHorizontalLine[2]{0}{1}
+\logicDiagramVerticalLine{0}{0}
+\ifx&#2& \else\logicDiagramText{#2}{0}{0}\fi
+\ifx&#3& \logicDiagramVerticalLine{1}{0}\else\logicDiagramBrokenVerticalLine{#3}{1}{0}\fi
+\ifx&#4& \relax\else\logicDiagramText{#4}{1}{0}\fi
+\logicDiagramVerticalLine{2}{0}
+\end{logicDiagram}}
+
+\newcommand{\monoliteralVerticalDiagram}[4][1.5em]{\begin{logicDiagram}{#1}{1}{2}
+\logicDiagramVerticalLine[2]{0}{0}
+\logicDiagramVerticalLine[2]{1}{0}
+\logicDiagramHorizontalLine{0}{2}
+\ifx&#2& \else\logicDiagramText{#2}{0}{1}\fi
+\ifx&#3& \logicDiagramHorizontalLine{0}{1}\else\logicDiagramBrokenHorizontalLine{#3}{0}{1}\fi
+\ifx&#4& \else\logicDiagramText{#4}{0}{0}\fi
+\logicDiagramHorizontalLine{0}{0}
+\end{logicDiagram}}
+
+\newcommand{\monoliteralLabeledDiagram}[1][1.5em]{\begin{logicDiagram}{#1}{2}{1}
+\logicDiagramHorizontalLine[2]{0}{1}
+\logicDiagramVerticalLine{0}{0}
+\logicDiagramBrokenVerticalLine{$x$}{1}{0}
+\logicDiagramVerticalLine{2}{0}
+\logicDiagramBrokenHorizontalLine{$y$}{0}{0}
+\logicDiagramBrokenHorizontalLine{$y'$}{1}{0}
+\end{logicDiagram}}
+
+\newcommand{\monoliteralVerticalLabeledDiagram}[1][1.5em]{\begin{logicDiagram}{#1}{1}{2}
+\logicDiagramVerticalLine[2]{0}{0}
+\logicDiagramHorizontalLine{0}{2}
+\logicDiagramBrokenHorizontalLine{$y$}{0}{1}
+\logicDiagramHorizontalLine{0}{0}
+\logicDiagramBrokenVerticalLine{$x$}{1}{1}
+\logicDiagramBrokenVerticalLine{$x'$}{1}{0}
+\end{logicDiagram}}
+
+\newcommand{\monoliteralVerticalRightLabeledDiagram}[1][1.5em]{\begin{logicDiagram}{#1}{1}{2}
+\logicDiagramVerticalLine[2]{1}{0}
+\logicDiagramHorizontalLine{0}{2}
+\logicDiagramBrokenHorizontalLine{$y'$}{0}{1}
+\logicDiagramHorizontalLine{0}{0}
+\logicDiagramBrokenVerticalLine{$x$}{0}{1}
+\logicDiagramBrokenVerticalLine{$x'$}{0}{0}
+\end{logicDiagram}}
+
+\newcommand{\biliteralDiagramxy}[1]{\logicDiagramText{#1}{0}{1}}
+\newcommand{\biliteralDiagramxY}[1]{\logicDiagramText{#1}{1}{1}}
+\newcommand{\biliteralDiagramXy}[1]{\logicDiagramText{#1}{0}{0}}
+\newcommand{\biliteralDiagramXY}[1]{\logicDiagramText{#1}{1}{0}}
+\newcommand{\biliteralDiagramx}[1]{\logicDiagramBrokenVerticalLine{#1}{1}{1}\def\lx{\relax}}
+\newcommand{\biliteralDiagramX}[1]{\logicDiagramBrokenVerticalLine{#1}{1}{0}\def\lX{\relax}}
+\newcommand{\biliteralDiagramy}[1]{\logicDiagramBrokenHorizontalLine{#1}{0}{1}\def\ly{\relax}}
+\newcommand{\biliteralDiagramY}[1]{\logicDiagramBrokenHorizontalLine{#1}{1}{1}\def\lY{\relax}}
+
+\newenvironment{biliteralDiagram}[1][1.5em]{
+\begingroup
+\let\xy=\biliteralDiagramxy
+\let\xY=\biliteralDiagramxY
+\let\Xy=\biliteralDiagramXy
+\let\XY=\biliteralDiagramXY
+\let\x=\biliteralDiagramx
+\let\X=\biliteralDiagramX
+\let\y=\biliteralDiagramy
+\let\Y=\biliteralDiagramY
+\def\lx{\logicDiagramVerticalLine{1}{1}}
+\def\lX{\logicDiagramVerticalLine{1}{0}}
+\def\ly{\logicDiagramHorizontalLine{0}{1}}
+\def\lY{\logicDiagramHorizontalLine{1}{1}}
+\begin{logicDiagram}{#1}{2}{2}
+\logicDiagramHorizontalLine[2]{0}{0}
+\logicDiagramHorizontalLine[2]{0}{2}
+\logicDiagramVerticalLine[2]{0}{0}
+\logicDiagramVerticalLine[2]{2}{0}
+}{
+\lx
+\lX
+\ly
+\lY
+\end{logicDiagram}
+\endgroup
+}
+
+\newcommand{\biliteralLabeledDiagram}[1][1.5em]{\begin{biliteralDiagram}[#1]
+\x{$x$}\X{$x'$}
+\y{$y$}\Y{$y'$}
+\end{biliteralDiagram}}
+
+\newcommand{\triliteralDiagramxym}[1]{\logicDiagramText{#1}{1}{2}}
+\newcommand{\triliteralDiagramxyM}[1]{\logicDiagramText{#1}{0}{3}}
+\newcommand{\triliteralDiagramxYm}[1]{\logicDiagramText{#1}{2}{2}}
+\newcommand{\triliteralDiagramxYM}[1]{\logicDiagramText{#1}{3}{3}}
+\newcommand{\triliteralDiagramXym}[1]{\logicDiagramText{#1}{1}{1}}
+\newcommand{\triliteralDiagramXyM}[1]{\logicDiagramText{#1}{0}{0}}
+\newcommand{\triliteralDiagramXYm}[1]{\logicDiagramText{#1}{2}{1}}
+\newcommand{\triliteralDiagramXYM}[1]{\logicDiagramText{#1}{3}{0}}
+\newcommand{\triliteralDiagramxM}[1]{\logicDiagramBrokenVerticalLine{#1}{2}{3}\def\lxM{\relax}}
+\newcommand{\triliteralDiagramxm}[1]{\logicDiagramBrokenVerticalLine{#1}{2}{2}\def\lxm{\relax}}
+\newcommand{\triliteralDiagramXm}[1]{\logicDiagramBrokenVerticalLine{#1}{2}{1}\def\lXm{\relax}}
+\newcommand{\triliteralDiagramXM}[1]{\logicDiagramBrokenVerticalLine{#1}{2}{0}\def\lXM{\relax}}
+\newcommand{\triliteralDiagramyM}[1]{\logicDiagramBrokenHorizontalLine{#1}{0}{2}\def\lyM{\relax}}
+\newcommand{\triliteralDiagramym}[1]{\logicDiagramBrokenHorizontalLine{#1}{1}{2}\def\lym{\relax}}
+\newcommand{\triliteralDiagramYm}[1]{\logicDiagramBrokenHorizontalLine{#1}{2}{2}\def\lYm{\relax}}
+\newcommand{\triliteralDiagramYM}[1]{\logicDiagramBrokenHorizontalLine{#1}{3}{2}\def\lYM{\relax}}
+
+\newenvironment{triliteralDiagram}[1][1.5em]{
+\begingroup
+\let\xym=\triliteralDiagramxym
+\let\xyM=\triliteralDiagramxyM
+\let\xYm=\triliteralDiagramxYm
+\let\xYM=\triliteralDiagramxYM
+\let\Xym=\triliteralDiagramXym
+\let\XyM=\triliteralDiagramXyM
+\let\XYm=\triliteralDiagramXYm
+\let\XYM=\triliteralDiagramXYM
+\let\xm=\triliteralDiagramxm
+\let\xM=\triliteralDiagramxM
+\let\Xm=\triliteralDiagramXm
+\let\XM=\triliteralDiagramXM
+\let\ym=\triliteralDiagramym
+\let\yM=\triliteralDiagramyM
+\let\Ym=\triliteralDiagramYm
+\let\YM=\triliteralDiagramYM
+\begin{logicDiagram}{#1}{4}{4}
+\logicDiagramHorizontalLine[4]{0}{0}
+\logicDiagramHorizontalLine[4]{0}{4}
+\logicDiagramVerticalLine[4]{0}{0}
+\logicDiagramVerticalLine[4]{4}{0}
+\logicDiagramHorizontalLine[2]{1}{1}
+\logicDiagramHorizontalLine[2]{1}{3}
+\logicDiagramVerticalLine[2]{1}{1}
+\logicDiagramVerticalLine[2]{3}{1}
+\def\lxM{\logicDiagramVerticalLine{2}{3}}
+\def\lxm{\logicDiagramVerticalLine{2}{2}}
+\def\lXm{\logicDiagramVerticalLine{2}{1}}
+\def\lXM{\logicDiagramVerticalLine{2}{0}}
+\def\lyM{\logicDiagramHorizontalLine{0}{2}}
+\def\lym{\logicDiagramHorizontalLine{1}{2}}
+\def\lYm{\logicDiagramHorizontalLine{2}{2}}
+\def\lYM{\logicDiagramHorizontalLine{3}{2}}
+}{
+\lxM
+\lxm
+\lXm
+\lXM
+\lyM
+\lym
+\lYm
+\lYM
+\end{logicDiagram}
+\endgroup
+}
+\newenvironment{triliteralUpperDiagram}[1][1.5em]{
+\begingroup
+\let\xym=\triliteralDiagramxym
+\let\xyM=\triliteralDiagramxyM
+\let\xYm=\triliteralDiagramxYm
+\let\xYM=\triliteralDiagramxYM
+\let\xm=\triliteralDiagramxm
+\let\xM=\triliteralDiagramxM
+\let\ym=\triliteralDiagramym
+\let\yM=\triliteralDiagramyM
+\let\Ym=\triliteralDiagramYm
+\let\YM=\triliteralDiagramYM
+\begin{logicDiagram}[(0,2)]{#1}{4}{2}
+\logicDiagramHorizontalLine[4]{0}{4}
+\logicDiagramVerticalLine[2]{0}{2}
+\logicDiagramVerticalLine[2]{4}{2}
+\logicDiagramHorizontalLine[2]{1}{3}
+\logicDiagramVerticalLine{1}{2}
+\logicDiagramVerticalLine{3}{2}
+\def\lxM{\logicDiagramVerticalLine{2}{3}}
+\def\lxm{\logicDiagramVerticalLine{2}{2}}
+\def\lyM{\logicDiagramHorizontalLine{0}{2}}
+\def\lym{\logicDiagramHorizontalLine{1}{2}}
+\def\lYm{\logicDiagramHorizontalLine{2}{2}}
+\def\lYM{\logicDiagramHorizontalLine{3}{2}}
+}{
+\lxM
+\lxm
+\lyM
+\lym
+\lYm
+\lYM
+\end{logicDiagram}
+\endgroup
+}
+\newenvironment{triliteralLowerDiagram}[1][1.5em]{
+\begingroup
+\let\Xym=\triliteralDiagramXym
+\let\XyM=\triliteralDiagramXyM
+\let\XYm=\triliteralDiagramXYm
+\let\XYM=\triliteralDiagramXYM
+\let\Xm=\triliteralDiagramXm
+\let\XM=\triliteralDiagramXM
+\let\ym=\triliteralDiagramym
+\let\yM=\triliteralDiagramyM
+\let\Ym=\triliteralDiagramYm
+\let\YM=\triliteralDiagramYM
+\begin{logicDiagram}{#1}{4}{2}
+\logicDiagramHorizontalLine[4]{0}{0}
+\logicDiagramVerticalLine[2]{0}{0}
+\logicDiagramVerticalLine[2]{4}{0}
+\logicDiagramHorizontalLine[2]{1}{1}
+\logicDiagramVerticalLine{1}{1}
+\logicDiagramVerticalLine{3}{1}
+\def\lXm{\logicDiagramVerticalLine{2}{1}}
+\def\lXM{\logicDiagramVerticalLine{2}{0}}
+\def\lyM{\logicDiagramHorizontalLine{0}{2}}
+\def\lym{\logicDiagramHorizontalLine{1}{2}}
+\def\lYm{\logicDiagramHorizontalLine{2}{2}}
+\def\lYM{\logicDiagramHorizontalLine{3}{2}}
+}{
+\lXm
+\lXM
+\lyM
+\lym
+\lYm
+\lYM
+\end{logicDiagram}
+\endgroup
+}
+\newenvironment{triliteralRightDiagram}[1][1.5em]{
+\begingroup
+\let\xYm=\triliteralDiagramxYm
+\let\xYM=\triliteralDiagramxYM
+\let\XYm=\triliteralDiagramXYm
+\let\XYM=\triliteralDiagramXYM
+\let\xm=\triliteralDiagramxm
+\let\xM=\triliteralDiagramxM
+\let\Xm=\triliteralDiagramXm
+\let\XM=\triliteralDiagramXM
+\let\Ym=\triliteralDiagramYm
+\let\YM=\triliteralDiagramYM
+\begin{logicDiagram}[(2,0)]{#1}{2}{4}
+\logicDiagramHorizontalLine[2]{2}{0}
+\logicDiagramHorizontalLine[2]{2}{4}
+\logicDiagramVerticalLine[4]{4}{0}
+\logicDiagramHorizontalLine{2}{1}
+\logicDiagramHorizontalLine{2}{3}
+\logicDiagramVerticalLine[2]{3}{1}
+\def\lxM{\logicDiagramVerticalLine{2}{3}}
+\def\lxm{\logicDiagramVerticalLine{2}{2}}
+\def\lXm{\logicDiagramVerticalLine{2}{1}}
+\def\lXM{\logicDiagramVerticalLine{2}{0}}
+\def\lYm{\logicDiagramHorizontalLine{2}{2}}
+\def\lYM{\logicDiagramHorizontalLine{3}{2}}
+}{
+\lxM
+\lxm
+\lXm
+\lXM
+\lYm
+\lYM
+\end{logicDiagram}
+\endgroup
+}
+
+\newcommand{\triliteralLabeledDiagram}[1][1.5em]{\begin{logicDiagram}{#1}{7}{7}
+\logicDiagramHorizontalLine[7]{0}{0}
+\logicDiagramHorizontalLine[7]{0}{7}
+\logicDiagramVerticalLine[7]{0}{0}
+\logicDiagramVerticalLine[7]{7}{0}
+\logicDiagramHorizontalLine{0}{3.5}
+\logicDiagramBrokenHorizontalLine{$y$}{1}{3.5}
+\logicDiagramHorizontalLine{2}{3.5}
+\logicDiagramBrokenHorizontalLine{$m$}{3}{3.5}
+\logicDiagramHorizontalLine{4}{3.5}
+\logicDiagramBrokenHorizontalLine{$y'$}{5}{3.5}
+\logicDiagramHorizontalLine{6}{3.5}
+\logicDiagramVerticalLine{3.5}{6}
+\logicDiagramBrokenVerticalLine{$x$}{3.5}{5}
+\logicDiagramVerticalLine{3.5}{4}
+\logicDiagramBrokenVerticalLine{}{3.5}{3}
+\logicDiagramVerticalLine{3.5}{2}
+\logicDiagramBrokenVerticalLine{$x'$}{3.5}{1}
+\logicDiagramVerticalLine{3.5}{0}
+\logicDiagramHorizontalLine[1.5]{1.5}{5.5}
+\logicDiagramHorizontalLine[1.5]{4}{5.5}
+\logicDiagramHorizontalLine[1.5]{1.5}{1.5}
+\logicDiagramHorizontalLine[1.5]{4}{1.5}
+\logicDiagramVerticalLine[1.5]{1.5}{1.5}
+\logicDiagramVerticalLine[1.5]{1.5}{4}
+\logicDiagramVerticalLine[1.5]{5.5}{1.5}
+\logicDiagramVerticalLine[1.5]{5.5}{4}
+\end{logicDiagram}}
+% \begin{document}
+% \begin{logicDiagram}{1em}{2}{2}
+% \logicDiagramHorizontalLine[2]{0}{0}
+% \logicDiagramBrokenHorizontalLine{y}{0}{1}
+% \logicDiagramHorizontalLine{1}{1}
+% \logicDiagramHorizontalLine[2]{0}{2}
+% \logicDiagramVerticalLine[2]{0}{0}
+% \logicDiagramVerticalLine{1}{0}
+% \logicDiagramBrokenVerticalLine{x}{1}{1}
+% \logicDiagramVerticalLine[2]{2}{0}
+% \end{logicDiagram}
+% 
+% \monoliteralDiagram{}{a}{y}
+% 
+% \begin{biliteralDiagram}
+% \xy{1}\Xy{2}\xY{3}\XY{4}
+% \x{x}
+% \end{biliteralDiagram}
+% 
+% \begin{triliteralDiagram}
+% \xyM{1}\xYM{2}
+% \xym{3}\xYm{4}
+% \Xym{5}\XYm{6}
+% \XyM{7}\XYM{8}
+% \xM{x}\XM{x'}
+% \yM{y}\YM{y'}
+% \end{triliteralDiagram}
+% 
+% \end{document}

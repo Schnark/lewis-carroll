@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>To Find the Day of the Week for Any Given Date</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#a04">
+<link rel="icon" href="../../res/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="../../res/favicon.svg" sizes="any" type="image/svg+xml">
+<link rel="stylesheet" href="../../res/main.css">
+<script src="../../res/main.js" defer></script>
+</head><body>
+<header>
+<h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
+<h2>To Find the Day of the Week for Any Given Date</h2>
+<p>Source: Nature, March 31, 1887</p></header>
+<article>
+
+<p>Having hit upon the following method of mentally computing the day of the week for any given date, I send it you in the hope that it may interest some of your readers. I am not a rapid computer myself, and as I find my average time for doing any such question is about 20 seconds, I have little doubt that a rapid computer would not need 15.</p>
+
+<p>Take the given date in 4 portions, viz. the number of centuries, the number of years over, the month, the day of the month.</p>
+
+<p>Compute the following 4 items, adding each, when found, to the total of the previous items. When an item or total exceeds 7, divide by 7, and keep the remainder only.</p>
+
+<p><i>The Century-Item.</i>—For Old Style (which ended September 2, 1752) subtract from 18. For New Style (which began September 14) divide by 4, take overplus from 3, multiply remainder by 2.</p>
+
+<p><i>The Year-Item.</i>—Add together the number of dozens, the overplus, and the number of 4’s in the overplus.</p>
+
+<p><i>The Month-Item.</i>—If it begins or ends with a vowel, subtract the number, denoting its place in the year, from 10. This, plus its number of days, gives the item for the following month. The item for January is “0”; for February or March (the 3rd month), “3”; for December (the 12th month), “12.”</p>
+
+<p><i>The Day-Item</i> is the day of the month.</p>
+
+<p>The total, thus reached, must be corrected, by deducting “1” (first adding 7, if the total be “0”), if the date be January or February in a Leap Year: remembering that every year, divisible by 4, is a Leap Year, excepting only the century-years, in New Style, when the number of centuries in <i>not</i> so divisible (<i>e.&thinsp;g.</i> 1800).</p>
+
+<p>The final result gives the day of the week, “0” meaning Sunday, “1” Monday, and so on.</p>
+
+<h3>Examples</h3>
+<h4>1783, <i>September</i> 18</h4>
+
+<p>17, divided by 4, leaves “1” over; 1 from 3 gives “2”; twice 2 is “4.”</p>
+
+<p>83 is 6 dozen and 11, giving 17; plus 2 gives 19, <i>i.&thinsp;e.</i> (diving by 7) “5.” Total 9, <i>i.&thinsp;e.</i> “2.”</p>
+
+<p>The item for August is “8 from 10,” <i>i.&thinsp;e.</i> “2”; so, for September, it is “2 plus 3,” <i>i.&thinsp;e.</i> “5.” Total 7, <i>i.&thinsp;e.</i> “0,” which goes out.</p>
+
+<p>18 gives “4.” Answer, “<i>Thursday.</i>”</p>
+
+<h4>1676, <i>February</i> 23</h4>
+
+<p>16 from 18 gives “2.”</p>
+
+<p>76 is 6 dozen and 4, giving 10; plus 1 gives 11, <i>i.&thinsp;e.</i> “4.” Total “6.”</p>
+
+<p>The item for February is “3.” Total 9, <i>i.&thinsp;e.</i> “2.”</p>
+
+<p>23 gives “2.” Total “4.”</p>
+
+<p>Correction for Leap Year gives “3.” Answer, “<i>Wednesday.</i>”</p>
+
+<div class="signature"><p>Lewis Carroll</p></div>
+</article>
+<footer>
+<nav><ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../about/introduction.html">Introduction</a></li>
+<li><a href="../about/contents-by-source.html">Contents by Source</a></li>
+<li><a href="../about/contents-by-topic.html">Contents by Topic</a></li>
+<li><a href="../about/copyright.html">Copyright</a></li>
+</ul></nav>
+</footer>
+</body></html>

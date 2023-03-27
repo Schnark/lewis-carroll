@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Note on Question 7695</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#a04">
+<link rel="icon" href="../../res/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="../../res/favicon.svg" sizes="any" type="image/svg+xml">
+<link rel="stylesheet" href="../../res/main.css">
+<script src="../../res/main.js" defer></script>
+</head><body>
+<header>
+<h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
+<h2>Note on Question 7695</h2>
+<p>Source: Mathematical Questions and Solutions, from the “Educational Times”, XLIII, 1885; shorter version also in Educational Times, May 1885</p>
+
+<p>The question this refers to is</p>
+
+<p>(By J. O’Regan.)—Two persons play for a stake, each throwing two dice. They throw in turn, A commencing. A wins if he throws 6, B if he throws 7: the game ceasing as soon as either event happens. Show that A’s chance is to B’s as 30 to 31.</p>
+
+<p>MQS XL, 1885, <a href="https://archive.org/details/mathematicalque05unkngoog/page/n270">https://archive.org/details/mathematicalque05unkngoog/page/n270</a></p>
+
+<p>The solution by D. Biddle, W. J. Greenstreet, and others correctly states that “[t]he probability that B will have a throw after A is […] <math><mfrac><mn>31</mn><mn>36</mn></mfrac></math>; but that A will throw again after B, only <math><mfrac><mn>30</mn><mn>36</mn></mfrac></math>”, but wrongly concludes the result from that by simply dividing the two chances.
+</p><nav><ol>
+<li>Controversy on Infinitesimals</li>
+<li class="next"><a href="infinitesimal-or-zero.html">Infinitesimal or Zero?</a></li>
+</ol></nav>
+</header>
+<article>
+
+<p class="subtitle">by C. L. Dodgson, M.A.</p>
+
+<p>The solution given to this question on p.&nbsp;75 of Vol.&nbsp;42, is one of the most curious instances I have met with of the pitfalls to be found in Mathematics: the answer is right, but the method of solution, beautifully simple as it looks, is entirely wrong.</p>
+
+<p>This can be most easily demonstrated by a <i>reductio ad absurdum</i>. Let the winning throw, for A and B alike, be 6. Then, by this method of solution, their chances are equal, since “the probability that B will have a throw after A is <math><mfrac><mn>31</mn><mn>36</mn></mfrac></math>”; which is also the probability “that A will throw again after B.” Yet it is obvious that, as A begins, his “expectation” is better than B’s.</p>
+
+<p>The true solution will be best given, first, in the general form; and the formula, so obtained, can then be applied to the particular case.</p>
+
+<p>Let A’s chance of making his winning throw, each time he throws, be <var>k</var>; and similarly let B’s chance be <var>l</var>.</p>
+
+<p>Then A’s chance of winning, in his first throw, is <var>k</var>; in his second, <math><mrow><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo>.</mo><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>l</mi><mo stretchy="false">)</mo></mrow><mo>.</mo><mi>k</mi></mrow></math>; in his third, <math><mrow><msup><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mn>2</mn></msup><mo>.</mo><msup><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>l</mi><mo stretchy="false">)</mo></mrow><mn>2</mn></msup><mo>.</mo><mi>k</mi></mrow></math>; and so on for ever. Hence the limit, to which his “expectation” approaches, is the limit of
+<math display="block"><mrow><mi>k</mi><mo>.</mo><mrow><mo stretchy="false">[</mo><mn>1</mn><mo>+</mo><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo>.</mo><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>l</mi><mo stretchy="false">)</mo></mrow><mo>+</mo><msup><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mn>2</mn></msup><mo>.</mo><msup><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>l</mi><mo stretchy="false">)</mo></mrow><mn>2</mn></msup><mo>+</mo><mtext>&amp;c.</mtext><mo stretchy="false">]</mo></mrow><mtext>;</mtext></mrow></math>
+<math display="block"><mtext><i>i.&thinsp;e.</i>,&nbsp;</mtext><mrow><mi>k</mi><mo>.</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>−</mo><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo>.</mo><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>l</mi><mo stretchy="false">)</mo></mrow></mrow></mfrac><mtext>; <i>i.&thinsp;e.</i>,&nbsp;</mtext><mfrac><mi>k</mi><mrow><mi>k</mi><mo>+</mo><mi>l</mi><mo>−</mo><mi>k</mi><mi>l</mi></mrow></mfrac><mtext>.</mtext></math></p>
+
+<p>Similarly, B’s chance of winning, in his first throw, is <math><mrow><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo>.</mo><mi>l</mi></mrow></math>; in his second, <math><mrow><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo>.</mo><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>l</mi><mo stretchy="false">)</mo></mrow><mo>.</mo><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo>.</mo><mi>l</mi></mrow></math>; in his third, <math><mrow><msup><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mn>2</mn></msup><mo>.</mo><msup><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>l</mi><mo stretchy="false">)</mo></mrow><mn>2</mn></msup><mo>.</mo><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo>.</mo><mi>l</mi></mrow></math>; and so on for ever. Hence his “expectation” approaches the limit of
+<math display="block"><mrow><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo>.</mo><mi>l</mi><mo>.</mo><mrow><mo stretchy="false">[</mo><mn>1</mn><mo>+</mo><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo>.</mo><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>l</mi><mo stretchy="false">)</mo></mrow><mo>+</mo><msup><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mn>2</mn></msup><mo>.</mo><msup><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>l</mi><mo stretchy="false">)</mo></mrow><mn>2</mn></msup><mo>+</mo><mtext>&amp;c.</mtext><mo stretchy="false">]</mo></mrow></mrow><mtext>; <i>i.&thinsp;e.</i>&nbsp;</mtext><mfrac><mrow><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo>.</mo><mi>l</mi></mrow><mrow><mi>k</mi><mo>+</mo><mi>l</mi><mo>−</mo><mi>k</mi><mi>l</mi></mrow></mfrac></math><mtext>.</mtext></math></p>
+
+<p>Hence the ratio, of A’s expectation to B’s, is approximately <math><mfrac><mi>k</mi><mrow><mrow><mo stretchy="false">(</mo><mn>1</mn><mo>−</mo><mi>k</mi><mo stretchy="false">)</mo></mrow><mo>.</mo><mi>l</mi></mrow></mfrac></math>.</p>
+
+<p>In the given case, <math><mrow><mi>k</mi><mo>=</mo><mfrac><mn>5</mn><mn>36</mn></mfrac></mrow></math>, <math><mrow><mi>l</mi><mo>=</mo><mfrac><mn>6</mn><mn>36</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math>; hence the required ratio <math><mrow><mo>=</mo><mfrac><mn>30</mn><mn>31</mn></mfrac></mrow></math>. By a mere accident this happens to be the same as <math><mfrac><mrow><mn>1</mn><mo>−</mo><mi>l</mi></mrow><mrow><mn>1</mn><mo>−</mo><mi>k</mi></mrow></mfrac></math>, which accident has misled all the solvers into adopting this as a true formula.</p>
+
+<p>In my “<i>reductio ad absurdum</i>” case, <math><mrow><mi>k</mi><mo>=</mo><mi>l</mi><mo>=</mo><mfrac><mn>5</mn><mn>36</mn></mfrac></mrow></math>; hence the required ratio <math><mrow><mo>=</mo><mfrac><mn>36</mn><mn>31</mn></mfrac></mrow></math>.</p>
+
+<p>It is worth noting that the ratio, <math><mfrac><mn>30</mn><mn>31</mn></mfrac></math>, is only <i>approximative</i>, the expectations of A and B being just <i>less</i> than the fractions <math><mfrac><mn>30</mn><mn>61</mn></mfrac></math>, <math><mfrac><mn>31</mn><mn>61</mn></mfrac></math>. If this were not so, the sum total of their expectations would equal 1; <i>i.&thinsp;e.</i>, it would be absolutely certain that one or other of them would win—whereas there is clearly a chance, though an indefinite small one, that the game might go on for ever without either winning.</p>
+
+</article>
+<footer><p>A comment by Mr.&nbsp;Simmons follows, criticizing Carroll’s point of view in this last paragraph.</p>
+<nav><ol>
+<li>Controversy on Infinitesimals</li>
+<li class="next"><a href="infinitesimal-or-zero.html">Infinitesimal or Zero?</a></li>
+</ol></nav>
+<nav><ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../about/introduction.html">Introduction</a></li>
+<li><a href="../about/contents-by-source.html">Contents by Source</a></li>
+<li><a href="../about/contents-by-topic.html">Contents by Topic</a></li>
+<li><a href="../about/copyright.html">Copyright</a></li>
+</ul></nav>
+</footer>
+</body></html>

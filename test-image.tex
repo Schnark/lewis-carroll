@@ -1,0 +1,100 @@
+\documentclass[a4paper]{report}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{floatflt}%or wrapfig
+
+\usepackage{lipsum}
+
+\newlength{\imageWidth}
+\setlength{\imageWidth}{\the\textwidth}
+\newcounter{floattype}
+\newenvironment{flimage}[2][\the\textwidth]{%
+\setlength{\imageWidth}{#1}%
+\setcounter{floattype}{0}%
+\if #2c\setcounter{floattype}{1}\fi%
+\if #2l\setcounter{floattype}{2}\fi%
+\if #2r\setcounter{floattype}{2}\fi%
+\if #2f\setcounter{floattype}{3}\fi%
+\ifcase\value{floattype}%
+\begin{figure}[#2]\or%
+\medskip\begin{center}\or%
+\begin{floatingfigure}[#2]{#1}\or%
+\begin{figure}[!htpb]\fi%
+}{\par
+\ifcase\value{floattype}%
+\end{figure}\or%
+\end{center}\medskip\or%
+\end{floatingfigure}\or%
+\end{figure}\fi%
+\setlength{\imageWidth}{\the\textwidth}%
+}
+\newcommand{\includeimage}[2][0pt]{%
+\noindent\includegraphics[width=\ifdim#1>0pt #1\else\the\imageWidth\fi]{#2}%
+%\noindent\framebox[\ifdim#1>0pt #1\else\the\imageWidth\fi]{Placeholder for \texttt{#2}}%
+}
+
+\usepackage{ifpdf}
+\ifpdf\else
+\DeclareGraphicsRule{.mps}{eps}{.mps}{}
+\DeclareGraphicsRule{*}{eps}{.bb}{}
+\fi
+\graphicspath{{images/}}
+
+\begin{document}
+\begin{flimage}[10em]{r}
+\includeimage{alice/02.jpg}
+
+Image caption
+\end{flimage}
+
+\lipsum[1-2]
+
+\begin{flimage}[10em]{l}
+\includeimage{other/lecturing.png}
+\end{flimage}
+
+\lipsum[3-4]
+
+\begin{flimage}[10em]{r}
+\includeimage{math/notes-euclid-01.mps}
+\end{flimage}
+
+\lipsum[5-7]
+
+\begin{flimage}[10em]{l}
+\includeimage{other/lecturing.png}
+\end{flimage}
+
+\parshape 12
+9em \dimexpr\textwidth-9em\relax
+9em \dimexpr\textwidth-9em\relax
+10em \dimexpr\textwidth-10em\relax
+9em \dimexpr\textwidth-9em\relax
+9em \dimexpr\textwidth-9em\relax
+8em \dimexpr\textwidth-8em\relax
+9em \dimexpr\textwidth-9em\relax
+9.5em \dimexpr\textwidth-9.5em\relax
+9em \dimexpr\textwidth-9em\relax
+8em \dimexpr\textwidth-8em\relax
+10em \dimexpr\textwidth-10em\relax
+8em \dimexpr\textwidth-8em\relax
+\lipsum[8-10]
+
+\begin{flimage}[10em]{r}
+\vspace{10pt}
+\includeimage{alice/02.jpg}
+
+Image caption
+\end{flimage}
+
+\parshape 6
+0em \dimexpr\textwidth\relax
+0em \dimexpr\textwidth-6em\relax
+0em \dimexpr\textwidth-8em\relax
+0em \dimexpr\textwidth-9em\relax
+0em \dimexpr\textwidth-10em\relax
+0em \dimexpr\textwidth-11em\relax
+\lipsum[11-12]
+\end{document}

@@ -1,0 +1,17 @@
+X: 1
+L: 1/4
+V: S1 clef=treble
+V: S2 clef=bass
+K: Eb
+M: C
+% 1
+[V: S1]  !mf![B,EB] | B G [B,3/2E3/2] [B,/D/] & [B,2E2] | (!>(!D !>)!C) z [B,C]|
+w: When mid- night mists are ~ creep- ing, And
+c A [B,G] [CF] & [C2F2] y y | !>(!(E2 !>)!D) [B,DB] & B,5/2 | !<(![CDFc] [DFB] [EGBe] !<)![A,EA] |
+w: all the land is ~ sleep- ing, A- ~ round me tread the
+!<(![B,EG] !<)![B,DF] [B,3/2E3/2B3/2] [B,/_D/=E/] | !>(!(F A) (G3/2 F/) & [A,2C2] [A,2B,2D2]| !>)!!fermata![G,3B,3E3] ||
+w: migh- ty dead, And slow- ly pass a- ~ ~ way.
+[V: S2]  [E,G,] | G,2 [G,,2E,2] | [A,,2E,2] [G,,2=E,2] |
+[F,,2C,2A,2] [G,,=E,] [A,,F,] | G,2 F, [B,,F,] & B,,5/2 | "_molto" [A,,A,] "_rall." [A,,A,] !pp![G,,G,] [C,E,] |
+[B,,E,] [A,,F,] [G,,3/2G,3/2] [G,,/G,/] | [A,,2F,2] [B,,,2B,,2] | !invertedfermata![E,,3E,3] ||
+% 2

@@ -1,0 +1,1 @@
+This is a LaTeX-to-HTML-converter. It is mainly intended to create the HTML version of complete-lewis-carroll.tex, but you can also use it for other files. You can test it on https://schnark.github.io/lewis-carroll/latex-to-html/index.html.

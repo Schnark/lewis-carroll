@@ -1,0 +1,71 @@
+%!PS
+%%BoundingBox: -4 -29 327 95 
+%%HiResBoundingBox: -3.52846 -28.59645 326.23419 94.95786 
+%%Creator: MetaPost 0.993
+%%CreationDate: 2021.12.09:1724
+%%Pages: 1
+%*Font: cmr10 9.96265 9.96265 27:8000003f
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor 0 0.5 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinejoin 10 setmiterlimit
+newpath 56.6929 85.03935 moveto
+0 0 lineto
+141.73225 0 lineto
+ closepath stroke
+newpath 85.04022 0 moveto
+82.20497 59.52728 lineto
+45.35449 68.03174 lineto
+ closepath stroke
+52.9569 88.03935 moveto
+(A) cmr10 9.96265 fshow
+-3.52846 -9.8078 moveto
+(B) cmr10 9.96265 fshow
+138.13461 -9.8078 moveto
+(C) cmr10 9.96265 fshow
+81.23503 -9.8078 moveto
+(D) cmr10 9.96265 fshow
+84.30496 61.62727 moveto
+(E) cmr10 9.96265 fshow
+36.75108 70.13173 moveto
+(F) cmr10 9.96265 fshow
+newpath 226.7716 85.03935 moveto
+170.0787 0 lineto
+311.81096 0 lineto
+ closepath stroke
+newpath 255.11893 0 moveto
+252.28368 59.52728 lineto
+215.4332 68.03174 lineto
+ closepath stroke
+newpath 235.27563 86.45633 moveto
+245.45149 86.45633 253.70065 78.20717 253.70065 68.03131 curveto
+253.70065 57.85545 245.45149 49.6063 235.27563 49.6063 curveto
+225.09978 49.6063 216.85062 57.85545 216.85062 68.03131 curveto
+216.85062 78.20717 225.09978 86.45633 235.27563 86.45633 curveto closepath
+ stroke
+newpath 212.59839 68.0313 moveto
+239.21237 68.0313 260.78726 46.4564 260.78726 19.84242 curveto
+260.78726 -6.77156 239.21237 -28.34645 212.59839 -28.34645 curveto
+185.9844 -28.34645 164.40952 -6.77156 164.40952 19.84242 curveto
+164.40952 46.4564 185.9844 68.0313 212.59839 68.0313 curveto closepath stroke
+newpath 283.46451 73.70096 moveto
+306.94748 73.70096 325.98419 54.66425 325.98419 31.18127 curveto
+325.98419 7.6983 306.94748 -11.33841 283.46451 -11.33841 curveto
+259.98154 -11.33841 240.94482 7.6983 240.94482 31.18127 curveto
+240.94482 54.66425 259.98154 73.70096 283.46451 73.70096 curveto closepath
+ stroke
+221.6519 88.03935 moveto
+(A') cmr10 9.96265 fshow
+165.16655 -9.9185 moveto
+(B') cmr10 9.96265 fshow
+306.82962 -9.9185 moveto
+(C') cmr10 9.96265 fshow
+249.93004 -9.9185 moveto
+(D') cmr10 9.96265 fshow
+254.38367 61.62727 moveto
+(E') cmr10 9.96265 fshow
+204.06238 70.13173 moveto
+(F') cmr10 9.96265 fshow
+showpage
+%%EOF

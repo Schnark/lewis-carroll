@@ -1,0 +1,160 @@
+/*
+.textrm
+.textsf
+*/
+.texttt {
+	font-family: Courier, monospace;
+}
+.tiny {
+	font-size: 0.6rem;
+}
+.scriptsize {
+	font-size: 0.75rem;
+}
+.footnotesize {
+	font-size: 0.8rem;
+}
+small {
+	font-size: 0.9rem;
+}
+.normalsize {
+	font-size: 1rem;
+}
+.large {
+	font-size: 1.15rem;
+}
+.Large {
+	font-size: 1.25rem;
+}
+.LARGE {
+	font-size: 1.3rem;
+}
+.huge {
+	font-size: 1.4rem;
+}
+.Huge {
+	font-size: 1.5rem;
+}
+
+/*This assumes that all elements have margin-bottom: 1em, and font-sizes are all the same
+That's not true, but good enough in most cases.*/
+.continue {
+	margin-top: -1em;
+}
+/*
+.indent
+.noindent
+*/
+
+.after-hfill,
+.after-dotfill,
+.after-hrulefill {
+	float: right;
+}
+
+hr.smallskip,
+hr.medskip,
+hr.bigskip {
+	border: none;
+	margin: 0;
+}
+hr.smallskip {
+	margin-top: 2em;
+}
+hr.medskip {
+	margin-top: 3em;
+}
+hr.bigskip {
+	margin-top: 4em;
+}
+
+/*aside {
+	float: right;
+	max-width: 10em;
+}*/
+.footnotes {
+	font-size: 80%;
+}
+/*
+.nonumber
+*/
+/*
+.quote
+.quotation
+.abstract
+*/
+.verse {
+	margin: 0 2em;
+}
+/*
+.flushleft
+*/
+.flushright {
+	text-align: right;
+}
+.center {
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 1em 0;
+}
+
+.c1 tr > :nth-child(1),
+.c2 tr > :nth-child(2),
+.c3 tr > :nth-child(3),
+.c4 tr > :nth-child(4),
+.c5 tr > :nth-child(5),
+.c6 tr > :nth-child(6),
+.c7 tr > :nth-child(7),
+.c8 tr > :nth-child(8),
+.c9 tr > :nth-child(9),
+.c10 tr > :nth-child(10) {
+	text-align: center;
+}
+
+.r1 tr > :nth-child(1),
+.r2 tr > :nth-child(2),
+.r3 tr > :nth-child(3),
+.r4 tr > :nth-child(4),
+.r5 tr > :nth-child(5),
+.r6 tr > :nth-child(6),
+.r7 tr > :nth-child(7),
+.r8 tr > :nth-child(8),
+.r9 tr > :nth-child(9),
+.r10 tr > :nth-child(10) {
+	text-align: right;
+}
+
+.b0 tr > :nth-child(1) {
+	border-left: solid thin;
+}
+.b1 tr > :nth-child(1),
+.b2 tr > :nth-child(2),
+.b3 tr > :nth-child(3),
+.b4 tr > :nth-child(4),
+.b5 tr > :nth-child(5),
+.b6 tr > :nth-child(6),
+.b7 tr > :nth-child(7),
+.b8 tr > :nth-child(8),
+.b9 tr > :nth-child(9),
+.b10 tr > :nth-child(10) {
+	border-right: solid thin;
+}
+
+.d0 tr > :nth-child(1) {
+	border-left: double medium;
+}
+.d1 tr > :nth-child(1),
+.d2 tr > :nth-child(2),
+.d3 tr > :nth-child(3),
+.d4 tr > :nth-child(4),
+.d5 tr > :nth-child(5),
+.d6 tr > :nth-child(6),
+.d7 tr > :nth-child(7),
+.d8 tr > :nth-child(8),
+.d9 tr > :nth-child(9),
+.d10 tr > :nth-child(10) {
+	border-right: double medium;
+}
