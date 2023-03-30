@@ -22,6 +22,12 @@ article {
 	max-width: 50em;
 	margin: auto;
 }
+@media (max-width: 35em) {
+	article {
+		padding: 0 1em;
+	}
+}
+
 a {
 	text-decoration: none;
 }
@@ -474,6 +480,11 @@ hr.bigskip {
 div.verse {
 	margin: 0 3em;
 }
+@media (max-width: 35em) {
+	div.verse {
+		margin: 0 1.5em;
+	}
+}
 
 /*Annotations*/
 .annotated-forced,
@@ -591,6 +602,11 @@ div.verse aside.wide {
 	}
 	div.verse aside {
 		margin-right: -3rem;
+	}
+}
+@media (max-width: 35em) {
+	div.verse aside {
+		margin-right: -1.5rem;
 	}
 }
 aside.toggle {
