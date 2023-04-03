@@ -62,6 +62,15 @@ function hideAnnotation () {
 	return id;
 }
 
+function getOffsetTop (el) {
+	var top = 0;
+	do {
+		top += el.offsetTop;
+		el = el.offsetParent;
+	} while (el.tagName !== 'BODY');
+	return top;
+}
+
 function showAnnotation (id, rel) {
 	var parent;
 	visibleAnnotationId = id;
@@ -86,9 +95,7 @@ function showAnnotation (id, rel) {
 		parent = parent.parentNode;
 	}
 	parent.parentNode.insertBefore(visibleAnnotation, parent);
-	if (rel.offsetParent.tagName === 'BODY') { //TODO calculate correct offset for other cases, too
-		visibleAnnotation.style.marginTop = (rel.offsetTop - visibleAnnotation.offsetTop + 9) + 'px';
-	}
+	visibleAnnotation.style.marginTop = (getOffsetTop(rel) - visibleAnnotation.offsetTop + 9) + 'px';
 }
 
 function toggleAnnotationFor (el) {
@@ -152,8 +159,16 @@ function showFootnote (id, x, y) {
 	hideFootnote();
 	currentFootnote = document.createElement('div');
 	currentFootnote.innerHTML = document.getElementById(id).innerHTML;
-	currentFootnote.style.left = x + 'px';
-	currentFootnote.style.top = y + 'px';
+	if (x >= 0) {
+		currentFootnote.style.left = x + 'px';
+	} else {
+		currentFootnote.style.right = (-x) + 'px';
+	}
+	if (y >= 0) {
+		currentFootnote.style.top = y + 'px';
+	} else {
+		currentFootnote.style.bottom = (-y) + 'px';
+	}
 	currentFootnote.className = 'footnote-popup';
 	currentFootnote.addEventListener('mouseenter', cancelHideFootnote);
 	currentFootnote.addEventListener('mouseleave', delayedHideFootnote);
@@ -184,14 +199,19 @@ function hideFootnote () {
 
 function onMouseenter (e) {
 	var id = e.target.getAttribute('href').slice(1);
-	//TODO better placement
-	showFootnote(id, e.clientX + 5, e.clientY + 5);
+	//TODO? placement based on size
+	showFootnote(
+		id,
+		e.clientX <= 0.7 * window.innerWidth ? e.clientX + 5 : -(window.innerWidth - e.clientX),
+		e.clientY <= 0.7 * window.innerHeight ? e.clientY + 5 : -(window.innerHeight - e.clientY)
+	);
 }
 
 for (i = 0; i < links.length; i++) {
 	if (links[i].getAttribute('href').slice(0, '#footnote-'.length) === '#footnote-') {
 		links[i].addEventListener('mouseenter', onMouseenter); //TODO delay?
 		links[i].addEventListener('mouseleave', delayedHideFootnote);
+		links[i].addEventListener('click', hideFootnote);
 	}
 }
 
