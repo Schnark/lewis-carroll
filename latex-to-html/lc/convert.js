@@ -794,6 +794,7 @@ function finalizeHtml (html, page) {
 		//TODO
 		//'<meta name="color-scheme" content="light dark">',
 		'<meta name="theme-color" content="#a04">',
+		html.indexOf('<a href="https://') > -1 ? '<meta name="referrer" content="no-referrer-when-downgrade">' : '',
 		'<link rel="icon" href="' + res + 'favicon-32.png" sizes="32x32" type="image/png">',
 		'<link rel="icon" href="' + res + 'favicon.svg" sizes="any" type="image/svg+xml">',
 		'<link rel="stylesheet" href="' + res + 'main.css">',
@@ -805,7 +806,9 @@ function finalizeHtml (html, page) {
 		getFooterNav(page),
 		'</footer>',
 		'</body></html>'
-	].join('\n');
+	].filter(function (line) {
+		return line;
+	}).join('\n');
 }
 
 function convert (latex) {
