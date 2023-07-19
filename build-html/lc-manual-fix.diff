@@ -1,6 +1,6 @@
 diff -ru a/aaiw/content.html b/aaiw/content.html
---- a/aaiw/content.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/aaiw/content.html	2023-07-05 14:40:07.000000000 +0200
+--- a/aaiw/content.html	2023-07-17 16:21:26.000000000 +0200
++++ b/aaiw/content.html	2023-07-17 16:26:02.000000000 +0200
 @@ -16,11 +16,10 @@
  <li class="prev"><a href="../poems/christmas-greetings.html">Christmas-Greetings</a></li>
  <li>Alice’s Adventures in Wonderland</li>
@@ -82,8 +82,8 @@ diff -ru a/aaiw/content.html b/aaiw/content.html
  <footer>
  <nav><ol>
 diff -ru a/aaug/content.html b/aaug/content.html
---- a/aaug/content.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/aaug/content.html	2023-07-05 14:40:07.000000000 +0200
+--- a/aaug/content.html	2023-07-17 16:21:26.000000000 +0200
++++ b/aaug/content.html	2023-07-17 16:26:02.000000000 +0200
 @@ -17,11 +17,8 @@
  <li>Alice’s Adventures under Ground</li>
  <li class="next"><a href="../texts/an-easter-greeting.html">An Easter Greeting</a></li>
@@ -110,8 +110,8 @@ diff -ru a/aaug/content.html b/aaug/content.html
  
  <p>“You are not attending!” said the mouse to Alice severely, “what are you thinking of?”</p>
 diff -ru a/aaug/preface.html b/aaug/preface.html
---- a/aaug/preface.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/aaug/preface.html	2023-07-05 14:40:07.000000000 +0200
+--- a/aaug/preface.html	2023-07-17 16:21:26.000000000 +0200
++++ b/aaug/preface.html	2023-07-17 16:26:02.000000000 +0200
 @@ -19,11 +19,11 @@
  </header>
  <article>
@@ -136,8 +136,8 @@ diff -ru a/aaug/preface.html b/aaug/preface.html
  <p>P.P.S.—The thought, so prettily expressed by the little boy, is also to be found in Longfellow’s “Hiawatha,” where he appeals to those who believe
  </p><div class="continue"><div class="verse">
 diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
---- a/about/contents-by-source.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/about/contents-by-source.html	2023-07-05 14:40:07.000000000 +0200
+--- a/about/contents-by-source.html	2023-07-17 16:21:26.000000000 +0200
++++ b/about/contents-by-source.html	2023-07-17 16:26:02.000000000 +0200
 @@ -12,9 +12,9 @@
  </head><body>
  <header>
@@ -993,8 +993,8 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <!--\item \textit{Rare, Uncollected, Unpublished, \& Nonexistent Verse of Lewis Carroll} edited by \textsc{August A. Imholtz, Jr.}\ and \textsc{Edward Wakeling} (2018, detailed list of contents at \url{http://www.isfdb.org/cgi-bin/pl.cgi?668434})%TODO read--></li>
  </ul>
 diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
---- a/about/contents-by-topic.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/about/contents-by-topic.html	2023-07-05 14:40:07.000000000 +0200
+--- a/about/contents-by-topic.html	2023-07-17 16:21:26.000000000 +0200
++++ b/about/contents-by-topic.html	2023-07-17 16:26:02.000000000 +0200
 @@ -11,54 +11,21 @@
  </head><body>
  <header>
@@ -1549,8 +1549,8 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <li><a href="../magazines/nineteenth-century.html">To the Editor of the Nineteenth Century</a></li>
  <li><a href="../texts/cautions-to-readers.html">Cautions to Readers</a></li>
 diff -ru a/about/copyright.html b/about/copyright.html
---- a/about/copyright.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/about/copyright.html	2023-07-05 14:40:07.000000000 +0200
+--- a/about/copyright.html	2023-07-17 16:21:26.000000000 +0200
++++ b/about/copyright.html	2023-07-17 16:26:02.000000000 +0200
 @@ -12,9 +12,9 @@
  </head><body>
  <header>
@@ -1563,8 +1563,8 @@ diff -ru a/about/copyright.html b/about/copyright.html
  
  <p>The only exception to this is with originally unpublished material. These texts may still be protected by copyright, depending on the date of publication and the laws you want or have to follow. For this reason I state the date of the earliest publication for these items, or at least the earliest publication I know of, even if I took it from some later source. Since I am German, I will apply German laws, which grant such texts a protection for 25&nbsp;years after the first publication. I also assume that most printed works have been published by Carroll himself, especially those listed by Collingwood in his bibliography, but since even rare works where it is questionable whether they were published originally have been reprinted quite early, these should all have been published long enough ago anyway.</p>
 diff -ru a/about/introduction.html b/about/introduction.html
---- a/about/introduction.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/about/introduction.html	2023-07-05 14:40:07.000000000 +0200
+--- a/about/introduction.html	2023-07-17 16:21:26.000000000 +0200
++++ b/about/introduction.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,9 +12,9 @@
  </head><body>
  <header>
@@ -1736,8 +1736,8 @@ diff -ru a/about/introduction.html b/about/introduction.html
  <tr><td>1868</td><td>Father died (June 21)</td></tr>
  <tr><td></td><td>Moved his family to Guildford (September)</td></tr>
 diff -ru a/euclid-and-his-modern-rivals/content.html b/euclid-and-his-modern-rivals/content.html
---- a/euclid-and-his-modern-rivals/content.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/euclid-and-his-modern-rivals/content.html	2023-07-05 14:40:07.000000000 +0200
+--- a/euclid-and-his-modern-rivals/content.html	2023-07-17 16:21:26.000000000 +0200
++++ b/euclid-and-his-modern-rivals/content.html	2023-07-17 16:26:03.000000000 +0200
 @@ -260,8 +260,8 @@
  
  <p>The following may be taken as a fairly complete catalogue of the books to be examined:—</p>
@@ -2187,8 +2187,8 @@ diff -ru a/euclid-and-his-modern-rivals/content.html b/euclid-and-his-modern-riv
  <span style="display: inline-block; width: 2em;"></span> As I foretold you, were all spirits, and<br>
  <span style="display: inline-block; width: 2em;"></span> Are melted into air, into thin air!’</span></p>
 diff -ru a/game-of-logic/content.html b/game-of-logic/content.html
---- a/game-of-logic/content.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/game-of-logic/content.html	2023-07-05 14:40:07.000000000 +0200
+--- a/game-of-logic/content.html	2023-07-17 16:21:26.000000000 +0200
++++ b/game-of-logic/content.html	2023-07-17 16:26:03.000000000 +0200
 @@ -42,8 +42,8 @@
  <text x="163.2" y="91.2" style="font-style: italic;">x</text>
  <text x="83.2" y="171.2" style="font-style: italic;">y</text>
@@ -2315,8 +2315,8 @@ diff -ru a/game-of-logic/content.html b/game-of-logic/content.html
  <p>1. Pain is wearisome;<span style="font-size: 210%; line-height: 0; position: relative; top: 0.4em; left: 5rem">}</span><br>
  <span style="display: inline-block; width: 1em;"></span>No pain is eagerly wished for.</p>
 diff -ru a/index.html b/index.html
---- a/index.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/index.html	2023-07-05 14:40:07.000000000 +0200
+--- a/index.html	2023-07-17 16:21:26.000000000 +0200
++++ b/index.html	2023-07-17 16:29:40.000000000 +0200
 @@ -1,23 +1,23 @@
  <!DOCTYPE html>
  <html lang="en"><head>
@@ -2345,13 +2345,13 @@ diff -ru a/index.html b/index.html
 -
 -<h1>Preface</h1>
 +<p>PDF version: <a href="../complete-lewis-carroll.pdf">the collection as one large file</a> (31.4&nbsp;MB, still with many overfull boxes and other defects)</p>
-+<p>HTML version: <a href="about/introduction.html">Introduction</a>, <a href="about/contents-by-source.html">Contents by Source</a>, <a href="about/contents-by-topic.html">Contents by Topic</a></p>
++<p>HTML version: <a href="about/introduction.html">Introduction</a>, <a href="about/contents-by-source.html">Contents by Source</a>, <a href="about/contents-by-topic.html">Contents by Topic</a>, <a href="about/search.html">Search</a></p>
  </article>
  <footer>
  <nav><ul>
 diff -ru a/magazines/abridged-long-division.html b/magazines/abridged-long-division.html
---- a/magazines/abridged-long-division.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/abridged-long-division.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/abridged-long-division.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/abridged-long-division.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,13 +12,13 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -2558,8 +2558,8 @@ diff -ru a/magazines/abridged-long-division.html b/magazines/abridged-long-divis
  <p>The Divisor is 6997 (where <math><mrow><mi>h</mi><mo>=</mo><mn>7</mn></mrow></math>, <math><mrow><mi>k</mi><mo>=</mo><mn>3</mn></mrow></math>). Here you are supposed to have just entered the 281 in the Quotient. The Dividend, for these 2 columns, is 1972 | 103; the Quotient is 281, and the Remainder 5946. The Test is <math><mrow><mi>h</mi><mi>Q</mi><mo>.</mo><msup><mi>t</mi><mi>n</mi></msup><mo>+</mo><mi>R</mi></mrow></math> (<i>i.&thinsp;e.</i>, <math><mrow><mn>7</mn><mo>×</mo><mn>281000</mn><mo>+</mo><mn>5946</mn></mrow></math>), the Mental Process being as follows. You write, on a separate slip of paper, the last 3 digits of <var>R</var>, viz., 946, and carry the 5 into the next period, adding it to the <math><mrow><mn>7</mn><mo>×</mo><mn>281</mn></mrow></math>: thus, “5 and 7, 12.” Enter the 2, and carry the 1. “1 and 56, 57.” Enter the 7, and carry the 5. “5 and 14, 19.” Enter it. Having got your Test, try whether <math><mrow><mo stretchy="false">(</mo><mi>N</mi><mo>+</mo><mi>k</mi><mi>Q</mi><mo stretchy="false">)</mo></mrow></math> is equal to it. This you compute, comparing it with your Test, digit by digit, as you go on, thus, “3 and 3, 6.” Observe it in the Test. “0 and 24, 24.” Observe the 4, and carry the 2. “3 and 6, 9.” Observe it. “1972 and 0, 1972.” Observe it. The Test is satisfied.</p>
  
 diff -ru a/magazines/alice-on-the-stage.html b/magazines/alice-on-the-stage.html
---- a/magazines/alice-on-the-stage.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/alice-on-the-stage.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/alice-on-the-stage.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/alice-on-the-stage.html	2023-07-17 16:26:03.000000000 +0200
 @@ -18,7 +18,7 @@
  <figure>
  <img src="../../images/magazines/theatre-alice-stage.jpg" width="318" height="381" alt="Alice is sitting in the middle, next to her stands the Dormouse.">
@@ -2579,8 +2579,8 @@ diff -ru a/magazines/alice-on-the-stage.html b/magazines/alice-on-the-stage.html
  
  <div class="signature"><p>By Lewis Carroll</p></div>
 diff -ru a/magazines/a-postal-problem.html b/magazines/a-postal-problem.html
---- a/magazines/a-postal-problem.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/a-postal-problem.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/a-postal-problem.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/a-postal-problem.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,7 +12,8 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -2592,8 +2592,8 @@ diff -ru a/magazines/a-postal-problem.html b/magazines/a-postal-problem.html
  
  <p>As the new Rules for Syzygies are not quite ready yet, I will give the competitors an altogether new kind of Problem.</p>
 diff -ru a/magazines/architecture-in-oxford.html b/magazines/architecture-in-oxford.html
---- a/magazines/architecture-in-oxford.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/architecture-in-oxford.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/architecture-in-oxford.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/architecture-in-oxford.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,13 +12,13 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -2619,8 +2619,8 @@ diff -ru a/magazines/architecture-in-oxford.html b/magazines/architecture-in-oxf
  <p class="subtitle">To the <span style="font-variant: small-caps;">Editor</span> of the <span style="font-variant: small-caps;">Pall Mall Gazette</span></p>
  <p><span style="font-variant: small-caps;">Sir</span>,—Will you kindly allow me to add a word of explanation to my letter on the subject of cloisters in Chirst Church, as I find that it has been misunderstood, and has been taken as a protest against the decision of the Governing Body to preserve the foundations lately discovered? This decision I accept as final, though I hold that any one may fairly critcise the effect produced. My protest was directed solely against the proposal with which we are threatened, to erect cloisters round the Quadrangle, as to which no decision has yet been come to. I hold so strongly the principle that it is the duty of a minority loyally to accept the decision of the majority, and to make no attempt to reverse it, that I should be very sorry to be believed to have acted otherwise.—I am, Sir, your obedient servant,
 diff -ru a/magazines/aunt-judys-correspondence.html b/magazines/aunt-judys-correspondence.html
---- a/magazines/aunt-judys-correspondence.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/aunt-judys-correspondence.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/aunt-judys-correspondence.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/aunt-judys-correspondence.html	2023-07-17 16:26:03.000000000 +0200
 @@ -13,18 +13,17 @@
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
  <h2>Aunt Judy’s Correspondence</h2>
@@ -2643,8 +2643,8 @@ diff -ru a/magazines/aunt-judys-correspondence.html b/magazines/aunt-judys-corre
  <p>‘Mr.&nbsp;Lewis Carroll’ (who advertised last month under the <i>soubriquel</i> of ‘A Friend’) is about to publish a selection of Shakespeare’s Plays, adapted for the acting of young people up to sixteen or eighteen years of age, and he will be greatly obliged if any readers, who have learned by experience which plays are most popular and suitable for the purpose, will help him by sending lists of them, arranged in succession according to their popularity.—Address <i>Care of the Editor, 71 Warwick Road, Earl’s Court, S. W.</i></p>
  </article>
 diff -ru a/magazines/brief-method-of-dividing.html b/magazines/brief-method-of-dividing.html
---- a/magazines/brief-method-of-dividing.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/brief-method-of-dividing.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/brief-method-of-dividing.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/brief-method-of-dividing.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,14 +12,14 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -2743,8 +2743,8 @@ diff -ru a/magazines/brief-method-of-dividing.html b/magazines/brief-method-of-d
  <p>But such divisors are not in common use: and, for the purposes of school-teaching, it would not be worth while to go beyond the rules for division by 9 and 11.</p>
  
 diff -ru a/magazines/brunos-revenge.html b/magazines/brunos-revenge.html
---- a/magazines/brunos-revenge.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/brunos-revenge.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/brunos-revenge.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/brunos-revenge.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,11 +12,10 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -2760,8 +2760,8 @@ diff -ru a/magazines/brunos-revenge.html b/magazines/brunos-revenge.html
  <img src="../../images/magazines/aunt-judy-bruno.jpg" width="433" height="593" alt="Bruno and Sylvie are looking at the garden. According to Lewis Carroll they look like a blacksmith and a ballet-dancer.">
  </figure>
 diff -ru a/magazines/castle-croquet-1866.html b/magazines/castle-croquet-1866.html
---- a/magazines/castle-croquet-1866.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/castle-croquet-1866.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/castle-croquet-1866.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/castle-croquet-1866.html	2023-07-17 16:26:03.000000000 +0200
 @@ -48,10 +48,10 @@
  
  <text x="75.2" y="102.4">1</text>
@@ -2789,8 +2789,8 @@ diff -ru a/magazines/castle-croquet-1866.html b/magazines/castle-croquet-1866.ht
  <tr><td>II.<span style="display: inline-block; width: 1em;"></span></td><td><span style="display: inline-block; width: 1em;"></span>Black</td><td><span style="display: inline-block; width: 1em;"></span>Yellow</td></tr>
  <tr><td>III.<span style="display: inline-block; width: 1em;"></span></td><td><span style="display: inline-block; width: 1em;"></span>Brown</td><td><span style="display: inline-block; width: 1em;"></span>Orange</td></tr>
 diff -ru a/magazines/divisibility-by-seven.html b/magazines/divisibility-by-seven.html
---- a/magazines/divisibility-by-seven.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/divisibility-by-seven.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/divisibility-by-seven.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/divisibility-by-seven.html	2023-07-17 16:26:03.000000000 +0200
 @@ -26,24 +26,23 @@
  and is divisible by <math><mrow><mo stretchy="false">(</mo><mi>r</mi><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math>; hence, if <var>M</var> be divisible by <math><mrow><mo stretchy="false">(</mo><mi>r</mi><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></math> or any factor of it, so also is <var>N</var>. And in this case <math><mrow><mi>r</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>1001</mn><mo>=</mo><mn>7</mn><mo>×</mo><mn>11</mn><mo>×</mo><mn>13</mn></mrow></math>.</p>
  
@@ -2821,8 +2821,8 @@ diff -ru a/magazines/divisibility-by-seven.html b/magazines/divisibility-by-seve
  <p>If the periods be <i>single</i> digits, <i>i.&thinsp;e.</i>, if <math><mrow><mi>r</mi><mo>=</mo><mn>10</mn></mrow></math>, we get a test for divisibility by 11, and at the same time the quotient after dividing out 11. The rule is to set the last digit under the next, and subtract, setting the remainder under the next, and so on. In this instance the test-number <math><mrow><mo>=</mo><mn>0</mn></mrow></math>; hence the given number <math><mrow><mo>=</mo><mn>11</mn><mo>×</mo><mn>5852053</mn></mrow></math>.</p>
  
 diff -ru a/magazines/education-for-the-stage.html b/magazines/education-for-the-stage.html
---- a/magazines/education-for-the-stage.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/education-for-the-stage.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/education-for-the-stage.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/education-for-the-stage.html	2023-07-17 16:26:03.000000000 +0200
 @@ -13,7 +13,7 @@
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
  <h2>Education for the Stage</h2>
@@ -2875,8 +2875,8 @@ diff -ru a/magazines/education-for-the-stage.html b/magazines/education-for-the-
  <p class="subtitle">To the <span style="font-variant: small-caps;">Editor</span> of the <span style="font-variant: small-caps;">St.&nbsp;James’s Gazette</span></p>
  <p><span style="font-variant: small-caps;">Sir</span>,—The letter of mine, which you published on the 27th of February under the above title, having elicted two replies, one friendly to the scheme and one hostile, in your paper on the 2nd of March, I shall be grateful if you will let me say a few words in reply.</p>
 diff -ru a/magazines/game-of-logic.html b/magazines/game-of-logic.html
---- a/magazines/game-of-logic.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/game-of-logic.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/game-of-logic.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/game-of-logic.html	2023-07-17 16:26:03.000000000 +0200
 @@ -22,11 +22,11 @@
  <p>1. Caroline J. M. Hubback<br>
  2. J. Bessie Wieppert<br>
@@ -2895,8 +2895,8 @@ diff -ru a/magazines/game-of-logic.html b/magazines/game-of-logic.html
  
  <p>After these I have selected 6, whom I would be happy to go on with, if they are willing to go over some of the old work again, before trying anything harder; their names I will give in alphabetical order:—</p>
 diff -ru a/magazines/is-it-well-to-have-children-vaccinated.html b/magazines/is-it-well-to-have-children-vaccinated.html
---- a/magazines/is-it-well-to-have-children-vaccinated.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/is-it-well-to-have-children-vaccinated.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/is-it-well-to-have-children-vaccinated.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/is-it-well-to-have-children-vaccinated.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,12 +12,12 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -2929,8 +2929,8 @@ diff -ru a/magazines/is-it-well-to-have-children-vaccinated.html b/magazines/is-
  <p><i>Sir:</i> Mr.&nbsp;Hume-Rothery has at last supplied the missing link in his argument. In your paper of the 15th he states that, according to recent reports, only two-thirds of the population (which we may call a per centage of 66) have been vaccinated. This differs widely from the 98 which, in the absence of statistics, I had taken as a probable per centage, and the statistics, as now completed, undoubtedly go to prove that vaccination increases the liability to take small-pox. There is no hiatus in the argument. All depends now on the correctness of the statistics themselves, a matter which I am not qualified to discuss. I do not mean, of course, that this if proved would settle the whole question. Vaccination may still be good, even if it increases the liability to take small-pox, provided it diminishes the severity of the disease, or the pain, or the disfigurement, or the bad consequences, or the risk of death. On all such questions valuable evidence may be got from statistics, if we bear in mind the simple rule that we must compare two per centages together, <i>e.&thinsp;g.</i>, as to the severity of the disease, we must compare the per centage of sever cases among vaccinated patients with the per centage among the un-vaccinated.</p>
  
 diff -ru a/magazines/natural-science-at-oxford.html b/magazines/natural-science-at-oxford.html
---- a/magazines/natural-science-at-oxford.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/natural-science-at-oxford.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/natural-science-at-oxford.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/natural-science-at-oxford.html	2023-07-17 16:26:03.000000000 +0200
 @@ -16,7 +16,7 @@
  <article>
  
@@ -2941,8 +2941,8 @@ diff -ru a/magazines/natural-science-at-oxford.html b/magazines/natural-science-
  <p>The curtain rises on the second act of the drama. Science is still weeping, but this time it is for lack of pupils, not of teachers or machinery. “We are unfairly handicapped!” she cries. “You have prizes and scholarships for classics and mathematics, and you bribe your best students to desert us. Buy us some bright, clever boys to teach, and then see what we can do!” Once more we heard and pitied. We had bought her bones; we bought her boys. And now at last her halls were filled—not only with teachers paid to teach, but also with learners paid to learn. And we have not much to complain of in results, except that perhaps she is a little too ready to return on our hands all but the “honour-men”—all, in fact, who really need the helping hand of an educator. “Here, take back your stupid ones!” she cries. “Except as subjects for the scalpel (and we have not yet got the Human Vivisection Act through Parliament) we can do nothing with them!”</p>
  
 diff -ru a/magazines/nineteenth-century.html b/magazines/nineteenth-century.html
---- a/magazines/nineteenth-century.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/nineteenth-century.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/nineteenth-century.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/nineteenth-century.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,7 +12,8 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -2954,8 +2954,8 @@ diff -ru a/magazines/nineteenth-century.html b/magazines/nineteenth-century.html
  
  <p class="subtitle">To the Editor of the <span style="font-variant: small-caps;">Nineteenth Century</span></p>
 diff -ru a/magazines/note-on-question-7695.html b/magazines/note-on-question-7695.html
---- a/magazines/note-on-question-7695.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/note-on-question-7695.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/note-on-question-7695.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/note-on-question-7695.html	2023-07-17 16:26:03.000000000 +0200
 @@ -39,14 +39,14 @@
  
  <p>Let A’s chance of making his winning throw, each time he throws, be <var>k</var>; and similarly let B’s chance be <var>l</var>.</p>
@@ -2978,8 +2978,8 @@ diff -ru a/magazines/note-on-question-7695.html b/magazines/note-on-question-769
  <p>In the given case, <math><mrow><mi>k</mi><mo>=</mo><mfrac><mn>5</mn><mn>36</mn></mfrac></mrow></math>, <math><mrow><mi>l</mi><mo>=</mo><mfrac><mn>6</mn><mn>36</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math>; hence the required ratio <math><mrow><mo>=</mo><mfrac><mn>30</mn><mn>31</mn></mfrac></mrow></math>. By a mere accident this happens to be the same as <math><mfrac><mrow><mn>1</mn><mo>−</mo><mi>l</mi></mrow><mrow><mn>1</mn><mo>−</mo><mi>k</mi></mrow></mfrac></math>, which accident has misled all the solvers into adopting this as a true formula.</p>
  
 diff -ru a/magazines/nyctograph.html b/magazines/nyctograph.html
---- a/magazines/nyctograph.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/nyctograph.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/nyctograph.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/nyctograph.html	2023-07-17 16:26:03.000000000 +0200
 @@ -25,35 +25,33 @@
  
  <p>Think of the number of lonely hours a blind man often spends doing nothing, when he would gladly record his thoughts, and you will realise what a blessing you can confer on him by giving him a small “indelible” memorandum-book, with a piece of paste-board containing rows of square holes, and teaching him the square-alphabet. The crowning blessing would be that, instead of having to dictate letters to his attendant, he could write them himself, and no one need see them except those to whom they were written. In the following list, I call the N.&nbsp;E.&nbsp;corner “2,”, the S.&nbsp;W.&nbsp;corner “3” and the S.&nbsp;E.&nbsp;corner “4.” Also I have bracketed letters whose symbols run in pairs, each being the reverse of the other. Every symbol is assumed to have a large dot in its N.&nbsp;W.&nbsp;corner.</p>
@@ -3030,8 +3030,8 @@ diff -ru a/magazines/nyctograph.html b/magazines/nyctograph.html
  <tr><td></td><td>“figures”</td><td>2, 3</td><td>none</td><td>corners of “F”; means “symbols will now represent figures”</td></tr>
  <tr><td></td><td>“date”</td><td>2, 3, 4</td><td>”</td><td>corners of a square “D”; means “next 6 symbols will represent date, 2 standing for day of month, 2 for month, and 2 for year of century” (e.&thinsp;g., “070305”)</td></tr>
 diff -ru a/magazines/practical-hints-on-teaching.html b/magazines/practical-hints-on-teaching.html
---- a/magazines/practical-hints-on-teaching.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/practical-hints-on-teaching.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/practical-hints-on-teaching.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/practical-hints-on-teaching.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,10 +12,9 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -3072,8 +3072,8 @@ diff -ru a/magazines/practical-hints-on-teaching.html b/magazines/practical-hint
  <tr style="border-top: solid thin;"><td>635<span style="visibility: hidden;">3</span></td></tr>
  </table></div>
 diff -ru a/magazines/proportionate-representation.html b/magazines/proportionate-representation.html
---- a/magazines/proportionate-representation.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/proportionate-representation.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/proportionate-representation.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/proportionate-representation.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,13 +12,13 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -3115,8 +3115,8 @@ diff -ru a/magazines/proportionate-representation.html b/magazines/proportionate
  <p class="subtitle">To the <span style="font-variant: small-caps;">Editor</span> of the <span style="font-variant: small-caps;">St.&nbsp;James’s Gazette</span></p>
  <p><span style="font-variant: small-caps;">Sir</span>,—In reply to the charge which I brought (on the 15th of May) against the method of voting proposed by the “Society for Proportionate Representation,” that it is liable to bring in the wrong man, two pleas have been put forward: one, that the most probable result is also the most equitable; the other, that it can never be a matter of chance which of two candidates shall get in, unless they are <i>of the same party</i>.</p>
 diff -ru a/magazines/questions-for-solution-11530.html b/magazines/questions-for-solution-11530.html
---- a/magazines/questions-for-solution-11530.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/questions-for-solution-11530.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/questions-for-solution-11530.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/questions-for-solution-11530.html	2023-07-17 16:26:03.000000000 +0200
 @@ -18,7 +18,7 @@
  <p>Solution by H. J. Woodall, A.R.C.S. was published in March 1893, see <a href="https://archive.org/details/educationaltimes46educ/page/156">https://archive.org/details/educationaltimes46educ/page/156</a>, an expanded version in MQS LIX, <a href="https://archive.org/details/mathematicalque64unkngoog/page/n72">https://archive.org/details/mathematicalque64unkngoog/page/n72</a></p></header>
  <article>
@@ -3127,8 +3127,8 @@ diff -ru a/magazines/questions-for-solution-11530.html b/magazines/questions-for
  
  <p>Then it is also <math display="block"><mrow><mo>=</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mrow><mfrac><mn>1</mn><mrow><mi>a</mi><mo>+</mo><mi>x</mi></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mi>a</mi><mo>+</mo><mi>y</mi></mrow></mfrac></mrow><mrow><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mrow><mi>a</mi><mo>+</mo><mi>x</mi></mrow></mfrac><mo>⋅</mo><mfrac><mn>1</mn><mrow><mi>a</mi><mo>+</mo><mi>y</mi></mrow></mfrac></mrow></mfrac><mo>=</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mi>a</mi><mo stretchy="false">(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo stretchy="false">)</mo><mo>+</mo><mi>x</mi><mi>y</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mtext>.</mtext></mrow></math>
 diff -ru a/magazines/questions-for-solution-12650.html b/magazines/questions-for-solution-12650.html
---- a/magazines/questions-for-solution-12650.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/questions-for-solution-12650.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/questions-for-solution-12650.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/questions-for-solution-12650.html	2023-07-17 16:26:03.000000000 +0200
 @@ -14,10 +14,9 @@
  <h2>Questions for Solution: 12650</h2>
  <p>Source: The Educational Times, February 1895</p>
@@ -3143,8 +3143,8 @@ diff -ru a/magazines/questions-for-solution-12650.html b/magazines/questions-for
  
  <p>A. Think of a number less than 90.—B. I have done so.</p>
 diff -ru a/magazines/questions-for-solution-13614.html b/magazines/questions-for-solution-13614.html
---- a/magazines/questions-for-solution-13614.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/questions-for-solution-13614.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/questions-for-solution-13614.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/questions-for-solution-13614.html	2023-07-17 16:26:03.000000000 +0200
 @@ -16,7 +16,7 @@
  <article>
  
@@ -3155,8 +3155,8 @@ diff -ru a/magazines/questions-for-solution-13614.html b/magazines/questions-for
  <aside class="toggle corrected" id="annotation-1">mistakenly “Old Style”</aside>
  </article>
 diff -ru a/magazines/questions-for-solution-9636.html b/magazines/questions-for-solution-9636.html
---- a/magazines/questions-for-solution-9636.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/questions-for-solution-9636.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/questions-for-solution-9636.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/questions-for-solution-9636.html	2023-07-17 16:26:03.000000000 +0200
 @@ -18,18 +18,18 @@
  <p>A correct solution by W. S. Foster, Professor Nash, and others was published 1894, see <a href="https://archive.org/details/mathematicalque00unkngoog/page/n226">https://archive.org/details/mathematicalque00unkngoog/page/n226</a> (MQS LX)</p></header>
  <article>
@@ -3180,8 +3180,8 @@ diff -ru a/magazines/questions-for-solution-9636.html b/magazines/questions-for-
  <p>We shall be glad to have a further solution of the Question.</p>
  </article>
 diff -ru a/magazines/redistribution.html b/magazines/redistribution.html
---- a/magazines/redistribution.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/redistribution.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/redistribution.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/redistribution.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,14 +12,13 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -3314,8 +3314,8 @@ diff -ru a/magazines/redistribution.html b/magazines/redistribution.html
  <p class="subtitle">To the <span style="font-variant: small-caps;">Editor</span> of the <span style="font-variant: small-caps;">St.&nbsp;James’s Gazette</span></p>
  <p><span style="font-variant: small-caps;">Sir</span>,—Mr.&nbsp;G. A. Simcox, in discussing my proposals (of Oct.&nbsp;11) for Redistribution, asks “how is the average elector to be saved from throwing away his vote on a candidate who is safe without it?” This question does not belong to the subject of “Redistribution,” but to that of “Parliamentary Elections,” under which heading I fully discussed it in my paper of <a href="parliamentary-elections.html">July&nbsp;5</a>, and there proposed that such votes should be at the absolute disposal of the candidate for whom they were given. I also discussed, but only to reject them, the other methods suggested by Mr.&nbsp;Simcox.</p>
 diff -ru a/magazines/syzygies.html b/magazines/syzygies.html
---- a/magazines/syzygies.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/syzygies.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/syzygies.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/syzygies.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,9 +12,9 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -3505,8 +3505,8 @@ diff -ru a/magazines/syzygies.html b/magazines/syzygies.html
  <h3>April 7, 1892</h3>
  <p><span class="annotated omitted" data-ref="annotation-22">[…]</span></p>
 diff -ru a/magazines/the-cats-and-rats-again.html b/magazines/the-cats-and-rats-again.html
---- a/magazines/the-cats-and-rats-again.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/the-cats-and-rats-again.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/the-cats-and-rats-again.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/the-cats-and-rats-again.html	2023-07-17 16:26:03.000000000 +0200
 @@ -24,7 +24,7 @@
  
  <p>The solution, by the ordinary rules of Double Proportion, is as follows:—</p>
@@ -3517,8 +3517,8 @@ diff -ru a/magazines/the-cats-and-rats-again.html b/magazines/the-cats-and-rats-
  <p><math display="block"><mrow><mo>∴</mo><mtext>ans.</mtext><mo>=</mo><mfrac><mrow><mn>100</mn><mo>⋅</mo><mn>6</mn><mo>⋅</mo><mn>6</mn></mrow><mrow><mn>6</mn><mo>⋅</mo><mn>50</mn></mrow></mfrac><mo>=</mo><mn>12</mn></mrow></math></p>
  
 diff -ru a/magazines/the-fallacies-of-lawn-tennis-tournaments.html b/magazines/the-fallacies-of-lawn-tennis-tournaments.html
---- a/magazines/the-fallacies-of-lawn-tennis-tournaments.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/the-fallacies-of-lawn-tennis-tournaments.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/the-fallacies-of-lawn-tennis-tournaments.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/the-fallacies-of-lawn-tennis-tournaments.html	2023-07-17 16:26:03.000000000 +0200
 @@ -8,6 +8,39 @@
  <link rel="icon" href="../../res/favicon.svg" sizes="any" type="image/svg+xml">
  <link rel="stylesheet" href="../../res/main.css">
@@ -3668,8 +3668,8 @@ diff -ru a/magazines/the-fallacies-of-lawn-tennis-tournaments.html b/magazines/t
  
  <p>In contest I.&nbsp;(e), we see that A beats B, and so on: hence we enter A as a “superior” to B, D to C, and so on. For contest II.&nbsp;(m), we pair the winners A, D, and so on: and then the losers, B, C, and so on. After it, we enter the <i>actual</i> superiors, D, C, etc.: we then find that, A having a superior D, and B a superior A, B has a <i>virtual</i> superior D: and so on. Having done this, we see that C, E, K, P, have three superiors each, and must be struck out. For contest II.&nbsp;(e) we should avoid pairing F and H, because they have a common superior: and the same may be said of N, Q. After it, we strike out B, F, H, Q. On the 3rd day, as there are only 2 unbeaten left, they contend during the whole day, the others having half-day contests: L and N have to be paired, even though they have a common superior. After the morning contest, we strike out A, G, N. For the evening, D and J are still contending: so that M and R must be paired, though they have a common superior; and L is “odd man.” After the evening contest, J is seen to be “first-prize-man.” After contest IV.&nbsp;(m), we strike out R; and we see that M is “second-prize-man.” After contest IV.&nbsp;(e), we strike out D, and give L the 3rd prize.</p>
 diff -ru a/magazines/the-science-of-betting.html b/magazines/the-science-of-betting.html
---- a/magazines/the-science-of-betting.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/the-science-of-betting.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/the-science-of-betting.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/the-science-of-betting.html	2023-07-17 16:29:03.000000000 +0200
 @@ -13,19 +13,19 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -3685,7 +3685,7 @@ diff -ru a/magazines/the-science-of-betting.html b/magazines/the-science-of-bett
  <p class="subtitle">To the <span style="font-variant: small-caps;">Editor</span> of the <span style="font-variant: small-caps;">Pall Mall Gazette</span></p>
  <p><span style="font-variant: small-caps;">Sir</span>,—The magical system of betting, the secret of which Messrs.&nbsp;H. and J.&nbsp;Smith offer to the world on such reasonable terms, has probably been known, and practised, ever since betting has been in existence. It is applicable to almost every event on which bets are made, and it may be mathematically demonstrated that, provided all the bets are paid, winning is a certainty. I chanced upon the principle myself some years ago, and, in the hope that it may serve to deter some from throwing away their money, I now beg to offer it to your readers gratis.</p>
  
- <p>The rule may be stated thus:—“Write all possible events in a column, placing opposite to each the odds offered against it: this will give two columns of figures. For the third column add together the odds in each case, and find the least common multiple of all the numbers in this column. For the fourth column divide this least common multiple by the several numbers in the third column. For the fith and sixth columns multiply the original odds by the several numbers in the forth column. These odds are to be given, or taken, according as the sum total of the sixth column is greater or less than the least common multiple.” The last two columns give the <i>relative amounts</i> to be invested in each bet.</p>
+ <p>The rule may be stated thus:—“Write all possible events in a column, placing opposite to each the odds offered against it: this will give two columns of figures. For the third column add together the odds in each case, and find the least common multiple of all the numbers in this column. For the fourth column divide this least common multiple by the several numbers in the third column. For the fifth and sixth columns multiply the original odds by the several numbers in the forth column. These odds are to be given, or taken, according as the sum total of the sixth column is greater or less than the least common multiple.” The last two columns give the <i>relative amounts</i> to be invested in each bet.</p>
  
  <table class="b0 b1 r2 c3 r4 b4 r5 b5 r6 b6 r7 c8 r9 b9">
 -<tr style="border-top: solid thin;"><td></td><td style="border-bottom: solid thin;">1</td><td></td><td style="border-bottom: solid thin;">2</td><td style="border-bottom: solid thin;">3</td><td style="border-bottom: solid thin;">4</td><td style="border-bottom: solid thin;">5</td><td></td><td style="border-bottom: solid thin;">6</td></tr>
@@ -3726,8 +3726,8 @@ diff -ru a/magazines/the-science-of-betting.html b/magazines/the-science-of-bett
  
  <p>The least common multiple of the third column is 30, not 60. The truth of the rule is not affected by this, as any common multiple would serve the purpose.
 diff -ru a/magazines/through-the-looking-glass.html b/magazines/through-the-looking-glass.html
---- a/magazines/through-the-looking-glass.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/through-the-looking-glass.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/through-the-looking-glass.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/through-the-looking-glass.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,14 +12,14 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -3747,8 +3747,8 @@ diff -ru a/magazines/through-the-looking-glass.html b/magazines/through-the-look
  <p>Mr.&nbsp;Lewis Carroll advertised on Dec.&nbsp;2, 1893, that the sixtieth thousand was withdrawn from sale, as some of the pictures had failed in the printing, and that he would present them to mechanics’ institutes, village reading rooms, &amp;c., on receiving applications, addressed 29.&nbsp;Bedford-street, Covent-garden, stating how far they are able to buy books for themselves and what is their avarage number of readers. He has received a great number of applications, but not enough to exhaust the supply. Many of the applicants have neglected to furnish the required information, and it will be necessary to send a circular to them and to get their replies before they can have copies. He takes this opportunity of giving his readers the rules for “Co-operative Backgammon,” which he thinks will prove a novel and interesting variety of the game. (1.) Each player throws three dice: with two he moves for himself, and with the third for his adversary. (2.) If no one of the three dice is available for the adversary, a player may use any two he likes: otherwise he is bound to leave, as third die, one which will be available for the adversary. If at any future time Mr.&nbsp;Carroll should wish to communicate anything to his readers, he will do so by advertising in the “Agony” column of some of the daily papers on the first Tuesday in the month.</p>
  </article>
 diff -ru a/magazines/to-all-readers.html b/magazines/to-all-readers.html
---- a/magazines/to-all-readers.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/to-all-readers.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/to-all-readers.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/to-all-readers.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,21 +12,19 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -3775,8 +3775,8 @@ diff -ru a/magazines/to-all-readers.html b/magazines/to-all-readers.html
  <p>When this book (which is a facsimile of the original MS. book, written in 1863, and afterwards developed into “Alice’s Adventures in Wonderland”) made its first appearance in 1886, I undertook that the profits, if any, should be given to Children’s Hospitals and Convalescent Homes for Sick Children, and that the accounts of the disposal of the profits, down to June 30 in each year, should be published, in the <i>St.&nbsp;James’s Gazette</i>, on the second Tuesday in the following December. On this occasion I have again to announce that—although 1742 copies of the book had been sold on June 30, 1889—the receipts had not overtaken the heavy outlay incurred in bringing it out. The exact balance against the book was £117&nbsp;14<i>s</i>.&nbsp;7<i>d</i>. If ever the balance should be in favour of the book, I will advertise again. Till then “speech” may be “silvern,” but “silence” is (literally) “golden”!
  </p><div class="signature"><p>Lewis Carroll.<br>Tuesday, Dec.&nbsp;10, 1889.</p></div>
 diff -ru a/magazines/where-does-the-day-begin.html b/magazines/where-does-the-day-begin.html
---- a/magazines/where-does-the-day-begin.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/where-does-the-day-begin.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/where-does-the-day-begin.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/where-does-the-day-begin.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,11 +12,11 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -3793,8 +3793,8 @@ diff -ru a/magazines/where-does-the-day-begin.html b/magazines/where-does-the-da
  </article>
  <footer>
 diff -ru a/magazines/whoso-shall-offend-one-of-these-little-ones.html b/magazines/whoso-shall-offend-one-of-these-little-ones.html
---- a/magazines/whoso-shall-offend-one-of-these-little-ones.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/whoso-shall-offend-one-of-these-little-ones.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/whoso-shall-offend-one-of-these-little-ones.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/whoso-shall-offend-one-of-these-little-ones.html	2023-07-17 16:26:03.000000000 +0200
 @@ -39,14 +39,14 @@
  <p>A beautiful fiend is abroad in the midst of us: let the wise know her and shun her while yet there is time. On her fair brow she bears the title of “Religion”: <span class="annotated quoted" data-ref="annotation-5">“pacing with downward eyelids pure,”</span> she passes, unsuspected, among our youths and maidens, and whispers to them the dark secrets of Hell. Like Arthur’s proligate queen,
  <small></small></p>
@@ -3813,8 +3813,8 @@ diff -ru a/magazines/whoso-shall-offend-one-of-these-little-ones.html b/magazine
  <div class="signature"><p>Lewis Carroll</p></div>
  </article>
 diff -ru a/magazines/wilhelm-von-schmitz.html b/magazines/wilhelm-von-schmitz.html
---- a/magazines/wilhelm-von-schmitz.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/magazines/wilhelm-von-schmitz.html	2023-07-05 14:40:07.000000000 +0200
+--- a/magazines/wilhelm-von-schmitz.html	2023-07-17 16:21:26.000000000 +0200
++++ b/magazines/wilhelm-von-schmitz.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,14 +12,16 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -3835,8 +3835,8 @@ diff -ru a/magazines/wilhelm-von-schmitz.html b/magazines/wilhelm-von-schmitz.ht
  <div class="motto"><p>“’Twas Ever Thus.” <i>Old Play.</i></p></div>
  
 diff -ru a/manuscripts-proofs/a-method-of-taking-votes.html b/manuscripts-proofs/a-method-of-taking-votes.html
---- a/manuscripts-proofs/a-method-of-taking-votes.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/manuscripts-proofs/a-method-of-taking-votes.html	2023-07-05 14:40:07.000000000 +0200
+--- a/manuscripts-proofs/a-method-of-taking-votes.html	2023-07-17 16:21:26.000000000 +0200
++++ b/manuscripts-proofs/a-method-of-taking-votes.html	2023-07-17 16:26:03.000000000 +0200
 @@ -75,64 +75,64 @@
  
  <p>Let us suppose that there are 11 electors, and 4 candidates, <i>a</i>, <i>b</i>, <i>c</i>, <i>d</i>; and that each elector has arranged in a column the names of the candidates, in the order of his preference; and that the 11 columns stand thus:—</p>
@@ -4024,8 +4024,8 @@ diff -ru a/manuscripts-proofs/a-method-of-taking-votes.html b/manuscripts-proofs
  
  <p>Now, by course (1) <var>a</var> wins.</p>
 diff -ru a/manuscripts-proofs/curiosa-mathematica-part-iii.html b/manuscripts-proofs/curiosa-mathematica-part-iii.html
---- a/manuscripts-proofs/curiosa-mathematica-part-iii.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/manuscripts-proofs/curiosa-mathematica-part-iii.html	2023-07-05 14:40:07.000000000 +0200
+--- a/manuscripts-proofs/curiosa-mathematica-part-iii.html	2023-07-17 16:21:26.000000000 +0200
++++ b/manuscripts-proofs/curiosa-mathematica-part-iii.html	2023-07-17 16:26:03.000000000 +0200
 @@ -8,6 +8,18 @@
  <link rel="icon" href="../../res/favicon.svg" sizes="any" type="image/svg+xml">
  <link rel="stylesheet" href="../../res/main.css">
@@ -4672,8 +4672,8 @@ diff -ru a/manuscripts-proofs/curiosa-mathematica-part-iii.html b/manuscripts-pr
  <p>The Divisor is 6997 (where <math><mrow><mi>h</mi><mo>=</mo><mn>7</mn></mrow></math>, <math><mrow><mi>k</mi><mo>=</mo><mn>3</mn></mrow></math>). Here you are supposed to have just entered the 281 in the Quotient. The Dividend, for these two columns, is 1972 | 103; the Quotient is 281, and the Remainder 5946. The Test is <math><mrow><mi>h</mi><mi>Q</mi><mo>.</mo><msup><mi>t</mi><mi>n</mi></msup><mo>+</mo><mi>R</mi></mrow></math> (<i>i.&thinsp;e.</i>, <math><mrow><mn>7</mn><mo>×</mo><mn>281000</mn><mo>+</mo><mn>5946</mn></mrow></math>), the Mental Process being as follows: Write down, on a separate slip of paper, the last three digits of <var>R</var>, viz., 946, and carry the 5 into the next period, adding it to the <math><mrow><mn>7</mn><mo>×</mo><mn>281</mn></mrow></math>, thus, “5 and 7, 12.” Enter the 2, and carry the 1. “1 and 56, 57.” Enter the 7, and carry the 5. “5 and 14, 19.” Enter it. Having got your Test, try whether <math><mrow><mo stretchy="false">(</mo><mi>N</mi><mo>+</mo><mi>k</mi><mi>Q</mi><mo stretchy="false">)</mo></mrow></math> is equal to it. This you compute, comparing it with your Test, digit by digit, as you go on, thus, “3 and 3, 6.” Observe it in the Test. “0 and 24, 24.” Observe the 4, and carry the 2. “3 and 6, 9.” Observe it. “1972 and 0, 1972.” Observe it. The Test is satisfied.</p>
  
 diff -ru a/manuscripts-proofs/limits-of-circle-squaring.html b/manuscripts-proofs/limits-of-circle-squaring.html
---- a/manuscripts-proofs/limits-of-circle-squaring.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/manuscripts-proofs/limits-of-circle-squaring.html	2023-07-05 14:40:07.000000000 +0200
+--- a/manuscripts-proofs/limits-of-circle-squaring.html	2023-07-17 16:21:26.000000000 +0200
++++ b/manuscripts-proofs/limits-of-circle-squaring.html	2023-07-17 16:26:03.000000000 +0200
 @@ -36,7 +36,7 @@
  <p>The exact value of <var>π</var> (the name usually given to “the ratio which the area of a circle bears to the square on its radius”) has in all ages proved an <i>ignis fatuus</i>, that has led hundreds, if not thousands, of hapless mathematicians to waste valuable years in the hope of immortalizing themselves by discovering what has been so long sought in vain. I cherish the hope that this little book may fall into the hands of some who have been dazzled by its mocking light, and may prove the means of saving to them much time and labour that would otherwise be wasted.</p>
  
@@ -4684,8 +4684,8 @@ diff -ru a/manuscripts-proofs/limits-of-circle-squaring.html b/manuscripts-proof
  <li><a href="../index.html">Home</a></li>
  <li><a href="../about/introduction.html">Introduction</a></li>
 diff -ru a/manuscripts-proofs/loves-railway-guide.html b/manuscripts-proofs/loves-railway-guide.html
---- a/manuscripts-proofs/loves-railway-guide.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/manuscripts-proofs/loves-railway-guide.html	2023-07-05 14:40:07.000000000 +0200
+--- a/manuscripts-proofs/loves-railway-guide.html	2023-07-17 16:21:26.000000000 +0200
++++ b/manuscripts-proofs/loves-railway-guide.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,13 +12,13 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -4704,8 +4704,8 @@ diff -ru a/manuscripts-proofs/loves-railway-guide.html b/manuscripts-proofs/love
  <tr style="border-top: solid thin;border-bottom: solid thin;"><td>Liverpool</td><td>about 5&nbsp;m after</td><td>durant stage</td></tr>
  <tr style="border-top: solid thin;border-bottom: solid thin;"><td>York</td><td>about 3&nbsp;p.&thinsp;m.</td><td>4. 1&nbsp;m p.&thinsp;m.</td></tr>
 diff -ru a/manuscripts-proofs/number-guessing.html b/manuscripts-proofs/number-guessing.html
---- a/manuscripts-proofs/number-guessing.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/manuscripts-proofs/number-guessing.html	2023-07-05 14:40:07.000000000 +0200
+--- a/manuscripts-proofs/number-guessing.html	2023-07-17 16:21:26.000000000 +0200
++++ b/manuscripts-proofs/number-guessing.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,9 +12,9 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -4719,8 +4719,8 @@ diff -ru a/manuscripts-proofs/number-guessing.html b/manuscripts-proofs/number-g
  <div class="signature"><p>6/2/96</p></div>
  
 diff -ru a/manuscripts-proofs/railway-rules.html b/manuscripts-proofs/railway-rules.html
---- a/manuscripts-proofs/railway-rules.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/manuscripts-proofs/railway-rules.html	2023-07-05 14:40:07.000000000 +0200
+--- a/manuscripts-proofs/railway-rules.html	2023-07-17 16:21:26.000000000 +0200
++++ b/manuscripts-proofs/railway-rules.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,7 +12,8 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -4732,8 +4732,8 @@ diff -ru a/manuscripts-proofs/railway-rules.html b/manuscripts-proofs/railway-ru
  
  <p>Station master must mind his station, and supply refreshments: he can put anyone who behaves badly to prison, while a train goes round the garden: he must ring for the passengers to take their seats, then count 20 slowly, then ring again for the train to start. The L one shall be a surgeon, the wounded must be brought there gratis by the next train going that way and cured gratis. There shall be a place at the L station for lost luggage. If there is anyone to go, a flag is to be hoisted.</p>
 diff -ru a/manuscripts-proofs/symbolic-logic-part-ii.html b/manuscripts-proofs/symbolic-logic-part-ii.html
---- a/manuscripts-proofs/symbolic-logic-part-ii.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/manuscripts-proofs/symbolic-logic-part-ii.html	2023-07-05 14:40:07.000000000 +0200
+--- a/manuscripts-proofs/symbolic-logic-part-ii.html	2023-07-17 16:21:26.000000000 +0200
++++ b/manuscripts-proofs/symbolic-logic-part-ii.html	2023-07-17 16:26:03.000000000 +0200
 @@ -23,20 +23,20 @@
  
  <h3>Diagrams</h3>
@@ -5475,8 +5475,8 @@ diff -ru a/manuscripts-proofs/symbolic-logic-part-ii.html b/manuscripts-proofs/s
  <tr><td>2. <math><mrow><mi>a</mi><mi>b</mi><mi>c</mi><mi>d</mi><msup><mi>e</mi><mo>′</mo></msup><mi>h</mi></mrow></math></td><td>8. <math><mrow><mi>a</mi><msup><mi>b</mi><mo>′</mo></msup><msup><mi>c</mi><mo>′</mo></msup><msup><mi>d</mi><mo>′</mo></msup><mi>e</mi><msup><mi>h</mi><mo>′</mo></msup></mrow></math></td></tr>
  <tr><td>3. <math><mrow><mi>a</mi><mi>b</mi><mi>c</mi><mi>d</mi><msup><mi>e</mi><mo>′</mo></msup><msup><mi>h</mi><mo>′</mo></msup></mrow></math></td><td>9. <math><mrow><msup><mi>a</mi><mo>′</mo></msup><mi>b</mi><msup><mi>c</mi><mo>′</mo></msup><mi>d</mi><mi>e</mi><mi>h</mi></mrow></math></td></tr>
 diff -ru a/math/a-challenge-to-logicians.html b/math/a-challenge-to-logicians.html
---- a/math/a-challenge-to-logicians.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/a-challenge-to-logicians.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/a-challenge-to-logicians.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/a-challenge-to-logicians.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,9 +12,9 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -5490,8 +5490,8 @@ diff -ru a/math/a-challenge-to-logicians.html b/math/a-challenge-to-logicians.ht
  <h3>Given</h3>
  <ol>
 diff -ru a/math/a-discussion-of-the-various-methods-of-elections.html b/math/a-discussion-of-the-various-methods-of-elections.html
---- a/math/a-discussion-of-the-various-methods-of-elections.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/a-discussion-of-the-various-methods-of-elections.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/a-discussion-of-the-various-methods-of-elections.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/a-discussion-of-the-various-methods-of-elections.html	2023-07-17 16:26:03.000000000 +0200
 @@ -33,13 +33,13 @@
  
  <p>In this Method, each elector names the <i>one</i> candidate he prefers, and he who gets the greatest number of votes is taken as the winner. The extraordinary injustice of this Method may easily be demonstrated. Let us suppose that there are eleven electors, and four candidates, <i>a</i>, <i>b</i>, <i>c</i>, <i>d</i>; and that each elector has arranged in a column the names of the candidates, in the order of his preference; and that the eleven columns stand thus:—</p>
@@ -5659,8 +5659,8 @@ diff -ru a/math/a-discussion-of-the-various-methods-of-elections.html b/math/a-d
  
  <p>It will be seen that in each case the candidate, whose election is obviously most to be desired, obtains the greates number of marks.</p>
 diff -ru a/math/a-guide-to-the-mathematical-student.html b/math/a-guide-to-the-mathematical-student.html
---- a/math/a-guide-to-the-mathematical-student.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/a-guide-to-the-mathematical-student.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/a-guide-to-the-mathematical-student.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/a-guide-to-the-mathematical-student.html	2023-07-17 16:26:03.000000000 +0200
 @@ -30,8 +30,7 @@
  December, 1864.</p></div>
  
@@ -6250,8 +6250,8 @@ diff -ru a/math/a-guide-to-the-mathematical-student.html b/math/a-guide-to-the-m
  <div class="footnotes"><ol>
  <li id="footnote-1">i.&thinsp;e. From Qudratic Equations <i>exclusive</i> to Binomial Theorem <i>inclusive</i>. The same rule of interpretation applies to J, K, &amp;c.</li>
 diff -ru a/math/algebra-13.html b/math/algebra-13.html
---- a/math/algebra-13.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/algebra-13.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/algebra-13.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/algebra-13.html	2023-07-17 16:26:03.000000000 +0200
 @@ -22,7 +22,7 @@
  <li>What sum of money exceeds four-ninths of it by 4<i>s</i>.,&nbsp;9<i>d</i>?</li>
  <li>Resolve into factors <math><mrow><mn>2</mn><msup><mi>a</mi><mn>5</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><msup><mi>b</mi><mn>2</mn></msup></mrow></math>.</li>
@@ -6262,8 +6262,8 @@ diff -ru a/math/algebra-13.html b/math/algebra-13.html
  <li>Solve <math><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mfrac><mi>y</mi><mn>2</mn></mfrac><mo>=</mo><mn>7</mn><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>13</mn></mrow></math>.</li>
  <li>A is twice as old as B, and 3 times as old as C. One year ago, B was twice as old as C. Find A’s age.</li>
 diff -ru a/math/algebraical-formulae-and-rules.html b/math/algebraical-formulae-and-rules.html
---- a/math/algebraical-formulae-and-rules.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/algebraical-formulae-and-rules.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/algebraical-formulae-and-rules.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/algebraical-formulae-and-rules.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,7 +12,8 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -6357,8 +6357,8 @@ diff -ru a/math/algebraical-formulae-and-rules.html b/math/algebraical-formulae-
  <tr><td><span style="display: inline-block; width: 2em;"></span> 3. <math><mrow><mi>A</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>B</mi><mi>x</mi><mi>y</mi><mo>+</mo><mi>C</mi><msup><mi>y</mi><mn>2</mn></msup></mrow></math>, where <math><mrow><msup><mi>B</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>A</mi><mi>C</mi></mrow></math> is a positive square (call it <math><msup><mi>K</mi><mn>2</mn></msup></math>) <span class="after-dotfill">=</span></td><td><math><mrow><mi>A</mi><mo>.</mo><mrow><mo>(</mo><mrow><mi>x</mi><mo>+</mo><mfrac><mrow><mi>B</mi><mo>+</mo><mi>K</mi></mrow><mrow><mn>2</mn><mi>A</mi></mrow></mfrac><mo>.</mo><mi>y</mi></mrow><mo>)</mo></mrow><mo>.</mo><mrow><mo>(</mo><mrow><mi>x</mi><mo>+</mo><mfrac><mrow><mi>B</mi><mo>−</mo><mi>K</mi></mrow><mrow><mn>2</mn><mi>A</mi></mrow></mfrac><mo>.</mo><mi>y</mi></mrow><mo>)</mo></mrow></mrow></math>.</td></tr>
  
 diff -ru a/math/algebraical-formulae.html b/math/algebraical-formulae.html
---- a/math/algebraical-formulae.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/algebraical-formulae.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/algebraical-formulae.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/algebraical-formulae.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,44 +12,45 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -6423,8 +6423,8 @@ diff -ru a/math/algebraical-formulae.html b/math/algebraical-formulae.html
  <tr><td>Resolution into factors</td><td></td></tr>
  
 diff -ru a/math/a-new-theory-of-parallels.html b/math/a-new-theory-of-parallels.html
---- a/math/a-new-theory-of-parallels.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/a-new-theory-of-parallels.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/a-new-theory-of-parallels.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/a-new-theory-of-parallels.html	2023-07-17 16:26:03.000000000 +0200
 @@ -1239,9 +1239,8 @@
  <p>The results we have arrived at will perhaps be more easily understood by examining the following Table of values. The symbols used in it are as follows:—
  </p><hr class="medskip">
@@ -6462,8 +6462,8 @@ diff -ru a/math/a-new-theory-of-parallels.html b/math/a-new-theory-of-parallels.
  </table>
  <hr class="medskip">
 diff -ru a/math/arithmetical-formulae-and-rules.html b/math/arithmetical-formulae-and-rules.html
---- a/math/arithmetical-formulae-and-rules.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/arithmetical-formulae-and-rules.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/arithmetical-formulae-and-rules.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/arithmetical-formulae-and-rules.html	2023-07-17 16:26:03.000000000 +0200
 @@ -66,119 +66,119 @@
  <h3>Tables of Weights, &amp;c.</h3>
  <h4>Avoirdupois Weight:—</h4>
@@ -6624,8 +6624,8 @@ diff -ru a/math/arithmetical-formulae-and-rules.html b/math/arithmetical-formula
  <tr><td>values of <var>a</var>, <var>b</var>, <var>c</var>, <var>d</var>, each in terms of the other three, are</td><td><math><mfrac><mrow><mi>b</mi><mi>c</mi></mrow><mi>d</mi></mfrac></math>, <math><mfrac><mrow><mi>a</mi><mi>d</mi></mrow><mi>c</mi></mfrac></math>, <math><mfrac><mrow><mi>a</mi><mi>d</mi></mrow><mi>b</mi></mfrac></math>, <math><mfrac><mrow><mi>b</mi><mi>c</mi></mrow><mi>a</mi></mfrac></math>.</td></tr>
  
 diff -ru a/math/eighth-paper-on-logic.html b/math/eighth-paper-on-logic.html
---- a/math/eighth-paper-on-logic.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/eighth-paper-on-logic.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/eighth-paper-on-logic.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/eighth-paper-on-logic.html	2023-07-17 16:26:03.000000000 +0200
 @@ -36,7 +36,7 @@
  <span style="display: inline-block; width: 1em;"></span> (3) If some <var>a</var> are <var>b</var> and some not, and if some <var>g</var> are <var>h</var>, no <var>e</var> are <var>f</var>.<br>
  <span style="display: inline-block; width: 3em;"></span> Prove that, if some <var>c</var> are <var>d</var> and some not, and if all <var>e</var> are <var>f</var>, no <var>g</var> are <var>h</var>.</p>
@@ -6656,8 +6656,8 @@ diff -ru a/math/eighth-paper-on-logic.html b/math/eighth-paper-on-logic.html
  <p>6. (1) Six friends, <var>A</var>, <var>B</var>, <var>C</var>, <var>D</var>, <var>E</var>, <var>F</var>, and their wives, walk out daily, in large or small parties at pleasure.<br>
  <span style="display: inline-block; width: 1em;"></span> (2) When <var>A</var>, <var>B</var>, <var>C</var> take their wives, <var>E</var> accompanies (i.&thinsp;e. is in the same party with) <var>F</var>’s wife;<br>
 diff -ru a/math/fifth-paper-on-logic.html b/math/fifth-paper-on-logic.html
---- a/math/fifth-paper-on-logic.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/fifth-paper-on-logic.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/fifth-paper-on-logic.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/fifth-paper-on-logic.html	2023-07-17 16:26:03.000000000 +0200
 @@ -22,7 +22,7 @@
  
  <p class="subtitle">Examples. Sets of Premisses</p>
@@ -6677,8 +6677,8 @@ diff -ru a/math/fifth-paper-on-logic.html b/math/fifth-paper-on-logic.html
  <p>10. No cats can sing well;<br>
  <span style="display: inline-block; width: 1em;"></span> None of my household get any cream, unless they can sing well;<br>
 diff -ru a/math/formulae-group-c.html b/math/formulae-group-c.html
---- a/math/formulae-group-c.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/formulae-group-c.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/formulae-group-c.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/formulae-group-c.html	2023-07-17 16:26:03.000000000 +0200
 @@ -17,7 +17,7 @@
  
  <p>N.B. The pupil need not commit to memory the formulæ marked thus “[”; but he should be able to work them out readily.</p>
@@ -6740,8 +6740,8 @@ diff -ru a/math/formulae-group-c.html b/math/formulae-group-c.html
  <footer>
  <nav><ul>
 diff -ru a/math/formulae.html b/math/formulae.html
---- a/math/formulae.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/formulae.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/formulae.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/formulae.html	2023-07-17 16:26:03.000000000 +0200
 @@ -22,19 +22,19 @@
  
  <tr><td><math><msup><mi>e</mi><mi>x</mi></msup></math>, as series<span class="after-dotfill"></span></td><td><math><mrow><mn>1</mn><mo>+</mo><mi>x</mi><mo>+</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mrow style="border-left: solid thin; border-bottom: solid thin; border-top: transparent solid thick;"><mspace width="2px"/>2</mrow></mfrac><mo>+</mo><mfrac><msup><mi>x</mi><mn>3</mn></msup><mrow style="border-left: solid thin; border-bottom: solid thin; border-top: transparent solid thick;"><mspace width="2px"/>3</mrow></mfrac><mo>+</mo><mo>⋯</mo></mrow></math></td></tr>
@@ -6785,8 +6785,8 @@ diff -ru a/math/formulae.html b/math/formulae.html
  <tr><td><math><mfrac><mn>180</mn><mi>π</mi></mfrac></math>,<span style="display: inline-block; width: 2em;"></span>do.<span style="display: inline-block; width: 2em;"></span><span class="after-dotfill"></span></td><td>57⋅2957795</td></tr>
  
 diff -ru a/math/formulae-in-algebra.html b/math/formulae-in-algebra.html
---- a/math/formulae-in-algebra.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/formulae-in-algebra.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/formulae-in-algebra.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/formulae-in-algebra.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,23 +12,24 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -6838,8 +6838,8 @@ diff -ru a/math/formulae-in-algebra.html b/math/formulae-in-algebra.html
  <tr><td>Permutation of <var>n</var> things</td><td></td></tr>
  
 diff -ru a/math/fourth-paper-on-logic.html b/math/fourth-paper-on-logic.html
---- a/math/fourth-paper-on-logic.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/fourth-paper-on-logic.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/fourth-paper-on-logic.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/fourth-paper-on-logic.html	2023-07-17 16:26:03.000000000 +0200
 @@ -23,7 +23,7 @@
  <p class="subtitle">Examples. Pairs of Premisses</p>
  
@@ -6859,8 +6859,8 @@ diff -ru a/math/fourth-paper-on-logic.html b/math/fourth-paper-on-logic.html
  <span style="display: inline-block; width: 1em;"></span>No pain is eagerly wished for.</p>
  
 diff -ru a/math/notes-on-the-first-part-of-algebra.html b/math/notes-on-the-first-part-of-algebra.html
---- a/math/notes-on-the-first-part-of-algebra.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/notes-on-the-first-part-of-algebra.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/notes-on-the-first-part-of-algebra.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/notes-on-the-first-part-of-algebra.html	2023-07-17 16:26:03.000000000 +0200
 @@ -35,39 +35,39 @@
  
  <div class="verse">
@@ -6942,8 +6942,8 @@ diff -ru a/math/notes-on-the-first-part-of-algebra.html b/math/notes-on-the-firs
  <li id="footnote-18">divide it out of both, and multiply the answer by it.</li>
  <li id="footnote-19">find the L. C. M. of coefficients of these 2 terms, and multiply the divident by such a quantity as will raise the coefficient of its first term to this L. C. M.</li>
 diff -ru a/math/notes-on-the-first-two-books-of-euclid.html b/math/notes-on-the-first-two-books-of-euclid.html
---- a/math/notes-on-the-first-two-books-of-euclid.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/notes-on-the-first-two-books-of-euclid.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/notes-on-the-first-two-books-of-euclid.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/notes-on-the-first-two-books-of-euclid.html	2023-07-17 16:26:03.000000000 +0200
 @@ -57,7 +57,7 @@
  
  <p>The following scheme may assist the reader in understanding the first five Definitions given above.</p>
@@ -6954,8 +6954,8 @@ diff -ru a/math/notes-on-the-first-two-books-of-euclid.html b/math/notes-on-the-
  <tr><td colspan="4">Things set before us in Geometry may be of 2 kinds, viz.:</td></tr>
  <tr><td colspan="2">(without proofs)</td><td colspan="2">(with proofs)</td></tr>
 diff -ru a/math/pillow-problems.html b/math/pillow-problems.html
---- a/math/pillow-problems.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/pillow-problems.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/pillow-problems.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/pillow-problems.html	2023-07-17 16:26:03.000000000 +0200
 @@ -17,7 +17,7 @@
  <p class="subtitle">Thought Out during Wakeful Hours</p>
  
@@ -7264,8 +7264,8 @@ diff -ru a/math/pillow-problems.html b/math/pillow-problems.html
  </table>
  
 diff -ru a/math/symbolic-logic-specimen-syllogisms-premisses.html b/math/symbolic-logic-specimen-syllogisms-premisses.html
---- a/math/symbolic-logic-specimen-syllogisms-premisses.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/symbolic-logic-specimen-syllogisms-premisses.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/symbolic-logic-specimen-syllogisms-premisses.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/symbolic-logic-specimen-syllogisms-premisses.html	2023-07-17 16:26:03.000000000 +0200
 @@ -67,7 +67,7 @@
  <span style="display: inline-block; width: 1em;"></span> Some of my greyhounds have won prizes.</p>
  <aside class="toggle variant" id="annotation-1">This is missing in the first edition, the following have numbers 15 to 17.</aside>
@@ -7276,8 +7276,8 @@ diff -ru a/math/symbolic-logic-specimen-syllogisms-premisses.html b/math/symboli
  <p>16. (1) No cats sing well;<br>
  <span style="display: inline-block; width: 1em;"></span> (2) None of my household get any cream, unless they sing well;<br>
 diff -ru a/math/the-formulae-of-plane-trigonometry.html b/math/the-formulae-of-plane-trigonometry.html
---- a/math/the-formulae-of-plane-trigonometry.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/the-formulae-of-plane-trigonometry.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/the-formulae-of-plane-trigonometry.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/the-formulae-of-plane-trigonometry.html	2023-07-17 16:26:03.000000000 +0200
 @@ -16,7 +16,7 @@
  <article>
  
@@ -7395,8 +7395,8 @@ diff -ru a/math/the-formulae-of-plane-trigonometry.html b/math/the-formulae-of-p
  </table>
  
 diff -ru a/math/the-principles-of-parliamentary-representation.html b/math/the-principles-of-parliamentary-representation.html
---- a/math/the-principles-of-parliamentary-representation.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/math/the-principles-of-parliamentary-representation.html	2023-07-05 14:40:07.000000000 +0200
+--- a/math/the-principles-of-parliamentary-representation.html	2023-07-17 16:21:26.000000000 +0200
++++ b/math/the-principles-of-parliamentary-representation.html	2023-07-17 16:26:03.000000000 +0200
 @@ -91,7 +91,7 @@
  <p>This, then, is the formula required. An example will make it clear. Suppose the universal quota to be 6,000: then a District containing 50,000 Electors would have 7 Members assigned to it.</p>
  
@@ -7832,8 +7832,8 @@ diff -ru a/math/the-principles-of-parliamentary-representation.html b/math/the-p
  
  <p>The First Count would give:—<br>
 diff -ru a/mischmasch/preface.html b/mischmasch/preface.html
---- a/mischmasch/preface.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/mischmasch/preface.html	2023-07-05 14:40:07.000000000 +0200
+--- a/mischmasch/preface.html	2023-07-17 16:21:26.000000000 +0200
++++ b/mischmasch/preface.html	2023-07-17 16:26:03.000000000 +0200
 @@ -60,7 +60,7 @@
  <h3 id="mischmasch:notice">Notice to the Public</h3>
  <header><p>Source: Mischmasch, including a newspaper cutting from the Whitby Gazette, September 28, 1854</p>
@@ -7844,8 +7844,8 @@ diff -ru a/mischmasch/preface.html b/mischmasch/preface.html
  <p>The two following compositions, “Wilhelm von Schmitz” and “The Lady of the Ladle,” were originally published in the “Whitby Gazette,” a weekly periodical, price one penny: what opinion the Editor of that paper formed of them may be judged from his farewell address, inserted below.</p>
  
 diff -ru a/mischmasch/studies-from-english-poets.html b/mischmasch/studies-from-english-poets.html
---- a/mischmasch/studies-from-english-poets.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/mischmasch/studies-from-english-poets.html	2023-07-05 14:40:07.000000000 +0200
+--- a/mischmasch/studies-from-english-poets.html	2023-07-17 16:21:26.000000000 +0200
++++ b/mischmasch/studies-from-english-poets.html	2023-07-17 16:26:03.000000000 +0200
 @@ -24,33 +24,33 @@
  <figure style="max-width:75%;">
  <img src="../../images/mischmasch/english-poets-1.jpg" width="274" height="160" alt="A man puts his head into a trumpet, another man points him to the trumpet’s mouth.">
@@ -7893,8 +7893,8 @@ diff -ru a/mischmasch/studies-from-english-poets.html b/mischmasch/studies-from-
  <footer>
  <nav><ol>
 diff -ru a/notes-oxford-chiel/blank-cheque.html b/notes-oxford-chiel/blank-cheque.html
---- a/notes-oxford-chiel/blank-cheque.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/notes-oxford-chiel/blank-cheque.html	2023-07-05 14:40:07.000000000 +0200
+--- a/notes-oxford-chiel/blank-cheque.html	2023-07-17 16:21:26.000000000 +0200
++++ b/notes-oxford-chiel/blank-cheque.html	2023-07-17 16:26:03.000000000 +0200
 @@ -91,7 +91,7 @@
  <p>I saw that it would be waste of words to argue the matter further, so took my leave, and did not see my old friends again before their departure for the sea-side. I quote the following from a letter which I received yesterday from Mrs.&nbsp;Nivers.
  </p><hr class="medskip">
@@ -7905,8 +7905,8 @@ diff -ru a/notes-oxford-chiel/blank-cheque.html b/notes-oxford-chiel/blank-chequ
  <p><span style="font-style: italic;">‘Dear Friend,</span></p>
  
 diff -ru a/notes-oxford-chiel/clarendon.html b/notes-oxford-chiel/clarendon.html
---- a/notes-oxford-chiel/clarendon.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/notes-oxford-chiel/clarendon.html	2023-07-05 14:40:07.000000000 +0200
+--- a/notes-oxford-chiel/clarendon.html	2023-07-17 16:21:26.000000000 +0200
++++ b/notes-oxford-chiel/clarendon.html	2023-07-17 16:26:03.000000000 +0200
 @@ -29,7 +29,7 @@
  <p><span style="display: inline-block; width: 2em;"></span>I have the honour to remain,<br>
  <span style="display: inline-block; width: 4em;"></span>Dear Mr.&nbsp;Vice-Chancellor,<br>
@@ -7936,8 +7936,8 @@ diff -ru a/notes-oxford-chiel/clarendon.html b/notes-oxford-chiel/clarendon.html
  <footer>
  <nav><ol>
 diff -ru a/notes-oxford-chiel/new-method-evaluation.html b/notes-oxford-chiel/new-method-evaluation.html
---- a/notes-oxford-chiel/new-method-evaluation.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/notes-oxford-chiel/new-method-evaluation.html	2023-07-05 14:40:07.000000000 +0200
+--- a/notes-oxford-chiel/new-method-evaluation.html	2023-07-17 16:21:26.000000000 +0200
++++ b/notes-oxford-chiel/new-method-evaluation.html	2023-07-17 16:26:03.000000000 +0200
 @@ -68,11 +68,8 @@
  <p>Let E = Essays, and R = Reviews: then the locus of (E + R), referred to multilinear co-ordinates, will be found to be a superficies (i.&thinsp;e. a locus possessing length and breadth, but no depth). Let <var>ν</var> = novelty, and assume (E + R) as a function of <var>ν</var>.</p>
  
@@ -7970,8 +7970,8 @@ diff -ru a/notes-oxford-chiel/new-method-evaluation.html b/notes-oxford-chiel/ne
  <aside class="toggle variant wide" id="annotation-10"><p>In the original publication all but the first line of the following equation are prefixed by some explanation:</p>
  
 diff -ru a/notes-oxford-chiel/vision-three-ts.html b/notes-oxford-chiel/vision-three-ts.html
---- a/notes-oxford-chiel/vision-three-ts.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/notes-oxford-chiel/vision-three-ts.html	2023-07-05 14:40:07.000000000 +0200
+--- a/notes-oxford-chiel/vision-three-ts.html	2023-07-17 16:21:26.000000000 +0200
++++ b/notes-oxford-chiel/vision-three-ts.html	2023-07-17 16:26:03.000000000 +0200
 @@ -115,7 +115,7 @@
  
  <p><span style="font-variant: small-caps;">Pisc.</span> It joys me much to hear you say so.</p>
@@ -8018,8 +8018,8 @@ diff -ru a/notes-oxford-chiel/vision-three-ts.html b/notes-oxford-chiel/vision-t
  <h4><span class="textfrak">A Bachanalian Ode.</span></h4>
  
 diff -ru a/nursery-alice/content.html b/nursery-alice/content.html
---- a/nursery-alice/content.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/nursery-alice/content.html	2023-07-05 14:40:07.000000000 +0200
+--- a/nursery-alice/content.html	2023-07-17 16:21:26.000000000 +0200
++++ b/nursery-alice/content.html	2023-07-17 16:26:03.000000000 +0200
 @@ -17,11 +17,10 @@
  <li>The Nursery “Alice”</li>
  <li class="next"><a href="../texts/an-easter-greeting.html">An Easter Greeting</a></li>
@@ -8034,8 +8034,8 @@ diff -ru a/nursery-alice/content.html b/nursery-alice/content.html
  <img src="../../images/nursery/02.jpg" width="270" height="396" alt="The White Rabbit is looking on its watch.">
  </figure>
 diff -ru a/poems/a-sitting-on-a-gate.html b/poems/a-sitting-on-a-gate.html
---- a/poems/a-sitting-on-a-gate.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/a-sitting-on-a-gate.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/a-sitting-on-a-gate.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/a-sitting-on-a-gate.html	2023-07-17 16:26:03.000000000 +0200
 @@ -14,10 +14,10 @@
  <h2>A-sitting on A Gate</h2>
  <p>Source: Through the Looking Glass (extracted)</p>
@@ -8050,8 +8050,8 @@ diff -ru a/poems/a-sitting-on-a-gate.html b/poems/a-sitting-on-a-gate.html
  <p>I’ll tell thee everything I can:<br>
  <span style="display: inline-block; width: 1em;"></span>There’s little to relate.<br>
 diff -ru a/poems/christmas-greetings.html b/poems/christmas-greetings.html
---- a/poems/christmas-greetings.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/christmas-greetings.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/christmas-greetings.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/christmas-greetings.html	2023-07-17 16:26:03.000000000 +0200
 @@ -39,7 +39,7 @@
  
  <p class="subtitle">[From a Fairy to a Child]</p>
@@ -8062,8 +8062,8 @@ diff -ru a/poems/christmas-greetings.html b/poems/christmas-greetings.html
  <span style="display: inline-block; width: 1em;"></span>For a moment lay aside<br>
  Cunning tricks and elfish play,<br>
 diff -ru a/poems/dreamland.html b/poems/dreamland.html
---- a/poems/dreamland.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/dreamland.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/dreamland.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/dreamland.html	2023-07-17 16:26:03.000000000 +0200
 @@ -23,7 +23,7 @@
  <p>“I found myself seated, with many others, in darkness, in a large amphitheatre. Deep stillness prevailed. A kind of hushed expectancy was upon us. We sat awaiting I know not what. Before us hung a vast and dark curtain, and between it and us was a kind of stage. Suddenly an intense wish seized me to look upon the forms of some of the heroes of past days. I cannot say whom in particular I longed to behold, but, even as I wished, a faint light flickered over the stage, and I was aware of a silent procession of figures moving from right to left across the platform in front of me. As each figure approached the left-hand corner, it turned and gazed at me, and I knew (by what means I cannot say) its name. One only I recall—Saint George: the light shone with a peculiar blueish lustre on his shield and helmet as he turned and slowly faced me. The figures were shadowy and floated like mist before me: as each one disappeared an invisible choir behind the curtain sang the ‘Dream Music.’ I awoke with the melody ringing in my ears, and the <i>words</i> of the last line complete—‘I see the shadows falling. And slowly pass away’—the rest I could not recall.”
  </p><hr class="bigskip">
@@ -8074,8 +8074,8 @@ diff -ru a/poems/dreamland.html b/poems/dreamland.html
  <p>
  
 diff -ru a/poems/four-riddles-no-i.html b/poems/four-riddles-no-i.html
---- a/poems/four-riddles-no-i.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/four-riddles-no-i.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/four-riddles-no-i.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/four-riddles-no-i.html	2023-07-17 16:26:03.000000000 +0200
 @@ -27,9 +27,9 @@
  </header>
  <article>
@@ -8089,8 +8089,8 @@ diff -ru a/poems/four-riddles-no-i.html b/poems/four-riddles-no-i.html
  
  <p>The Double Acrostic, a form of puzzle which has lately become fashionable, is constructed thus:—Two words are selected having the same number of letters: these are supposed to be written in two parallel columns, and a series of words is then found (their length is immaterial) such that the first column may consist of their initial letters, and the second of their final letters. For instance, if the column-words selected were ‘rose’ and ‘ring,’ we might fill up thus:—</p><div class="continue"><table class="">
 diff -ru a/poems/four-riddles-no-iv.html b/poems/four-riddles-no-iv.html
---- a/poems/four-riddles-no-iv.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/four-riddles-no-iv.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/four-riddles-no-iv.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/four-riddles-no-iv.html	2023-07-17 16:26:03.000000000 +0200
 @@ -20,9 +20,9 @@
  </header>
  <article>
@@ -8104,8 +8104,8 @@ diff -ru a/poems/four-riddles-no-iv.html b/poems/four-riddles-no-iv.html
  
  <div class="verse">
 diff -ru a/poems/hiawathas-photographing-early-version.html b/poems/hiawathas-photographing-early-version.html
---- a/poems/hiawathas-photographing-early-version.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/hiawathas-photographing-early-version.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/hiawathas-photographing-early-version.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/hiawathas-photographing-early-version.html	2023-07-17 16:26:03.000000000 +0200
 @@ -19,11 +19,10 @@
  <li>Phantasmagoria</li>
  <li class="next"><a href="the-lang-coortin.html">The Lang Coortin’</a></li>
@@ -8120,8 +8120,8 @@ diff -ru a/poems/hiawathas-photographing-early-version.html b/poems/hiawathas-ph
  <aside class="toggle variant" id="annotation-1">Introduction by the Author:—In</aside>
  <aside class="toggle variant" id="annotation-2">that</aside>
 diff -ru a/poems/hiawathas-photographing-later-version.html b/poems/hiawathas-photographing-later-version.html
---- a/poems/hiawathas-photographing-later-version.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/hiawathas-photographing-later-version.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/hiawathas-photographing-later-version.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/hiawathas-photographing-later-version.html	2023-07-17 16:26:03.000000000 +0200
 @@ -19,11 +19,10 @@
  <li>Rhyme? and Reason?</li>
  <li class="next"><a href="melancholetta.html">Melancholetta</a></li>
@@ -8227,8 +8227,8 @@ diff -ru a/poems/hiawathas-photographing-later-version.html b/poems/hiawathas-ph
  <img src="../../images/rhyme/089.jpg" width="270" height="288" alt="Hiawatha is leaving, his face hidden under a large hat.">
  </figure>
 diff -ru a/poems/jabberwocky.html b/poems/jabberwocky.html
---- a/poems/jabberwocky.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/jabberwocky.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/jabberwocky.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/jabberwocky.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,10 +12,10 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -8243,8 +8243,8 @@ diff -ru a/poems/jabberwocky.html b/poems/jabberwocky.html
  <p>’Twas brillig, and the slithy toves<br>
  <span style="display: inline-block; width: 1em;"></span>Did gyre and gimble in the wabe:<br>
 diff -ru a/poems/mad-gardeners-song.html b/poems/mad-gardeners-song.html
---- a/poems/mad-gardeners-song.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/mad-gardeners-song.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/mad-gardeners-song.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/mad-gardeners-song.html	2023-07-17 16:26:03.000000000 +0200
 @@ -71,7 +71,7 @@
  <span style="display: inline-block; width: 1em;"></span>A Double Rule of Three:<br>
  “And all its mystery,” he said,<br>
@@ -8255,8 +8255,8 @@ diff -ru a/poems/mad-gardeners-song.html b/poems/mad-gardeners-song.html
  <p>He thought he saw an Argument<br>
  <span style="display: inline-block; width: 1em;"></span>That proved he was the Pope:<br>
 diff -ru a/poems/my-first-is-a-berry.html b/poems/my-first-is-a-berry.html
---- a/poems/my-first-is-a-berry.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/my-first-is-a-berry.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/my-first-is-a-berry.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/my-first-is-a-berry.html	2023-07-17 16:26:03.000000000 +0200
 @@ -26,7 +26,7 @@
  
  <p>There is another verse-riddle in this letter:</p>
@@ -8267,8 +8267,8 @@ diff -ru a/poems/my-first-is-a-berry.html b/poems/my-first-is-a-berry.html
  <tr><td></td><td>V</td><td>I</td><td>O</td><td>L</td><td>E</td><td>T</td></tr>
  <tr><td></td><td></td><td></td><td>V</td><td>I</td><td>O</td><td>L</td><td>E</td><td>T</td></tr>
 diff -ru a/poems/poetry-for-the-million.html b/poems/poetry-for-the-million.html
---- a/poems/poetry-for-the-million.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/poetry-for-the-million.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/poetry-for-the-million.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/poetry-for-the-million.html	2023-07-17 16:26:03.000000000 +0200
 @@ -19,11 +19,9 @@
  <li>Mischmasch</li>
  <li class="next"><a href="../mischmasch/from-our-own-correspondent.html">From Our Own Correspondent</a></li>
@@ -8359,8 +8359,8 @@ diff -ru a/poems/poetry-for-the-million.html b/poems/poetry-for-the-million.html
  <div class="signature"><p>Ch: Ch: 1855.</p></div>
  </article>
 diff -ru a/poems/shes-all-my-fancy-painted-him.html b/poems/shes-all-my-fancy-painted-him.html
---- a/poems/shes-all-my-fancy-painted-him.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/shes-all-my-fancy-painted-him.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/shes-all-my-fancy-painted-him.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/shes-all-my-fancy-painted-him.html	2023-07-17 16:26:03.000000000 +0200
 @@ -19,11 +19,9 @@
  <li>Mischmasch</li>
  <li class="next"><a href="../magazines/photography-extraordinary.html">Photography Extraordinary</a></li>
@@ -8375,8 +8375,8 @@ diff -ru a/poems/shes-all-my-fancy-painted-him.html b/poems/shes-all-my-fancy-pa
  
  <div class="verse">
 diff -ru a/poems/stanza-of-anglo-saxon-poetry.html b/poems/stanza-of-anglo-saxon-poetry.html
---- a/poems/stanza-of-anglo-saxon-poetry.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/stanza-of-anglo-saxon-poetry.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/stanza-of-anglo-saxon-poetry.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/stanza-of-anglo-saxon-poetry.html	2023-07-17 16:26:03.000000000 +0200
 @@ -17,11 +17,9 @@
  <li>Mischmasch</li>
  <li class="next"><a href="../mischmasch/images.html">Images</a></li>
@@ -8391,8 +8391,8 @@ diff -ru a/poems/stanza-of-anglo-saxon-poetry.html b/poems/stanza-of-anglo-saxon
  <img src="../../images/mischmasch/anglo-saxon.jpg" width="413" height="129" class="invert" alt="Poem in archaic letters, text is transcribed below">
  </figure>
 diff -ru a/poems/stolen-waters.html b/poems/stolen-waters.html
---- a/poems/stolen-waters.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/stolen-waters.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/stolen-waters.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/stolen-waters.html	2023-07-17 16:26:03.000000000 +0200
 @@ -141,52 +141,52 @@
  <aside class="toggle variant" id="annotation-6">“the rain” in <i>College Rhymes</i></aside>
  <aside class="toggle variant" id="annotation-7">“were” in <i>College Rhymes</i></aside>
@@ -8461,8 +8461,8 @@ diff -ru a/poems/stolen-waters.html b/poems/stolen-waters.html
  <aside class="toggle variant" id="annotation-8">Only in <i>Three Sunsets</i>, “Ch.&nbsp;Ch. C. L. D.” in <i>College Rhymes</i></aside></div>
  </article>
 diff -ru a/poems/tema-con-variazioni.html b/poems/tema-con-variazioni.html
---- a/poems/tema-con-variazioni.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/tema-con-variazioni.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/tema-con-variazioni.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/tema-con-variazioni.html	2023-07-17 16:26:03.000000000 +0200
 @@ -19,11 +19,10 @@
  <li>Rhyme? and Reason?</li>
  <li class="next"><a href="a-game-of-fives.html">A Game of Fives</a></li>
@@ -8511,8 +8511,8 @@ diff -ru a/poems/tema-con-variazioni.html b/poems/tema-con-variazioni.html
  <footer>
  <nav><ol>
 diff -ru a/poems/the-elections-to-the-hebdomadal-council.html b/poems/the-elections-to-the-hebdomadal-council.html
---- a/poems/the-elections-to-the-hebdomadal-council.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/the-elections-to-the-hebdomadal-council.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/the-elections-to-the-hebdomadal-council.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/the-elections-to-the-hebdomadal-council.html	2023-07-17 16:26:03.000000000 +0200
 @@ -61,7 +61,7 @@
  Dear Senior Censor, that you chanced to say<br>
  You thought these party-combinations would<br>
@@ -8551,8 +8551,8 @@ diff -ru a/poems/the-elections-to-the-hebdomadal-council.html b/poems/the-electi
  <li id="footnote-5">‘The University cannot afford at the present moment to be delivered over as a slave to any non-academical interest whatever.’</li>
  <li id="footnote-6">‘It may be right to go on, it may be right to stand still, or it may be right to go back.’</li>
 diff -ru a/poems/the-path-of-roses.html b/poems/the-path-of-roses.html
---- a/poems/the-path-of-roses.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/the-path-of-roses.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/the-path-of-roses.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/the-path-of-roses.html	2023-07-17 16:26:03.000000000 +0200
 @@ -80,7 +80,7 @@
  The name of him who sleeps below.”</span></p>
  <aside class="toggle variant" id="annotation-7">whispered</aside>
@@ -8572,8 +8572,8 @@ diff -ru a/poems/the-path-of-roses.html b/poems/the-path-of-roses.html
  <img src="../../images/magazines/train-path-roses.jpg" width="246" height="283" alt="A woman is standing in room with a large window and has a vision of nursing the a man lying in bed.">
  </figure>
 diff -ru a/poems/the-three-voices-early-version.html b/poems/the-three-voices-early-version.html
---- a/poems/the-three-voices-early-version.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/the-three-voices-early-version.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/the-three-voices-early-version.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/the-three-voices-early-version.html	2023-07-17 16:26:03.000000000 +0200
 @@ -14,7 +14,9 @@
  <h2>The Three Voices (early version)</h2>
  <p>Source: The Train, November 1856 (with minor differences as noted); Mischmasch (with illustration and minor differences as noted); Phantasmagoria</p>
@@ -8595,8 +8595,8 @@ diff -ru a/poems/the-three-voices-early-version.html b/poems/the-three-voices-ea
  <img src="../../images/mischmasch/three-voices.png" width="379" height="465" alt="A woman and a man are standing next to each other. She pierces him with her umbrella, he loses his hat.">
  </figure>
 diff -ru a/poems/the-three-voices-later-version.html b/poems/the-three-voices-later-version.html
---- a/poems/the-three-voices-later-version.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/the-three-voices-later-version.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/the-three-voices-later-version.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/the-three-voices-later-version.html	2023-07-17 16:26:03.000000000 +0200
 @@ -14,7 +14,8 @@
  <h2>The Three Voices (later version)</h2>
  <p>Source: Rhyme? and Reason?</p>
@@ -8617,8 +8617,8 @@ diff -ru a/poems/the-three-voices-later-version.html b/poems/the-three-voices-la
  <div class="verse">
  <figure style="max-width:75%;">
 diff -ru a/poems/they-told-me-you-had-been-to-her.html b/poems/they-told-me-you-had-been-to-her.html
---- a/poems/they-told-me-you-had-been-to-her.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/they-told-me-you-had-been-to-her.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/they-told-me-you-had-been-to-her.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/they-told-me-you-had-been-to-her.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,10 +12,10 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -8633,8 +8633,8 @@ diff -ru a/poems/they-told-me-you-had-been-to-her.html b/poems/they-told-me-you-
  <p>They told me you had been to her,<br>
  <span style="display: inline-block; width: 1em;"></span>And mentioned me to him:<br>
 diff -ru a/poems/upon-the-lonely-moor.html b/poems/upon-the-lonely-moor.html
---- a/poems/upon-the-lonely-moor.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/upon-the-lonely-moor.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/upon-the-lonely-moor.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/upon-the-lonely-moor.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,11 +12,9 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -8650,8 +8650,8 @@ diff -ru a/poems/upon-the-lonely-moor.html b/poems/upon-the-lonely-moor.html
  
  <div class="verse">
 diff -ru a/poems/will-you-trot-a-little-quicker.html b/poems/will-you-trot-a-little-quicker.html
---- a/poems/will-you-trot-a-little-quicker.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/will-you-trot-a-little-quicker.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/will-you-trot-a-little-quicker.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/will-you-trot-a-little-quicker.html	2023-07-17 16:26:03.000000000 +0200
 @@ -15,7 +15,7 @@
  <p>Source: sent to Edith Argles for her sister Dolly, April 29, 1868 (several errors corrected to obtain a consistent version)</p></header>
  <article>
@@ -8662,8 +8662,8 @@ diff -ru a/poems/will-you-trot-a-little-quicker.html b/poems/will-you-trot-a-lit
  <div class="verse">
  <p>“Jgmu qjl vgrv x ugemdt pupdeto?” wxxl x Ugmh vj f Jji.<br>
 diff -ru a/poems/ye-fatalle-cheyse.html b/poems/ye-fatalle-cheyse.html
---- a/poems/ye-fatalle-cheyse.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/poems/ye-fatalle-cheyse.html	2023-07-05 14:40:07.000000000 +0200
+--- a/poems/ye-fatalle-cheyse.html	2023-07-17 16:21:26.000000000 +0200
++++ b/poems/ye-fatalle-cheyse.html	2023-07-17 16:26:03.000000000 +0200
 @@ -53,7 +53,7 @@
  <p>Wi’ eager bounde hes ilka honde<br>
  <span style="display: inline-block; width: 1em;"></span>Gane till that caverne dreir,<br>
@@ -8683,8 +8683,8 @@ diff -ru a/poems/ye-fatalle-cheyse.html b/poems/ye-fatalle-cheyse.html
  <li id="footnote-13">is.</li>
  <li id="footnote-14">drawn.</li>
 diff -ru a/rectory-magazine/introductions.html b/rectory-magazine/introductions.html
---- a/rectory-magazine/introductions.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/rectory-magazine/introductions.html	2023-07-05 14:40:07.000000000 +0200
+--- a/rectory-magazine/introductions.html	2023-07-17 16:21:26.000000000 +0200
++++ b/rectory-magazine/introductions.html	2023-07-17 16:26:03.000000000 +0200
 @@ -86,10 +86,12 @@
  
  <figure style="max-width:75%;">
@@ -8703,8 +8703,8 @@ diff -ru a/rectory-magazine/introductions.html b/rectory-magazine/introductions.
  
  <div class="signature"><p>Editor.</p></div>
 diff -ru a/rectory-umbrella/difficulties.html b/rectory-umbrella/difficulties.html
---- a/rectory-umbrella/difficulties.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/rectory-umbrella/difficulties.html	2023-07-05 14:40:07.000000000 +0200
+--- a/rectory-umbrella/difficulties.html	2023-07-17 16:21:26.000000000 +0200
++++ b/rectory-umbrella/difficulties.html	2023-07-17 16:26:03.000000000 +0200
 @@ -22,7 +22,7 @@
  
  <h3 id="difficulties:1">No.&nbsp;1</h3>
@@ -8715,8 +8715,8 @@ diff -ru a/rectory-umbrella/difficulties.html b/rectory-umbrella/difficulties.ht
  <p>Half of the world, or nearly so, is always in the light of the sun: as the world turns round, this hemisphere of light shifts round too, and passes over each part of it in succession.</p>
  
 diff -ru a/rectory-umbrella/images.html b/rectory-umbrella/images.html
---- a/rectory-umbrella/images.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/rectory-umbrella/images.html	2023-07-05 14:40:07.000000000 +0200
+--- a/rectory-umbrella/images.html	2023-07-17 16:21:26.000000000 +0200
++++ b/rectory-umbrella/images.html	2023-07-17 16:26:03.000000000 +0200
 @@ -23,26 +23,26 @@
  
  <figure>
@@ -8764,8 +8764,8 @@ diff -ru a/rectory-umbrella/images.html b/rectory-umbrella/images.html
  
  <figure style="max-width:50%;">
 diff -ru a/rectory-umbrella/the-vernon-gallery.html b/rectory-umbrella/the-vernon-gallery.html
---- a/rectory-umbrella/the-vernon-gallery.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/rectory-umbrella/the-vernon-gallery.html	2023-07-05 14:40:07.000000000 +0200
+--- a/rectory-umbrella/the-vernon-gallery.html	2023-07-17 16:21:26.000000000 +0200
++++ b/rectory-umbrella/the-vernon-gallery.html	2023-07-17 16:26:03.000000000 +0200
 @@ -26,7 +26,7 @@
  <figure>
  <img src="../../images/rectory-umbrella/vernon-1.jpg" width="736" height="608" alt="A young Hippopotamus">
@@ -8841,8 +8841,8 @@ diff -ru a/rectory-umbrella/the-vernon-gallery.html b/rectory-umbrella/the-verno
  
  <p>This charming picture is intended to represent three true lovers of music; for though the boy on the left is taking no part in the performance, yet there is a fire in his eye which forbids us to think him an inattentive or unadmiring listener. The most casual observer cannot fail to remark what a tendency the love of music has to make the hair grow in full luxuriance, nay, he may safely conclude, if he finds no such effect produced in <i>him</i>, that he has no ear for melody. A further proof of the lady’s great musical taste is that she is producing the most mellow strains from a pair of common kitchen bellows<sup class="footnote"><a href="#footnote-13">13</a></sup>: the song they are singing my readers have no doubt often heard.</p>
 diff -ru a/rectory-umbrella/the-walking-stick-of-destiny.html b/rectory-umbrella/the-walking-stick-of-destiny.html
---- a/rectory-umbrella/the-walking-stick-of-destiny.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/rectory-umbrella/the-walking-stick-of-destiny.html	2023-07-05 14:40:07.000000000 +0200
+--- a/rectory-umbrella/the-walking-stick-of-destiny.html	2023-07-17 16:21:26.000000000 +0200
++++ b/rectory-umbrella/the-walking-stick-of-destiny.html	2023-07-17 16:26:03.000000000 +0200
 @@ -28,8 +28,8 @@
  <figure class="float-right" style="max-width:7em;">
  <img src="../../images/rectory-umbrella/walkingstick-1-1.jpg" width="166" height="265" alt="A man in a coat.">
@@ -8930,8 +8930,8 @@ diff -ru a/rectory-umbrella/the-walking-stick-of-destiny.html b/rectory-umbrella
  <li id="footnote-60">the amount of this noise can only be guessed at, as the experiment has never been tried.</li>
  <li id="footnote-61">probably red hot. vide <a href="#walkingstick:redhot">page&nbsp;17</a>.</li>
 diff -ru a/rectory-umbrella/zoological-papers.html b/rectory-umbrella/zoological-papers.html
---- a/rectory-umbrella/zoological-papers.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/rectory-umbrella/zoological-papers.html	2023-07-05 14:40:07.000000000 +0200
+--- a/rectory-umbrella/zoological-papers.html	2023-07-17 16:21:26.000000000 +0200
++++ b/rectory-umbrella/zoological-papers.html	2023-07-17 16:26:03.000000000 +0200
 @@ -126,14 +126,14 @@
  <li id="footnote-20">vide <a href="#dove:connection">page&nbsp;49</a>.</li>
  <li id="footnote-21">not that we have not begun already, but here commences that close, learned, and unanswerable argument which has made this paper so deservedly celebrated.</li>
@@ -8950,8 +8950,8 @@ diff -ru a/rectory-umbrella/zoological-papers.html b/rectory-umbrella/zoological
  <li id="footnote-32">see <a href="#dove:punch">preceding page</a>.</li>
  <li id="footnote-33">generally of a goose or swan, but there is no reason why a Dove’s should not be used.</li>
 diff -ru a/sylvie-and-bruno/content.html b/sylvie-and-bruno/content.html
---- a/sylvie-and-bruno/content.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/sylvie-and-bruno/content.html	2023-07-05 14:40:07.000000000 +0200
+--- a/sylvie-and-bruno/content.html	2023-07-17 16:21:26.000000000 +0200
++++ b/sylvie-and-bruno/content.html	2023-07-17 16:26:03.000000000 +0200
 @@ -2068,7 +2068,7 @@
  
  <p>“As you please,” I said: and judged it best to say no more just then. “But this evening,” I thought, “I will call on the Earl. I may be able to <i>see</i> how the land lies, without so much as saying a word!”</p>
@@ -8962,8 +8962,8 @@ diff -ru a/sylvie-and-bruno/content.html b/sylvie-and-bruno/content.html
  
  <p>In the first place, I want to know—dear Child who reads this!—why Fairies should always be teaching <i>us</i> to do our duty, and lecturing <i>us</i> when we go wrong, and we should never teach <i>them</i> anything? You can’t mean to say that Fairies are never greedy, or selfish, or cross, or deceitful, because that would be nonsense, you know. Well then, don’t you think they might be all the better for a little lecturing and punishing now and then?</p>
 diff -ru a/sylvie-and-bruno/preface.html b/sylvie-and-bruno/preface.html
---- a/sylvie-and-bruno/preface.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/sylvie-and-bruno/preface.html	2023-07-05 14:40:07.000000000 +0200
+--- a/sylvie-and-bruno/preface.html	2023-07-17 16:21:26.000000000 +0200
++++ b/sylvie-and-bruno/preface.html	2023-07-17 16:26:03.000000000 +0200
 @@ -42,7 +42,7 @@
  <p>It is, no doubt, <i>possible</i> to write a story in that way: and, if it be not vanity to say so, I believe that I could, myself,—if I were in the unfortunate position (for I do hold it to be a real misfortune) of being obliged to produce a given amount of fiction in a given time,—that I could ‘fulfil my task,’ and produce my ‘tale of bricks,’ as other slaves have done. One thing, at any rate, I could guarantee as to the story so produced—that it should be utterly commonplace, should contain no new ideas whatever, and should be very very weary reading!</p>
  
@@ -8974,8 +8974,8 @@ diff -ru a/sylvie-and-bruno/preface.html b/sylvie-and-bruno/preface.html
  
  <span id="sb:puzzle-2"></span><p>A harder puzzle—if a harder be desired—would be to determine, as to the Gardener’s Song, in <i>which</i> cases (if any) the stanza was adapted to the surrounding text, and in <i>which</i> (if any) the text was adapted to the stanza.
 diff -ru a/sylvie-and-bruno-concluded/preface.html b/sylvie-and-bruno-concluded/preface.html
---- a/sylvie-and-bruno-concluded/preface.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/sylvie-and-bruno-concluded/preface.html	2023-07-05 14:40:07.000000000 +0200
+--- a/sylvie-and-bruno-concluded/preface.html	2023-07-17 16:21:26.000000000 +0200
++++ b/sylvie-and-bruno-concluded/preface.html	2023-07-17 16:26:03.000000000 +0200
 @@ -64,28 +64,28 @@
  
  <p>I will here tabulate the passages, in both Volumes, where abnormal states occur.</p>
@@ -9040,8 +9040,8 @@ diff -ru a/sylvie-and-bruno-concluded/preface.html b/sylvie-and-bruno-concluded/
  <tr><td></td><td>2.</td><td>Chancellor.</td></tr>
  <tr><td></td><td>3.</td><td>Empress and Spinach (II.&nbsp;<a href="content.html#sbc:spinach">325</a>).</td></tr>
 diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
---- a/symbolic-logic/content.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/symbolic-logic/content.html	2023-07-05 14:40:07.000000000 +0200
+--- a/symbolic-logic/content.html	2023-07-17 16:21:26.000000000 +0200
++++ b/symbolic-logic/content.html	2023-07-17 16:26:03.000000000 +0200
 @@ -725,7 +725,7 @@
  
  <p>Here we arrange thus:—</p>
@@ -9496,8 +9496,8 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  <p>Six friends, and their six wives, are staying in the same hotel; and they all walk out daily, in parties of various size and composition. To ensure variety in these daily walks, they have agreed to observe the following Rules:—</p>
  
 diff -ru a/symbolic-logic/preface.html b/symbolic-logic/preface.html
---- a/symbolic-logic/preface.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/symbolic-logic/preface.html	2023-07-05 14:40:07.000000000 +0200
+--- a/symbolic-logic/preface.html	2023-07-17 16:21:26.000000000 +0200
++++ b/symbolic-logic/preface.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,15 +12,17 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -9520,8 +9520,8 @@ diff -ru a/symbolic-logic/preface.html b/symbolic-logic/preface.html
  <p><span class="annotated variant" data-ref="annotation-1">An envelope, containing two blank Diagrams (Biliteral and Triliteral) and 9 counters (4 Red and 5 Grey), may be had, from Messrs.&nbsp;Macmillan,
  for 3<i>d.</i>, by post 4<i>d.</i></span>
 diff -ru a/syzygies-and-lanrick/lanrick.html b/syzygies-and-lanrick/lanrick.html
---- a/syzygies-and-lanrick/lanrick.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/syzygies-and-lanrick/lanrick.html	2023-07-05 14:40:07.000000000 +0200
+--- a/syzygies-and-lanrick/lanrick.html	2023-07-17 16:21:26.000000000 +0200
++++ b/syzygies-and-lanrick/lanrick.html	2023-07-17 16:26:03.000000000 +0200
 @@ -8,6 +8,14 @@
  <link rel="icon" href="../../res/favicon.svg" sizes="any" type="image/svg+xml">
  <link rel="stylesheet" href="../../res/main.css">
@@ -9763,8 +9763,8 @@ diff -ru a/syzygies-and-lanrick/lanrick.html b/syzygies-and-lanrick/lanrick.html
  <footer>
  <nav><ol>
 diff -ru a/syzygies-and-lanrick/preface.html b/syzygies-and-lanrick/preface.html
---- a/syzygies-and-lanrick/preface.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/syzygies-and-lanrick/preface.html	2023-07-05 14:40:07.000000000 +0200
+--- a/syzygies-and-lanrick/preface.html	2023-07-17 16:21:26.000000000 +0200
++++ b/syzygies-and-lanrick/preface.html	2023-07-17 16:26:03.000000000 +0200
 @@ -21,7 +21,7 @@
  
  <p>This pamphlet is a portion of a volume, now in preparation, of original Games and Puzzles: it is published in this form, for the convenience of readers of “<i>The Lady</i>,” with a view to the possibility of another Syzygy-Tournament being started in that Paper.</p>
@@ -9775,8 +9775,8 @@ diff -ru a/syzygies-and-lanrick/preface.html b/syzygies-and-lanrick/preface.html
  
  <p>I have taken this opportunity to publish the Rules for “Lanrick,” in order to make this game known rather sooner than it would otherwise be, and with the hope of receiving criticisms on it, so as to render it as perfect as possible when published in the volume. Not that <i>much</i> increase in perfection can now be hoped for, as the first version of the Rules was written on Dec.&nbsp;26, 1878, and I have been improving them, off and on, ever since! Every change in the rules has necessitated the playing of several games, to see how it worked.</p>
 diff -ru a/syzygies-and-lanrick/syzygies.html b/syzygies-and-lanrick/syzygies.html
---- a/syzygies-and-lanrick/syzygies.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/syzygies-and-lanrick/syzygies.html	2023-07-05 14:40:07.000000000 +0200
+--- a/syzygies-and-lanrick/syzygies.html	2023-07-17 16:21:26.000000000 +0200
++++ b/syzygies-and-lanrick/syzygies.html	2023-07-17 16:26:03.000000000 +0200
 @@ -17,6 +17,7 @@
  <li>Syzygies and Lanrick</li>
  <li class="next"><a href="lanrick.html">Lanrick</a></li>
@@ -9829,8 +9829,8 @@ diff -ru a/syzygies-and-lanrick/syzygies.html b/syzygies-and-lanrick/syzygies.ht
  
  <p>“Now, can we link any of these ragged ends together? ‘Predicament’. That’ll link on to ‘dared’, though it’s only a 3-letter Syzygy. That gives the Chain ‘Camel (came) predicament (red) dared (dar) cedar (edar) dromedary.’ But there’s something wrong there! ‘Edar’ contains ‘dar’. We must write it ‘Camel (came) predicament (red) dared (dar) dromedary’. That’ll score 17. Let’s try another Chain. ‘Predicament’ and ‘cedar’ can be linked by putting in ‘enticed’. How will <i>that</i> work? ‘Camel (came) predicament (ent) enticed (ced) cedar (edar) dromedary’. <i>That</i> scores only 16! Try again. ‘Medicament’. Why that links straight on to ‘comedy’, with a 4-letter Syzygy! That’s the best chance we’ve had yet. ‘Camel (came) medicament (medi) comedy (omed) dromedary’. And what does <i>that</i> score, I wonder? Why it actually scores 31! Bravo!”</p>
 diff -ru a/tangled-tale/content.html b/tangled-tale/content.html
---- a/tangled-tale/content.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/tangled-tale/content.html	2023-07-05 14:40:07.000000000 +0200
+--- a/tangled-tale/content.html	2023-07-17 16:21:26.000000000 +0200
++++ b/tangled-tale/content.html	2023-07-17 16:26:03.000000000 +0200
 @@ -856,8 +856,8 @@
  <p>The two wrong answers are from <span style="font-variant: small-caps;">Gerty Vernon</span> and <span style="font-variant: small-caps;">A Nihilist</span>. The former makes the distance “23 miles,” while her revolutionary companion puts it at “27.” <span style="font-variant: small-caps;">Gerty Vernon</span> says “they had to go 4 miles along the plain, and got to the foot of the hill at 4 o’clock.” They <i>might</i> have done so, I grant; but you have no ground for saying they <i>did</i> so. “It was <math><mrow><mn>7</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math> miles to the top of the hill, and they reached that at <math><mfrac><mn>1</mn><mn>4</mn></mfrac></math> before 7 o’clock.” Here you go wrong in your arithmetic, and I must, however reluctantly, bid you farewell. <math><mrow><mn>7</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math> miles, at 3 miles an hour, would <i>not</i> require <math><mrow><mn>2</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math> hours. <span style="font-variant: small-caps;">A Nihilist</span> says “Let <var>x</var> denote the whole number of miles; <var>y</var> the number of hours to hill-top; <math><mrow><mo>∴</mo><mn>3</mn><mi>y</mi><mo>=</mo></mrow></math> number of miles to hill-top, and <math><mrow><mi>x</mi><mo>−</mo><mn>3</mn><mi>y</mi><mo>=</mo></mrow></math> number of miles on the other side.” You bewilder me. The other side of <i>what?</i> “Of the hill,” you say. But then, how did they get home again? However, to accommodate your views we will build a new hostelry at the foot of the hill on the opposite side, and also assume (what I grant you is <i>possible</i>, though it is not <i>necessarily</i> true) that there was no level road at all. Even then you go wrong.</p>
  
@@ -9934,8 +9934,8 @@ diff -ru a/tangled-tale/content.html b/tangled-tale/content.html
  <footer>
  <nav><ol>
 diff -ru a/texts/advertisement.html b/texts/advertisement.html
---- a/texts/advertisement.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/advertisement.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/advertisement.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/advertisement.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,7 +12,8 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -9947,8 +9947,8 @@ diff -ru a/texts/advertisement.html b/texts/advertisement.html
  
  <p>For over 25 years, I have made it my chief object, with regard to my books, that they should be of the best workmanship attainable for the price. And I am deeply annoyed to find that the last issue of “Through the Looking-Glass,” consisting of the Sixtieth Thousand, has been put on sale without its being noticed that most of the pictures have failed so much, in the printing, as to make the book not worth buying. I request all holders of copies to send them to Messrs.&nbsp;Macmillan &amp; Co., 29,&nbsp;Bedford Street, Covent Garden, with their names and addresses; and copies of the next issue shall be sent them in exchange.</p>
 diff -ru a/texts/a-fascinating-mental-recreation.html b/texts/a-fascinating-mental-recreation.html
---- a/texts/a-fascinating-mental-recreation.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/a-fascinating-mental-recreation.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/a-fascinating-mental-recreation.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/a-fascinating-mental-recreation.html	2023-07-17 16:26:03.000000000 +0200
 @@ -62,6 +62,7 @@
  <aside class="toggle variant" id="annotation-7">The version from January is followed by: “P.S.—The book is nearly all in type, and will, I <i>hope</i>, be ready for delivery before the end of January.”</aside></div>
  
@@ -9967,8 +9967,8 @@ diff -ru a/texts/a-fascinating-mental-recreation.html b/texts/a-fascinating-ment
  <footer>
  <nav><ol>
 diff -ru a/texts/an-analysis-of-responsions-lists.html b/texts/an-analysis-of-responsions-lists.html
---- a/texts/an-analysis-of-responsions-lists.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/an-analysis-of-responsions-lists.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/an-analysis-of-responsions-lists.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/an-analysis-of-responsions-lists.html	2023-07-17 16:26:03.000000000 +0200
 @@ -59,15 +59,15 @@
  <tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 1em;"></span>” whole List</td><td>54</td><td>58</td><td>57</td><td>66</td><td>68</td><td>55</td><td>62</td><td>53</td><td>59</td></tr>
  </table></div>
@@ -9991,8 +9991,8 @@ diff -ru a/texts/an-analysis-of-responsions-lists.html b/texts/an-analysis-of-re
  </article>
  <footer>
 diff -ru a/texts/a-postal-problem-june-1891.html b/texts/a-postal-problem-june-1891.html
---- a/texts/a-postal-problem-june-1891.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/a-postal-problem-june-1891.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/a-postal-problem-june-1891.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/a-postal-problem-june-1891.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,7 +12,8 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -10060,8 +10060,8 @@ diff -ru a/texts/a-postal-problem-june-1891.html b/texts/a-postal-problem-june-1
  </article>
  <footer>
 diff -ru a/texts/castle-croquet-1863.html b/texts/castle-croquet-1863.html
---- a/texts/castle-croquet-1863.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/castle-croquet-1863.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/castle-croquet-1863.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/castle-croquet-1863.html	2023-07-17 16:26:03.000000000 +0200
 @@ -52,12 +52,12 @@
  
  <text x="75.2" y="102.4">3</text>
@@ -10081,8 +10081,8 @@ diff -ru a/texts/castle-croquet-1863.html b/texts/castle-croquet-1863.html
  </figure>
  
 diff -ru a/texts/cautions-to-readers.html b/texts/cautions-to-readers.html
---- a/texts/cautions-to-readers.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/cautions-to-readers.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/cautions-to-readers.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/cautions-to-readers.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,7 +12,8 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -10094,8 +10094,8 @@ diff -ru a/texts/cautions-to-readers.html b/texts/cautions-to-readers.html
  
  <p>On August 1st, 1881, a story appeared in <i>Aunt Judy’s Magazine</i> No.&nbsp;184, entitled “The Land of Idleness, by <span style="font-variant: small-caps;">Lewis Carroll</span>.” This story was really written by a lady, <span style="font-variant: small-caps;">Fräulein Ida Lackowitz</span>. Acting on her behalf, Mr.&nbsp;<span style="font-variant: small-caps;">Carroll</span> forwarded it to the Editor: and this led to the mistake of naming him as its author.</p>
 diff -ru a/texts/croquet-castles.html b/texts/croquet-castles.html
---- a/texts/croquet-castles.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/croquet-castles.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/croquet-castles.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/croquet-castles.html	2023-07-17 16:26:03.000000000 +0200
 @@ -52,14 +52,14 @@
  
  <p>N.B. This game does not absolutely require more than <i>two</i> additional balls, beside those used in the ordinary game; these may be Light Blue and Light Green, and the 10 balls may be arranged as follows:—</p>
@@ -10120,8 +10120,8 @@ diff -ru a/texts/croquet-castles.html b/texts/croquet-castles.html
  </article>
  <footer>
 diff -ru a/texts/doublets-a-word-puzzle.html b/texts/doublets-a-word-puzzle.html
---- a/texts/doublets-a-word-puzzle.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/doublets-a-word-puzzle.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/doublets-a-word-puzzle.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/doublets-a-word-puzzle.html	2023-07-17 16:26:03.000000000 +0200
 @@ -124,71 +124,69 @@
  
  <h3 id="doublets:problems">Doublets Already Set in “Vanity Fair”</h3>
@@ -10222,8 +10222,8 @@ diff -ru a/texts/doublets-a-word-puzzle.html b/texts/doublets-a-word-puzzle.html
  <tr><td></td><td>Make KETTLE HOLDER.</td></tr>
  </table>
 diff -ru a/texts/eight-or-nine-wise-words-about-letter-writing.html b/texts/eight-or-nine-wise-words-about-letter-writing.html
---- a/texts/eight-or-nine-wise-words-about-letter-writing.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/eight-or-nine-wise-words-about-letter-writing.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/eight-or-nine-wise-words-about-letter-writing.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/eight-or-nine-wise-words-about-letter-writing.html	2023-07-17 16:26:03.000000000 +0200
 @@ -117,110 +117,110 @@
  
  <p>I will now give a few (ideal) specimen pages of my Letter-Register, and make a few remarks on them: after which I think you will find it easy enough to manage one for yourself.</p>
@@ -10454,8 +10454,8 @@ diff -ru a/texts/eight-or-nine-wise-words-about-letter-writing.html b/texts/eigh
  </table>
  </article>
 diff -ru a/texts/index-to-in-memoriam.html b/texts/index-to-in-memoriam.html
---- a/texts/index-to-in-memoriam.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/index-to-in-memoriam.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/index-to-in-memoriam.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/index-to-in-memoriam.html	2023-07-17 16:26:03.000000000 +0200
 @@ -26,13 +26,12 @@
  <p>As a specimen, the first entry under “A” is shown here.</p>
  
@@ -10474,8 +10474,8 @@ diff -ru a/texts/index-to-in-memoriam.html b/texts/index-to-in-memoriam.html
  <nav><ul>
  <li><a href="../index.html">Home</a></li>
 diff -ru a/texts/lawn-tennis-tournaments-1883.html b/texts/lawn-tennis-tournaments-1883.html
---- a/texts/lawn-tennis-tournaments-1883.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/lawn-tennis-tournaments-1883.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/lawn-tennis-tournaments-1883.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/lawn-tennis-tournaments-1883.html	2023-07-17 16:26:03.000000000 +0200
 @@ -8,6 +8,39 @@
  <link rel="icon" href="../../res/favicon.svg" sizes="any" type="image/svg+xml">
  <link rel="stylesheet" href="../../res/main.css">
@@ -10730,8 +10730,8 @@ diff -ru a/texts/lawn-tennis-tournaments-1883.html b/texts/lawn-tennis-tournamen
  
  <p>Directions for filling in the Tables:—</p>
 diff -ru a/texts/memoria-technica-1888.html b/texts/memoria-technica-1888.html
---- a/texts/memoria-technica-1888.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/memoria-technica-1888.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/memoria-technica-1888.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/memoria-technica-1888.html	2023-07-17 16:26:03.000000000 +0200
 @@ -50,8 +50,7 @@
  
  <p>Write it thus:—
@@ -10743,8 +10743,8 @@ diff -ru a/texts/memoria-technica-1888.html b/texts/memoria-technica-1888.html
  <tr><td>q</td><td>g</td><td>w</td></tr>
  </table></div></div>
 diff -ru a/texts/notice-re-concordance-to-in-memoriam.html b/texts/notice-re-concordance-to-in-memoriam.html
---- a/texts/notice-re-concordance-to-in-memoriam.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/notice-re-concordance-to-in-memoriam.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/notice-re-concordance-to-in-memoriam.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/notice-re-concordance-to-in-memoriam.html	2023-07-17 16:26:03.000000000 +0200
 @@ -15,7 +15,7 @@
  <p>Source: probably printed 1881, also added to advertisements</p></header>
  <article>
@@ -10755,8 +10755,8 @@ diff -ru a/texts/notice-re-concordance-to-in-memoriam.html b/texts/notice-re-con
  <footer>
  <nav><ul>
 diff -ru a/texts/responsions-hilary-term-1877.html b/texts/responsions-hilary-term-1877.html
---- a/texts/responsions-hilary-term-1877.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/responsions-hilary-term-1877.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/responsions-hilary-term-1877.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/responsions-hilary-term-1877.html	2023-07-17 16:26:03.000000000 +0200
 @@ -23,9 +23,10 @@
  
  <p>I beg to submit to your consideration the following statistics of the Responsions of the last two years, as it seems to me that the result of the examination of last Term was so anomalous that it ought to be brought before the notice of the University, and some means adopted to prevent its recurrence.</p>
@@ -10772,8 +10772,8 @@ diff -ru a/texts/responsions-hilary-term-1877.html b/texts/responsions-hilary-te
  <tr style="border-top: solid thin;"><td>Number of Candidates</td><td>281</td><td>187</td><td>400</td><td>262</td><td>166</td><td>346</td><td>237</td></tr>
  <tr><td>Percentage passed:—</td></tr>
 diff -ru a/texts/rules-for-court-circular-1860.html b/texts/rules-for-court-circular-1860.html
---- a/texts/rules-for-court-circular-1860.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/rules-for-court-circular-1860.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/rules-for-court-circular-1860.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/rules-for-court-circular-1860.html	2023-07-17 16:26:03.000000000 +0200
 @@ -31,14 +31,14 @@
  
  <figure>
@@ -10809,8 +10809,8 @@ diff -ru a/texts/rules-for-court-circular-1860.html b/texts/rules-for-court-circ
  <tr><td>Hearts<span class="after-dotfill"></span></td><td><span class="after-dotfill"></span></td><td>1</td></tr>
  <tr><td>Court-cards</td><td><span class="after-dotfill"></span></td><td>1</td></tr>
 diff -ru a/texts/rules-for-court-circular-1862.html b/texts/rules-for-court-circular-1862.html
---- a/texts/rules-for-court-circular-1862.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/rules-for-court-circular-1862.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/rules-for-court-circular-1862.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/rules-for-court-circular-1862.html	2023-07-17 16:26:03.000000000 +0200
 @@ -23,14 +23,14 @@
  
  <figure>
@@ -10835,8 +10835,8 @@ diff -ru a/texts/rules-for-court-circular-1862.html b/texts/rules-for-court-circ
  </figure>
  
 diff -ru a/texts/specific-gravities-of-metals.html b/texts/specific-gravities-of-metals.html
---- a/texts/specific-gravities-of-metals.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/specific-gravities-of-metals.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/specific-gravities-of-metals.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/specific-gravities-of-metals.html	2023-07-17 16:26:03.000000000 +0200
 @@ -22,53 +22,37 @@
  
  <p>[Water is taken as the unit. Translate into numbers the last four consonants of the couplet, and place a decimal point in the middle, e.&thinsp;g. Gold <math><mrow><mo>=</mo><mn>19⋅36</mn></mrow></math>]</p>
@@ -10923,8 +10923,8 @@ diff -ru a/texts/specific-gravities-of-metals.html b/texts/specific-gravities-of
  
  </article>
 diff -ru a/texts/suggestions-as-to-election-of-proctors.html b/texts/suggestions-as-to-election-of-proctors.html
---- a/texts/suggestions-as-to-election-of-proctors.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/suggestions-as-to-election-of-proctors.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/suggestions-as-to-election-of-proctors.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/suggestions-as-to-election-of-proctors.html	2023-07-17 16:26:03.000000000 +0200
 @@ -77,6 +77,7 @@
  
  <div class="center"><table class="c1 b1 c2 b2 c3 b3 c4 b4 c5">
@@ -10945,8 +10945,8 @@ diff -ru a/texts/suggestions-as-to-election-of-proctors.html b/texts/suggestions
  <tr><td>Merton College.</td><td>Trinity College.</td></tr>
  <tr><td>Exeter College.</td><td>St.&nbsp;John’s College.</td></tr>
 diff -ru a/texts/suggestions-as-to-the-election-of-proctors.html b/texts/suggestions-as-to-the-election-of-proctors.html
---- a/texts/suggestions-as-to-the-election-of-proctors.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/suggestions-as-to-the-election-of-proctors.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/suggestions-as-to-the-election-of-proctors.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/suggestions-as-to-the-election-of-proctors.html	2023-07-17 16:26:03.000000000 +0200
 @@ -144,9 +144,9 @@
  <p>For the next twelve years, such a Table would be as <span class="annotated variant" data-ref="annotation-1">follows:—</span></p>
  <aside class="toggle variant" id="annotation-1">The original might use some other word.</aside>
@@ -10960,8 +10960,8 @@ diff -ru a/texts/suggestions-as-to-the-election-of-proctors.html b/texts/suggest
  <tr style="border-top: solid thin;"><td>A</td><td>10</td><td>60*</td><td>10</td><td>20</td><td>30</td><td>40</td><td>50</td><td>60*</td><td>10</td><td>20</td><td>30</td><td>40</td><td>50</td></tr>
  <tr><td>B</td><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td><td>30</td><td>35</td><td>40</td><td>45</td><td>50</td><td>55</td><td>60*</td><td><span style="visibility: hidden;">0</span>5</td></tr>
 diff -ru a/texts/the-alphabet-cipher.html b/texts/the-alphabet-cipher.html
---- a/texts/the-alphabet-cipher.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/the-alphabet-cipher.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/the-alphabet-cipher.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/the-alphabet-cipher.html	2023-07-17 16:26:03.000000000 +0200
 @@ -8,6 +8,45 @@
  <link rel="icon" href="../../res/favicon.svg" sizes="any" type="image/svg+xml">
  <link rel="stylesheet" href="../../res/main.css">
@@ -11089,8 +11089,8 @@ diff -ru a/texts/the-alphabet-cipher.html b/texts/the-alphabet-cipher.html
  <tr><td>m</td><td>e</td><td>e</td><td>t</td><td>m</td><td>e</td><td>o</td><td>n</td><td>t</td><td>u</td><td>e</td><td>s</td><td>d</td><td>a</td><td>y</td><td>e</td><td>v</td><td>e</td><td>n</td><td>i</td><td>n</td><td>g</td><td>a</td><td>t</td><td>s</td><td>e</td><td>v</td><td>e</td><td>n</td></tr>
  <tr><td>h</td><td>m</td><td>k</td><td>b</td><td>x</td><td>e</td><td>b</td><td>p</td><td>x</td><td>p</td><td>m</td><td>y</td><td>l</td><td>l</td><td>y</td><td>r</td><td>x</td><td>i</td><td>i</td><td>q</td><td>t</td><td>o</td><td>l</td><td>t</td><td>f</td><td>g</td><td>z</td><td>z</td><td>v</td></tr>
 diff -ru a/texts/the-electric-pen.html b/texts/the-electric-pen.html
---- a/texts/the-electric-pen.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/the-electric-pen.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/the-electric-pen.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/the-electric-pen.html	2023-07-17 16:26:03.000000000 +0200
 @@ -12,9 +12,9 @@
  <header>
  <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
@@ -11112,8 +11112,8 @@ diff -ru a/texts/the-electric-pen.html b/texts/the-electric-pen.html
  <div class="signature"><p>July 11th, 1877.</p></div>
  
 diff -ru a/texts/the-proposed-procuratorial-cycle.html b/texts/the-proposed-procuratorial-cycle.html
---- a/texts/the-proposed-procuratorial-cycle.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/the-proposed-procuratorial-cycle.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/the-proposed-procuratorial-cycle.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/the-proposed-procuratorial-cycle.html	2023-07-17 16:26:03.000000000 +0200
 @@ -28,9 +28,8 @@
  
  <p>In the following 30-year Cycle, this principle has been adopted, and the reader can see for himself, by inspecting the table which follows it, that turns assigned are, as nearly as possible, proportional to the number of members of Convocation. The number of turns, assigned by the Cycle of 1859, are added in parentheses.</p>
@@ -11187,8 +11187,8 @@ diff -ru a/texts/the-proposed-procuratorial-cycle.html b/texts/the-proposed-proc
  </table></div>
  
 diff -ru a/texts/the-telegraph-cipher.html b/texts/the-telegraph-cipher.html
---- a/texts/the-telegraph-cipher.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/the-telegraph-cipher.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/the-telegraph-cipher.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/the-telegraph-cipher.html	2023-07-17 16:26:03.000000000 +0200
 @@ -26,18 +26,19 @@
  <p>Translate the cipher back into English by the same process. <span class="after-hfill">[T.&nbsp;O.
  </span></p><hr class="bigskip">
@@ -11218,8 +11218,8 @@ diff -ru a/texts/the-telegraph-cipher.html b/texts/the-telegraph-cipher.html
  <tr style="border-bottom: solid thin;"><td>a</td><td>b</td><td>c</td><td>d</td><td>e</td><td>f</td><td>g</td><td>h</td><td>i</td><td>j</td><td>k</td><td>l</td><td>m</td><td>n</td><td>o</td><td>p</td><td>q</td><td>r</td><td>s</td><td>t</td><td>u</td><td>v</td><td>w</td><td>x</td><td>y</td><td>z</td></tr>
  <tr style="border-top: solid thin;"><td>a</td><td>b</td><td>c</td><td>d</td><td>e</td><td>f</td><td>g</td><td>h</td><td>i</td><td>j</td><td>k</td><td>l</td><td>m</td><td>n</td><td>o</td><td>p</td><td>q</td><td>r</td><td>s</td><td>t</td><td>u</td><td>v</td><td>w</td><td>x</td><td>y</td><td>z</td><td>a</td></tr>
 diff -ru a/texts/three-years-in-a-curatorship.html b/texts/three-years-in-a-curatorship.html
---- a/texts/three-years-in-a-curatorship.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/three-years-in-a-curatorship.html	2023-07-05 14:40:07.000000000 +0200
+--- a/texts/three-years-in-a-curatorship.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/three-years-in-a-curatorship.html	2023-07-17 16:26:03.000000000 +0200
 @@ -57,18 +57,18 @@
  
  <p>On this topic I am nothing, if not tabular. In the first Table, the items (except those in the last line) are given in round numbers, as their <i>exact</i> values are unattainable. When once the Milk (for instance) has been fairly started on its Milky Way, I have no means of tracing <i>exactly</i> how much of it was consumed in one place and how much in another: but I have taken a good deal of trouble to estimate the proportional values as nearly as possible. My object, in printing these two Tables, is to “show case” for the changes I wish, with the consent of C.R., to make in the charges for Dessert, and for Coffee after Dessert.</p>
@@ -11308,8 +11308,8 @@ diff -ru a/texts/three-years-in-a-curatorship.html b/texts/three-years-in-a-cura
  <footer>
  <nav><ol>
 diff -ru a/texts/twelve-months-in-a-curatorship.html b/texts/twelve-months-in-a-curatorship.html
---- a/texts/twelve-months-in-a-curatorship.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/twelve-months-in-a-curatorship.html	2023-07-05 14:40:08.000000000 +0200
+--- a/texts/twelve-months-in-a-curatorship.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/twelve-months-in-a-curatorship.html	2023-07-17 16:26:03.000000000 +0200
 @@ -112,7 +112,7 @@
  
  <p>The asterisks indicate the degree of goodness, according to the views of a certain Member of the Wine-Committee, who, in the noblest spirit of self-sacrifice, came day after day to taste the samples: in which views I (being one whose opinion on such points is worth absolutely nothing) entirely coincide. * = “very good,” and ** = “specially recommended.”</p>
@@ -11352,8 +11352,8 @@ diff -ru a/texts/twelve-months-in-a-curatorship.html b/texts/twelve-months-in-a-
  
  <p><small>“I am sorry you do not approve of my having <i>altered</i> the order for Liqueurs which was <i>agreed on at the Wine-Committee meeting</i>. I can assure you my simple wish is to do what is most for the interest of Common Room. (<i>e.&thinsp;g.</i> if I had ordered the 12 Green Chartreuse <i>agreed on</i> [unanimously], <i>I</i> fear it would have been wasted money, and that it would not have been consumed.) [The Curator soon overcame this fear, and found that the order of the Committee was the wisest after all,] and where <i>what seems their interest</i> clashes with the <i>letter</i> of any Rule, <i>I take the responsibility of breaking the Rule.</i>”</small></p>
 diff -ru a/texts/word-links-cyclostyled.html b/texts/word-links-cyclostyled.html
---- a/texts/word-links-cyclostyled.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/word-links-cyclostyled.html	2023-07-05 14:40:08.000000000 +0200
+--- a/texts/word-links-cyclostyled.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/word-links-cyclostyled.html	2023-07-17 16:26:03.000000000 +0200
 @@ -25,18 +25,18 @@
  
  <figure>
@@ -11403,8 +11403,8 @@ diff -ru a/texts/word-links-cyclostyled.html b/texts/word-links-cyclostyled.html
  </div>
  
 diff -ru a/texts/word-links-printed.html b/texts/word-links-printed.html
---- a/texts/word-links-printed.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/texts/word-links-printed.html	2023-07-05 14:40:08.000000000 +0200
+--- a/texts/word-links-printed.html	2023-07-17 16:21:26.000000000 +0200
++++ b/texts/word-links-printed.html	2023-07-17 16:26:03.000000000 +0200
 @@ -34,15 +34,12 @@
  
  <p>Each Player should be provided with writing-materials and an English book; and one of them should also have a scoring-paper, ruled as follows:—</p>
@@ -11427,8 +11427,8 @@ diff -ru a/texts/word-links-printed.html b/texts/word-links-printed.html
  </div>
  
 diff -ru a/ttlg/content.html b/ttlg/content.html
---- a/ttlg/content.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/ttlg/content.html	2023-07-05 14:40:08.000000000 +0200
+--- a/ttlg/content.html	2023-07-17 16:21:26.000000000 +0200
++++ b/ttlg/content.html	2023-07-17 16:26:03.000000000 +0200
 @@ -123,23 +123,14 @@
  
  <p>It was like this.</p>
@@ -11462,8 +11462,8 @@ diff -ru a/ttlg/content.html b/ttlg/content.html
  <p>She puzzled over this for some time, but at last a bright thought struck her. “Why, it’s a Looking-glass book, of course! And if I hold it up to a glass, the words will all go the right way again.”</p>
  
 diff -ru a/ttlg/preface.html b/ttlg/preface.html
---- a/ttlg/preface.html	2023-07-05 14:39:18.000000000 +0200
-+++ b/ttlg/preface.html	2023-07-05 14:40:08.000000000 +0200
+--- a/ttlg/preface.html	2023-07-17 16:21:26.000000000 +0200
++++ b/ttlg/preface.html	2023-07-17 16:26:03.000000000 +0200
 @@ -25,10 +25,9 @@
  
  <h3 id="lookingglass:dramatis">Dramatis Personæ</h3>
@@ -11647,8 +11647,8 @@ diff -ru a/ttlg/preface.html b/ttlg/preface.html
  
  <p><i>White Pawn (Alice) to play, and win in eleven moves.</i></p>
 diff -ru a/warnings.txt b/warnings.txt
---- a/warnings.txt	2023-07-05 14:39:18.000000000 +0200
-+++ b/warnings.txt	2023-07-05 14:40:08.000000000 +0200
+--- a/warnings.txt	2023-07-17 16:21:28.000000000 +0200
++++ b/warnings.txt	2023-07-17 16:26:03.000000000 +0200
 @@ -1,91 +1 @@
 -index.html used more than once
 -about/contents-by-topic.html used more than once

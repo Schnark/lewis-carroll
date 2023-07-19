@@ -8,4 +8,6 @@ The images, used both in LaTeX as well as in HTML, are in `images`, other HTML r
 
 The code to generate the HTML files is mainly in `latex-to-html`, the diff file for manual fixes as well as the scripts to handle it are in `build-html`.
 
+The code for the search engine is in `search`.
+
 

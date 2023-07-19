@@ -15,7 +15,9 @@ importScripts(
 	'image-data.js',
 	'music-data.js',
 	'extra.js',
-	'convert.js'
+	'convert.js',
+	'../../search/prefix-tree.js',
+	'../../search/search-index-builder.js'
 );
 
 function onMessage (e) {

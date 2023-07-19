@@ -1,5 +1,5 @@
 /*global convert: true*/
-/*global latexParse, toHtml*/
+/*global latexParse, toHtml, SearchIndexBuilder*/
 convert =
 (function () {
 "use strict";
@@ -749,12 +749,34 @@ function getFooterNav (page) {
 		'<li>' + getLink('about/introduction.html', 'Introduction') + '</li>',
 		'<li>' + getLink('about/contents-by-source.html', 'Contents by Source') + '</li>',
 		'<li>' + getLink('about/contents-by-topic.html', 'Contents by Topic') + '</li>',
+		'<li>' + getLink('about/search.html', 'Search') + '</li>',
 		'<li>' + getLink('about/copyright.html', 'Copyright') + '</li>',
 		'</ul></nav>'
 	].join('\n');
 }
 
-function finalizeHtml (html, page) {
+function unhtml (html) {
+	return html
+		.replace(/<header>[\s\S]*?<\/header>/g, '')
+		.replace(/<footer>[\s\S]*?<\/footer>/g, '')
+		.replace(/<sup class="footnote">.*?<\/sup>/g, '')
+		.replace(/<[^>]*>/g, function (tag) {
+			tag = tag.split(' ')[0].toLowerCase().replace(/[^a-z]+/g, '');
+			return ['b', 'i', 'u', 'em', 'strong', 'span', 'sup', 'sub'].indexOf(tag) > -1 ? '' : ' ';
+		})
+		.replace(/&\w+;/g, function (ent) {
+			return {
+				'&amp;': '&',
+				'&lt;': '<',
+				'&gt;': '>',
+				'&quot;': '"',
+				'&nbsp;': ' ',
+				'&thinsp;': ' '
+			}[ent] || ent;
+		});
+}
+
+function finalizeHtml (html, page, searchIndexBuilder) {
 	var title, nav, res = '../../res/';
 	title = /<h2>(.*?)<\/h2>/.exec(html);
 	if (title) {
@@ -764,6 +786,15 @@ function finalizeHtml (html, page) {
 	} else {
 		title = 'TODO';
 	}
+
+	if (searchIndexBuilder) {
+		searchIndexBuilder.addDocument({
+			path: page,
+			title: unhtml(title),
+			text: unhtml(html)
+		});
+	}
+
 	if (html.indexOf('<header>') > -1) {
 		html = html.replace('<header>', '');
 	} else {
@@ -794,6 +825,7 @@ function finalizeHtml (html, page) {
 		//TODO
 		//'<meta name="color-scheme" content="light dark">',
 		'<meta name="theme-color" content="#a04">',
+		//as long as there are browsers that allow full path for cross-origin
 		html.indexOf('<a href="https://') > -1 ? '<meta name="referrer" content="no-referrer-when-downgrade">' : '',
 		'<link rel="icon" href="' + res + 'favicon-32.png" sizes="32x32" type="image/png">',
 		'<link rel="icon" href="' + res + 'favicon.svg" sizes="any" type="image/svg+xml">',
@@ -812,7 +844,7 @@ function finalizeHtml (html, page) {
 }
 
 function convert (latex) {
-	var parts, pageNames, copyright;
+	var parts, pageNames, copyright, searchMeta, searchPage, searchIndexBuilder;
 
 	function extractCopyright (html) {
 		var start = html.indexOf('<h3>Copyright</h3>'), end = html.indexOf('<h3>', start + 1);
@@ -841,6 +873,73 @@ function convert (latex) {
 			'</table>'
 		].join('\n');
 	}*/
+
+	searchMeta = [
+		'<!--',
+		'<script src="../../search/prefix-tree.js" defer></script>',
+		'<script src="../../search/doc-finder.js" defer></script>',
+		'<script src="../../search/search.js" defer></script>',
+		'-->',
+		'<script src="../../res/search.js" defer></script>',
+		'<style>',
+		'#search-area {',
+		'	display: -moz-box;',
+		'	display: flex;',
+		'	width: 100%;',
+		'}',
+		'#search-input {',
+		'	-moz-box-flex: 1;',
+		'	flex-grow: 1;',
+		'	padding: 0.2em;',
+		'}',
+		'fieldset {',
+		'	display: inline-block;',
+		'	border: solid thin;',
+		'	padding: 0.2em 0.7em 0.2em 0.5em;',
+		'	margin: 0 1em 0 0;',
+		'}',
+		'</style>'
+	].join('\n');
+
+	searchPage = [
+			'<header>',
+			'<h2>Search</h2>',
+			'</header>',
+			'<form id="search-form">',
+			'<p id="search-area"><input id="search-input" type="search" list="suggestions"> <button id="search-button">Search</button></p>',
+			'<fieldset>',
+			'<label><input name="type" type="radio" checked> Exact</label>',
+			'<label><input id="option-prefix" name="type" type="radio"> Prefix</label>',
+			'<label><input id="option-fuzzy" name="type" type="radio"> Fuzzy</label>',
+			'</fieldset>',
+			'<fieldset>',
+			'<label><input name="combine" type="radio" checked> AND</label>',
+			'<label><input id="option-or" name="combine" type="radio"> OR</label>',
+			'</fieldset>',
+			'<fieldset>',
+			'<label><input name="field" type="radio" checked> All</label>',
+			'<label><input id="option-title" name="field" type="radio"> Title only</label>',
+			'</fieldset>',
+			'<datalist id="suggestions"></datalist>',
+			'</form>',
+			'<p id="result-count"></p>',
+			'<ul id="results"></ul>',
+			'<footer>',
+			'<dl>',
+			'<dt>Prefix search</dt>',
+			'<dd>To find pages with a term starting with the query select the “prefix” option, or append an asterisk (<code>*</code>) to your query. You can also use an asterisk inside a word.</dd>',
+			'<dt>Fuzzy search</dt>',
+			'<dd>For a fuzzy search select that option, or append a tilde (<code>~</code>) to a word.</dd>',
+			'<dt>Phrase search</dt>',
+			'<dd>Unfortunately, it is not possible to search for exact phrases of two or more words. But you can enclose a word into quotation marks (<code>&quot;</code>) to enforce an exact search if your default option is different.</dd>',
+			'<dt>Combining queries</dt>',
+			'<dd>Select in the options whether all terms must be found or not. You can also use <code>AND</code>, <code>OR</code>, and <code>NOT</code> between terms in your query. Instead of <code>NOT</code> you can also prefix a word with a minus sign (<code>-</code>). Use parenthesis to group complex queries.</dd>',
+			'<dt>Title search</dt>',
+			'<dd>With that option you can limit the search to the title. You can also prefix a word with <code>title:</code> to do so, or use <code>text:</code> to limit the search to the text.</dd>',
+			'</dl>',
+			'</footer>'
+	].join('\n');
+
 	function generateSitemap (pages) {
 		return [
 			'<?xml version="1.0" encoding="UTF-8"?>',
@@ -852,6 +951,8 @@ function convert (latex) {
 		].join('\n');
 	}
 
+	searchIndexBuilder = new SearchIndexBuilder(['path', 'title'], ['text', 'title']);
+
 	parts = splitLatex(latex);
 	pageNames = Object.keys(parts);
 	checkBooks(pageNames, getNav());
@@ -861,7 +962,11 @@ function convert (latex) {
 	fixRefs(parts);
 	pageNames.forEach(function (path) {
 		if (path !== 'about/contents-by-topic.html') {
-			parts[path] = finalizeHtml(parts[path], path);
+			parts[path] = finalizeHtml(
+				parts[path],
+				path,
+				path !== 'index.html' && path.slice(0, 6) !== 'about/' ? searchIndexBuilder : null
+			);
 		}
 	});
 	parts['about/contents-by-topic.html'] += [
@@ -889,6 +994,18 @@ function convert (latex) {
 	pageNames.push('about/copyright.html');
 
 	//parts['about/maintenance.html'] = finalizeHtml(generateMaintenance(pageNames.sort()), 'about/maintenance.html');
+
+	parts['about/search.html'] = finalizeHtml(searchPage, 'about/search.html').replace('</head>', searchMeta + '\n</head>');
+	parts['search-index.json'] = JSON.stringify(searchIndexBuilder);
+	pageNames.push('about/search.html');
+	/*var stop = [];
+	searchIndexBuilder.searchIndex.forEach(function (key, data) {
+		if (data.length >= 220) {
+			stop.push(key);
+		}
+	});
+	console.log(stop);*/
+
 	parts['sitemap.xml'] = generateSitemap(pageNames);
 
 	return parts;
