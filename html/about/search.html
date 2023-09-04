@@ -4,6 +4,7 @@
 <title>Search</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#a04">
+<meta name="referrer" content="no-referrer-when-downgrade">
 <link rel="icon" href="../../res/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="../../res/favicon.svg" sizes="any" type="image/svg+xml">
 <link rel="stylesheet" href="../../res/main.css">
@@ -29,12 +30,19 @@ fieldset {
 	display: inline-block;
 	border: solid thin;
 	padding: 0.2em 0.7em 0.2em 0.5em;
-	margin: 0 1em 0 0;
+	margin: 0 1em 0.5em 0;
 }
 </style>
 </head><body>
 <header>
 <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
+<nav class="main"><ul>
+<li><a href="../index.html" title="Home" aria-label="Home"><svg><use xlink:href="../../res/icons.svg#home" /></svg></a></li>
+<li><a href="introduction.html" title="Introduction" aria-label="Introduction"><svg><use xlink:href="../../res/icons.svg#intro" /></svg></a></li>
+<li><a href="contents-by-source.html" title="Contents by Source" aria-label="Contents by Source"><svg><use xlink:href="../../res/icons.svg#book" /></svg></a></li>
+<li><a href="contents-by-topic.html" title="Contents by Topic" aria-label="Contents by Topic"><svg><use xlink:href="../../res/icons.svg#list" /></svg></a></li>
+</ul></nav>
+<form action=""><input type="search" name="q"><button title="Search" aria-label="Search"><svg><use xlink:href="../../res/icons.svg#search" /></svg></button></form>
 
 <h2>Search</h2>
 </header>
@@ -71,6 +79,8 @@ fieldset {
 <dd>Select in the options whether all terms must be found or not. You can also use <code>AND</code>, <code>OR</code>, and <code>NOT</code> between terms in your query. Instead of <code>NOT</code> you can also prefix a word with a minus sign (<code>-</code>). Use parenthesis to group complex queries.</dd>
 <dt>Title search</dt>
 <dd>With that option you can limit the search to the title. You can also prefix a word with <code>title:</code> to do so, or use <code>text:</code> to limit the search to the text.</dd>
+<dt>Alternative search</dt>
+<dd>Alternatively you can <a href="https://github.com/search?q=repo%3ASchnark%2Flewis-carroll%20&type=code">search all files on GitHub</a>.</dd>
 </dl>
 
 <nav><ul>
@@ -81,5 +91,6 @@ fieldset {
 <li><b>Search</b></li>
 <li><a href="copyright.html">Copyright</a></li>
 </ul></nav>
+<a id="to-top" href="#top" title="Back to top">↑</a>
 </footer>
 </body></html>

@@ -216,3 +216,49 @@ for (i = 0; i < links.length; i++) {
 }
 
 })();
+
+//Search form in header
+(function () {
+"use strict";
+
+var form = document.querySelector('header form');
+if (form) {
+	form.addEventListener('submit', function (e) {
+		if (!form.getElementsByTagName('input')[0].value) {
+			location.href = form.action;
+			e.preventDefault();
+		}
+	});
+}
+})();
+
+//Top link
+(function () {
+"use strict";
+
+var toTop = document.getElementById('to-top'),
+	visible = true,
+	lastScroll = window.scrollY;
+
+function showHide (show) {
+	if (show !== visible) {
+		toTop.style.display = show ? '' : 'none';
+		visible = show;
+	}
+}
+
+if (toTop) {
+	showHide(false);
+	toTop.addEventListener('click', function (e) {
+		e.preventDefault();
+		window.scrollTo(0, 0);
+		lastScroll = 0;
+		showHide(false);
+	});
+	window.addEventListener('scroll', function () {
+		var scroll = window.scrollY;
+		showHide(scroll < lastScroll && scroll !== 0);
+		lastScroll = scroll;
+	});
+}
+})();

@@ -738,6 +738,22 @@ function getNav (page) {
 	}).join('\n');
 }
 
+function getHeaderNav (page) {
+	function getLink (path, title, icon) {
+		var href = relPath(page, path);
+		return '<li><a href="' + href + '" title="' + title + '" aria-label="' + title + '"><svg><use xlink:href="../../res/icons.svg#' + icon + '" /></svg></a></li>';
+	}
+	return [
+		'<nav class="main"><ul>',
+		getLink('index.html', 'Home', 'home'),
+		getLink('about/introduction.html', 'Introduction', 'intro'),
+		getLink('about/contents-by-source.html', 'Contents by Source', 'book'),
+		getLink('about/contents-by-topic.html', 'Contents by Topic', 'list'),
+		'</ul></nav>',
+		'<form action="' + relPath(page, 'about/search.html') + '"><input type="search" name="q"><button title="Search" aria-label="Search"><svg><use xlink:href="../../res/icons.svg#search" /></svg></button></form>'
+	].join('\n');
+}
+
 function getFooterNav (page) {
 	function getLink (path, title) {
 		var href = relPath(page, path);
@@ -791,6 +807,7 @@ function finalizeHtml (html, page, searchIndexBuilder) {
 		searchIndexBuilder.addDocument({
 			path: page,
 			title: unhtml(title),
+			//TODO we should also apply relevant changes from the manual fixes
 			text: unhtml(html)
 		});
 	}
@@ -822,8 +839,6 @@ function finalizeHtml (html, page, searchIndexBuilder) {
 		'<meta charset="utf-8">',
 		'<title>' + title + '</title>',
 		'<meta name="viewport" content="width=device-width, initial-scale=1">', //TODO can we drop initial-scale?
-		//TODO
-		//'<meta name="color-scheme" content="light dark">',
 		'<meta name="theme-color" content="#a04">',
 		//as long as there are browsers that allow full path for cross-origin
 		html.indexOf('<a href="https://') > -1 ? '<meta name="referrer" content="no-referrer-when-downgrade">' : '',
@@ -834,8 +849,10 @@ function finalizeHtml (html, page, searchIndexBuilder) {
 		'</head><body>',
 		'<header>',
 		'<h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>',
+		getHeaderNav(page),
 		html,
 		getFooterNav(page),
+		'<a id="to-top" href="#top" title="Back to top">↑</a>',
 		'</footer>',
 		'</body></html>'
 	].filter(function (line) {
@@ -896,7 +913,7 @@ function convert (latex) {
 		'	display: inline-block;',
 		'	border: solid thin;',
 		'	padding: 0.2em 0.7em 0.2em 0.5em;',
-		'	margin: 0 1em 0 0;',
+		'	margin: 0 1em 0.5em 0;',
 		'}',
 		'</style>'
 	].join('\n');
@@ -936,6 +953,8 @@ function convert (latex) {
 			'<dd>Select in the options whether all terms must be found or not. You can also use <code>AND</code>, <code>OR</code>, and <code>NOT</code> between terms in your query. Instead of <code>NOT</code> you can also prefix a word with a minus sign (<code>-</code>). Use parenthesis to group complex queries.</dd>',
 			'<dt>Title search</dt>',
 			'<dd>With that option you can limit the search to the title. You can also prefix a word with <code>title:</code> to do so, or use <code>text:</code> to limit the search to the text.</dd>',
+			'<dt>Alternative search</dt>',
+			'<dd>Alternatively you can <a href="https://github.com/search?q=repo%3ASchnark%2Flewis-carroll%20&type=code">search all files on GitHub</a>.</dd>',
 			'</dl>',
 			'</footer>'
 	].join('\n');

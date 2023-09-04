@@ -94,7 +94,7 @@ function getUrlParam (name) {
 	}
 	param = params[params.length - 1].slice(name.length + 1);
 	try {
-		param = decodeURIComponent(param);
+		param = decodeURIComponent(param.replace(/\+/g, '%20'));
 	} catch (e) {
 	}
 	return param;
