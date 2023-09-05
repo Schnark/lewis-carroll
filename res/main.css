@@ -17,6 +17,10 @@ body {
 	margin: 0;
 	padding: 0;
 }
+input,
+button {
+	font: inherit;
+}
 article {
 	padding: 0 2em;
 	min-width: 13em;
@@ -139,6 +143,7 @@ nav ul li:not(:first-child)::before {
 }
 nav.main {
 	float: left;
+	padding-right: 0.25rem;
 }
 
 nav.main li {
@@ -157,6 +162,7 @@ nav.main a {
 
 header form {
 	float: right;
+	padding-left: 0.25rem;
 }
 
 header form button {
@@ -165,6 +171,7 @@ header form button {
 	color: inherit;
 	cursor: pointer;
 	vertical-align: middle;
+	line-height: 0;
 }
 
 nav.main svg,
