@@ -163,6 +163,17 @@ nav.main a {
 header form {
 	float: right;
 	padding-left: 0.25rem;
+	max-width: 45%;
+}
+
+@media (max-width: 21em) {
+	header form {
+		max-width: none;
+	}
+}
+
+header form input {
+	max-width: calc(100% - 3rem);
 }
 
 header form button {
@@ -192,7 +203,7 @@ header form svg use {
 }
 
 #to-top {
-	position:fixed;
+	position: fixed;
 	right: 0.5em;
 	bottom: 0.5em;
 	background: inherit;
@@ -755,8 +766,10 @@ aside.toggle.wide {
 	}
 	h1,
 	nav,
+	header form,
 	aside,
-	.footnote-popup {
+	.footnote-popup,
+	#to-top {
 		display: none !important;
 	}
 	.annotated {
