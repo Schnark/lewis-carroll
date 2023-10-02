@@ -113,6 +113,7 @@ function init () {
 	} else if (docFinder) {
 		runSearch();
 	} else {
+		document.getElementById('result-count').innerHTML = 'Please wait …';
 		autoExec = true;
 	}
 }

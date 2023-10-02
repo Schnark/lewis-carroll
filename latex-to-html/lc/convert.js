@@ -775,7 +775,9 @@ function unhtml (html) {
 	return html
 		.replace(/<header>[\s\S]*?<\/header>/g, '')
 		.replace(/<footer>[\s\S]*?<\/footer>/g, '')
+		.replace(/<aside [^>]+><b>Other version[\s\S]*?<\/aside>/g, '')
 		.replace(/<sup class="footnote">.*?<\/sup>/g, '')
+		.replace(/<!--Command \\footnoteref not defined!-->\w+:\w+/g, ' ')
 		.replace(/<[^>]*>/g, function (tag) {
 			tag = tag.split(' ')[0].toLowerCase().replace(/[^a-z]+/g, '');
 			return ['b', 'i', 'u', 'em', 'strong', 'span', 'sup', 'sub'].indexOf(tag) > -1 ? '' : ' ';
@@ -789,7 +791,8 @@ function unhtml (html) {
 				'&nbsp;': ' ',
 				'&thinsp;': ' '
 			}[ent] || ent;
-		});
+		})
+		.replace(/\\(begin|end)\{[^}]+\}/g, ' ').replace(/\\[a-zA-Z]+/g, ' '); //unresolved commands
 }
 
 function finalizeHtml (html, page, searchIndexBuilder) {
@@ -801,15 +804,6 @@ function finalizeHtml (html, page, searchIndexBuilder) {
 			.replace(/<[^<>]+>/g, '');
 	} else {
 		title = 'TODO';
-	}
-
-	if (searchIndexBuilder) {
-		searchIndexBuilder.addDocument({
-			path: page,
-			title: unhtml(title),
-			//TODO we should also apply relevant changes from the manual fixes
-			text: unhtml(html)
-		});
 	}
 
 	if (html.indexOf('<header>') > -1) {
@@ -833,6 +827,21 @@ function finalizeHtml (html, page, searchIndexBuilder) {
 		html = html.replace('</header>', nav + '\n</header>');
 		html += '\n' + nav;
 	}
+
+	if (searchIndexBuilder) {
+		searchIndexBuilder.addDocument({
+			path: page,
+			title: unhtml(title),
+			//TODO we should also apply relevant changes from the manual fixes
+			//especially:
+			//missing spaces in poems/poetry-for-the-million.html
+			//maybeThisPage in rectory-umbrella/zoological-papers.html
+			//puzzle in sylvie-and-bruno/preface.html
+			//chess in ttlg/preface.html
+			text: unhtml('<header>' + html + '</footer>')
+		});
+	}
+
 	return [
 		'<!DOCTYPE html>',
 		'<html lang="en"><head>',
@@ -939,6 +948,7 @@ function convert (latex) {
 			'</fieldset>',
 			'<datalist id="suggestions"></datalist>',
 			'</form>',
+			'<noscript><p>Please <b>enable JavaScript</b> to use the search.</p></noscript>',
 			'<p id="result-count"></p>',
 			'<ul id="results"></ul>',
 			'<footer>',

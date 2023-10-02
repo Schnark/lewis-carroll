@@ -739,12 +739,14 @@ toHtml.fixup(function (html) {
 			tag1 = el.slice(0, middle);
 			tag2 = el.slice(middle);
 			return [
-				'<mrow style="border-top-left-radius: 50%; border-top: solid thin;">',
+				'<mrow style="border-top-left-radius: 50%; border-top: solid thin; border-right: solid thin;">',
+				'<mspace width="0.25em"/>',
 				tag1,
 				'</mrow>',
-				'<mo>|</mo>',
+				'<mo>&#x2063;</mo>', //invisible comma
 				'<mrow style="border-bottom-right-radius: 50%; border-bottom: solid thin;">',
 				tag2,
+				'<mspace width="0.25em"/>',
 				'</mrow>'
 			].join('');
 		})

@@ -96,6 +96,12 @@ footer > * {
 	padding: 0.5rem 2rem;
 	max-width: 50rem;
 }
+@media (max-width: 35em) {
+	header > *:not(h1),
+	footer > * {
+		padding: 0.5rem 1rem;
+	}
+}
 nav ol,
 nav ul {
 	margin: 0;
@@ -166,7 +172,7 @@ header form {
 	max-width: 45%;
 }
 
-@media (max-width: 21em) {
+@media (max-width: 18em) {
 	header form {
 		max-width: none;
 	}

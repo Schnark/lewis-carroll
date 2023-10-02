@@ -2,9 +2,11 @@
 (function () {
 "use strict";
 
+var pathPre = 'Documents/Texte/Lewis%20Carroll/html/';
+
 function loadDocument (path, callback) {
 	var xhr = new XMLHttpRequest();
-	xhr.open('GET', 'Documents/Texte/Lewis%20Carroll/html/' + path);
+	xhr.open('GET', pathPre + path);
 	xhr.responseType = 'text';
 	xhr.onload = function () {
 		callback(xhr.response);
@@ -16,6 +18,7 @@ function unhtml (html) {
 	return html
 		.replace(/<header>[\s\S]*?<\/header>/g, '')
 		.replace(/<footer>[\s\S]*?<\/footer>/g, '')
+		.replace(/<aside [^>]+><b>Other version[\s\S]*?<\/aside>/g, '')
 		.replace(/<sup class="footnote">.*?<\/sup>/g, '')
 		.replace(/<[^>]*>/g, function (tag) {
 			tag = tag.split(' ')[0].toLowerCase().replace(/[^a-z]+/g, '');
@@ -72,9 +75,14 @@ function addDocumentsFromSitemap (searchIndexBuilder, callback) {
 	});
 }
 
-var searchIndexBuilder = new SearchIndexBuilder(['path', 'title'], ['text', 'title']);
+function generateSearchIndex (callback) {
+	var searchIndexBuilder = new SearchIndexBuilder(['path', 'title'], ['text', 'title']);
+	addDocumentsFromSitemap(searchIndexBuilder, function () {
+		callback(searchIndexBuilder);
+	});
+}
 
-addDocumentsFromSitemap(searchIndexBuilder, function () {
+generateSearchIndex(function (searchIndexBuilder) {
 	document.getElementById('output').textContent = JSON.stringify(searchIndexBuilder);
 	/*var stop = [];
 	searchIndexBuilder.searchIndex.forEach(function (key, data) {
@@ -84,5 +92,15 @@ addDocumentsFromSitemap(searchIndexBuilder, function () {
 	});
 	console.log(stop);*/
 });
+
+/*
+generateSearchIndex(function (searchIndexBuilder) {
+	var oldIndex = JSON.parse(JSON.stringify(searchIndexBuilder));
+	loadDocument('search-index.json', function (newIndex) {
+		newIndex = JSON.parse(newIndex);
+		document.getElementById('output').textContent = JSON.stringify(comparePages(analyzeIndex(oldIndex), analyzeIndex(newIndex)), null, '\t');
+	});
+});
+*/
 
 })();
