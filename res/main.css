@@ -381,7 +381,8 @@ h6,
 
 h2 + .subtitle,
 h3 + .subtitle,
-h4 + .subtitle {
+h4 + .subtitle,
+.subtitle + .subtitle {
 	margin-top: -0.5em;
 }
 

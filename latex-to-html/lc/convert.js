@@ -36,7 +36,7 @@ function getPath (chapter, section) {
 			'poems/index': 'about/contents-by-topic',
 			'prefaces/index': 'about/contents-by-topic',
 
-			//TODO split these into chapters?
+			//TODO split these into chapters? Or a TOC?
 			'prefaces/alices-adventures-in-wonderland': 'aaiw/preface',
 			'novels/alices-adventures-in-wonderland': 'aaiw/content',
 			'prefaces/through-the-looking-glass-and-what-alice-found-there': 'ttlg/preface',
@@ -699,6 +699,8 @@ function getNav (page) {
 		'Memoria Technica': {
 			'texts/memoria-technica-1877.html': '1877',
 			'texts/specific-gravities-of-metals.html': 'Specific Gravities of Metals, &amp;c.',
+			'texts/logs-of-nos.html': 'Logs of Nos.',
+			'texts/various-memoria-technica-verses.html': 'Various Verses',
 			'texts/memoria-technica-1888.html': '1888'
 		},
 		'Shakespeare for Girls': {
@@ -805,6 +807,14 @@ function finalizeHtml (html, page, searchIndexBuilder) {
 	} else {
 		title = 'TODO';
 	}
+	if (page.slice(-13) === '/preface.html') {
+		title = 'Preface to ' + title;
+	}
+	if (page.slice(0, 6) === 'about/') {
+		//TODO? should we do this for all pages? If so, we must undo it for search.
+		//OTOH, many titles are already 30 chars long, some even longer than 40
+		title += ' | The (almost really) Complete Works of Lewis Carroll';
+	}
 
 	if (html.indexOf('<header>') > -1) {
 		html = html.replace('<header>', '');
@@ -853,6 +863,37 @@ function finalizeHtml (html, page, searchIndexBuilder) {
 		html.indexOf('<a href="https://') > -1 ? '<meta name="referrer" content="no-referrer-when-downgrade">' : '',
 		'<link rel="icon" href="' + res + 'favicon-32.png" sizes="32x32" type="image/png">',
 		'<link rel="icon" href="' + res + 'favicon.svg" sizes="any" type="image/svg+xml">',
+/*TODO
+getOgMetadata (title, isMeta, img) {
+	var meta = [], match;
+	meta.push('<meta property="og:type" content="website">');
+	meta.push('<meta property="og:locale" content="en_UK">');
+	meta.push('<meta property="og:title" content="' + title + '">');
+	meta.push('<meta property="og:site_name" content="The (almost really) Complete Works of Lewis Carroll">');
+	if (!isMeta) {
+		meta.push('<meta property="og:description" content="Read ' + title + ' by Lewis Carroll' + (img ? ', including the original images' : '') + '.">');
+	}
+	if (img) {
+		match = /src="([^"]+)"/.exec(img);
+	}
+	if (match) {
+		meta.push('<meta property="og:image" content="' + match[1] + '">');
+		match = /width="(\d+)"/.exec(img);
+		if (match) {
+			meta.push(<meta property="og:image:width" content="' + match[1] + '">');
+		}
+		match = /height="(\d+)"/.exec(img);
+		if (match) {
+			meta.push(<meta property="og:image:height" content="' + match[1] + '">');
+		}
+		match = /alt="([^"]+)"/.exec(img);
+		if (match) {
+			meta.push(<meta property="og:image:alt" content="' + match[1] + '">');
+		}
+	}
+	return meta.join('\n');
+}
+*/
 		'<link rel="stylesheet" href="' + res + 'main.css">',
 		'<script src="' + res + 'main.js" defer></script>',
 		'</head><body>',

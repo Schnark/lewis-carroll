@@ -23,28 +23,46 @@ function loadIndex (path, callback) {
 function formatResult (result) {
 	return result.map(function (entry) {
 		var path = entry.data[0], title = entry.data[1];
-		if (path.indexOf('preface.html') > -1) {
-			title += ' (Preface)';
-		}
 		return '<li><a href="../' + path + '">' + title + '</a> <small>(Score: ' +
 			Math.round(5 * entry.score) + '; ' + htmlEscape(entry.terms.join(', ')) + ')</small></li>';
 	}).join('');
 }
 
-function runSearch (e) {
-	var query = document.getElementById('search-input').value,
-		result, count;
-	if (e) {
-		e.preventDefault();
-		history.pushState({}, '', '?q=' + encodeURIComponent(query));
-		//TODO add params
-	}
-	document.title = 'Search: ' + query;
-	result = docFinder.search(query, {
-		combine: document.getElementById('option-or').checked ? 'OR' : 'AND',
+function getOptions () {
+	return {
+		or: document.getElementById('option-or').checked,
 		prefix: document.getElementById('option-prefix').checked,
 		fuzzy: document.getElementById('option-fuzzy').checked,
-		fieldIndex: document.getElementById('option-title').checked ? 2 : undefined,
+		title: document.getElementById('option-title').checked
+	};
+}
+
+function runSearch (e) {
+	var query = document.getElementById('search-input').value,
+		options = getOptions(),
+		params, result, count;
+	if (e) {
+		e.preventDefault();
+		params = 'q=' + encodeURIComponent(query);
+		if (options.or) {
+			params += '&combine=OR';
+		}
+		if (options.prefix) {
+			params += '&mode=prefix';
+		} else if (options.fuzzy) {
+			params += '&mode=fuzzy';
+		}
+		if (options.title) {
+			params += '&titleOnly=1';
+		}
+		history.pushState({}, '', '?' + params);
+	}
+	document.title = 'Search: ' + query + ' | The (almost really) Complete Works of Lewis Carroll';
+	result = docFinder.search(query, {
+		combine: options.or ? 'OR' : 'AND',
+		prefix: options.prefix,
+		fuzzy: options.fuzzy,
+		fieldIndex: options.title ? 2 : undefined,
 		fields: {
 			text: 1,
 			content: 1,
@@ -100,13 +118,30 @@ function getUrlParam (name) {
 	return param;
 }
 
+function restoreOptions () {
+	var mode, titleOnly;
+	if (getUrlParam('combine') === 'OR') {
+		document.getElementById('option-or').checked = true;
+	}
+	mode = getUrlParam('mode');
+	if (mode === 'prefix') {
+		document.getElementById('option-prefix').checked = true;
+	} else if (mode === 'fuzzy') {
+		document.getElementById('option-fuzzy').checked = true;
+	}
+	titleOnly = getUrlParam('titleOnly');
+	if (titleOnly && titleOnly !== '0') {
+		document.getElementById('option-title').checked = true;
+	}	
+}
+
 function init () {
 	var search = getUrlParam('q'), input;
 	input = document.getElementById('search-input');
 	input.value = search;
-	//TODO restore params
+	restoreOptions();
 	if (!search) {
-		document.title = 'Search';
+		document.title = 'Search | The (almost really) Complete Works of Lewis Carroll';
 		document.getElementById('result-count').innerHTML = '';
 		document.getElementById('results').innerHTML = '';
 		input.focus();
