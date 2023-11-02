@@ -42,13 +42,13 @@ fieldset {
 <li><a href="contents-by-source.html" title="Contents by Source" aria-label="Contents by Source"><svg><use xlink:href="../../res/icons.svg#book" /></svg></a></li>
 <li><a href="contents-by-topic.html" title="Contents by Topic" aria-label="Contents by Topic"><svg><use xlink:href="../../res/icons.svg#list" /></svg></a></li>
 </ul></nav>
-<form action=""><input type="search" name="q"><button title="Search" aria-label="Search"><svg><use xlink:href="../../res/icons.svg#search" /></svg></button></form>
+<search><form action=""><input aria-label="Search for: " type="search" name="q"><button title="Search" aria-label="Search"><svg><use xlink:href="../../res/icons.svg#search" /></svg></button></form></search>
 
 <h2>Search</h2>
 </header>
 <article>
 <form id="search-form">
-<p id="search-area"><input id="search-input" type="search" list="suggestions"> <button id="search-button">Search</button></p>
+<p id="search-area"><input aria-label="Search for: " id="search-input" type="search" list="suggestions"> <button id="search-button">Search</button></p>
 <fieldset>
 <label><input name="type" type="radio" checked> Exact</label>
 <label><input id="option-prefix" name="type" type="radio"> Prefix</label>
@@ -65,8 +65,10 @@ fieldset {
 <datalist id="suggestions"></datalist>
 </form>
 <noscript><p>Please <b>enable JavaScript</b> to use the search.</p></noscript>
+<div aria-live="polite">
 <p id="result-count"></p>
 <ul id="results"></ul>
+</div>
 </article>
 <footer>
 <dl>

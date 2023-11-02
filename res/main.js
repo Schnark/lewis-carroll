@@ -257,7 +257,7 @@ if (toTop) {
 	});
 	window.addEventListener('scroll', function () {
 		var scroll = window.scrollY;
-		showHide(scroll < lastScroll && scroll !== 0);
+		showHide(scroll < lastScroll + 1 && scroll !== 0);
 		lastScroll = scroll;
 	});
 }

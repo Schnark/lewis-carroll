@@ -4,6 +4,14 @@ convert =
 (function () {
 "use strict";
 
+function lowerAscii (text) {
+	return text.toLowerCase()
+		.replace(/<[^>]+>/g, '')
+		.replace(/textit|textfrak/g, '')
+		.replace(/æ/g, 'ae').replace(/[êè]/g, 'e').replace(/ó/g, 'o').replace(/’/g, '')
+		.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
 function getPath (chapter, section) {
 	var path,
 		CHAPTER = {
@@ -36,7 +44,6 @@ function getPath (chapter, section) {
 			'poems/index': 'about/contents-by-topic',
 			'prefaces/index': 'about/contents-by-topic',
 
-			//TODO split these into chapters? Or a TOC?
 			'prefaces/alices-adventures-in-wonderland': 'aaiw/preface',
 			'novels/alices-adventures-in-wonderland': 'aaiw/content',
 			'prefaces/through-the-looking-glass-and-what-alice-found-there': 'ttlg/preface',
@@ -218,12 +225,6 @@ function getPath (chapter, section) {
 			'math/pillow-problems-curiosa-mathematica-part-ii': 'math/pillow-problems',
 			'texts/specific-gravities-of-metals-c': 'texts/specific-gravities-of-metals'
 		};
-	function lowerAscii (text) {
-		return text.toLowerCase()
-			.replace(/textit|textfrak/g, '')
-			.replace(/æ/g, 'ae').replace(/[êè]/g, 'e').replace(/ó/g, 'o').replace(/’/g, '')
-			.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-	}
 	chapter = lowerAscii(chapter || 'about');
 	chapter = CHAPTER[chapter] || chapter;
 	section = lowerAscii(section || 'index');
@@ -752,7 +753,10 @@ function getHeaderNav (page) {
 		getLink('about/contents-by-source.html', 'Contents by Source', 'book'),
 		getLink('about/contents-by-topic.html', 'Contents by Topic', 'list'),
 		'</ul></nav>',
-		'<form action="' + relPath(page, 'about/search.html') + '"><input type="search" name="q"><button title="Search" aria-label="Search"><svg><use xlink:href="../../res/icons.svg#search" /></svg></button></form>'
+		'<search><form action="' + relPath(page, 'about/search.html') + '">' +
+		'<input aria-label="Search for: " type="search" name="q">' +
+		'<button title="Search" aria-label="Search"><svg><use xlink:href="../../res/icons.svg#search" /></svg></button>' +
+		'</form></search>'
 	].join('\n');
 }
 
@@ -771,6 +775,31 @@ function getFooterNav (page) {
 		'<li>' + getLink('about/copyright.html', 'Copyright') + '</li>',
 		'</ul></nav>'
 	].join('\n');
+}
+
+function addToc (html) {
+	var toc = [];
+	html = html.replace(/<h3([^>]*)>(.*?)<\/h3>/g, function (all, attr, heading) {
+		var id;
+		if (heading === 'Copyright') {
+			return all;
+		}
+		id = /id="([^"]+)"/.exec(attr);
+		if (id) {
+			id = id[1];
+		} else {
+			id = lowerAscii(heading);
+			attr += ' id="' + id + '"';
+		}
+		toc.push('<a href="#' + id + '">' + heading.replace(/<\/?a[^>]*>/g, '') + '</a>');
+		return '<h3' + attr + '>' + heading + '</h3>';
+	});
+	if (html.indexOf('</header>') === -1) {
+		html = html.replace(/(<h2>.*?<\/h2>)/, '<header>\n$1\n</header>');
+	}
+	toc = '<p class="toc">Contents: ' + toc.join('&nbsp;• ') + '</p>';
+	html = html.replace(/<\/header>/, toc + '\n</header>');
+	return html;
 }
 
 function unhtml (html) {
@@ -798,7 +827,46 @@ function unhtml (html) {
 }
 
 function finalizeHtml (html, page, searchIndexBuilder) {
-	var title, nav, res = '../../res/';
+	var title, nav, res = '../../res/',
+		TOC = [ //TODO more?
+			'about/contents-by-source.html',
+			//'about/contents-by-topic.html',
+			'about/introduction.html',
+
+			'aaiw/content.html',
+			'ttlg/content.html',
+			'aaug/content.html',
+			'nursery-alice/content.html',
+			'sylvie-and-bruno/content.html',
+			'sylvie-and-bruno-concluded/content.html',
+
+			'poems/phantasmagoria.html',
+			'poems/the-hunting-of-the-snark.html',
+
+			'math/the-formulae-of-plane-trigonometry.html',
+			'math/a-guide-to-the-mathematical-student.html',
+			'math/an-elementary-treatis-on-determinants.html',
+			'math/a-discussion-of-the-various-methods-of-elections.html',
+			'euclid-and-his-modern-rivals/content.html',
+			'math/the-principals-of-parliamentary-representation.html',
+			'tangled-tale/content.html',
+			'game-of-logic/content.html',
+			'math/a-new-theory-of-parallels.html',
+			'math/pillow-problems.html',
+			'symbolic-logic/content.html',
+
+			'texts/doublets-a-word-puzzle.html',
+			'texts/lawn-tennis-tournaments-1883.html',
+			'texts/twelve-months-in-a-curatorship.html',
+			'texts/three-years-in-a-curatorship.html',
+			'texts/eight-or-nine-wise-words-about-letter-writing.html',
+			'texts/curiosissima-curatoria.html',
+
+			'manuscripts-proofs/a-method-of-taking-votes.html',
+			'manuscripts-proofs/symbolic-logic-part-ii.html',
+			'manuscripts-proofs/curiosa-mathematica-part-iii.html',
+			'poems/la-guida-di-bragia.html'
+		];
 	title = /<h2>(.*?)<\/h2>/.exec(html);
 	if (title) {
 		title = title[1]
@@ -816,6 +884,9 @@ function finalizeHtml (html, page, searchIndexBuilder) {
 		title += ' | The (almost really) Complete Works of Lewis Carroll';
 	}
 
+	if (TOC.indexOf(page) > -1) {
+		html = addToc(html);
+	}
 	if (html.indexOf('<header>') > -1) {
 		html = html.replace('<header>', '');
 	} else {
@@ -914,7 +985,7 @@ function convert (latex) {
 	var parts, pageNames, copyright, searchMeta, searchPage, searchIndexBuilder;
 
 	function extractCopyright (html) {
-		var start = html.indexOf('<h3>Copyright</h3>'), end = html.indexOf('<h3>', start + 1);
+		var start = html.indexOf('<h3>Copyright</h3>'), end = html.indexOf('<h3', start + 1);
 		return [
 			html.slice(0, start) + html.slice(end),
 			html.slice(start, end)
@@ -973,7 +1044,7 @@ function convert (latex) {
 			'<h2>Search</h2>',
 			'</header>',
 			'<form id="search-form">',
-			'<p id="search-area"><input id="search-input" type="search" list="suggestions"> <button id="search-button">Search</button></p>',
+			'<p id="search-area"><input aria-label="Search for: " id="search-input" type="search" list="suggestions"> <button id="search-button">Search</button></p>',
 			'<fieldset>',
 			'<label><input name="type" type="radio" checked> Exact</label>',
 			'<label><input id="option-prefix" name="type" type="radio"> Prefix</label>',
@@ -990,8 +1061,10 @@ function convert (latex) {
 			'<datalist id="suggestions"></datalist>',
 			'</form>',
 			'<noscript><p>Please <b>enable JavaScript</b> to use the search.</p></noscript>',
+			'<div aria-live="polite">',
 			'<p id="result-count"></p>',
 			'<ul id="results"></ul>',
+			'</div>',
 			'<footer>',
 			'<dl>',
 			'<dt>Prefix search</dt>',
