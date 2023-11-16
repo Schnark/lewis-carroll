@@ -188,6 +188,10 @@ toHtml.fixup(function (html) {
 	});
 });
 
+registerCommand('otherLang', function (lang, content) {
+	return '<span lang="' + lang + '">' + content + '</span>';
+});
+
 registerCommand('lanrickField', function (t) {
 	return t;
 });
@@ -242,6 +246,10 @@ toHtml.fixup(function (html) {
 	}).replace(/<li>(.*)(, 18\d\d\?? \(.*), → (<a [^>]*>)here<!--TODO--><\/a>([;)])/g, function (all, text, rest, link, end) {
 		return '<li>' + link + text + '</a>' + rest + end;
 	});
+});
+
+registerCommand('parenSee', function (title, ref) {
+	return '<a href="#' + ref + '">' + title + '</a>';
 });
 
 registerCommand('subtitle', function (title) {
