@@ -212,7 +212,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>Table of Contents</li>
  <li>Main content (still missing)<!--TODO text--></li>
  <li>Errata <!--(applied to content)--></li>
-@@ -355,7 +355,7 @@
+@@ -357,7 +357,7 @@
  <li>Preface (moved to content)</li>
  <li>Corrigenda (applied to content)</li>
  <li>Table of Contents</li>
@@ -221,7 +221,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>The main content is a treatis on determinants, as described in the preface, and currently only partially included into this collection.</p>
-@@ -368,7 +368,7 @@
+@@ -370,7 +370,7 @@
  
  <ul>
  <li>Title</li>
@@ -230,7 +230,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>Main content (still missing)<!--TODO text--></li>
  </ul>
  
-@@ -411,7 +411,7 @@
+@@ -413,7 +413,7 @@
  <li>Title</li>
  <li>Preface (moved to content)</li>
  <li>Table of Contents</li>
@@ -239,7 +239,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>The missing main content starts with a chapter “Preliminary Algebra”, containing basic algebraical formulæ in two columns. The chapter “Propositions” contains the propositions, first as given by Euclid, then stated algebraically with algebraical proof. The chapter “Enunciations” lists all enunciations in algebraical form, again in two columns. The next chapters contain Euclid’s Definitions and Axioms.</p>
-@@ -429,12 +429,12 @@
+@@ -431,12 +431,12 @@
  <li><a href="../euclid-and-his-modern-rivals/preface.html">Preface</a></li>
  <li>Table of Contents</li>
  <li><a href="../euclid-and-his-modern-rivals/content.html">Main content</a></li>
@@ -254,7 +254,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>Appendix I contains an extract from Mr.&nbsp;Todhunter’s essay on ‘Elementary Geometry,’ included in ‘The Conflict of Studies, &amp;c.’ Appendix II contains an extract from Mr.&nbsp;De Morgan’s review of Mr.&nbsp;Wilson’s Geometry, in the ‘Athenæum’ for July 18, 1868. Appendix IV contains a list of Propositions of Euc.&nbsp;I, II, with references to their occurence in the manuals of his Modern Rivals.</p>
-@@ -451,7 +451,7 @@
+@@ -453,7 +453,7 @@
  <li>Title</li>
  <li><a href="../euclid-and-his-modern-rivals/preface-supplement.html">Preface</a></li>
  <li><a href="../euclid-and-his-modern-rivals/content.html#supplement-euclid-modern-rivals:henrici">Act II. Scene VI. Henrici</a></li>
@@ -263,7 +263,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Euclid. Books I, II</h4>
-@@ -485,7 +485,7 @@
+@@ -487,7 +487,7 @@
  <li><a href="../math/the-principles-of-parliamentary-representation.html">Main content</a></li>
  <li>Index</li>
  <li><a href="../math/the-principles-of-parliamentary-representation.html#principles-parliamentary:supplement">Supplement</a></li>
@@ -272,7 +272,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>A Tangled Tale</h4>
-@@ -615,7 +615,7 @@
+@@ -617,7 +617,7 @@
  <li>Title</li>
  <li>Introduction (moved to content)</li>
  <li>Table of Contents</li>
@@ -281,7 +281,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>The Election to the Hebdomadal Council</h4>
-@@ -689,45 +689,43 @@
+@@ -691,45 +691,43 @@
  <p>scan from <a href="https://archive.org/details/notesbyoxfordchi00carrrich">https://archive.org/details/notesbyoxfordchi00carrrich</a></p>
  
  <ul>
@@ -343,7 +343,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>All parts have been issued separately, including <i>Facts, Figures, and Fancies</i>.</p>
  
-@@ -796,7 +794,7 @@
+@@ -798,7 +796,7 @@
  <li>Title</li>
  <li>Table of Contents</li>
  <li><a href="../texts/eight-or-nine-wise-words-about-letter-writing.html">Main Content</a></li>
@@ -352,7 +352,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Curiosissima Curatoria</h4>
-@@ -824,13 +822,13 @@
+@@ -826,13 +824,13 @@
  <li>Table of Contents</li>
  <li><a href="../syzygies-and-lanrick/syzygies.html">Syzygies</a></li>
  <li><a href="../syzygies-and-lanrick/lanrick.html">Lanrick</a></li>
@@ -369,7 +369,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>Chapter 11 of <i>The Lost Plum Cake</i> might also be written by Carroll, see <i>Pamphlets: A Miscellany</i>, item 34.</p>
-@@ -844,7 +842,7 @@
+@@ -846,7 +844,7 @@
  
  <ul>
  <li><a href="../poems/the-lady-of-the-ladle.html">The Lady of the Ladle</a> (August 1854)</li>
@@ -378,7 +378,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>The Comic Times</h4>
-@@ -972,10 +970,10 @@
+@@ -974,10 +972,10 @@
  “The Organization of Charity” also included in the <i>Scrapbook</i></p>
  
  <ul>
@@ -391,7 +391,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/vivisection-as-a-sign-of-the-times.html">Vivisection as a Sign of the Times</a> (February 1875)</li>
  <li><a href="../magazines/vivisection.html">Vivisection</a> (February 1875)</li>
  <li><a href="../magazines/natural-science-at-oxford.html">Natural Science at Oxford</a> (May 1877)</li>
-@@ -994,7 +992,7 @@
+@@ -996,7 +994,7 @@
  <ul>
  <li><a href="../magazines/the-science-of-betting.html#times:betting">The Science of Betting</a> (November 1866)</li>
  <li><a href="../magazines/a-complete-postage-guide.html">A Complete Postage Guide</a> (September 1883)</li>
@@ -400,7 +400,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Proceedings of the Royal Society of London</h4>
-@@ -1025,8 +1023,8 @@
+@@ -1027,8 +1025,8 @@
  <ul>
  <li><a href="../magazines/castle-croquet-1866.html">Castle Croquet</a> (August 1867)</li>
  <li><a href="../magazines/brunos-revenge.html">Bruno’s Revenge</a> (December 1867)</li>
@@ -411,7 +411,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../poems/dreamland.html">Dreamland</a> (July 1882)</li>
  </ul>
  
-@@ -1061,7 +1059,7 @@
+@@ -1063,7 +1061,7 @@
  <a href="https://www.informedparent.co.uk/wp-content/uploads/2017/10/1877-EASTBOURNE-CHRONICLE-debate-with-Lewis-Carroll-C-Dodgson.pdf">https://www.informedparent.co.uk/wp-content/uploads/2017/10/1877-EASTBOURNE-CHRONICLE-debate-with-Lewis-Carroll-C-Dodgson.pdf</a><!--TODO scan of first letter--></p>
  
  <ul>
@@ -420,7 +420,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Vanity Fair</h4>
-@@ -1073,7 +1071,7 @@
+@@ -1075,7 +1073,7 @@
  <a href="https://books.google.de/books?id=TfJHAQAAMAAJ">https://books.google.de/books?id=TfJHAQAAMAAJ</a></p>
  
  <ul>
@@ -429,7 +429,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>The Doublets were managed by Choker (the editor), it is not clear how much of the content was actually written by Carroll. Here only those parts are reproduced, that were reprinted as book, as well as all the doublets.</p>
-@@ -1107,7 +1105,7 @@
+@@ -1109,7 +1107,7 @@
  <li><a href="../magazines/questions-for-solution-9995.html">Questions for Solution: 9995</a> (February 1889)</li>
  <li><a href="../magazines/questions-for-solution-11530.html">Questions for Solution: 11530</a> (May 1892)</li>
  <li><a href="../magazines/questions-for-solution-9636.html">Comments on Solutions for Question 9636</a> (MQS LIX, 1893)</li>
@@ -438,7 +438,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/questions-for-solution-13614.html">Questions for Solution: 13614</a> (September 1897)</li>
  <li><a href="../magazines/questions-for-solution-14122.html">Questions for Solution: 14122</a> (February 1899)</li>
  </ul>
-@@ -1134,30 +1132,30 @@
+@@ -1136,30 +1134,30 @@
  <li><a href="../tangled-tale/content.html#tangled:mp-2">Romantic Problems; A Tangled Tale. Knot II. Mad Mathesis</a> (July 1880)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-2a">Answers to “Romantic Problems. Knot II”</a> (September 1880)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-3">A Tangled Tale. Knot III. The Dead Reckoning</a> (October 1880)</li>
@@ -478,7 +478,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/mischmasch-1882.html">Mischmasch</a> (November 1882)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-8">A Tangled Tale. Knot VIII. A Serpent with Corners</a> (January 1883)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-8a">A Tangled Tale. Answers to Knot VIII</a> (April 1883)</li>
-@@ -1177,18 +1175,18 @@
+@@ -1179,18 +1177,18 @@
  <ul>
  <li><a href="../magazines/the-purity-of-election.html">The Purity of Election</a> (May 1881)</li>
  <li><a href="../magazines/traitors-in-the-camp.html">Traitors in the Camp</a> (December 1881)</li>
@@ -501,7 +501,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/whoso-shall-offend-one-of-these-little-ones.html">“Whoso Shall Offend One of These Little Ones—”</a> (July 1885)</li>
  <li><a href="../magazines/hydrophobia-curable.html">Hydrophobia Curable</a> (October 1885)</li>
  <li><a href="../magazines/election-gains-and-losses.html">Election Gains and Losses</a> (December 1885)</li>
-@@ -1305,12 +1303,12 @@
+@@ -1307,12 +1305,12 @@
  for detailed description see also <i>Lewis Carroll and the Press</i></p>
  
  <ul>
@@ -516,7 +516,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>The Daily News</h4>
-@@ -1375,13 +1373,13 @@
+@@ -1377,13 +1375,13 @@
  <li><a href="../texts/the-professorship-of-comparative-philology.html">The Professorship of Comparative Philology</a>, 1876 (text from <i>Oxford Pamphlets</i>, item 17)<!--TODO scan--></li>
  <li><a href="../texts/an-easter-greeting.html">An Easter Greeting</a>, 1876 (scan from <a href="http://digitallibrary.usc.edu/cdm/compoundobject/collection/p15799coll85/id/137/rec/7">http://digitallibrary.usc.edu/cdm/compoundobject/collection/p15799coll85/id/137/rec/7</a> and others, variants also published in <i>Alice</i> books)</li>
  <li><a href="../poems/fames-penny-trumpet.html">Fame’s Penny-Trumpet</a>, 1876 (text from <i>Pamphlets: A Miscellany</i>, item 90, partial scan from <a href="https://www.bonhams.com/auctions/24116/lot/34/?category=results">https://www.bonhams.com/auctions/24116/lot/34/?category=results</a>)<!--TODO scan--></li>
@@ -532,7 +532,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../poems/four-riddles-no-iv.html">A Charade</a>, 1878 (scan from <i>The Story of Lewis Carroll</i>, pp.&nbsp;108–110)</li>
  <li><a href="../texts/word-links-cyclostyled.html">Word-Links</a>, 1878 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;89–92)</li>
  <li><a href="../texts/word-links-printed.html">Word-Links</a>, 1878 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;93–96)</li>
-@@ -1410,14 +1408,14 @@
+@@ -1412,14 +1410,14 @@
  <li><a href="../math/sixth-paper-on-logic.html">Sixth Paper on Logic</a>, 1887 (text from <i>Logic Pamphlets</i>, item 20d)<!--TODO scan--></li>
  <li><a href="../poems/to-my-child-friend.html">To my Child-Friend</a>, 1888 (text from <i>The Game of Logic</i>)<!--TODO scan--></li>
  <li><a href="../texts/memoria-technica-1888.html">Memoria Technica</a>, 1888 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;33–35)</li>
@@ -549,7 +549,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../math/a-disputed-point-in-logic-april-1894.html">A Disputed Point in Logic</a>, 1894 (text from <i>Logic Pamphlets</i>, item 15a)<!--TODO scan--></li>
  <li><a href="../math/a-disputed-point-in-logic-may-1894.html">A Disputed Point in Logic</a>, 1894 (text from <i>Logic Pamphlets</i>, item 15b)<!--TODO scan--></li>
  <li><a href="../math/a-theorem-in-logic.html">A Theorem in Logic</a>, 1894 (text from <i>Logic Pamphlets</i>, item 15c)<!--TODO scan--></li>
-@@ -1432,8 +1430,8 @@
+@@ -1434,8 +1432,8 @@
  <ul>
  <li><a href="../manuscripts-proofs/the-wasp-in-a-wig.html">The Wasp in a Wig</a>, 1870 (first published 1977, scan from <a href="https://archive.org/details/waspinwigsuppres0000carr_m8q0">https://archive.org/details/waspinwigsuppres0000carr_m8q0</a>)</li>
  <li><a href="../manuscripts-proofs/a-method-of-taking-votes.html">A Method of Taking Votes on More Than Two Issues</a>, 1876 (first published 1958, scan from <a href="https://digital.bodleian.ox.ac.uk/objects/d5ce1de6-d037-4ab4-9aeb-8e0f10a532be/">https://digital.bodleian.ox.ac.uk/objects/d5ce1de6-d037-4ab4-9aeb-8e0f10a532be/</a>)</li>
@@ -560,7 +560,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../manuscripts-proofs/curiosa-mathematica-part-iii.html">Curiosa Mathematica Part III</a>, 1897 (first published 1899, text from the <i>Picture Book</i>, pp.&nbsp;240–263)</li>
  </ul>
  
-@@ -1502,7 +1500,7 @@
+@@ -1504,7 +1502,7 @@
  <li><a href="../rectory-magazine/introductions.html#rectory:rust">Rust</a></li>
  <li><a href="../poems/as-it-fell-upon-a-day.html">As It Fell upon a Day</a></li>
  <li><a href="../rectory-magazine/sidney-hamilton.html#sidney-hamilton:4">Sidney Hamilton. Ch.&nbsp;4</a></li>
@@ -569,7 +569,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>A Tale of the Wars. Part&nbsp;2 (by Wilfred L. Dodgson)</li>
  <li><a href="../rectory-magazine/crundle-castle.html#crundle-castle:3">Crundle Castle. Ch.&nbsp;3</a></li>
  <li><a href="../poems/terrors.html">Terrors</a></li>
-@@ -1551,10 +1549,9 @@
+@@ -1553,10 +1551,9 @@
  <li>Mrs Stoggle’s Dinner-Party. Ch.&nbsp;4 (by Elisabeth L. Dodgson)</li>
  <li>Farmer Grubbins. Ch.&nbsp;2 (by Skeffington H. Dodgson)</li>
  </ul></li>
@@ -582,7 +582,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <h4>The Rectory Umbrella</h4>
  <p>Written about 1850, first published 1932, scan from
-@@ -1602,13 +1599,13 @@
+@@ -1604,13 +1601,13 @@
  <a href="http://www.europeana.eu/portal/record/9200143/BibliographicResource_2000069294604.html">http://www.europeana.eu/portal/record/9200143/BibliographicResource_2000069294604.html</a><!--TODO scan (Harcourt Armory Collection, not (yet) digitized)--></p>
  
  <ul>
@@ -599,7 +599,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../mischmasch/from-our-own-correspondent.html">From Our Own Correspondent</a></li>
  <li><a href="../poems/shes-all-my-fancy-painted-him.html">She’s All My Fancy Painted Him</a></li>
  <li><a href="../magazines/photography-extraordinary.html">Photography Extraordinary</a></li>
-@@ -1618,8 +1615,8 @@
+@@ -1620,8 +1617,8 @@
  <li><a href="../magazines/wilhelm-von-schmitz.html#wilhelm-von-schmitz:4">Wilhelm von Schmitz. Chapter IV</a></li>
  <li><a href="../poems/the-lady-of-the-ladle.html">The Lady of the Ladle</a></li>
  <li><a href="../mischmasch/studies-from-english-poets.html#english-poets:3">Studies from English Poets. No.&nbsp;III</a></li>
@@ -610,7 +610,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>Image (moved to other images)</li>
  <li><a href="../poems/the-three-voices-early-version.html">Lays of Mystery, Imagination, and Humor. No.&nbsp;2. The Three Voices</a></li>
  <li><a href="../poems/tommys-dead.html">Lays of Mystery, Imagination, and Humor. No.&nbsp;3. Tommy’s Dead</a></li>
-@@ -1651,7 +1648,7 @@
+@@ -1653,7 +1650,7 @@
  <li><a href="../poems/prologue-1873.html">Prologue</a>, 1873 (for the Hatch family, first published 1898, scan from <i>The Story of Lewis Carroll</i>, p.&nbsp;115)</li>
  <li><a href="../manuscripts-proofs/an-inconceivable-conversation.html">An Inconceivable Conversation</a>, 1874 (first published 1974, scan from <a href="https://iiif.bodleian.ox.ac.uk/iiif/viewer/dd6d9ce9-c190-4728-a849-524a06f7ade8">https://iiif.bodleian.ox.ac.uk/iiif/viewer/dd6d9ce9-c190-4728-a849-524a06f7ade8</a>)<!--https://www.chch.ox.ac.uk/sites/default/files/Carroll-MS%208%20-%20An%20Inconceivable%20Conversation.pdf--></li>
  <li><a href="../poems/a-russians-day-in-england.html">A Russian’s Day in England</a>, 1874 (for Lady Gwendolen Cecil, first published 1979, text from <i>The Russian Journal—II</i>, p.&nbsp;52)<!--TODO scan--></li>
@@ -619,7 +619,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../manuscripts-proofs/marriage-service.html">Marriage Service</a>, 1877 (first published 1974, text from <i>Pamphlets: A Miscellany</i>, item 27)<!--TODO scan (Harcourt Armory Collection, digitized, but not public)--></li>
  <li><a href="../texts/logs-of-nos.html">Logs of Nos.</a>, 1878 (first published 1974, text from <i>Rare Verses</i>, pp.&nbsp;88–89)<!--TODO scan--></li>
  <li><a href="../poems/verses-for-christmas-cards.html">Verses for Christmas Cards</a>, 1879 (first published 1974, scan from <i>Lewis Carroll and Alice, 1832–1982</i>, p.&nbsp;126)<!--TODO better readable source, drawings by E. Gertrude Thomson, see also http://corsair.themorgan.org/vwebv/holdingsInfo?bibId=412946&searchType=13&holdingsBibId=412886&returnUrl=holdingsInfo%3FbibId=412886--></li>
-@@ -1719,7 +1716,7 @@
+@@ -1722,7 +1719,7 @@
  <li><a href="../poems/maggie-b.html">Maggie B—</a>, 1891 (for Maggie Bowman, first published 1931, text from <i>Humorous Verse</i>, p.&nbsp;344)<!--Aug 13--></li>
  <li><a href="../poems/my-first-is-a-berry.html">My First is a berry</a>, 1892 (for Olive, Ruth, and Violet Butler, first published 1933, text from <i>Letters to Child-Friends</i>, p.&nbsp;229)<!--Dec 29--></li>
  <li><a href="../poems/girlie-to-whom-in-perennial-bloom.html">Girlie to whom in perennial bloom</a>, 1895? (for Gladys Baly, first published 1932, text from <i>Diaries</i>, p.&nbsp;487)<!--Christmas?--></li>
@@ -628,7 +628,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>Some poems from letters Carroll published himself. These are not listed above and their differences are not reproduced in the poems, but noted where available. These poems are <i>Girt with a Boyish Garb</i> (for Gertrude Chataway), <i>A Charade</i> (<i>Four Riddles. No.&nbsp;III</i>, for Marion Terry), <i>Matilda Jane</i> (for Catherine Holiday), <i>A Game of Fives</i>, and <i>Puck Lost and Found</i>. The first of the <i>Puzzles from Wonderland</i> can be found in his letters, too, but without changes. The poem <i>Lines</i> was published by Carroll, too, but since the manuscript variant is more prominent than the printed one, it is included above. <i>Disillusionized</i>, too, has such a variant, though it is not clear where it comes from.</p>
-@@ -1793,34 +1790,34 @@
+@@ -1796,34 +1793,34 @@
  
  <p class="fakeheadline">Circulars</p>
  <ul>
@@ -671,7 +671,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>Stranger Circular, 1890 (<i>Pamphlets: A Miscellany</i>, item 66)</li>
  <li>Circular about Stationers, 1890 (<i>Pamphlets: A Miscellany</i>, item 67)</li>
  <li>Second-Hand Books, 1893 (<i>Pamphlets: A Miscellany</i>, item 68)</li>
-@@ -1830,9 +1827,9 @@
+@@ -1833,9 +1830,9 @@
  
  <p>The circular about Senior Student’s biographies asked for details for a planned publication <i>Senior Students</i>.</p>
  
@@ -683,7 +683,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>Carroll sent several circulars on behalf of friends and relatives, to help them in various matters.</p>
  
-@@ -1840,7 +1837,7 @@
+@@ -1843,7 +1840,7 @@
  
  <p>The circular about counters asks for suggestions for the colours of the counters in the <i>Game of Logic</i>.</p>
  
@@ -692,7 +692,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>The <i>Stranger Circular</i> is a letter (in two variants) intended to be sent to those who addressed C. L. Dodgson about books written by Lewis Carroll, protesting against this.</p>
  
-@@ -1862,12 +1859,12 @@
+@@ -1865,12 +1862,12 @@
  
  <ul>
  <li>Ways and Means</li>
@@ -705,9 +705,9 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
 -</ul></div></li>
 +</ul></li>
  <li>On the Population of the World, 1853<!--Aug 19--></li>
+ <li>Oxford Limericks, 1856? (first published 2022, text available from <i>Four limericks and a carving</i> by Mark Davies in the <i>Times Literary Supplement</i>, July 1, 2022, <a href="https://morrisoxford.co.uk/wp-content/uploads/10.-St-Frideswides-Door-PDF.pdf">https://morrisoxford.co.uk/wp-content/uploads/10.-St-Frideswides-Door-PDF.pdf</a>)</li>
  <li>Algebraic Geometry, 1858<!--Nov 6--></li>
- <li>Harmonic Pencils, 1859<!--Mar 17--></li>
-@@ -1899,7 +1896,7 @@
+@@ -1903,7 +1900,7 @@
  
  <p>Most of the following texts are minor mathematical manuscripts.</p>
  
@@ -716,7 +716,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>In his last will Carroll divides all his possessions among his brothers and sisters into equal shares. If any of them had died before him, his share would have been divided among his children. Executors were his brothers Wilfred and Edwin, witnesses T. Vere Bayne and A. Vernon Harcourt.</p>
  
-@@ -1970,14 +1967,14 @@
+@@ -1973,14 +1970,14 @@
  <li><i>The Complete Works of Lewis Carroll</i> (1939, this is what the <i>Lewis Carroll Handbook</i> calls the <i>Nonesuch</i> collection): <a href="https://archive.org/details/completeworksofl1920carr">https://archive.org/details/completeworksofl1920carr</a></li>
  <li><i>The Works of Lewis Carroll</i> edited by <span style="font-variant: small-caps;">Roger Lancelyn Green</span> (1965): <a href="https://archive.org/details/worksoflewiscarr0000unse_n2y9">https://archive.org/details/worksoflewiscarr0000unse_n2y9</a></li>
  <li><i>The Complete Stories of Lewis Carroll</i> (1993): <a href="https://archive.org/details/completestorieso0000carr">https://archive.org/details/completestorieso0000carr</a></li>
@@ -932,7 +932,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <li><a href="../manuscripts-proofs/railway-rules.html">Railway Rules</a></li>
  <li><a href="../manuscripts-proofs/loves-railway-guide.html">“Love’s” Railway Guide</a></li>
  <li><a href="../rectory-magazine/answers-to-correspondents.html">Answers to Correspondents</a></li>
-@@ -286,221 +301,232 @@
+@@ -286,222 +301,233 @@
  <li><a href="../magazines/eight-hours-movement.html">Eight Hours Movement</a></li>
  <li><a href="../magazines/the-cab-runner-nuisance.html">The Cab-Runner Nuisance</a></li>
  <li><a href="../magazines/nyctograph.html">Nyctograph</a></li>
@@ -990,6 +990,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
 +<li>Blow, blow your trumpets till they crack: <a href="../poems/fames-penny-trumpet.html">Fame’s Penny-Trumpet</a></li>
 +<li>But supposing this sheep, when he entered the fold: <a href="../poems/sequel-to-the-shepherd-of-salisbury-plain.html">Sequel to “The Shepherd of Salisbury Plain”</a></li>
  <li><a href="../poems/child-of-the-pure-unclouded-brow.html">Child of the pure unclouded brow</a></li>
+ <li><a href="../poems/dear-dolly-since-i-do-not-know.html">Dear Dolly, since I do not know</a></li>
  <li><a href="../poems/dear-maggie-i-found-that-the-friend.html">Dear Maggie,—I found that the friend</a></li>
  <li><a href="../poems/dear-violet-im-glad-to-hear.html">Dear Violet,—I’m glad to hear</a></li>
 -<li><a href="../poems/puzzles-from-wonderland.html">Puzzles from Wonderland</a></li>
@@ -1424,7 +1425,7 @@ diff -ru a/about/introduction.html b/about/introduction.html
  
  <p>Speaking of poems, the poem section will give you not only the popular and often reprinted poems, but also early variants of them, as well as some not so widely spread ones.</p>
  
-@@ -311,16 +309,14 @@
+@@ -312,16 +310,14 @@
  <a href="../poems/tell-me-truly-maidens-three.html"><i>Tell me truly, Maidens three</i></a>,
  <a href="../poems/puzzle.html"><i>Puzzle</i></a></p>
  
@@ -1443,7 +1444,7 @@ diff -ru a/about/introduction.html b/about/introduction.html
  <tr><td>1843</td><td>Father became Rector of Croft, Yorkshire, and family moved there</td></tr>
  <tr><td>1844–5</td><td>At Richmond School, Yorkshire (from August 1, 1844)</td></tr>
  <tr><td>1845</td><td>First publication (<i>The Unknown One</i>) in school magazine</td></tr>
-@@ -337,9 +333,9 @@
+@@ -338,9 +334,9 @@
  <tr><td>1857</td><td>M.A.</td></tr>
  <tr><td>1860</td><td><i>A Syllabus of Plane Algebraical Geometry</i> published</td></tr>
  <tr><td>1861</td><td>Ordained deacon (December 22)</td></tr>
@@ -6363,6 +6364,29 @@ diff -ru a/math/eighth-paper-on-logic.html b/math/eighth-paper-on-logic.html
  <aside class="toggle variant wide" id="annotation-4"><div class="verse">
  <p>6. (1) Six friends, <var>A</var>, <var>B</var>, <var>C</var>, <var>D</var>, <var>E</var>, <var>F</var>, and their wives, walk out daily, in large or small parties at pleasure.<br>
  <span style="display: inline-block; width: 1em;"></span> (2) When <var>A</var>, <var>B</var>, <var>C</var> take their wives, <var>E</var> accompanies (i.&thinsp;e. is in the same party with) <var>F</var>’s wife;<br>
+diff -ru a/math/euclid-books-i-ii.html b/math/euclid-books-i-ii.html
+--- a/math/euclid-books-i-ii.html
++++ b/math/euclid-books-i-ii.html
+@@ -93,8 +93,8 @@
+ <p>The student is recommended to read the Two Books in the following order, making sure that he has thoroughly mastered each Section before beginning the next.</p>
+ 
+ <div class="verse">
+-<p><span style="display: inline-block; width: 1em;"></span><!--TODO \hfill-->BOOK I. <!--TODO \hfill--><span style="display: inline-block; width: 1em;"></span><br>
+-<b>§ 1. Magnitude.</b> <!--TODO \hfill--><span style="font-variant: small-caps;">page</span><br>
++<p><span style="display: block; text-align: center;">BOOK I.</span><br>
++<b>§ 1. Magnitude.</b> <span class="after-hfill"><span style="font-variant: small-caps;">page</span></span><br>
+ <span style="display: inline-block; width: 1em;"></span> Axioms, §§ 1 to 9 <span class="after-dotfill">7</span><br>
+ <b>§ 2. Triangles, &amp;c.</b><br>
+ <span style="display: inline-block; width: 1em;"></span> Definitions, §§ 1 to 20 <span class="after-dotfill">1</span><br>
+@@ -113,7 +113,7 @@
+ <b>§ 6. Squares, &amp;c.</b><br>
+ <span style="display: inline-block; width: 1em;"></span> Definitions, &amp;c. §§ 28 to 31 <span class="after-dotfill">5</span><br>
+ <span style="display: inline-block; width: 1em;"></span> Props.&nbsp;XLVI to XLVIII <span class="after-dotfill">70</span><br>
+-<span style="display: inline-block; width: 1em;"></span><!--TODO \hfill-->BOOK II. <!--TODO \hfill--><span style="display: inline-block; width: 1em;"></span><br>
++<span style="display: block; text-align: center;">BOOK II.</span><br>
+ <b>§ 1. Rectangles, &amp;c.</b><br>
+ <span style="display: inline-block; width: 1em;"></span> Definitions, §§ 1 to 3 <span class="after-dotfill">75</span><br>
+ <span style="display: inline-block; width: 1em;"></span> Axioms, § 1 <span class="after-dotfill">76</span><br>
 diff -ru a/math/fifth-paper-on-logic.html b/math/fifth-paper-on-logic.html
 --- a/math/fifth-paper-on-logic.html
 +++ b/math/fifth-paper-on-logic.html
