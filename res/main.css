@@ -77,6 +77,7 @@ h1 {
 	text-align: center;
 	line-height: 1;
 	border-bottom: 0.15em solid #502;
+	white-space: pre-wrap; /*otherwise Chrome will delete significant spaces on copy*/
 }
 h1 .ar {
 	display: inline-block;
