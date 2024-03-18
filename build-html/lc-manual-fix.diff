@@ -272,7 +272,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>A Tangled Tale</h4>
-@@ -617,7 +617,7 @@
+@@ -618,7 +618,7 @@
  <li>Title</li>
  <li>Introduction (moved to content)</li>
  <li>Table of Contents</li>
@@ -281,7 +281,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>The Election to the Hebdomadal Council</h4>
-@@ -691,45 +691,43 @@
+@@ -692,45 +692,43 @@
  <p>scan from <a href="https://archive.org/details/notesbyoxfordchi00carrrich">https://archive.org/details/notesbyoxfordchi00carrrich</a></p>
  
  <ul>
@@ -343,7 +343,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>All parts have been issued separately, including <i>Facts, Figures, and Fancies</i>.</p>
  
-@@ -798,7 +796,7 @@
+@@ -799,7 +797,7 @@
  <li>Title</li>
  <li>Table of Contents</li>
  <li><a href="../texts/eight-or-nine-wise-words-about-letter-writing.html">Main Content</a></li>
@@ -352,7 +352,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Curiosissima Curatoria</h4>
-@@ -826,13 +824,13 @@
+@@ -827,13 +825,13 @@
  <li>Table of Contents</li>
  <li><a href="../syzygies-and-lanrick/syzygies.html">Syzygies</a></li>
  <li><a href="../syzygies-and-lanrick/lanrick.html">Lanrick</a></li>
@@ -369,7 +369,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>Chapter 11 of <i>The Lost Plum Cake</i> might also be written by Carroll, see <i>Pamphlets: A Miscellany</i>, item 34.</p>
-@@ -846,7 +844,7 @@
+@@ -847,7 +845,7 @@
  
  <ul>
  <li><a href="../poems/the-lady-of-the-ladle.html">The Lady of the Ladle</a> (August 1854)</li>
@@ -378,7 +378,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>The Comic Times</h4>
-@@ -974,10 +972,10 @@
+@@ -975,10 +973,10 @@
  “The Organization of Charity” also included in the <i>Scrapbook</i></p>
  
  <ul>
@@ -391,7 +391,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/vivisection-as-a-sign-of-the-times.html">Vivisection as a Sign of the Times</a> (February 1875)</li>
  <li><a href="../magazines/vivisection.html">Vivisection</a> (February 1875)</li>
  <li><a href="../magazines/natural-science-at-oxford.html">Natural Science at Oxford</a> (May 1877)</li>
-@@ -996,7 +994,7 @@
+@@ -997,7 +995,7 @@
  <ul>
  <li><a href="../magazines/the-science-of-betting.html#times:betting">The Science of Betting</a> (November 1866)</li>
  <li><a href="../magazines/a-complete-postage-guide.html">A Complete Postage Guide</a> (September 1883)</li>
@@ -400,7 +400,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Proceedings of the Royal Society of London</h4>
-@@ -1027,8 +1025,8 @@
+@@ -1028,8 +1026,8 @@
  <ul>
  <li><a href="../magazines/castle-croquet-1866.html">Castle Croquet</a> (August 1867)</li>
  <li><a href="../magazines/brunos-revenge.html">Bruno’s Revenge</a> (December 1867)</li>
@@ -411,8 +411,8 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../poems/dreamland.html">Dreamland</a> (July 1882)</li>
  </ul>
  
-@@ -1063,7 +1061,7 @@
- <a href="https://www.informedparent.co.uk/wp-content/uploads/2017/10/1877-EASTBOURNE-CHRONICLE-debate-with-Lewis-Carroll-C-Dodgson.pdf">https://www.informedparent.co.uk/wp-content/uploads/2017/10/1877-EASTBOURNE-CHRONICLE-debate-with-Lewis-Carroll-C-Dodgson.pdf</a><!--TODO scan of first letter--></p>
+@@ -1066,7 +1064,7 @@
+ <a href="https://www.informedparent.co.uk/wp-content/uploads/2017/10/1877-EASTBOURNE-CHRONICLE-debate-with-Lewis-Carroll-C-Dodgson.pdf">https://www.informedparent.co.uk/wp-content/uploads/2017/10/1877-EASTBOURNE-CHRONICLE-debate-with-Lewis-Carroll-C-Dodgson.pdf</a></p>
  
  <ul>
 -<li>Is it Well to have Children Vaccinated? (August/September 1877, → <a href="../magazines/is-it-well-to-have-children-vaccinated.html#eastbourne:vaccinated-1">here<!--TODO--></a>, → <a href="../magazines/is-it-well-to-have-children-vaccinated.html#eastbourne:vaccinated-2">here<!--TODO--></a>, → <a href="../magazines/is-it-well-to-have-children-vaccinated.html#eastbourne:vaccinated-3">here<!--TODO--></a>)</li>
@@ -420,7 +420,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Vanity Fair</h4>
-@@ -1075,7 +1073,7 @@
+@@ -1078,7 +1076,7 @@
  <a href="https://books.google.de/books?id=TfJHAQAAMAAJ">https://books.google.de/books?id=TfJHAQAAMAAJ</a></p>
  
  <ul>
@@ -429,7 +429,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>The Doublets were managed by Choker (the editor), it is not clear how much of the content was actually written by Carroll. Here only those parts are reproduced, that were reprinted as book, as well as all the doublets.</p>
-@@ -1109,7 +1107,7 @@
+@@ -1112,7 +1110,7 @@
  <li><a href="../magazines/questions-for-solution-9995.html">Questions for Solution: 9995</a> (February 1889)</li>
  <li><a href="../magazines/questions-for-solution-11530.html">Questions for Solution: 11530</a> (May 1892)</li>
  <li><a href="../magazines/questions-for-solution-9636.html">Comments on Solutions for Question 9636</a> (MQS LIX, 1893)</li>
@@ -438,7 +438,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/questions-for-solution-13614.html">Questions for Solution: 13614</a> (September 1897)</li>
  <li><a href="../magazines/questions-for-solution-14122.html">Questions for Solution: 14122</a> (February 1899)</li>
  </ul>
-@@ -1136,30 +1134,30 @@
+@@ -1139,30 +1137,30 @@
  <li><a href="../tangled-tale/content.html#tangled:mp-2">Romantic Problems; A Tangled Tale. Knot II. Mad Mathesis</a> (July 1880)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-2a">Answers to “Romantic Problems. Knot II”</a> (September 1880)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-3">A Tangled Tale. Knot III. The Dead Reckoning</a> (October 1880)</li>
@@ -478,7 +478,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/mischmasch-1882.html">Mischmasch</a> (November 1882)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-8">A Tangled Tale. Knot VIII. A Serpent with Corners</a> (January 1883)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-8a">A Tangled Tale. Answers to Knot VIII</a> (April 1883)</li>
-@@ -1179,18 +1177,18 @@
+@@ -1182,18 +1180,18 @@
  <ul>
  <li><a href="../magazines/the-purity-of-election.html">The Purity of Election</a> (May 1881)</li>
  <li><a href="../magazines/traitors-in-the-camp.html">Traitors in the Camp</a> (December 1881)</li>
@@ -501,7 +501,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/whoso-shall-offend-one-of-these-little-ones.html">“Whoso Shall Offend One of These Little Ones—”</a> (July 1885)</li>
  <li><a href="../magazines/hydrophobia-curable.html">Hydrophobia Curable</a> (October 1885)</li>
  <li><a href="../magazines/election-gains-and-losses.html">Election Gains and Losses</a> (December 1885)</li>
-@@ -1307,12 +1305,12 @@
+@@ -1310,12 +1308,12 @@
  for detailed description see also <i>Lewis Carroll and the Press</i></p>
  
  <ul>
@@ -516,7 +516,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>The Daily News</h4>
-@@ -1377,13 +1375,13 @@
+@@ -1380,13 +1378,13 @@
  <li><a href="../texts/the-professorship-of-comparative-philology.html">The Professorship of Comparative Philology</a>, 1876 (text from <i>Oxford Pamphlets</i>, item 17)<!--TODO scan--></li>
  <li><a href="../texts/an-easter-greeting.html">An Easter Greeting</a>, 1876 (scan from <a href="http://digitallibrary.usc.edu/cdm/compoundobject/collection/p15799coll85/id/137/rec/7">http://digitallibrary.usc.edu/cdm/compoundobject/collection/p15799coll85/id/137/rec/7</a> and others, variants also published in <i>Alice</i> books)</li>
  <li><a href="../poems/fames-penny-trumpet.html">Fame’s Penny-Trumpet</a>, 1876 (text from <i>Pamphlets: A Miscellany</i>, item 90, partial scan from <a href="https://www.bonhams.com/auctions/24116/lot/34/?category=results">https://www.bonhams.com/auctions/24116/lot/34/?category=results</a>)<!--TODO scan--></li>
@@ -532,7 +532,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../poems/four-riddles-no-iv.html">A Charade</a>, 1878 (scan from <i>The Story of Lewis Carroll</i>, pp.&nbsp;108–110)</li>
  <li><a href="../texts/word-links-cyclostyled.html">Word-Links</a>, 1878 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;89–92)</li>
  <li><a href="../texts/word-links-printed.html">Word-Links</a>, 1878 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;93–96)</li>
-@@ -1412,14 +1410,14 @@
+@@ -1415,14 +1413,14 @@
  <li><a href="../math/sixth-paper-on-logic.html">Sixth Paper on Logic</a>, 1887 (text from <i>Logic Pamphlets</i>, item 20d)<!--TODO scan--></li>
  <li><a href="../poems/to-my-child-friend.html">To my Child-Friend</a>, 1888 (text from <i>The Game of Logic</i>)<!--TODO scan--></li>
  <li><a href="../texts/memoria-technica-1888.html">Memoria Technica</a>, 1888 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;33–35)</li>
@@ -549,7 +549,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../math/a-disputed-point-in-logic-april-1894.html">A Disputed Point in Logic</a>, 1894 (text from <i>Logic Pamphlets</i>, item 15a)<!--TODO scan--></li>
  <li><a href="../math/a-disputed-point-in-logic-may-1894.html">A Disputed Point in Logic</a>, 1894 (text from <i>Logic Pamphlets</i>, item 15b)<!--TODO scan--></li>
  <li><a href="../math/a-theorem-in-logic.html">A Theorem in Logic</a>, 1894 (text from <i>Logic Pamphlets</i>, item 15c)<!--TODO scan--></li>
-@@ -1434,8 +1432,8 @@
+@@ -1437,8 +1435,8 @@
  <ul>
  <li><a href="../manuscripts-proofs/the-wasp-in-a-wig.html">The Wasp in a Wig</a>, 1870 (first published 1977, scan from <a href="https://archive.org/details/waspinwigsuppres0000carr_m8q0">https://archive.org/details/waspinwigsuppres0000carr_m8q0</a>)</li>
  <li><a href="../manuscripts-proofs/a-method-of-taking-votes.html">A Method of Taking Votes on More Than Two Issues</a>, 1876 (first published 1958, scan from <a href="https://digital.bodleian.ox.ac.uk/objects/d5ce1de6-d037-4ab4-9aeb-8e0f10a532be/">https://digital.bodleian.ox.ac.uk/objects/d5ce1de6-d037-4ab4-9aeb-8e0f10a532be/</a>)</li>
@@ -560,7 +560,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../manuscripts-proofs/curiosa-mathematica-part-iii.html">Curiosa Mathematica Part III</a>, 1897 (first published 1899, text from the <i>Picture Book</i>, pp.&nbsp;240–263)</li>
  </ul>
  
-@@ -1504,7 +1502,7 @@
+@@ -1507,7 +1505,7 @@
  <li><a href="../rectory-magazine/introductions.html#rectory:rust">Rust</a></li>
  <li><a href="../poems/as-it-fell-upon-a-day.html">As It Fell upon a Day</a></li>
  <li><a href="../rectory-magazine/sidney-hamilton.html#sidney-hamilton:4">Sidney Hamilton. Ch.&nbsp;4</a></li>
@@ -569,7 +569,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>A Tale of the Wars. Part&nbsp;2 (by Wilfred L. Dodgson)</li>
  <li><a href="../rectory-magazine/crundle-castle.html#crundle-castle:3">Crundle Castle. Ch.&nbsp;3</a></li>
  <li><a href="../poems/terrors.html">Terrors</a></li>
-@@ -1553,10 +1551,9 @@
+@@ -1556,10 +1554,9 @@
  <li>Mrs Stoggle’s Dinner-Party. Ch.&nbsp;4 (by Elisabeth L. Dodgson)</li>
  <li>Farmer Grubbins. Ch.&nbsp;2 (by Skeffington H. Dodgson)</li>
  </ul></li>
@@ -582,7 +582,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <h4>The Rectory Umbrella</h4>
  <p>Written about 1850, first published 1932, scan from
-@@ -1604,13 +1601,13 @@
+@@ -1607,13 +1604,13 @@
  <a href="http://www.europeana.eu/portal/record/9200143/BibliographicResource_2000069294604.html">http://www.europeana.eu/portal/record/9200143/BibliographicResource_2000069294604.html</a><!--TODO scan (Harcourt Armory Collection, not (yet) digitized)--></p>
  
  <ul>
@@ -599,7 +599,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../mischmasch/from-our-own-correspondent.html">From Our Own Correspondent</a></li>
  <li><a href="../poems/shes-all-my-fancy-painted-him.html">She’s All My Fancy Painted Him</a></li>
  <li><a href="../magazines/photography-extraordinary.html">Photography Extraordinary</a></li>
-@@ -1620,8 +1617,8 @@
+@@ -1623,8 +1620,8 @@
  <li><a href="../magazines/wilhelm-von-schmitz.html#wilhelm-von-schmitz:4">Wilhelm von Schmitz. Chapter IV</a></li>
  <li><a href="../poems/the-lady-of-the-ladle.html">The Lady of the Ladle</a></li>
  <li><a href="../mischmasch/studies-from-english-poets.html#english-poets:3">Studies from English Poets. No.&nbsp;III</a></li>
@@ -610,7 +610,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>Image (moved to other images)</li>
  <li><a href="../poems/the-three-voices-early-version.html">Lays of Mystery, Imagination, and Humor. No.&nbsp;2. The Three Voices</a></li>
  <li><a href="../poems/tommys-dead.html">Lays of Mystery, Imagination, and Humor. No.&nbsp;3. Tommy’s Dead</a></li>
-@@ -1653,7 +1650,7 @@
+@@ -1656,7 +1653,7 @@
  <li><a href="../poems/prologue-1873.html">Prologue</a>, 1873 (for the Hatch family, first published 1898, scan from <i>The Story of Lewis Carroll</i>, p.&nbsp;115)</li>
  <li><a href="../manuscripts-proofs/an-inconceivable-conversation.html">An Inconceivable Conversation</a>, 1874 (first published 1974, scan from <a href="https://iiif.bodleian.ox.ac.uk/iiif/viewer/dd6d9ce9-c190-4728-a849-524a06f7ade8">https://iiif.bodleian.ox.ac.uk/iiif/viewer/dd6d9ce9-c190-4728-a849-524a06f7ade8</a>)<!--https://www.chch.ox.ac.uk/sites/default/files/Carroll-MS%208%20-%20An%20Inconceivable%20Conversation.pdf--></li>
  <li><a href="../poems/a-russians-day-in-england.html">A Russian’s Day in England</a>, 1874 (for Lady Gwendolen Cecil, first published 1979, text from <i>The Russian Journal—II</i>, p.&nbsp;52)<!--TODO scan--></li>
@@ -618,8 +618,8 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
 +<li><a href="../texts/various-memoria-technica-verses.html">Various Memoria Technica Verses</a>, 1877–1897 (first published 1898/1933/1979/1994, text from <i>Life and Letters</i>, p.&nbsp;270, <i>Letters to Child-Friends</i>, pp.&nbsp;232–234, <i>Library Chronicle of the University of Texas at Austin, 1979</i>, <a href="https://archive.org/details/sim_library-chronicle-of-the-university-of-texas-at-austin_1979_11">https://archive.org/details/sim_library-chronicle-of-the-university-of-texas-at-austin_1979_11</a>, p.&nbsp;88, <i>Mathematical Pamphlets</i>, item 35)<!--also https://archive.org/details/b31639987, p. 124f TODO scans where available--></li>
  <li><a href="../manuscripts-proofs/marriage-service.html">Marriage Service</a>, 1877 (first published 1974, text from <i>Pamphlets: A Miscellany</i>, item 27)<!--TODO scan (Harcourt Armory Collection, digitized, but not public)--></li>
  <li><a href="../texts/logs-of-nos.html">Logs of Nos.</a>, 1878 (first published 1974, text from <i>Rare Verses</i>, pp.&nbsp;88–89)<!--TODO scan--></li>
- <li><a href="../poems/verses-for-christmas-cards.html">Verses for Christmas Cards</a>, 1879 (first published 1974, scan from <i>Lewis Carroll and Alice, 1832–1982</i>, p.&nbsp;126)<!--TODO better readable source, drawings by E. Gertrude Thomson, see also http://corsair.themorgan.org/vwebv/holdingsInfo?bibId=412946&searchType=13&holdingsBibId=412886&returnUrl=holdingsInfo%3FbibId=412886--></li>
-@@ -1722,7 +1719,7 @@
+ <li><a href="../poems/verses-for-christmas-cards.html">Verses for Christmas Cards</a>, 1879 (first published 1974, scan from <i>Lewis Carroll and Alice, 1832–1982</i>, p.&nbsp;126)<!--TODO drawings by E. Gertrude Thomson, see also http://corsair.themorgan.org/vwebv/holdingsInfo?bibId=412946&searchType=13&holdingsBibId=412886&returnUrl=holdingsInfo%3FbibId=412886--></li>
+@@ -1725,7 +1722,7 @@
  <li><a href="../poems/maggie-b.html">Maggie B—</a>, 1891 (for Maggie Bowman, first published 1931, text from <i>Humorous Verse</i>, p.&nbsp;344)<!--Aug 13--></li>
  <li><a href="../poems/my-first-is-a-berry.html">My First is a berry</a>, 1892 (for Olive, Ruth, and Violet Butler, first published 1933, text from <i>Letters to Child-Friends</i>, p.&nbsp;229)<!--Dec 29--></li>
  <li><a href="../poems/girlie-to-whom-in-perennial-bloom.html">Girlie to whom in perennial bloom</a>, 1895? (for Gladys Baly, first published 1932, text from <i>Diaries</i>, p.&nbsp;487)<!--Christmas?--></li>
@@ -628,7 +628,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>Some poems from letters Carroll published himself. These are not listed above and their differences are not reproduced in the poems, but noted where available. These poems are <i>Girt with a Boyish Garb</i> (for Gertrude Chataway), <i>A Charade</i> (<i>Four Riddles. No.&nbsp;III</i>, for Marion Terry), <i>Matilda Jane</i> (for Catherine Holiday), <i>A Game of Fives</i>, and <i>Puck Lost and Found</i>. The first of the <i>Puzzles from Wonderland</i> can be found in his letters, too, but without changes. The poem <i>Lines</i> was published by Carroll, too, but since the manuscript variant is more prominent than the printed one, it is included above. <i>Disillusionized</i>, too, has such a variant, though it is not clear where it comes from.</p>
-@@ -1796,34 +1793,34 @@
+@@ -1799,34 +1796,34 @@
  
  <p class="fakeheadline">Circulars</p>
  <ul>
@@ -671,7 +671,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>Stranger Circular, 1890 (<i>Pamphlets: A Miscellany</i>, item 66)</li>
  <li>Circular about Stationers, 1890 (<i>Pamphlets: A Miscellany</i>, item 67)</li>
  <li>Second-Hand Books, 1893 (<i>Pamphlets: A Miscellany</i>, item 68)</li>
-@@ -1833,9 +1830,9 @@
+@@ -1836,9 +1833,9 @@
  
  <p>The circular about Senior Student’s biographies asked for details for a planned publication <i>Senior Students</i>.</p>
  
@@ -683,7 +683,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>Carroll sent several circulars on behalf of friends and relatives, to help them in various matters.</p>
  
-@@ -1843,7 +1840,7 @@
+@@ -1846,7 +1843,7 @@
  
  <p>The circular about counters asks for suggestions for the colours of the counters in the <i>Game of Logic</i>.</p>
  
@@ -692,7 +692,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>The <i>Stranger Circular</i> is a letter (in two variants) intended to be sent to those who addressed C. L. Dodgson about books written by Lewis Carroll, protesting against this.</p>
  
-@@ -1865,12 +1862,12 @@
+@@ -1868,12 +1865,12 @@
  
  <ul>
  <li>Ways and Means</li>
@@ -707,7 +707,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>On the Population of the World, 1853<!--Aug 19--></li>
  <li>Oxford Limericks, 1856? (first published 2022, text available from <i>Four limericks and a carving</i> by Mark Davies in the <i>Times Literary Supplement</i>, July 1, 2022, <a href="https://morrisoxford.co.uk/wp-content/uploads/10.-St-Frideswides-Door-PDF.pdf">https://morrisoxford.co.uk/wp-content/uploads/10.-St-Frideswides-Door-PDF.pdf</a>)</li>
  <li>Algebraic Geometry, 1858<!--Nov 6--></li>
-@@ -1903,7 +1900,7 @@
+@@ -1907,7 +1904,7 @@
  
  <p>Most of the following texts are minor mathematical manuscripts.</p>
  
@@ -716,7 +716,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>In his last will Carroll divides all his possessions among his brothers and sisters into equal shares. If any of them had died before him, his share would have been divided among his children. Executors were his brothers Wilfred and Edwin, witnesses T. Vere Bayne and A. Vernon Harcourt.</p>
  
-@@ -1973,14 +1970,14 @@
+@@ -1978,14 +1975,14 @@
  <li><i>The Complete Works of Lewis Carroll</i> (1939, this is what the <i>Lewis Carroll Handbook</i> calls the <i>Nonesuch</i> collection): <a href="https://archive.org/details/completeworksofl1920carr">https://archive.org/details/completeworksofl1920carr</a></li>
  <li><i>The Works of Lewis Carroll</i> edited by <span style="font-variant: small-caps;">Roger Lancelyn Green</span> (1965): <a href="https://archive.org/details/worksoflewiscarr0000unse_n2y9">https://archive.org/details/worksoflewiscarr0000unse_n2y9</a></li>
  <li><i>The Complete Stories of Lewis Carroll</i> (1993): <a href="https://archive.org/details/completestorieso0000carr">https://archive.org/details/completestorieso0000carr</a></li>
@@ -1314,91 +1314,161 @@ diff -ru a/about/copyright.html b/about/copyright.html
 diff -ru a/about/introduction.html b/about/introduction.html
 --- a/about/introduction.html
 +++ b/about/introduction.html
-@@ -57,21 +57,19 @@
- 
- <!--TODO add biblical quotes, as given by Carroll, for an easier overview--><p>Of course most of his sermons are missing, in fact, only one sermon was published. But at least a list of all known (from his diaries, note that the diary for the time of his first sermons is missing, and he might not have recorded all his sermons) sermons is given here, as the choice of topics is very interesting and much neglected until now. Unless otherwise noted the date is always an “ordinary” sunday. Note that the verses might slightly differ depending on the bible translation (especially for psalms), but you should be able to find the correct one. If in doubt use the KJV. In some cases obvious errors have been corrected.</p>
+@@ -58,91 +58,89 @@
+ <p>Of course most of his sermons are missing, in fact, only one sermon was published. But at least a list of all known (from his diaries, note that the diary for the time of his first sermons is missing, and he might not have recorded all his sermons) sermons is given here, as the choice of topics is very interesting and much neglected until now. (Very interesting: While working on liar problems in logic, he preached on “All men are liars.”) Unless otherwise noted the date is always an “ordinary” sunday. Where Carroll gives quotes for the text, I took them unchanged (and in a few cases corrected the verse number), where he only gave a verse number, I added the quote (hoping the verse is correct). When he preached on the same text more than one time, the quote is only given for the first time (which allows you to quickly identify such repetitions).
+ <!--https://www.biblegateway.com/passage/?search=&version=AKJV--></p>
  
 -<!--TODO manual fixing probably needed-->
  <table>
 -<tr><td><span style="display: inline-block; width: 10em;"></span></td><td></td></tr>
 -<tr><td><b>Date</b></td><td><b>Topic</b></td></tr>
--<tr><td><div style="width: 10em; vertical-align: top;"><p>Jun 8, 1862<span style="display: inline-block; width: 1em;"></span>(Whitsunday)</p></div></td><td>2 Cor 13:14</td></tr>
+-<tr><td><div style="width: 10em; vertical-align: top;"><p>Jun 8, 1862<span style="display: inline-block; width: 1em;"></span>(Whitsunday)</p></div></td><td><div style="width: 25em; vertical-align: top;"><p>2 Cor 13:14 [“The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Ghost, be with you all.”]</p></div></td></tr>
+-<tr><td>Dec 28, 1862</td><td><div style="width: 25em; vertical-align: top;"><p>2 Pet 3:4 “Where is the promise of his coming, for since the fathers fell asleep, all things continue as they were until now”</p></div></td></tr>
+-<tr><td><div style="width: 10em; vertical-align: top;"><p>Feb 18, 1863<span style="display: inline-block; width: 1em;"></span>(Ash Wednesday)</p></div></td><td><div style="width: 25em; vertical-align: top;"><p>Ps 95:4 “In his hand are all the corners of the earth”</p></div></td></tr>
+-<tr><td>Mar 8, 1863</td><td><div style="width: 25em; vertical-align: top;"><p>Rev 4:8 “And they rest not day or night, saying, Holy, Holy, Holy, Lord God Almighty”</p></div></td></tr>
+-<tr><td><div style="width: 10em; vertical-align: top;"><p>Mar 19, 1863<span style="display: inline-block; width: 1em;"></span>(St.&nbsp;Joseph)</p></div></td><td><div style="width: 25em; vertical-align: top;"><p>Rev 3:20 [“Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, and will sup with him, and he with me.”]</p></div></td></tr>
+-<tr><td>Aug 9, 1863</td><td><div style="width: 25em; vertical-align: top;"><p>2 Cor 11:14 “Satan himself is transformed into an angel of light”</p></div></td></tr>
+-<tr><td>Aug 16, 1863</td><td><div style="width: 25em; vertical-align: top;"><p>Deut 4:40 “Thou shalt keep therefore his statutes and his commandments, which I command thee this day, that it may go well with tee”, Eccl 12:13 “Fear God, and keep his commandments, for this is the whole duty of man”, 1 Joh 5:3 “This is the love of God, that we keep his commandments”</p></div></td></tr>
+-<tr><td>Sep 6, 1863</td><td><div style="width: 25em; vertical-align: top;"><p>John 4:13–14 “Jesus answered and said unto her, whosoever drinketh of this water shall thirst again; but whosoever drinketh of the water that I shall give him shall be in him a well of water, springing up unto everlasting life”</p></div></td></tr>
+-<tr><td>Nov 1, 1863</td><td><div style="width: 25em; vertical-align: top;"><p>Luke 15:18–19 “I will arise and go to my Father …” [“… and will say unto him, Father, I have sinned against heaven, and before thee, and am no more worthy to be called thy son: make me as one of thy hired servants.”]</p></div></td></tr>
+-<tr><td><div style="width: 10em; vertical-align: top;"><p>Mar 20, 1864<span style="display: inline-block; width: 1em;"></span>(Palm Sunday)</p></div></td><td><div style="width: 25em; vertical-align: top;"><p>Matt 6:21 “where your treasure is, there will your heart be also”</p></div></td></tr>
+-<tr><td><div style="width: 10em; vertical-align: top;"><p>Mar 27, 1864<span style="display: inline-block; width: 1em;"></span>(Easter Sunday)</p></div></td><td><div style="width: 25em; vertical-align: top;"><p>Col 3:1 [“If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God.”]</p></div></td></tr>
+-<tr><td>Apr 24, 1864</td><td><div style="width: 25em; vertical-align: top;"><p>Matt 28:20 “Lo, I am with you alway, even unto the end of the world”</p></div></td></tr>
+-<tr><td>May 29, 1864</td><td><div style="width: 25em; vertical-align: top;"><p>Phil 1:21 “to die is gain”</p></div></td></tr>
+-<tr><td>Nov 6, 1864</td><td><div style="width: 25em; vertical-align: top;"><p>1 Cor 10:31 “Whether therefore ye eat or drink, or whatever ye do, do all to the glory of God.”</p></div></td></tr>
+-<tr><td>Feb 19, 1865</td><td><div style="width: 25em; vertical-align: top;"><p>Gen 3:4 “The serpent said unto the woman, ye shall not surely die”, Luke 2:11 “Unto you is born this day in the city of David a Saviour.”</p></div></td></tr>
 +<tr><th>Date</th><th>Topic</th></tr>
-+<tr><td>Jun 8, 1862<br><span style="display: inline-block; width: 1em;"></span>(Whitsunday)</td><td>2 Cor 13:14</td></tr>
- <tr><td>Dec 28, 1862</td><td>2 Pet 3:4</td></tr>
--<tr><td><div style="width: 10em; vertical-align: top;"><p>Feb 18, 1863<span style="display: inline-block; width: 1em;"></span>(Ash Wednesday)</p></div></td><td>Ps 95:4</td></tr>
-+<tr><td>Feb 18, 1863<br><span style="display: inline-block; width: 1em;"></span>(Ash Wednesday)</td><td>Ps 95:4</td></tr>
- <tr><td>Mar 8, 1863</td><td>Rev 4:8</td></tr>
--<tr><td><div style="width: 10em; vertical-align: top;"><p>Mar 19, 1863<span style="display: inline-block; width: 1em;"></span>(St.&nbsp;Joseph)</p></div></td><td>Rev 3:20</td></tr>
-+<tr><td>Mar 19, 1863<br><span style="display: inline-block; width: 1em;"></span>(St.&nbsp;Joseph)</td><td>Rev 3:20</td></tr>
- <tr><td>Aug 9, 1863</td><td>2 Cor 11:14</td></tr>
- <tr><td>Aug 16, 1863</td><td>Deut 4:40, Eccl 12:13, 1 Joh 5:3</td></tr>
- <tr><td>Sep 6, 1863</td><td>John 4:13–14</td></tr>
- <tr><td>Nov 1, 1863</td><td>Luke 15:18–19</td></tr>
--<tr><td><div style="width: 10em; vertical-align: top;"><p>Mar 20, 1864<span style="display: inline-block; width: 1em;"></span>(Palm Sunday)</p></div></td><td>Matt 6:21</td></tr>
--<tr><td><div style="width: 10em; vertical-align: top;"><p>Mar 27, 1864<span style="display: inline-block; width: 1em;"></span>(Easter Sunday)</p></div></td><td>Gal 3:1</td></tr>
-+<tr><td>Mar 20, 1864<br><span style="display: inline-block; width: 1em;"></span>(Palm Sunday)</td><td>Matt 6:21</td></tr>
-+<tr><td>Mar 27, 1864<br><span style="display: inline-block; width: 1em;"></span>(Easter Sunday)</td><td>Gal 3:1</td></tr>
- <tr><td>Apr 24, 1864</td><td>Matt 28:20</td></tr>
- <tr><td>May 29, 1864</td><td>Phil 1:21</td></tr>
- <tr><td>Nov 6, 1864</td><td>1 Cor 10:31</td></tr>
-@@ -80,12 +78,12 @@
- <tr><td>Mar 12, 1865</td><td>Ps 66:18</td></tr>
- <tr><td>Mar 26, 1865</td><td>Ps 64:1</td></tr>
- <tr><td>Apr 2, 1865</td><td>1 Joh 2:15</td></tr>
++<tr><td>Jun 8, 1862<br><span style="display: inline-block; width: 1em;"></span>(Whitsunday)</td><td>2 Cor 13:14 [“The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Ghost, be with you all.”]</td></tr>
++<tr><td>Dec 28, 1862</td><td>2 Pet 3:4 “Where is the promise of his coming, for since the fathers fell asleep, all things continue as they were until now”</td></tr>
++<tr><td>Feb 18, 1863<br><span style="display: inline-block; width: 1em;"></span>(Ash Wednesday)</td><td>Ps 95:4 “In his hand are all the corners of the earth”</td></tr>
++<tr><td>Mar 8, 1863</td><td>Rev 4:8 “And they rest not day or night, saying, Holy, Holy, Holy, Lord God Almighty”</td></tr>
++<tr><td>Mar 19, 1863<br><span style="display: inline-block; width: 1em;"></span>(St.&nbsp;Joseph)</td><td>Rev 3:20 [“Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, and will sup with him, and he with me.”]</td></tr>
++<tr><td>Aug 9, 1863</td><td>2 Cor 11:14 “Satan himself is transformed into an angel of light”</td></tr>
++<tr><td>Aug 16, 1863</td><td>Deut 4:40 “Thou shalt keep therefore his statutes and his commandments, which I command thee this day, that it may go well with tee”, Eccl 12:13 “Fear God, and keep his commandments, for this is the whole duty of man”, 1 Joh 5:3 “This is the love of God, that we keep his commandments”</td></tr>
++<tr><td>Sep 6, 1863</td><td>John 4:13–14 “Jesus answered and said unto her, whosoever drinketh of this water shall thirst again; but whosoever drinketh of the water that I shall give him shall be in him a well of water, springing up unto everlasting life”</td></tr>
++<tr><td>Nov 1, 1863</td><td>Luke 15:18–19 “I will arise and go to my Father …” [“… and will say unto him, Father, I have sinned against heaven, and before thee, and am no more worthy to be called thy son: make me as one of thy hired servants.”]</td></tr>
++<tr><td>Mar 20, 1864<br><span style="display: inline-block; width: 1em;"></span>(Palm Sunday)</td><td>Matt 6:21 “where your treasure is, there will your heart be also”</td></tr>
++<tr><td>Mar 27, 1864<br><span style="display: inline-block; width: 1em;"></span>(Easter Sunday)</td><td>Col 3:1 [“If ye then be risen with Christ, seek those things which are above, where Christ sitteth on the right hand of God.”]</td></tr>
++<tr><td>Apr 24, 1864</td><td>Matt 28:20 “Lo, I am with you alway, even unto the end of the world”</td></tr>
++<tr><td>May 29, 1864</td><td>Phil 1:21 “to die is gain”</td></tr>
++<tr><td>Nov 6, 1864</td><td>1 Cor 10:31 “Whether therefore ye eat or drink, or whatever ye do, do all to the glory of God.”</td></tr>
++<tr><td>Feb 19, 1865</td><td>Gen 3:4 “The serpent said unto the woman, ye shall not surely die”, Luke 2:11 “Unto you is born this day in the city of David a Saviour.”</td></tr>
+ <tr><td>Mar 5, 1865</td><td>Gen 3:4, Luke 2:11</td></tr>
+-<tr><td>Mar 12, 1865</td><td><div style="width: 25em; vertical-align: top;"><p>Ps 66:18 “If I incline unto wickedness in my heart, the Lord will not hear me”</p></div></td></tr>
+-<tr><td>Mar 26, 1865</td><td><div style="width: 25em; vertical-align: top;"><p>Ps 64:1 “Hear my voice, oh God”<span style="display: inline-block; width: 1em;"></span>(same sermon as above)</p></div></td></tr>
+-<tr><td>Apr 2, 1865</td><td><div style="width: 25em; vertical-align: top;"><p>1 Joh 2:15 “Love not the world, neither the things of the world. If any man love the world, the love of the Father is not in him.”</p></div></td></tr>
 -<tr><td><div style="width: 10em; vertical-align: top;"><p>Apr 16, 1865<span style="display: inline-block; width: 1em;"></span>(Easter Sunday)</p></div></td><td>Col 3:1</td></tr>
+-<tr><td>Apr 23, 1865</td><td><div style="width: 25em; vertical-align: top;"><p>1 Joh 5:4 “This is the victory that overcometh the world, even our faith.”</p></div></td></tr>
+-<tr><td>May 14, 1865</td><td><div style="width: 25em; vertical-align: top;"><p>Luke 16:10 “He that is unjust in the least …” [“… is unjust also in much.”]</p></div></td></tr>
+-<tr><td><div style="width: 10em; vertical-align: top;"><p>Jun 4, 1865<span style="display: inline-block; width: 1em;"></span>(Whitsunday)</p></div></td><td><div style="width: 25em; vertical-align: top;"><p>Acts 2:38–39 “Ye shall receive the Holy Ghost, for the promise is unto you and to your children.”</p></div></td></tr>
+-<tr><td><div style="width: 10em; vertical-align: top;"><p>Jun 18, 1865<span style="display: inline-block; width: 1em;"></span>(Dedication of Church)</p></div></td><td><div style="width: 25em; vertical-align: top;"><p>2 Kgs 19:14 “And Hezekiah received the letter of the hand of the messenger, and read it: Hezekiah went up into the house of the Lord.”</p></div></td></tr>
+-<tr><td>Jun 18, 1865</td><td><div style="width: 25em; vertical-align: top;"><p>Ps 100:4 “Oh go your way into his gates with thanksgiving, and into his courts with praise.”<span style="display: inline-block; width: 1em;"></span>(same sermon without reffering to dedication)</p></div></td></tr>
++<tr><td>Mar 12, 1865</td><td>Ps 66:18 “If I incline unto wickedness in my heart, the Lord will not hear me”</td></tr>
++<tr><td>Mar 26, 1865</td><td>Ps 64:1 “Hear my voice, oh God”<br><span style="display: inline-block; width: 1em;"></span>(same sermon as above)</td></tr>
++<tr><td>Apr 2, 1865</td><td>1 Joh 2:15 “Love not the world, neither the things of the world. If any man love the world, the love of the Father is not in him.”</td></tr>
 +<tr><td>Apr 16, 1865<br><span style="display: inline-block; width: 1em;"></span>(Easter Sunday)</td><td>Col 3:1</td></tr>
- <tr><td>Apr 23, 1865</td><td>1 Joh 5:4</td></tr>
- <tr><td>May 14, 1865</td><td>Luke 16:10</td></tr>
--<tr><td><div style="width: 10em; vertical-align: top;"><p>Jun 4, 1865<span style="display: inline-block; width: 1em;"></span>(Whitsunday)</p></div></td><td>Acts 2:38–39</td></tr>
--<tr><td><div style="width: 12em; vertical-align: top;"><p>Jun 18, 1865<span style="display: inline-block; width: 1em;"></span>(Dedication of Church)</p></div></td><td>2 Kgs 19:14</td></tr>
--<tr><td>Jun 18, 1865</td><td><div style="width: 30em; vertical-align: top;"><p>Ps 100:4<span style="display: inline-block; width: 1em;"></span>(same sermon without reffering to dedication)</p></div></td></tr>
-+<tr><td>Jun 4, 1865<br><span style="display: inline-block; width: 1em;"></span>(Whitsunday)</td><td>Acts 2:38–39</td></tr>
-+<tr><td>Jun 18, 1865<br><span style="display: inline-block; width: 1em;"></span>(Dedication of Church)</td><td>2 Kgs 19:14</td></tr>
-+<tr><td>Jun 18, 1865</td><td>Ps 100:4<br><span style="display: inline-block; width: 1em;"></span>(same sermon without reffering to dedication)</td></tr>
++<tr><td>Apr 23, 1865</td><td>1 Joh 5:4 “This is the victory that overcometh the world, even our faith.”</td></tr>
++<tr><td>May 14, 1865</td><td>Luke 16:10 “He that is unjust in the least …” [“… is unjust also in much.”]</td></tr>
++<tr><td>Jun 4, 1865<br><span style="display: inline-block; width: 1em;"></span>(Whitsunday)</td><td>Acts 2:38–39 “Ye shall receive the Holy Ghost, for the promise is unto you and to your children.”</td></tr>
++<tr><td>Jun 18, 1865<br><span style="display: inline-block; width: 1em;"></span>(Dedication of Church)</td><td>2 Kgs 19:14 “And Hezekiah received the letter of the hand of the messenger, and read it: Hezekiah went up into the house of the Lord.”</td></tr>
++<tr><td>Jun 18, 1865</td><td>Ps 100:4 “Oh go your way into his gates with thanksgiving, and into his courts with praise.”<br><span style="display: inline-block; width: 1em;"></span>(same sermon without reffering to dedication)</td></tr>
  <tr><td>Jul 2, 1865</td><td>Ps 100:4</td></tr>
- <tr><td>Aug 6, 1865</td><td>1 Joh 3:16</td></tr>
- <tr><td>Aug 20, 1865</td><td>Matt 25:35</td></tr>
-@@ -96,9 +94,9 @@
+-<tr><td>Aug 6, 1865</td><td><div style="width: 25em; vertical-align: top;"><p>1 Joh 3:16 “Hereby perceive we the love of God, because he laid down his life for us, and we ought to lay down our lives for the brethren.”</p></div></td></tr>
+-<tr><td>Aug 20, 1865</td><td><div style="width: 25em; vertical-align: top;"><p>Matt 25:35 “I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink.”</p></div></td></tr>
+-<tr><td>Sep 3, 1865</td><td><div style="width: 25em; vertical-align: top;"><p>Eccl 8:14 [“There is a vanity which is done upon the earth; that there be just men, unto whom it happeneth according to the work of the wicked; again, there be wicked men, to whom it happeneth according to the work of the righteous: I said that this also is vanity.”]</p></div></td></tr>
++<tr><td>Aug 6, 1865</td><td>1 Joh 3:16 “Hereby perceive we the love of God, because he laid down his life for us, and we ought to lay down our lives for the brethren.”</td></tr>
++<tr><td>Aug 20, 1865</td><td>Matt 25:35 “I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink.”</td></tr>
++<tr><td>Sep 3, 1865</td><td>Eccl 8:14 [“There is a vanity which is done upon the earth; that there be just men, unto whom it happeneth according to the work of the wicked; again, there be wicked men, to whom it happeneth according to the work of the righteous: I said that this also is vanity.”]</td></tr>
+ <tr><td>Sep 10, 1865</td><td>Eccl 8:14</td></tr>
+-<tr><td>Oct 1, 1865</td><td><div style="width: 25em; vertical-align: top;"><p>Rom 7:22–23 [“For I delight in the law of God after the inward man: but I see another law in my members, warring against the law of my mind, and bringing me into captivity to the law of sin which is in my members.”]</p></div></td></tr>
+-<tr><td>Oct 8, 1865</td><td><div style="width: 25em; vertical-align: top;"><p>John 10:16 [“And other sheep I have, which are not of this fold: them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd.”]</p></div></td></tr>
++<tr><td>Oct 1, 1865</td><td>Rom 7:22–23 [“For I delight in the law of God after the inward man: but I see another law in my members, warring against the law of my mind, and bringing me into captivity to the law of sin which is in my members.”]</td></tr>
++<tr><td>Oct 8, 1865</td><td>John 10:16 [“And other sheep I have, which are not of this fold: them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd.”]</td></tr>
  <tr><td>Oct 15, 1865</td><td>Rom 7:22–23</td></tr>
  <tr><td>Oct 29, 1865</td><td>Rom 7:22–23</td></tr>
- <tr><td>Dec 24, 1865</td><td>Matt 6:14</td></tr>
--<tr><td><div style="width: 10em; vertical-align: top;"><p>Dec 25, 1865<span style="display: inline-block; width: 1em;"></span>(Christmas)</p></div></td><td>John 1:10</td></tr>
-+<tr><td>Dec 25, 1865<br><span style="display: inline-block; width: 1em;"></span>(Christmas)</td><td>John 1:10</td></tr>
- <tr><td>Dec 31, 1865</td><td>Eccl 9:10</td></tr>
--<tr><td><div style="width: 10em; vertical-align: top;"><p>Apr 1, 1866<span style="display: inline-block; width: 1em;"></span>(Easter Sunday)</p></div></td><td>Rom 6:10–11</td></tr>
-+<tr><td>Apr 1, 1866<br><span style="display: inline-block; width: 1em;"></span>(Easter Sunday)</td><td>Rom 6:10–11</td></tr>
- <tr><td>Mar 10, 1867</td><td>Amos 5:15</td></tr>
- <tr><td>Jan 2, 1887</td><td>Mark 10:51</td></tr>
- <tr><td>Apr 17, 1887</td><td>Eccl 5:2</td></tr>
-@@ -113,7 +111,7 @@
- <tr><td>May 11, 1890</td><td>John 20:29</td></tr>
- <tr><td>Nov 9, 1890</td><td>Mark 16:7</td></tr>
- <tr><td>Jan 4, 1891</td><td>Eccl 1:9</td></tr>
--<tr><td><div style="width: 12em; vertical-align: top;"><p>Jan 25, 1891<span style="display: inline-block; width: 1em;"></span>(Conversion of St.&nbsp;Paul)</p></div></td><td>Acts 8:6</td></tr>
-+<tr><td>Jan 25, 1891<br><span style="display: inline-block; width: 1em;"></span>(Conversion of St.&nbsp;Paul)</td><td>Acts 8:6</td></tr>
- <tr><td>Feb 1, 1891</td><td>Rom 8:28</td></tr>
- <tr><td>Apr 3, 1892</td><td>Rev 3:1</td></tr>
+-<tr><td>Dec 24, 1865</td><td><div style="width: 25em; vertical-align: top;"><p>Matt 6:14 [“For if ye forgive men their trespasses, your heavenly Father will also forgive you.”]</p></div></td></tr>
+-<tr><td><div style="width: 10em; vertical-align: top;"><p>Dec 25, 1865<span style="display: inline-block; width: 1em;"></span>(Christmas)</p></div></td><td><div style="width: 25em; vertical-align: top;"><p>John 1:10 [“He was in the world, and the world was made by him, and the world knew him not.”]</p></div></td></tr>
+-<tr><td>Dec 31, 1865</td><td><div style="width: 25em; vertical-align: top;"><p>Eccl 9:10 [“Whatsoever thy hand findeth to do, do it with thy might; for there is no work, nor device, nor knowledge, nor wisdom, in the grave, whither thou goest.”]</p></div></td></tr>
+-<tr><td><div style="width: 10em; vertical-align: top;"><p>Apr 1, 1866<span style="display: inline-block; width: 1em;"></span>(Easter Sunday)</p></div></td><td><div style="width: 25em; vertical-align: top;"><p>Rom 6:10–11 [“For in that he died, he died unto sin once: but in that he liveth, he liveth unto God. Likewise reckon ye also yourselves to be dead indeed unto sin, but alive unto God through Jesus Christ our Lord.”]</p></div></td></tr>
+-<tr><td>Mar 10, 1867</td><td><div style="width: 25em; vertical-align: top;"><p>Amos 5:15 “Hate the evil, and love the good”</p></div></td></tr>
+-<tr><td>Jan 2, 1887</td><td><div style="width: 25em; vertical-align: top;"><p>Mark 10:51 [“And Jesus answered and said unto him, What wilt thou that I should do unto thee? The blind man said unto him, Lord, that I might receive my sight.”]</p></div></td></tr>
+-<tr><td>Apr 17, 1887</td><td><div style="width: 25em; vertical-align: top;"><p>Eccl 5:2 [“Be not rash with thy mouth, and let not thine heart be hasty to utter any thing before God: for God is in heaven, and thou upon earth: therefore let thy words be few.”]</p></div></td></tr>
+-<tr><td>Jul 3, 1887</td><td><div style="width: 25em; vertical-align: top;"><p>Is 6:8 “Here am I; send me.”</p></div></td></tr>
++<tr><td>Dec 24, 1865</td><td>Matt 6:14 [“For if ye forgive men their trespasses, your heavenly Father will also forgive you.”]</td></tr>
++<tr><td>Dec 25, 1865<br><span style="display: inline-block; width: 1em;"></span>(Christmas)</td><td>John 1:10 [“He was in the world, and the world was made by him, and the world knew him not.”]</td></tr>
++<tr><td>Dec 31, 1865</td><td>Eccl 9:10 [“Whatsoever thy hand findeth to do, do it with thy might; for there is no work, nor device, nor knowledge, nor wisdom, in the grave, whither thou goest.”]</td></tr>
++<tr><td>Apr 1, 1866<br><span style="display: inline-block; width: 1em;"></span>(Easter Sunday)</td><td>Rom 6:10–11 [“For in that he died, he died unto sin once: but in that he liveth, he liveth unto God. Likewise reckon ye also yourselves to be dead indeed unto sin, but alive unto God through Jesus Christ our Lord.”]</td></tr>
++<tr><td>Mar 10, 1867</td><td>Amos 5:15 “Hate the evil, and love the good”</td></tr>
++<tr><td>Jan 2, 1887</td><td>Mark 10:51 [“And Jesus answered and said unto him, What wilt thou that I should do unto thee? The blind man said unto him, Lord, that I might receive my sight.”]</td></tr>
++<tr><td>Apr 17, 1887</td><td>Eccl 5:2 [“Be not rash with thy mouth, and let not thine heart be hasty to utter any thing before God: for God is in heaven, and thou upon earth: therefore let thy words be few.”]</td></tr>
++<tr><td>Jul 3, 1887</td><td>Is 6:8 “Here am I; send me.”</td></tr>
+ <tr><td>Jan 15, 1888</td><td>Is 6:8</td></tr>
+-<tr><td>Nov 25, 1888</td><td><div style="width: 25em; vertical-align: top;"><p>Rom 13:8 [“Owe no man any thing, but to love one another: for he that loveth another hath fulfilled the law.”]</p></div></td></tr>
+-<tr><td>Dec 30, 1888</td><td><div style="width: 25em; vertical-align: top;"><p>Matt 20:6 [“And about the eleventh hour he went out, and found others standing idle, and saith unto them, Why stand ye here all the day idle?”]</p></div></td></tr>
+-<tr><td>Jan 6, 1889</td><td><div style="width: 25em; vertical-align: top;"><p>Luke 2:11 [“For unto you is born this day in the city of David a Saviour, which is Christ the Lord.”]</p></div></td></tr>
+-<tr><td>May 19, 1889</td><td><div style="width: 25em; vertical-align: top;"><p>Eph 4:25 “We are members one of another.”</p></div></td></tr>
+-<tr><td>Jan 19, 1890</td><td><div style="width: 25em; vertical-align: top;"><p>Phil 3:13 [“forgetting those things which are behind”]</p></div></td></tr>
+-<tr><td>Jan 26, 1890</td><td><div style="width: 25em; vertical-align: top;"><p>Phil 3:13 “reaching forth unto those things which are before”</p></div></td></tr>
+-<tr><td>May 11, 1890</td><td><div style="width: 25em; vertical-align: top;"><p>John 20:29 [“Jesus saith unto him, Thomas, because thou hast seen me, thou hast believed: blessed are they that have not seen, and yet have believed.”]</p></div></td></tr>
+-<tr><td>Nov 9, 1890</td><td><div style="width: 25em; vertical-align: top;"><p>Mark 16:7 “Go your way, tell his disciples, and Peter, that he goeth before you into Galilee: there shall ye see him.”</p></div></td></tr>
+-<tr><td>Jan 4, 1891</td><td><div style="width: 25em; vertical-align: top;"><p>Eccl 1:9 [“The thing that hath been, it is that which shall be; and that which is done is that which shall be done: and there is no new thing under the sun.”]</p></div></td></tr>
+-<tr><td><div style="width: 10em; vertical-align: top;"><p>Jan 25, 1891<span style="display: inline-block; width: 1em;"></span>(Conversion of St.&nbsp;Paul)</p></div></td><td><div style="width: 25em; vertical-align: top;"><p>Acts 9:6 [“And he trembling and astonished said, Lord, what wilt thou have me to do? And the Lord said unto him, Arise, and go into the city, and it shall be told thee what thou must do.”]</p></div></td></tr>
+-<tr><td>Feb 1, 1891</td><td><div style="width: 25em; vertical-align: top;"><p>Rom 8:28 [“And we know that all things work together for good to them that love God, to them who are the called according to his purpose.”]</p></div></td></tr>
+-<tr><td>Apr 3, 1892</td><td><div style="width: 25em; vertical-align: top;"><p>Rev 3:1 [“I know thy works, that thou hast a name that thou livest, and art dead.”]</p></div></td></tr>
++<tr><td>Nov 25, 1888</td><td>Rom 13:8 [“Owe no man any thing, but to love one another: for he that loveth another hath fulfilled the law.”]</td></tr>
++<tr><td>Dec 30, 1888</td><td>Matt 20:6 [“And about the eleventh hour he went out, and found others standing idle, and saith unto them, Why stand ye here all the day idle?”]</td></tr>
++<tr><td>Jan 6, 1889</td><td>Luke 2:11 [“For unto you is born this day in the city of David a Saviour, which is Christ the Lord.”]</td></tr>
++<tr><td>May 19, 1889</td><td>Eph 4:25 “We are members one of another.”</td></tr>
++<tr><td>Jan 19, 1890</td><td>Phil 3:13 [“forgetting those things which are behind”]</td></tr>
++<tr><td>Jan 26, 1890</td><td>Phil 3:13 “reaching forth unto those things which are before”</td></tr>
++<tr><td>May 11, 1890</td><td>John 20:29 [“Jesus saith unto him, Thomas, because thou hast seen me, thou hast believed: blessed are they that have not seen, and yet have believed.”]</td></tr>
++<tr><td>Nov 9, 1890</td><td>Mark 16:7 “Go your way, tell his disciples, and Peter, that he goeth before you into Galilee: there shall ye see him.”</td></tr>
++<tr><td>Jan 4, 1891</td><td>Eccl 1:9 [“The thing that hath been, it is that which shall be; and that which is done is that which shall be done: and there is no new thing under the sun.”]</td></tr>
++<tr><td>Jan 25, 1891<br><span style="display: inline-block; width: 1em;"></span>(Conversion of St.&nbsp;Paul)</td><td>Acts 9:6 [“And he trembling and astonished said, Lord, what wilt thou have me to do? And the Lord said unto him, Arise, and go into the city, and it shall be told thee what thou must do.”]</td></tr>
++<tr><td>Feb 1, 1891</td><td>Rom 8:28 [“And we know that all things work together for good to them that love God, to them who are the called according to his purpose.”]</td></tr>
++<tr><td>Apr 3, 1892</td><td>Rev 3:1 [“I know thy works, that thou hast a name that thou livest, and art dead.”]</td></tr>
  <tr><td>Apr 24, 1892</td><td>Rev 3:1</td></tr>
-@@ -131,7 +129,7 @@
- <tr><td>Dec 31, 1893</td><td>Luke 6:45</td></tr>
+-<tr><td>Jun 12, 1892</td><td><div style="width: 25em; vertical-align: top;"><p>John 17:26 [“And I have declared unto them thy name, and will declare it: that the love wherewith thou hast loved me may be in them, and I in them.”]</p></div></td></tr>
++<tr><td>Jun 12, 1892</td><td>John 17:26 [“And I have declared unto them thy name, and will declare it: that the love wherewith thou hast loved me may be in them, and I in them.”]</td></tr>
+ <tr><td>Jul 3, 1892</td><td>John 17:26</td></tr>
+-<tr><td>Nov 13, 1892</td><td><div style="width: 25em; vertical-align: top;"><p>Luke 11:4 “Lead us not into temptation.”</p></div></td></tr>
+-<tr><td>Nov 20, 1892</td><td><div style="width: 25em; vertical-align: top;"><p>Jas 1:2 “My brethren, count it all joy, when ye fall into divers temptations.”</p></div></td></tr>
++<tr><td>Nov 13, 1892</td><td>Luke 11:4 “Lead us not into temptation.”</td></tr>
++<tr><td>Nov 20, 1892</td><td>Jas 1:2 “My brethren, count it all joy, when ye fall into divers temptations.”</td></tr>
+ <tr><td>Jan 8, 1893</td><td>Luke 11:4</td></tr>
+ <tr><td>Apr 16, 1893</td><td>Luke 11:4</td></tr>
+ <tr><td>May 14, 1893</td><td>Luke 11:4</td></tr>
+ <tr><td>May 28, 1893</td><td>Jas 1:2</td></tr>
+ <tr><td>Sep 10, 1893</td><td>Luke 11:4</td></tr>
+ <tr><td>Sep 17, 1893</td><td>Jas 1:2</td></tr>
+-<tr><td>Nov 19, 1893</td><td><div style="width: 25em; vertical-align: top;"><p>Matt 12:34–35 “Out of the abundance …” [“… of the heart the mouth speaketh. A good man out of the good treasure of the heart bringeth forth good things: and an evil man out of the evil treasure bringeth forth evil things.”]</p></div></td></tr>
+-<tr><td>Dec 31, 1893</td><td><div style="width: 25em; vertical-align: top;"><p>Luke 6:45 [“A good man out of the good treasure of his heart bringeth forth that which is good; and an evil man out of the evil treasure of his heart bringeth forth that which is evil: for of the abundance of the heart his mouth speaketh.”]<span style="display: inline-block; width: 1em;"></span>(same sermon as above)</p></div></td></tr>
++<tr><td>Nov 19, 1893</td><td>Matt 12:34–35 “Out of the abundance …” [“… of the heart the mouth speaketh. A good man out of the good treasure of the heart bringeth forth good things: and an evil man out of the evil treasure bringeth forth evil things.”]</td></tr>
++<tr><td>Dec 31, 1893</td><td>Luke 6:45 [“A good man out of the good treasure of his heart bringeth forth that which is good; and an evil man out of the evil treasure of his heart bringeth forth that which is evil: for of the abundance of the heart his mouth speaketh.”]<br><span style="display: inline-block; width: 1em;"></span>(same sermon as above)</td></tr>
  <tr><td>Feb 11, 1894</td><td>Luke 11:4</td></tr>
- <tr><td>Oct 7, 1894</td><td>Luke 10:29</td></tr>
--<tr><td><div style="width: 10em; vertical-align: top;"><p>Sep 29, 1895<span style="display: inline-block; width: 1em;"></span>(Harvest Festival)</p></div></td><td>Ps 116:11</td></tr>
-+<tr><td>Sep 29, 1895<br><span style="display: inline-block; width: 1em;"></span>(Harvest Festival)</td><td>Ps 116:11</td></tr>
- <tr><td>Dec 6, 1896</td><td>Mark 9:24</td></tr>
- <tr><td>Jan 3, 1897</td><td>John 8:10–11</td></tr>
+-<tr><td>Oct 7, 1894</td><td><div style="width: 25em; vertical-align: top;"><p>Luke 10:29 [“But he, willing to justify himself, said unto Jesus, And who is my neighbour?”]</p></div></td></tr>
+-<tr><td><div style="width: 10em; vertical-align: top;"><p>Sep 29, 1895<span style="display: inline-block; width: 1em;"></span>(Harvest Festival)</p></div></td><td><div style="width: 25em; vertical-align: top;"><p>Ps 116:11 [“I said in my haste, All men are liars.”]</p></div></td></tr>
+-<tr><td>Dec 6, 1896</td><td><div style="width: 25em; vertical-align: top;"><p>Mark 9:24 [“And straightway the father of the child cried out, and said with tears, Lord, I believe; help thou mine unbelief.”]</p></div></td></tr>
+-<tr><td>Jan 3, 1897</td><td><div style="width: 25em; vertical-align: top;"><p>John 8:10–11 [“When Jesus had lifted up himself, and saw none but the woman, he said unto her, Woman, where are those thine accusers? hath no man condemned thee? She said, No man, Lord. And Jesus said unto her, Neither do I condemn thee: go, and sin no more.”]</p></div></td></tr>
++<tr><td>Oct 7, 1894</td><td>Luke 10:29 [“But he, willing to justify himself, said unto Jesus, And who is my neighbour?”]</td></tr>
++<tr><td>Sep 29, 1895<br><span style="display: inline-block; width: 1em;"></span>(Harvest Festival)</td><td>Ps 116:11 [“I said in my haste, All men are liars.”]</td></tr>
++<tr><td>Dec 6, 1896</td><td>Mark 9:24 [“And straightway the father of the child cried out, and said with tears, Lord, I believe; help thou mine unbelief.”]</td></tr>
++<tr><td>Jan 3, 1897</td><td>John 8:10–11 [“When Jesus had lifted up himself, and saw none but the woman, he said unto her, Woman, where are those thine accusers? hath no man condemned thee? She said, No man, Lord. And Jesus said unto her, Neither do I condemn thee: go, and sin no more.”]</td></tr>
  <tr><td>Jan 24, 1897</td><td>John 8:10–11</td></tr>
-@@ -140,7 +138,7 @@
- <tr><td>Aug 29, 1897</td><td>“Victor and Arnion” (Children’s Service)</td></tr>
- <tr><td>Sep 19, 1897</td><td>“Victor and Arnion” (Children’s Service)</td></tr>
+-<tr><td>Mar 7, 1897</td><td><div style="width: 25em; vertical-align: top;"><p>Job 28:28 “And unto man he said, The fear of the Lord, that is wisdom”, prayer “Give us an heart to love and dread thee”</p></div></td></tr>
++<tr><td>Mar 7, 1897</td><td>Job 28:28 “And unto man he said, The fear of the Lord, that is wisdom”, prayer “Give us an heart to love and dread thee”</td></tr>
+ <tr><td>Aug 22, 1897</td><td>“Victor and Arnion”, part 1 (Children’s Service)</td></tr>
+ <tr><td>Aug 29, 1897</td><td>“Victor and Arnion”, part 2 (Children’s Service)</td></tr>
+ <tr><td>Sep 19, 1897</td><td>“Victor and Arnion”, part 1 (Children’s Service)</td></tr>
  <tr><td>Sep 26, 1897</td><td>Stories for Harvest Festival (Children’s Service)</td></tr>
--<tr><td>Oct 3, 1897</td><td><div style="width: 30em; vertical-align: top;"><p>Stories for Harvest Festival (Children’s Service),<span style="display: inline-block; width: 1em;"></span>→ <a href="../magazines/address-by-the-rev-c-l-dodgson.html">here<!--TODO--></a></p></div></td></tr>
-+<tr><td>Oct 3, 1897</td><td><a href="../magazines/address-by-the-rev-c-l-dodgson.html">Stories for Harvest Festival</a> (Children’s Service)</td></tr>
- <tr><td>Oct 24, 1897</td><td>Ps 103:11–12</td></tr>
+-<tr><td>Oct 3, 1897</td><td><div style="width: 25em; vertical-align: top;"><p>Stories for Harvest Festival (Children’s Service)<span style="display: inline-block; width: 1em;"></span>(same sermon as above with some addition) → <a href="../magazines/address-by-the-rev-c-l-dodgson.html">here<!--TODO--></a></p></div></td></tr>
+-<tr><td>Oct 24, 1897</td><td><div style="width: 25em; vertical-align: top;"><p>Ps 103:11–12 [“For as the heaven is high above the earth, so great is his mercy toward them that fear him. As far as the east is from the west, so far hath he removed our transgressions from us.”]</p></div></td></tr>
++<tr><td>Oct 3, 1897</td><td><a href="../magazines/address-by-the-rev-c-l-dodgson.html">Stories for Harvest Festival</a> (Children’s Service)<br><span style="display: inline-block; width: 1em;"></span>(same sermon as above with some addition)</td></tr>
++<tr><td>Oct 24, 1897</td><td>Ps 103:11–12 [“For as the heaven is high above the earth, so great is his mercy toward them that fear him. As far as the east is from the west, so far hath he removed our transgressions from us.”]</td></tr>
  </table>
  
-@@ -163,7 +161,7 @@
+ <p>And of course the riddles and stories he told many times, but never wrote down, are missing here, too.</p>
+@@ -164,7 +162,7 @@
  
  <p>Some of his mathematical texts deal with infinitesimals. At that time they were just a shadowy idea not clearly understood. A strict foundation of Analysis without infinitesimals was developed only since the 1870s, which now forms the usual basis of mathematics. But in 1961 Robinson developed a strict theory of infinitesimals, which formalizes the intuitive ideas of Carroll and his contemporaries.</p>
  
@@ -1407,7 +1477,7 @@ diff -ru a/about/introduction.html b/about/introduction.html
  
  <p>Some other treatment of probabilities can be explained by its state at that time. To properly understand in which cases probabilities are additiv, it is necessary to understand the different kinds of infinity. This theory was developed by Cantor in the late 1870s, and only accepted some time later. The consequences for probability theory were first really understood by Kolmogorov in the 1930s.</p>
  
-@@ -173,7 +171,7 @@
+@@ -174,7 +172,7 @@
  
  <p>On the other hand, the famous <a href="../math/pillow-problems.html#pillow-problems-72q">Pillow-Problem 72</a> isn’t a problem in probability theory, but in “Transcendental Probabilities”. That is, it is a clever paradox, the real problem is to detect the fallacy in the solution.</p>
  
@@ -1416,7 +1486,7 @@ diff -ru a/about/introduction.html b/about/introduction.html
  
  <p>But not only late works are included, you will also find very early works in this collection, including <a href="../poems/la-guida-di-bragia.html"><i>La Guida di Bragia</i></a>, which really deserves more attention than it got by only reprinting the prologue. Also included are his family magazines and other early manuscripts.</p>
  
-@@ -213,7 +211,7 @@
+@@ -214,7 +212,7 @@
  <p>I have other shadowy ideas, e.&thinsp;g., a Geometry for Boys, a vol. of Essays on theological points freely and plainly treated, and a drama on “Alice” (for which Mr.&nbsp;Mackenzie would write music) […]
  </p></blockquote>
  
@@ -1425,7 +1495,7 @@ diff -ru a/about/introduction.html b/about/introduction.html
  
  <p>Speaking of poems, the poem section will give you not only the popular and often reprinted poems, but also early variants of them, as well as some not so widely spread ones.</p>
  
-@@ -312,16 +310,14 @@
+@@ -313,16 +311,14 @@
  <a href="../poems/tell-me-truly-maidens-three.html"><i>Tell me truly, Maidens three</i></a>,
  <a href="../poems/puzzle.html"><i>Puzzle</i></a></p>
  
@@ -1444,7 +1514,7 @@ diff -ru a/about/introduction.html b/about/introduction.html
  <tr><td>1843</td><td>Father became Rector of Croft, Yorkshire, and family moved there</td></tr>
  <tr><td>1844–5</td><td>At Richmond School, Yorkshire (from August 1, 1844)</td></tr>
  <tr><td>1845</td><td>First publication (<i>The Unknown One</i>) in school magazine</td></tr>
-@@ -338,9 +334,9 @@
+@@ -339,9 +335,9 @@
  <tr><td>1857</td><td>M.A.</td></tr>
  <tr><td>1860</td><td><i>A Syllabus of Plane Algebraical Geometry</i> published</td></tr>
  <tr><td>1861</td><td>Ordained deacon (December 22)</td></tr>
@@ -6676,7 +6746,7 @@ diff -ru a/math/notes-on-the-first-part-of-algebra.html b/math/notes-on-the-firs
 diff -ru a/math/notes-on-the-first-two-books-of-euclid.html b/math/notes-on-the-first-two-books-of-euclid.html
 --- a/math/notes-on-the-first-two-books-of-euclid.html
 +++ b/math/notes-on-the-first-two-books-of-euclid.html
-@@ -64,7 +64,7 @@
+@@ -77,13 +77,13 @@
  
  <p>The following scheme may assist the reader in understanding the first five Definitions given above.</p>
  
@@ -6684,7 +6754,15 @@ diff -ru a/math/notes-on-the-first-two-books-of-euclid.html b/math/notes-on-the-
 +<div class="center">
  <table class="c1 c2 c3 c4">
  <tr><td colspan="4">Things set before us in Geometry may be of 2 kinds, viz.:</td></tr>
+-<tr><td colspan="4"><math><mover><mrow><mtext>\</mtext><mi>h</mi><mi>s</mi><mi>p</mi><mi>a</mi><mi>c</mi><mi>e</mi><mrow><mn>20</mn><mi>e</mi><mi>m</mi></mrow></mrow><mo>⏞</mo></mover></math></td></tr>
++<tr><td colspan="4"><math><mover><mspace width="20em" /><mo>⏞</mo></mover></math></td></tr>
  <tr><td colspan="2">(without proofs)</td><td colspan="2">(with proofs)</td></tr>
+ <tr><td colspan="2"></td><td colspan="2">i.&thinsp;e. <span style="font-variant: small-caps;">Propositions</span>.</td></tr>
+-<tr><td colspan="2"><math><mover><mrow><mtext>\</mtext><mi>h</mi><mi>s</mi><mi>p</mi><mi>a</mi><mi>c</mi><mi>e</mi><mrow><mn>10</mn><mi>e</mi><mi>m</mi></mrow></mrow><mo>⏞</mo></mover></math></td><td colspan="2"><math><mover><mrow><mtext>\</mtext><mi>h</mi><mi>s</mi><mi>p</mi><mi>a</mi><mi>c</mi><mi>e</mi><mrow><mn>10</mn><mi>e</mi><mi>m</mi></mrow></mrow><mo>⏞</mo></mover></math></td></tr>
++<tr><td colspan="2"><math><mover><mspace width="10em" /><mo>⏞</mo></mover></math></td><td colspan="2"><math><mover><mspace width="10em" /><mo>⏞</mo></mover></math></td></tr>
+ <tr><td>(to be done)</td><td>(to be believed)</td><td>(to be done)</td><td>(to be believed)</td></tr>
+ <tr><td>i.&thinsp;e. <span style="font-variant: small-caps;">Postulates</span>.</td><td>i.&thinsp;e. <span style="font-variant: small-caps;">Axioms</span>.</td><td>i.&thinsp;e. <span style="font-variant: small-caps;">Problems</span>.</td><td>i.&thinsp;e. <span style="font-variant: small-caps;">Theorems</span>.</td></tr>
+ </table></div>
 diff -ru a/math/pillow-problems.html b/math/pillow-problems.html
 --- a/math/pillow-problems.html
 +++ b/math/pillow-problems.html
@@ -7765,6 +7843,18 @@ diff -ru a/nursery-alice/content.html b/nursery-alice/content.html
  <figure style="max-width:75%;">
  <img src="../../images/nursery/02.jpg" width="270" height="396" alt="The White Rabbit is looking on its watch.">
  </figure>
+diff -ru a/poems/a-boat-beneath-a-sunny-sky.html b/poems/a-boat-beneath-a-sunny-sky.html
+--- a/poems/a-boat-beneath-a-sunny-sky.html
++++ b/poems/a-boat-beneath-a-sunny-sky.html
+@@ -52,7 +52,7 @@
+ Dreaming as the days go by,<br>
+ Dreaming as the summers die:</p>
+ 
+-<aside id="stream-gleam-dream:0"><b>Other version</b>: <a href="is-all-our-life.html#stream-gleam-dream:1">1</a><!--TODO--></aside>
++<aside id="stream-gleam-dream:0"><b>Other version</b>: <a href="is-all-our-life.html#stream-gleam-dream:1">Is All Our Life</a></aside>
+ <p>Ever drifting down the stream—<br>
+ Lingering in the golden gleam—<br>
+ Life, what is it but a dream?
 diff -ru a/poems/a-sitting-on-a-gate.html b/poems/a-sitting-on-a-gate.html
 --- a/poems/a-sitting-on-a-gate.html
 +++ b/poems/a-sitting-on-a-gate.html
@@ -7958,6 +8048,18 @@ diff -ru a/poems/hiawathas-photographing-later-version.html b/poems/hiawathas-ph
  <figure style="max-width:75%;">
  <img src="../../images/rhyme/089.jpg" width="270" height="288" alt="Hiawatha is leaving, his face hidden under a large hat.">
  </figure>
+diff -ru a/poems/is-all-our-life.html b/poems/is-all-our-life.html
+--- a/poems/is-all-our-life.html
++++ b/poems/is-all-our-life.html
+@@ -28,7 +28,7 @@
+ </header>
+ <article>
+ 
+-<div class="verse"><aside id="stream-gleam-dream:1"><b>Other version</b>: <a href="a-boat-beneath-a-sunny-sky.html#stream-gleam-dream:0">0</a><!--TODO--></aside>
++<div class="verse"><aside id="stream-gleam-dream:1"><b>Other version</b>: <a href="a-boat-beneath-a-sunny-sky.html#stream-gleam-dream:0">A boat, beneath a sunny sky</a></aside>
+ <p><span class="textfrak">Is all our Life, then, but a dream<br>
+ Seen faintly in the golden gleam<br>
+ Athwart Time’s dark resistless stream?</span></p>
 diff -ru a/poems/jabberwocky.html b/poems/jabberwocky.html
 --- a/poems/jabberwocky.html
 +++ b/poems/jabberwocky.html
