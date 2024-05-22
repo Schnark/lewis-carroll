@@ -957,7 +957,7 @@ getOgMetadata (title, isMeta, img) {
 		if (match) {
 			meta.push(<meta property="og:image:height" content="' + match[1] + '">');
 		}
-		match = /alt="([^"]+)"/.exec(img);
+		match = /alt="([^"]*)"/.exec(img);
 		if (match) {
 			meta.push(<meta property="og:image:alt" content="' + match[1] + '">');
 		}

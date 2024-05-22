@@ -67,7 +67,7 @@ function getOffsetTop (el) {
 	do {
 		top += el.offsetTop;
 		el = el.offsetParent;
-	} while (el.tagName !== 'BODY');
+	} while (el && el.tagName !== 'BODY');
 	return top;
 }
 

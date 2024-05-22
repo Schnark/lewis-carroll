@@ -424,7 +424,7 @@ registerCommand('hrulefill', function () {
 	return '<x-hrulefill>';
 });
 toHtml.fixup(function (html) {
-	return html.replace(/<x-(hfill|dotfill|hrulefill)>((?:[^<>]+|(?:<i>[^<>]+<\/i>))*)(<br>|<\/p>|<\/td>)/g, function (all, fill, after, close) {
+	return html.replace(/<x-(hfill|dotfill|hrulefill)>((?:[^<>]+|(?:<i>[^<>]+<\/i>)|(?:<b>[^<>]+<\/b>)|(?:<span style="[^<>"]+">[^<>]+<\/span>))*)(<br>|<\/p>|<\/td>)/g, function (all, fill, after, close) {
 		return '<span class="after-' + fill + '">' + after + '</span>' + close;
 	}).replace(/<x-(hfill|dotfill|hrulefill)>/g, '<!--TODO \\$1-->');
 });
