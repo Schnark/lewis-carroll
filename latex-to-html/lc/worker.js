@@ -12,9 +12,13 @@ importScripts(
 	'../res/latex-parse.js',
 	'../res/to-html.js',
 	'../res/define.js',
+	'util.js',
 	'image-data.js',
 	'music-data.js',
 	'extra.js',
+	'split-latex.js',
+	'navigation.js',
+	'special-pages.js',
 	'convert.js',
 	'../../search/prefix-tree.js',
 	'../../search/search-index-builder.js'
