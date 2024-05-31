@@ -101,13 +101,14 @@ function getMetadata (html, path) {
 	}
 	isAbout = (path.slice(0, 6) === 'about/');
 	text = unhtml('<header>' + html + '</footer>');
-	img = /<img [^>]+>/.exec(html);
+	img = /<img [^>]+>/.exec(html); //TODO or only in <figure>?
 	img = img && img[0];
 	if (!isAbout) {
 		desc = 'Read “' + title + '” by Lewis Carroll' +
 			(img ? ', including the original images' : '') +
 			', together with many other works in the (almost really) Complete Works of Lewis Carroll.';
-		if (desc.length < 160) {
+		//the description should not be longer than 160 chars, add an extract if we have sufficiently much room left
+		if (desc.length < 100) {
 			extract = text.slice(0, 160 - desc.length);
 			space = extract.lastIndexOf(' ');
 			if (space > -1) {
@@ -141,6 +142,7 @@ getOgMetadata (data) {
 	if (data.img) {
 		match = /src="([^"]+)"/.exec(img);
 	}
+	//TODO make url absolute
 	if (match) {
 		meta.push('<meta property="og:image" content="' + match[1] + '">');
 		match = /width="(\d+)"/.exec(data.img);

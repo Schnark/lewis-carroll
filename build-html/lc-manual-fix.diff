@@ -212,15 +212,6 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>Table of Contents</li>
  <li>Main content (still missing)<!--TODO text--></li>
  <li>Errata <!--(applied to content)--></li>
-@@ -357,7 +357,7 @@
- <li>Preface (moved to content)</li>
- <li>Corrigenda (applied to content)</li>
- <li>Table of Contents</li>
--<li>Main content (still mostly missing, → <a href="../math/an-elementary-treatis-on-determinants.html">here<!--TODO--></a>)<!--TODO text--></li>
-+<li><a href="../math/an-elementary-treatis-on-determinants.html">Main content</a> (still mostly missing)<!--TODO text--></li>
- </ul>
- 
- <p>The main content is a treatis on determinants, as described in the preface, and currently only partially included into this collection.</p>
 @@ -370,7 +370,7 @@
  
  <ul>
@@ -2002,7 +1993,7 @@ diff -ru a/game-of-logic/content.html b/game-of-logic/content.html
  <text x="11.2" y="24">5</text>
  <text x="153.6" y="24">6</text>
  <text x="9.6" y="164.8">7</text>
-@@ -259,26 +259,25 @@
+@@ -258,26 +258,25 @@
  
  <p>Without more words, I will simply set down the other ways in which this upright oblong might be marked, adding the meaning in each case. By comparing them with the various cases of the horizontal oblong, you will, I hope, be able to understand them clearly.</p>
  
@@ -2039,7 +2030,7 @@ diff -ru a/game-of-logic/content.html b/game-of-logic/content.html
  
  <p>You will find it a good plan to examine yourself on this table, by covering up first one column and then the other, and ‘dodging about’, as the children say.</p>
  
-@@ -764,7 +763,6 @@
+@@ -763,7 +762,6 @@
  
  <div class="center"><p><svg style="vertical-align: -0.6666666666666666em;" width="4.266666666666667em" height="2.9333333333333336em" stroke="currentColor"><line x1="0.13333333333333333em" y1="0.13333333333333333em" x2="4.133333333333333em" y2="0.13333333333333333em" /><line x1="0.13333333333333333em" y1="0.13333333333333333em" x2="0.13333333333333333em" y2="2.1333333333333333em" /><line x1="4.133333333333333em" y1="0.13333333333333333em" x2="4.133333333333333em" y2="2.1333333333333333em" /><line x1="0.13333333333333333em" y1="2.1333333333333333em" x2="0.4666666666666666em" y2="2.1333333333333333em" /><text x="1.2em" y="2.1333333333333333em" text-anchor="middle" style="font-style: italic;">y</text><line x1="1.8em" y1="2.1333333333333333em" x2="2.466666666666667em" y2="2.1333333333333333em" /><text x="3.1999999999999997em" y="2.1333333333333333em" text-anchor="middle" style="font-style: italic;">y’</text><line x1="3.8em" y1="2.1333333333333333em" x2="4.133333333333333em" y2="2.1333333333333333em" /><text x="2.1333333333333333em" y="1.4666666666666668em" text-anchor="middle" style="font-style: italic;">x</text><line x1="2.1333333333333333em" y1="0.13333333333333333em" x2="2.1333333333333333em" y2="0.4666666666666666em" /><line x1="2.1333333333333333em" y1="1.8em" x2="2.1333333333333333em" y2="2.1333333333333333em" /></svg></p></div>
  
@@ -2047,7 +2038,7 @@ diff -ru a/game-of-logic/content.html b/game-of-logic/content.html
  <table>
  <tr><td>1. <svg width="3.2em" height="1.7em" stroke="currentColor"><rect x="0.1em" y="0.1em" width="3em" height="1.5em" fill="none" /><line x1="1.6em" y1="0.1em" x2="1.6em" y2="1.6em" /><text x="2.35em" y="1.1em" text-anchor="middle">0</text></svg> <span style="display: inline-block; width: 3em;"></span></td><td>2. <svg width="3.2em" height="1.7em" stroke="currentColor"><rect x="0.1em" y="0.1em" width="3em" height="1.5em" fill="none" /><text x="0.85em" y="1.1em" text-anchor="middle">0</text><line x1="1.6em" y1="0.1em" x2="1.6em" y2="1.6em" /><text x="2.35em" y="1.1em" text-anchor="middle">0</text></svg></td></tr>
  <tr><td>3. <svg width="3.2em" height="1.7em" stroke="currentColor"><rect x="0.1em" y="0.1em" width="3em" height="1.5em" fill="none" /><text x="1.6em" y="1.1em" text-anchor="middle">–</text><line x1="1.6em" y1="0.1em" x2="1.6em" y2="0.35em" /><line x1="1.6em" y1="1.35em" x2="1.6em" y2="1.6em" /></svg></td><td>4. <svg width="3.2em" height="1.7em" stroke="currentColor"><rect x="0.1em" y="0.1em" width="3em" height="1.5em" fill="none" /><text x="0.85em" y="1.1em" text-anchor="middle">0</text><line x1="1.6em" y1="0.1em" x2="1.6em" y2="1.6em" /><text x="2.35em" y="1.1em" text-anchor="middle">1</text></svg></td></tr>
-@@ -775,7 +773,6 @@
+@@ -774,7 +772,6 @@
  <p>Taking <var>x</var> = “good riddles”; <var>y</var> = “hard”;
  </p></div>
  
@@ -2055,7 +2046,7 @@ diff -ru a/game-of-logic/content.html b/game-of-logic/content.html
  <table>
  <tr><td>5. <svg width="3.2em" height="1.7em" stroke="currentColor"><rect x="0.1em" y="0.1em" width="3em" height="1.5em" fill="none" /><text x="0.85em" y="1.1em" text-anchor="middle">1</text><line x1="1.6em" y1="0.1em" x2="1.6em" y2="1.6em" /></svg> <span style="display: inline-block; width: 3em;"></span></td><td>6. <svg width="3.2em" height="1.7em" stroke="currentColor"><rect x="0.1em" y="0.1em" width="3em" height="1.5em" fill="none" /><text x="0.85em" y="1.1em" text-anchor="middle">1</text><line x1="1.6em" y1="0.1em" x2="1.6em" y2="1.6em" /><text x="2.35em" y="1.1em" text-anchor="middle">0</text></svg></td></tr>
  <tr><td>7. <svg width="3.2em" height="1.7em" stroke="currentColor"><rect x="0.1em" y="0.1em" width="3em" height="1.5em" fill="none" /><text x="0.85em" y="1.1em" text-anchor="middle">0</text><line x1="1.6em" y1="0.1em" x2="1.6em" y2="1.6em" /><text x="2.35em" y="1.1em" text-anchor="middle">0</text></svg></td><td>8. <svg width="3.2em" height="1.7em" stroke="currentColor"><rect x="0.1em" y="0.1em" width="3em" height="1.5em" fill="none" /><text x="0.85em" y="1.1em" text-anchor="middle">0</text><line x1="1.6em" y1="0.1em" x2="1.6em" y2="1.6em" /></svg></td></tr>
-@@ -787,7 +784,6 @@
+@@ -786,7 +783,6 @@
  </p>
  <aside class="toggle variant" id="annotation-42">selfish and unforgiving</aside></div>
  
@@ -2063,7 +2054,7 @@ diff -ru a/game-of-logic/content.html b/game-of-logic/content.html
  <table>
  <tr><td><span style="visibility: hidden;">1</span>9. <svg width="3.2em" height="1.7em" stroke="currentColor"><rect x="0.1em" y="0.1em" width="3em" height="1.5em" fill="none" /><line x1="1.6em" y1="0.1em" x2="1.6em" y2="1.6em" /><text x="2.35em" y="1.1em" text-anchor="middle">1</text></svg> <span style="display: inline-block; width: 3em;"></span></td><td>10. <svg width="3.2em" height="1.7em" stroke="currentColor"><rect x="0.1em" y="0.1em" width="3em" height="1.5em" fill="none" /><text x="0.85em" y="1.1em" text-anchor="middle">0</text><line x1="1.6em" y1="0.1em" x2="1.6em" y2="1.6em" /></svg></td></tr>
  <tr><td>11. <svg width="3.2em" height="1.7em" stroke="currentColor"><rect x="0.1em" y="0.1em" width="3em" height="1.5em" fill="none" /><text x="0.85em" y="1.1em" text-anchor="middle">0</text><line x1="1.6em" y1="0.1em" x2="1.6em" y2="1.6em" /><text x="2.35em" y="1.1em" text-anchor="middle">1</text></svg></td><td>12. <svg width="3.2em" height="1.7em" stroke="currentColor"><rect x="0.1em" y="0.1em" width="3em" height="1.5em" fill="none" /><text x="0.85em" y="1.1em" text-anchor="middle">1</text><line x1="1.6em" y1="0.1em" x2="1.6em" y2="1.6em" /><text x="2.35em" y="1.1em" text-anchor="middle">1</text></svg></td></tr>
-@@ -1068,7 +1064,6 @@
+@@ -1067,7 +1063,6 @@
  <p>Mark, on a large Diagram, the following pairs of Propositions from the preceding Section: then mark a small Diagram in accordance with it, <span class="annotated omitted" data-ref="annotation-44">&amp;c.</span></p>
  <aside class="toggle omitted" id="annotation-44">The following table has two page references, this has not been reproduced here and is not in the 1886 edition.</aside>
  
@@ -2071,7 +2062,7 @@ diff -ru a/game-of-logic/content.html b/game-of-logic/content.html
  <table>
  <tr><td>5. No.&nbsp;13.<span style="display: inline-block; width: 4em;"></span></td><td><span style="visibility: hidden;">1</span>9. No.&nbsp;17.</td></tr>
  <tr><td>6. No.&nbsp;14.</td><td>10. No.&nbsp;18.</td></tr>
-@@ -1079,7 +1074,7 @@
+@@ -1078,7 +1073,7 @@
  
  <p>Mark, on a large Diagram, the following Pairs of Propositions: then mark a small Diagram, &amp;c. These are, in fact, Pairs of <i>Premisses</i> for Syllogisms: and the results, read off from the small Diagram, are the <i>Conclusions</i>.</p>
  
@@ -2080,7 +2071,7 @@ diff -ru a/game-of-logic/content.html b/game-of-logic/content.html
  <div class="verse">
  <p>13. No exciting books suit feverish patients;<span style="font-size: 210%; line-height: 0; position: relative; top: 0.4em;">}</span><br>
  <span style="display: inline-block; width: 1em;"></span> Unexciting books make one drowsy.</p>
-@@ -1313,7 +1308,6 @@
+@@ -1312,7 +1307,6 @@
  
  <h4>§ 4. Smaller Diagram. Propositions represented.</h4>
  
@@ -2088,7 +2079,7 @@ diff -ru a/game-of-logic/content.html b/game-of-logic/content.html
  <table>
  <tr><td>1. <svg width="3.2em" height="3.2em" stroke="currentColor"><rect x="0.1em" y="0.1em" width="3em" height="3em" fill="none" />
  <text x="0.35em" y="1.1em">1</text><text x="0.35em" y="2.6em">0</text>
-@@ -1437,7 +1431,6 @@
+@@ -1436,7 +1430,6 @@
  
  <h4>§ 6. Larger Diagram. Propositions represented.</h4>
  
@@ -2096,7 +2087,7 @@ diff -ru a/game-of-logic/content.html b/game-of-logic/content.html
  <table>
  <tr><td>1. <svg width="6.2em" height="6.2em" stroke="currentColor"><rect x="0.1em" y="0.1em" width="6em" height="6em" fill="none" /><rect x="1.6em" y="1.6em" width="3em" height="3em" fill="none" />
  <text x="1.85em" y="2.6em">0</text><text x="3.35em" y="2.6em">0</text>
-@@ -2029,7 +2022,7 @@
+@@ -2028,7 +2021,7 @@
  Thou canst not hit it, my good man.”</span></p>
  <aside class="toggle quoted" id="annotation-66"><b>Quoted</b> from <i>Love’s Labour’s Lost</i> by William Shakespeare</aside></div>
  
@@ -2142,7 +2133,7 @@ diff -ru a/index.html b/index.html
  </figure>
 -
 -<h1>Preface</h1>
-+<p>PDF version: <a href="../complete-lewis-carroll.pdf">the collection as one large file</a> (32.6&nbsp;MB, still with many overfull boxes and other defects)</p>
++<p>PDF version: <a href="../complete-lewis-carroll.pdf">the collection as one large file</a> (32.7&nbsp;MB, still with many overfull boxes and other defects)</p>
 +<p>HTML version: <a href="about/introduction.html">Introduction</a>, <a href="about/contents-by-source.html">Contents by Source</a>, <a href="about/contents-by-topic.html">Contents by Topic</a>, <a href="about/search.html">Search</a></p>
  </article>
  <footer>
@@ -2594,6 +2585,26 @@ diff -ru a/magazines/castle-croquet-1866.html b/magazines/castle-croquet-1866.ht
  <tr><td>I.<span style="display: inline-block; width: 1em;"></span></td><td><span style="display: inline-block; width: 1em;"></span>Blue</td><td><span style="display: inline-block; width: 1em;"></span>Pink</td></tr>
  <tr><td>II.<span style="display: inline-block; width: 1em;"></span></td><td><span style="display: inline-block; width: 1em;"></span>Black</td><td><span style="display: inline-block; width: 1em;"></span>Yellow</td></tr>
  <tr><td>III.<span style="display: inline-block; width: 1em;"></span></td><td><span style="display: inline-block; width: 1em;"></span>Brown</td><td><span style="display: inline-block; width: 1em;"></span>Orange</td></tr>
+diff -ru a/magazines/condensation-of-determinants.html b/magazines/condensation-of-determinants.html
+--- a/magazines/condensation-of-determinants.html
++++ b/magazines/condensation-of-determinants.html
+@@ -19,13 +19,13 @@
+ </ul></nav>
+ <search><form action="../about/search.html"><input aria-label="Search for: " type="search" name="q"><button title="Search" aria-label="Search"><svg><use xlink:href="../../res/icons.svg#search" /></svg></button></form></search>
+ <h2>Condensation of Determinants</h2>
+-<p>Source: Proceedings of the Royal Society of London, 1866/1867</p></header>
++<p>Source: Proceedings of the Royal Society of London, 1866/1867</p>
++<p>Other version: <a href="../math/an-elementary-treatis-on-determinants.html#condensation:1">An Elementary Treatis on Determinants</a>
++</header>
+ <article>
+ <p class="subtitle">being a new and brief Method for computing their arithmetical values</p>
+ <p class="subtitle">By the Rev.&nbsp;C. L. <span style="font-variant: small-caps;">Dodgson</span>, M.A., Student of Christ Church, Oxford. Communicated by the Rev.&nbsp;<span style="font-variant: small-caps;">Bartholomew Price</span>, M.A., F.R.S. Received May 15, 1866.</p>
+ 
+-<aside id="condensation:0"><b>Other version</b>: <a href="../math/an-elementary-treatis-on-determinants.html#condensation:1">1</a><!--TODO--></aside>
+-
+ <p>If it be proposed to solve a set of <var>n</var> simultaneous linear equations, not being all homogeneous, involving <var>n</var> unknowns, or to test their compatibility when all are homogeneous, by the method of determinants, in these, as well as in other cases of common occurrence, it is necessary to compute the arithmetical values of one or more determinants—such, for example, as
+ <math display="block"><mrow><mrow><mo>|</mo><mtable displaystyle="false" rowspacing="0.5ex" columnalign="right right right"><mtr><mtd><mn>1</mn><mo>,</mo></mtd><mtd><mn>3</mn><mo>,</mo></mtd><mtd><mo>−</mo><mn>2</mn></mtd></mtr><mtr><mtd><mn>2</mn><mo>,</mo></mtd><mtd><mn>1</mn><mo>,</mo></mtd><mtd><mn>4</mn></mtd></mtr><mtr><mtd><mn>3</mn><mo>,</mo></mtd><mtd><mn>5</mn><mo>,</mo></mtd><mtd><mo>−</mo><mn>1</mn></mtd></mtr></mtable><mo>|</mo></mrow><mo>.</mo></mrow></math></p>
+ 
 diff -ru a/magazines/divisibility-by-seven.html b/magazines/divisibility-by-seven.html
 --- a/magazines/divisibility-by-seven.html
 +++ b/magazines/divisibility-by-seven.html
@@ -6204,7 +6215,7 @@ diff -ru a/math/algebraical-formulae.html b/math/algebraical-formulae.html
 diff -ru a/math/an-elementary-treatis-on-determinants.html b/math/an-elementary-treatis-on-determinants.html
 --- a/math/an-elementary-treatis-on-determinants.html
 +++ b/math/an-elementary-treatis-on-determinants.html
-@@ -311,7 +311,7 @@
+@@ -309,7 +309,7 @@
  
  <p>∴ the determinantal coefficient of any Element <math><mrow><mrow style="border-top-left-radius: 50%; border-top: solid thin; border-right: solid thin;"><mspace width="0.25em"/><mi>h</mi></mrow><mo>&#x2063;</mo><mrow style="border-bottom-right-radius: 50%; border-bottom: solid thin;"><mi>k</mi><mspace width="0.25em"/></mrow></mrow></math> is the Determinant of its complemental Minor, affected with + or −, according as <var>h</var> and <var>k</var> are similar or dissimilar.</p>
  
@@ -6213,7 +6224,7 @@ diff -ru a/math/an-elementary-treatis-on-determinants.html b/math/an-elementary-
  
  <h4>Corollaries to Prop.&nbsp;I.</h4>
  <h5>1.</h5>
-@@ -590,7 +590,7 @@
+@@ -588,7 +588,7 @@
  
  <p>i.&thinsp;e. <math><mrow><msub><mi>D</mi><mi>a</mi></msub><mo>.</mo><msub><mi>D</mi><mi>A</mi></msub><mo>=</mo><msubsup><mi>D</mi><mi>a</mi><mi>n</mi></msubsup></mrow></math>;</p>
  
@@ -6221,6 +6232,24 @@ diff -ru a/math/an-elementary-treatis-on-determinants.html b/math/an-elementary-
 +<p>∴ <math><mrow><msub><mi>D</mi><mi>A</mi></msub><mo>=</mo><msubsup><mi>D</mi><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msubsup></mrow></math>. <span class="after-hfill">Q.&nbsp;E.&nbsp;D<sup class="footnote"><a href="#footnote-21">21</a></sup>.</span></p>
  
  <h4>Proposition VII. Th.</h4>
+ 
+@@ -1795,7 +1795,7 @@
+ 
+ <p>∴ <math><mrow><mrow><mo>|</mo><mtable displaystyle="false" rowspacing="0.5ex"><mtr><mtd><mo stretchy="false">(</mo><msub><mi>a</mi><mn>1</mn></msub><mo>−</mo><msub><mi>b</mi><mn>1</mn></msub><mo stretchy="false">)</mo><mo>,</mo></mtd><mtd><mo stretchy="false">(</mo><msub><mi>a</mi><mn>2</mn></msub><mo>−</mo><msub><mi>b</mi><mn>2</mn></msub><mo stretchy="false">)</mo></mtd></mtr><mtr><mtd><msub><mi>c</mi><mn>1</mn></msub><mo>,</mo></mtd><mtd><msub><mi>c</mi><mn>2</mn></msub></mtd></mtr></mtable><mo>|</mo></mrow><mo>=</mo><mn>0</mn></mrow></math>; <span class="after-hfill">(<span style="font-variant: small-caps;">Ch.</span>&nbsp;II. <span style="font-variant: small-caps;">Prop.</span>&nbsp;I. <span style="font-variant: small-caps;">Cor.</span>&nbsp;2.</span></p>
+ 
+-<p>∴ <math><mrow><mo stretchy="false">(</mo><msub><mi>a</mi><mn>1</mn></msub><mo>−</mo><msub><mi>b</mi><mn>1</mn></msub><mo stretchy="false">)</mo><mo>:</mo><msub><mi>c</mi><mn>1</mn></msub><mo>:</mo><mo>:</mo><mo stretchy="false">(</mo><msub><mi>a</mi><mn>2</mn></msub><mo>−</mo><msub><mi>b</mi><mn>2</mn></msub><mo stretchy="false">)</mo><mo>:</mo><msub><mi>c</mi><mn>2</mn></msub></mrow></math>; <!--TODO \hfill-->(<span style="font-variant: small-caps;">Prop.</span>&nbsp;VII.
++<p>∴ <math><mrow><mo stretchy="false">(</mo><msub><mi>a</mi><mn>1</mn></msub><mo>−</mo><msub><mi>b</mi><mn>1</mn></msub><mo stretchy="false">)</mo><mo>:</mo><msub><mi>c</mi><mn>1</mn></msub><mo>:</mo><mo>:</mo><mo stretchy="false">(</mo><msub><mi>a</mi><mn>2</mn></msub><mo>−</mo><msub><mi>b</mi><mn>2</mn></msub><mo stretchy="false">)</mo><mo>:</mo><msub><mi>c</mi><mn>2</mn></msub></mrow></math>; <span class="after-hfill">(<span style="font-variant: small-caps;">Prop.</span>&nbsp;VII.</span>
+ <math display="block"><mtable displaystyle="false" rowspacing="0.5ex" columnalign="right left"><mtr><mtd><mo>:</mo><mo>:</mo></mtd><mtd><mo stretchy="false">(</mo><msub><mi>a</mi><mn>3</mn></msub><mo>−</mo><msub><mi>b</mi><mn>3</mn></msub><mo stretchy="false">)</mo><mo>:</mo><msub><mi>c</mi><mn>3</mn></msub><mo>;</mo><mtext>(by symmetry)</mtext></mtd></mtr><mtr><mtd><mo>:</mo><mo>:</mo></mtd><mtd><mtext>&amp;c.</mtext></mtd></mtr></mtable></math></p>
+ 
+ <p>Therefore, if there be, &amp;c. Q.&nbsp;E.&nbsp;D.</p>
+@@ -3205,7 +3205,7 @@
+ 
+ <p>In employing this Rule, we must observe that each modification is a <i>separate</i> application of the principle, so that if we employ, in any stage of the process, the Elements of a row, or column, which has been already modified, we must employ them as so modified, and not in their original state. Failing to observe this, we might imagine that, in the Block <math><mrow><mo>{</mo><mtable displaystyle="false" rowspacing="0.5ex"><mtr><mtd><mn>3</mn><mo>,</mo></mtd><mtd><mn>5</mn><mo>,</mo></mtd><mtd><mn>2</mn></mtd></mtr><mtr><mtd><mn>2</mn><mo>,</mo></mtd><mtd><mn>1</mn><mo>,</mo></mtd><mtd><mn>3</mn></mtd></mtr><mtr><mtd><mn>4</mn><mo>,</mo></mtd><mtd><mo>−</mo><mn>1</mn><mo>,</mo></mtd><mtd><mo>−</mo><mn>2</mn></mtd></mtr></mtable><mo>}</mo></mrow></math>, it would be legitimate to add to the Elements of the 2<sup>nd</sup> row those of the 3<sup>rd</sup>, and at the same time to add to the Elements of the 3<sup>rd</sup> row those of the 2<sup>nd</sup>, and thus to reduce the Determinant to the form <math><mrow><mo>|</mo><mtable displaystyle="false" rowspacing="0.5ex"><mtr><mtd><mn>3</mn><mo>,</mo></mtd><mtd><mn>5</mn><mo>,</mo></mtd><mtd><mn>2</mn></mtd></mtr><mtr><mtd><mn>6</mn><mo>,</mo></mtd><mtd><mn>0</mn><mo>,</mo></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>6</mn><mo>,</mo></mtd><mtd><mn>0</mn><mo>,</mo></mtd><mtd><mn>1</mn></mtd></mtr></mtable><mo>|</mo></mrow></math>: whereas the first modification reduces the Determinant to the form <math><mrow><mo>|</mo><mtable displaystyle="false" rowspacing="0.5ex"><mtr><mtd><mn>3</mn><mo>,</mo></mtd><mtd><mn>5</mn><mo>,</mo></mtd><mtd><mn>2</mn></mtd></mtr><mtr><mtd><mn>6</mn><mo>,</mo></mtd><mtd><mn>0</mn><mo>,</mo></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><mn>4</mn><mo>,</mo></mtd><mtd><mo>−</mo><mn>1</mn><mo>,</mo></mtd><mtd><mo>−</mo><mn>2</mn></mtd></mtr></mtable><mo>|</mo></mrow></math>, and thus the second proposed modification is impossible. To guard against this error it is always best to employ, in each stage of the process, the Elements of some row, or column, which has not yet been modified.</p>
+ 
+-<aside id="condensation:1"><b>Other version</b>: <a href="../magazines/condensation-of-determinants.html#condensation:0">0</a><!--TODO--></aside>
++<aside id="condensation:1"><b>Other version</b>: <a href="../magazines/condensation-of-determinants.html">Condensation of Determinants</a></aside>
+ 
+ <p>4. The process of computation, which I now proceed to explain, and for which “Condensation” appears to be an appropriate name, was communicated by me to the Royal Society in the year 1866, and an account of it is to be found in their “Proceedings,” No.&nbsp;84.</p>
  
 diff -ru a/math/a-new-theory-of-parallels.html b/math/a-new-theory-of-parallels.html
 --- a/math/a-new-theory-of-parallels.html
