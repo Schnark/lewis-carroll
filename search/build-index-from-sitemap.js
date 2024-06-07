@@ -1,4 +1,5 @@
-/*global SearchIndexBuilder*/
+/*global SearchIndexBuilder, analyzeCompare*/
+/*global console*/
 (function () {
 "use strict";
 
@@ -24,6 +25,7 @@ function unhtml (html) {
 			tag = tag.split(' ')[0].toLowerCase().replace(/[^a-z]+/g, '');
 			return ['b', 'i', 'u', 'em', 'strong', 'span', 'sup', 'sub'].indexOf(tag) > -1 ? '' : ' ';
 		})
+		.replace(/&#x[0-9a-fA-F]+;/g, '#')
 		.replace(/&\w+;/g, function (ent) {
 			return {
 				'&amp;': '&',
@@ -32,7 +34,7 @@ function unhtml (html) {
 				'&quot;': '"',
 				'&nbsp;': ' ',
 				'&thinsp;': ' '
-			}[ent] || ent;
+			}[ent] || '#';
 		});
 }
 
@@ -82,25 +84,43 @@ function generateSearchIndex (callback) {
 	});
 }
 
-generateSearchIndex(function (searchIndexBuilder) {
-	document.getElementById('output').textContent = JSON.stringify(searchIndexBuilder);
-	/*var stop = [];
-	searchIndexBuilder.searchIndex.forEach(function (key, data) {
-		if (data.length >= 220) {
-			stop.push(key);
-		}
+function createIndex () {
+	generateSearchIndex(function (searchIndexBuilder) {
+		var stop = [];
+		document.getElementById('output').textContent = JSON.stringify(searchIndexBuilder);
+		searchIndexBuilder.searchIndex.forEach(function (key, data) {
+			if (data.length >= 220) {
+				stop.push(key);
+			}
+		});
+		console.log(stop);
 	});
-	console.log(stop);*/
-});
+}
 
-/*
-generateSearchIndex(function (searchIndexBuilder) {
-	var oldIndex = JSON.parse(JSON.stringify(searchIndexBuilder));
-	loadDocument('search-index.json', function (newIndex) {
-		newIndex = JSON.parse(newIndex);
-		document.getElementById('output').textContent = JSON.stringify(comparePages(analyzeIndex(oldIndex), analyzeIndex(newIndex)), null, '\t');
+function compareIndex () {
+	generateSearchIndex(function (searchIndexBuilder) {
+		var oldIndex = JSON.parse(JSON.stringify(searchIndexBuilder));
+		loadDocument('search-index.json', function (newIndex) {
+			newIndex = JSON.parse(newIndex);
+			document.getElementById('output').textContent = JSON.stringify(
+				analyzeCompare.comparePages(
+					analyzeCompare.analyzeIndex(oldIndex),
+					analyzeCompare.analyzeIndex(newIndex)
+				), null, '\t'
+			);
+		});
 	});
-});
-*/
+}
+
+function init () {
+	document.getElementById('create').addEventListener('click', function () {
+		createIndex();
+	});
+	document.getElementById('compare').addEventListener('click', function () {
+		compareIndex();
+	});
+}
+
+init();
 
 })();

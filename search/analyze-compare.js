@@ -1,3 +1,9 @@
+/*global analyzeCompare: true*/
+/*global PrefixTree*/
+analyzeCompare =
+(function () {
+"use strict";
+
 function analyzeIndex (index) {
 	var data = [], result = {}, tree;
 	data = index[1].map(function (entry) {
@@ -99,3 +105,9 @@ function comparePages (oldPages, newPages) {
 	});
 	return result;
 }
+
+return {
+	analyzeIndex: analyzeIndex,
+	comparePages: comparePages
+};
+})();

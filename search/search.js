@@ -132,7 +132,7 @@ function restoreOptions () {
 	titleOnly = getUrlParam('titleOnly');
 	if (titleOnly && titleOnly !== '0') {
 		document.getElementById('option-title').checked = true;
-	}	
+	}
 }
 
 function init () {

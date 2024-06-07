@@ -241,8 +241,8 @@ registerCommand('see', function (ref) {
 });
 
 toHtml.fixup(function (html) {
-	return html.replace(/<li>(.*) \(([^<]*, )?→ (<a [^>]*>)here<!--TODO--><\/a>\)<\/li>/g, function (all, text, paren, link) {
-		return '<li>' + link + text + '</a>' + (paren ? ' (' + paren.slice(0, -2) + ')' : '') + '</li>';
+	return html.replace(/<li>(.*) \(([^<]*, )?→ (<a [^>]*>)here<!--TODO--><\/a>\)((?:\s*<!--.*-->)?<\/li>)/g, function (all, text, paren, link, end) {
+		return '<li>' + link + text + '</a>' + (paren ? ' (' + paren.slice(0, -2) + ')' : '') + end;
 	}).replace(/<li>(.*)(, 18\d\d\?? \(.*), → (<a [^>]*>)here<!--TODO--><\/a>([;)])/g, function (all, text, rest, link, end) {
 		return '<li>' + link + text + '</a>' + rest + end;
 	});

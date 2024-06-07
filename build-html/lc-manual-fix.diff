@@ -203,33 +203,6 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>Table of contents</li>
  <li>List of Illustrations</li>
  <li><a href="../poems/three-sunsets.html">Three Sunsets</a></li>
-@@ -272,7 +272,7 @@
- 
- <ul>
- <li>Title</li>
--<li>Introduction (→ <a href="../math/a-syllabus-of-plane-algebraical-geometry.html">here<!--TODO--></a>) <!--(moved to content)--></li>
-+<li><a href="../math/a-syllabus-of-plane-algebraical-geometry.html">Introduction</a> <!--(moved to content)--></li>
- <li>Table of Contents</li>
- <li>Main content (still missing)<!--TODO text--></li>
- <li>Errata <!--(applied to content)--></li>
-@@ -370,7 +370,7 @@
- 
- <ul>
- <li>Title</li>
--<li>Preface (→ <a href="../math/the-fifth-book-of-euclid-treated-algebraically.html">here<!--TODO--></a>) <!--(moved to content)--></li>
-+<li><a href="../math/the-fifth-book-of-euclid-treated-algebraically.html">Preface</a> <!--(moved to content)--></li>
- <li>Main content (still missing)<!--TODO text--></li>
- </ul>
- 
-@@ -413,7 +413,7 @@
- <li>Title</li>
- <li>Preface (moved to content)</li>
- <li>Table of Contents</li>
--<li>Main content (still partially missing, → <a href="../math/euclid-book-v.html">here<!--TODO--></a>)<!--TODO text--></li>
-+<li><a href="../math/euclid-book-v.html">Main content</a> (still partially missing)<!--TODO text--></li>
- </ul>
- 
- <p>The missing main content starts with a chapter “Preliminary Algebra”, containing basic algebraical formulæ in two columns. The chapter “Propositions” contains the propositions, first as given by Euclid, then stated algebraically with algebraical proof. The chapter “Enunciations” lists all enunciations in algebraical form, again in two columns. The next chapters contain Euclid’s Definitions and Axioms.</p>
 @@ -431,12 +431,12 @@
  <li><a href="../euclid-and-his-modern-rivals/preface.html">Preface</a></li>
  <li>Table of Contents</li>
@@ -420,15 +393,6 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>The Doublets were managed by Choker (the editor), it is not clear how much of the content was actually written by Carroll. Here only those parts are reproduced, that were reprinted as book, as well as all the doublets.</p>
-@@ -1113,7 +1111,7 @@
- <li><a href="../magazines/questions-for-solution-9995.html">Questions for Solution: 9995</a> (February 1889)</li>
- <li><a href="../magazines/questions-for-solution-11530.html">Questions for Solution: 11530</a> (May 1892)</li>
- <li><a href="../magazines/questions-for-solution-9636.html">Comments on Solutions for Question 9636</a> (MQS LIX, 1893)</li>
--<li>Questions for Solution: 12650 (February 1895, → <a href="../magazines/questions-for-solution-12650.html">here<!--TODO--></a>)<!--reprinted MQS LXIII, 1895--></li>
-+<li><a href="../magazines/questions-for-solution-12650.html">Questions for Solution: 12650</a> (February 1895)<!--reprinted MQS LXIII, 1895--></li>
- <li><a href="../magazines/questions-for-solution-13614.html">Questions for Solution: 13614</a> (September 1897)</li>
- <li><a href="../magazines/questions-for-solution-14122.html">Questions for Solution: 14122</a> (February 1899)</li>
- </ul>
 @@ -1140,30 +1138,30 @@
  <li><a href="../tangled-tale/content.html#tangled:mp-2">Romantic Problems; A Tangled Tale. Knot II. Mad Mathesis</a> (July 1880)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-2a">Answers to “Romantic Problems. Knot II”</a> (September 1880)</li>
@@ -573,7 +537,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <h4>The Rectory Umbrella</h4>
  <p>Written about 1850, first published 1932, scan from
-@@ -1608,13 +1605,13 @@
+@@ -1608,7 +1605,7 @@
  <a href="http://www.europeana.eu/portal/record/9200143/BibliographicResource_2000069294604.html">http://www.europeana.eu/portal/record/9200143/BibliographicResource_2000069294604.html</a><!--TODO scan (Harcourt Armory Collection, not (yet) digitized)--></p>
  
  <ul>
@@ -582,25 +546,15 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../mischmasch/preface.html#mischmasch:preface">Preface</a></li>
  <li><a href="../mischmasch/studies-from-english-poets.html#english-poets:1">Studies from English Poets. No.&nbsp;I</a></li>
  <li><a href="../mischmasch/studies-from-english-poets.html#english-poets:2">Studies from English Poets. No.&nbsp;II</a></li>
- <li>The Mermaids (by Louisa F. Dodgson)</li>
--<li>The Two Brothers (→ <a href="../poems/the-two-brothers.html">here<!--TODO--></a>)<!--manuscript partially available--></li>
--<li>Poetry for the Million (→ <a href="../poems/poetry-for-the-million.html">here<!--TODO--></a>)<!--manuscript partially in Picture Book, p. 26--></li>
-+<li><a href="../poems/the-two-brothers.html">The Two Brothers</a><!--manuscript partially available--></li>
-+<li><a href="../poems/poetry-for-the-million.html">Poetry for the Million</a><!--manuscript partially in Picture Book, p. 26--></li>
- <li><a href="../mischmasch/from-our-own-correspondent.html">From Our Own Correspondent</a></li>
- <li><a href="../poems/shes-all-my-fancy-painted-him.html">She’s All My Fancy Painted Him</a></li>
- <li><a href="../magazines/photography-extraordinary.html">Photography Extraordinary</a></li>
-@@ -1624,8 +1621,8 @@
- <li><a href="../magazines/wilhelm-von-schmitz.html#wilhelm-von-schmitz:4">Wilhelm von Schmitz. Chapter IV</a></li>
- <li><a href="../poems/the-lady-of-the-ladle.html">The Lady of the Ladle</a></li>
- <li><a href="../mischmasch/studies-from-english-poets.html#english-poets:3">Studies from English Poets. No.&nbsp;III</a></li>
--<li>Lays of Mystery, Imagination, and Humor. No.&nbsp;1. The Palace of Humbug (→ <a href="../poems/the-palace-of-humbug.html">here<!--TODO--></a>)<!--manuscript of last two stanzas in Diaries--></li>
--<li>Stanza of Anglo-Saxon Poetry (→ <a href="../poems/stanza-of-anglo-saxon-poetry.html">here<!--TODO--></a>)<!--manuscript in Picture Book, pp. 37- -38--></li>
-+<li><a href="../poems/the-palace-of-humbug.html">Lays of Mystery, Imagination, and Humor. No.&nbsp;1. The Palace of Humbug</a><!--manuscript of last two stanzas in Diaries--></li>
-+<li><a href="../poems/stanza-of-anglo-saxon-poetry.html">Stanza of Anglo-Saxon Poetry</a><!--manuscript in Picture Book, pp. 37- -38--></li>
- <li>Image (moved to other images)</li>
- <li><a href="../poems/the-three-voices-early-version.html">Lays of Mystery, Imagination, and Humor. No.&nbsp;2. The Three Voices</a></li>
- <li><a href="../poems/tommys-dead.html">Lays of Mystery, Imagination, and Humor. No.&nbsp;3. Tommy’s Dead</a></li>
+@@ -1644,7 +1641,7 @@
+ 
+ <h4>Other Manuscripts</h4>
+ <ul>
+-<li><a href="../manuscripts-proofs/railway-rules.html">Railway Rules, 1847?</a> (first published 1932, text from biographies by Florence Becker Lennon, p.&nbsp;24, and Derek Hudson, pp.&nbsp;34–35)<!--TODO complete text, scan--></li>
++<li><a href="../manuscripts-proofs/railway-rules.html">Railway Rules</a>, 1847? (first published 1932, text from biographies by Florence Becker Lennon, p.&nbsp;24, and Derek Hudson, pp.&nbsp;34–35)<!--TODO complete text, scan--></li>
+ <li><a href="../manuscripts-proofs/loves-railway-guide.html">“Love’s” Railway Guide</a>, 1847? (first published 1932, scan from <i>The Raven and the Writing Desk</i>, p.&nbsp;161)<!--TODO readable table--></li>
+ <li><a href="../poems/la-guida-di-bragia.html">La Guida di Bragia</a>, 1850? (first published 1931, text from <a href="https://archive.org/details/knightletterno6100lewi">https://archive.org/details/knightletterno6100lewi</a>, partial scan at <a href="https://archive.org/details/b31639987">https://archive.org/details/b31639987</a>, p.&nbsp;126)<!--TODO scan (Berol Collection)--></li>
+ <li><a href="../manuscripts-proofs/the-christ-church-commoner.html">The Christ-Church Commoner</a>, 1851 (first published 1973, text from <i>Lewis Carroll, a Biography</i> by Anne Clark Amor, p.&nbsp;72)<!--TODO scan (Berg Collection, http://archives.nypl.org/brg/19160)--></li>
 @@ -1657,7 +1654,7 @@
  <li><a href="../poems/prologue-1873.html">Prologue</a>, 1873 (for the Hatch family, first published 1898, scan from <i>The Story of Lewis Carroll</i>, p.&nbsp;115)</li>
  <li><a href="../manuscripts-proofs/an-inconceivable-conversation.html">An Inconceivable Conversation</a>, 1874 (first published 1974, scan from <a href="https://iiif.bodleian.ox.ac.uk/iiif/viewer/dd6d9ce9-c190-4728-a849-524a06f7ade8">https://iiif.bodleian.ox.ac.uk/iiif/viewer/dd6d9ce9-c190-4728-a849-524a06f7ade8</a>)<!--https://www.chch.ox.ac.uk/sites/default/files/Carroll-MS%208%20-%20An%20Inconceivable%20Conversation.pdf--></li>
@@ -772,7 +726,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
 -<h1>Prefaces, Introductions, and Other Texts about Books</h1>
 -<p>This part contains prefaces, introductions and similar parts of books, unless they form one part with the main content, in which case they are kept together with the main text. It also contains other texts about books, like advertisements and announcements.</p><h2>Contents by Topic</h2>
 -<ul>
--<li><a href="../index.html">TODO</a></li>
+-<li><a href="../index.html">The (almost really) Complete Works of Lewis Carroll</a></li>
 -<li><a href="../about/introduction.html">Introduction | The (almost really) Complete Works of Lewis Carroll</a></li>
 -<li><a href="../about/contents-by-source.html">Contents by Source | The (almost really) Complete Works of Lewis Carroll</a></li>
 +<p>This page lists all texts in the same order as they appear in the PDF file, that is, by topic.</p>
@@ -1288,20 +1242,6 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <li><a href="../aaiw/preface.html">Preface to Alice’s Adventures in Wonderland</a></li>
  <li><a href="../magazines/nineteenth-century.html">To the Editor of the Nineteenth Century</a></li>
  <li><a href="../texts/cautions-to-readers.html">Cautions to Readers</a></li>
-diff -ru a/about/copyright.html b/about/copyright.html
---- a/about/copyright.html
-+++ b/about/copyright.html
-@@ -19,9 +19,9 @@
- <li><a href="contents-by-topic.html" title="Contents by Topic" aria-label="Contents by Topic"><svg><use xlink:href="../../res/icons.svg#list" /></svg></a></li>
- </ul></nav>
- <search><form action="search.html"><input aria-label="Search for: " type="search" name="q"><button title="Search" aria-label="Search"><svg><use xlink:href="../../res/icons.svg#search" /></svg></button></form></search>
-+<h2>Copyright</h2>
- </header>
- <article>
--<h2>Copyright</h2>
- <p>Most works by Lewis Carroll are no longer protected by copyright, even if we apply the much longer terms of modern copyright: In most countries today copyright expires 70&nbsp;years after the death of the author. Since Carroll died in 1898, this is long past. This also applies to the illustrations: E.&nbsp;Gertrude Thomson, the illustrator who lived longest, died in 1929, so her works, too, are no longer protected.</p>
- 
- <p>The only exception to this is with originally unpublished material. These texts may still be protected by copyright, depending on the date of publication and the laws you want or have to follow. For this reason I state the date of the earliest publication for these items, or at least the earliest publication I know of, even if I took it from some later source. Since I am German, I will follow German laws, which grant such texts a protection for 25&nbsp;years after the first publication. I also assume that most printed works have been published by Carroll himself, especially those listed by Collingwood in his bibliography, but since even rare works where it is questionable whether they were published originally have been reprinted quite early, these should all have been published long enough ago anyway.</p>
 diff -ru a/about/introduction.html b/about/introduction.html
 --- a/about/introduction.html
 +++ b/about/introduction.html
@@ -2099,37 +2039,9 @@ diff -ru a/game-of-logic/content.html b/game-of-logic/content.html
 diff -ru a/index.html b/index.html
 --- a/index.html
 +++ b/index.html
-@@ -1,30 +1,23 @@
- <!DOCTYPE html>
- <html lang="en"><head>
- <meta charset="utf-8">
--<title>TODO</title>
-+<title>The (almost really) Complete Works of Lewis Carroll</title>
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <meta name="theme-color" content="#a04">
--<link rel="icon" href="../../res/favicon-32.png" sizes="32x32" type="image/png">
--<link rel="icon" href="../../res/favicon.svg" sizes="any" type="image/svg+xml">
--<link rel="stylesheet" href="../../res/main.css">
--<script src="../../res/main.js" defer></script>
-+<link rel="icon" href="../res/favicon-32.png" sizes="32x32" type="image/png">
-+<link rel="icon" href="../res/favicon.svg" sizes="any" type="image/svg+xml">
-+<link rel="stylesheet" href="../res/main.css">
-+<script src="../res/main.js" defer></script>
- </head><body>
- <header>
- <h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>
--<nav class="main"><ul>
--<li><a href="" title="Home" aria-label="Home"><svg><use xlink:href="../../res/icons.svg#home" /></svg></a></li>
--<li><a href="about/introduction.html" title="Introduction" aria-label="Introduction"><svg><use xlink:href="../../res/icons.svg#intro" /></svg></a></li>
--<li><a href="about/contents-by-source.html" title="Contents by Source" aria-label="Contents by Source"><svg><use xlink:href="../../res/icons.svg#book" /></svg></a></li>
--<li><a href="about/contents-by-topic.html" title="Contents by Topic" aria-label="Contents by Topic"><svg><use xlink:href="../../res/icons.svg#list" /></svg></a></li>
--</ul></nav>
--<search><form action="about/search.html"><input aria-label="Search for: " type="search" name="q"><button title="Search" aria-label="Search"><svg><use xlink:href="../../res/icons.svg#search" /></svg></button></form></search>
- </header>
- <article>
+@@ -16,8 +16,8 @@
  <figure style="max-width:75%;">
--<img src="../../images/frontispiece.jpg" width="434" height="434" alt="">
-+<img src="../images/frontispiece.jpg" width="434" height="434" alt="">
+ <img src="../images/frontispiece.jpg" width="434" height="434" alt="">
  </figure>
 -
 -<h1>Preface</h1>
@@ -2138,14 +2050,6 @@ diff -ru a/index.html b/index.html
  </article>
  <footer>
  <nav><ul>
-@@ -35,6 +28,5 @@
- <li><a href="about/search.html">Search</a></li>
- <li><a href="about/copyright.html">Copyright</a></li>
- </ul></nav>
--<a id="to-top" href="#top" title="Back to top">↑</a>
- </footer>
- </body></html>
-\ Kein Zeilenumbruch am Dateiende.
 diff -ru a/magazines/abridged-long-division.html b/magazines/abridged-long-division.html
 --- a/magazines/abridged-long-division.html
 +++ b/magazines/abridged-long-division.html
@@ -7638,6 +7542,7 @@ diff -ru a/math/the-principles-of-parliamentary-representation.html b/math/the-p
  </table>
  
  <p>The First Count would give:—<br>
+Nur in b: meta.tsv.
 diff -ru a/mischmasch/preface.html b/mischmasch/preface.html
 --- a/mischmasch/preface.html
 +++ b/mischmasch/preface.html

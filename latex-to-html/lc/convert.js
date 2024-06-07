@@ -57,22 +57,54 @@ function fixRefs (pages) {
 }
 
 function unhtml (html) {
-	//TODO we should also apply relevant changes from the manual fixes
-	//especially:
-	//missing spaces in poems/poetry-for-the-million.html
-	//maybeThisPage in rectory-umbrella/zoological-papers.html
-	//puzzle in sylvie-and-bruno/preface.html
-	//chess in ttlg/preface.html
 	return html
 		.replace(/<header>[\s\S]*?<\/header>/g, '')
 		.replace(/<footer>[\s\S]*?<\/footer>/g, '')
 		.replace(/<aside [^>]+><b>Other version[\s\S]*?<\/aside>/g, '')
 		.replace(/<sup class="footnote">.*?<\/sup>/g, '')
 		.replace(/<!--Command \\footnoteref not defined!-->\w+:\w+/g, ' ')
+
+		//some special fixes
+		//TODO more?
+		.replace(/<span style="display: inline-block;[^>]*>([^<]+)<\/span>/g, ' $1 ') //poems/poetry-for-the-million.html
+		.replace(/<!--Command \\maybeThisPage not defined!-->dove:talenton this page above/, '') //rectory-umbrella/zoological-papers.html
+		.replace(/<!--calculate length of puzzle-->.*/, '') //sylvie-and-bruno/preface.html
+		.replace(/(new|old)(English|foreign)(books)/g, '$1 $2 $3') //symbolic-logic/content.html
+		.replace(/=SkakNew-Diagram at20pt|height1pt|width1pt|<!--Command \\hbox not defined!-->[0kKLnNOqRZ]{8}/g, '') //ttlg/preface.html
+
+		//fix merror by extracting only text
+		.replace(/<merror>[\s\S]*?<\/merror>/g, function (merror) {
+			var start, level, end, text = [];
+			merror = merror.replace(/&amp;/g, '&');
+			start = merror.indexOf('\\text{');
+			while (start !== -1) {
+				start += 6;
+				end = start;
+				level = 1;
+				do {
+					end++;
+					switch (merror.charAt(end)) {
+					case '{':
+						level++;
+						break;
+					case '}':
+						level--;
+						break;
+					case '':
+						level = 0;
+					}
+				} while (level)
+				text.push(merror.slice(start, end));
+				start = merror.indexOf('\\text{', end + 1);
+			}
+			return text.join(' ');
+		})
+
 		.replace(/<[^>]*>/g, function (tag) {
 			tag = tag.split(' ')[0].toLowerCase().replace(/[^a-z]+/g, '');
 			return ['b', 'i', 'u', 'em', 'strong', 'span', 'sup', 'sub'].indexOf(tag) > -1 ? '' : ' ';
 		})
+		.replace(/&#x[0-9a-fA-F]+;/g, '#')
 		.replace(/&\w+;/g, function (ent) {
 			return {
 				'&amp;': '&',
@@ -81,33 +113,49 @@ function unhtml (html) {
 				'&quot;': '"',
 				'&nbsp;': ' ',
 				'&thinsp;': ' '
-			}[ent] || ent;
+			}[ent] || '#';
 		})
-		.replace(/\\(begin|end)\{[^}]+\}/g, ' ').replace(/\\[a-zA-Z]+/g, ' '); //unresolved commands
+
+		 //unresolved commands
+		.replace(/\\(begin|end)\{[^}]+\}/g, ' ').replace(/\\[a-zA-Z]+/g, ' ').replace(/\b\d+pt\b/g, ' ');
 }
 
 function getMetadata (html, path) {
-	var title, desc, img, text, isAbout, extract, space;
+	var isMain, isAbout, title, desc, figure, img, text, extract, space;
+
+	isMain = (path === 'index.html');
+	isAbout = (path.slice(0, 6) === 'about/');
+
 	title = /<h2>(.*?)<\/h2>/.exec(html);
 	if (title) {
 		title = title[1]
 			.replace(/<sup class="footnote">.*?<\/sup>/g, '')
 			.replace(/<[^<>]+>/g, '');
+	} else if (isMain) {
+		title = 'The (almost really) Complete Works of Lewis Carroll';
 	} else {
 		title = 'TODO';
 	}
 	if (path.slice(-13) === '/preface.html') {
 		title = 'Preface to ' + title;
 	}
-	isAbout = (path.slice(0, 6) === 'about/');
+
 	text = unhtml('<header>' + html + '</footer>');
-	img = /<img [^>]+>/.exec(html); //TODO or only in <figure>?
+
+	figure = /<figure[\s\S]*?<\/figure>/.exec(html); //TODO prefer the one with "Frontispice" in the caption if there is one
+	figure = figure && figure[0];
+	img = /<img [^>]+>/.exec(figure || '');
 	img = img && img[0];
-	if (!isAbout) {
-		desc = 'Read “' + title + '” by Lewis Carroll' +
-			(img ? ', including the original images' : '') +
+
+	if (isMain) {
+		desc = 'Read almost all works by Lewis Carroll, including the original images, in the (almost really) Complete Works of Lewis Carroll.';
+	} else if (!isAbout) {
+		desc = 'Read “' + title.replace(/“/g, '‘').replace(/”/g, '’') + '” by Lewis Carroll' +
+			(figure ? ', including the original images' : '') +
 			', together with many other works in the (almost really) Complete Works of Lewis Carroll.';
-		//the description should not be longer than 160 chars, add an extract if we have sufficiently much room left
+		/*
+		the description should not be longer than 160 chars
+		adding an extract is not really possible
 		if (desc.length < 100) {
 			extract = text.slice(0, 160 - desc.length);
 			space = extract.lastIndexOf(' ');
@@ -117,12 +165,15 @@ function getMetadata (html, path) {
 			extract += '…';
 			desc = desc.slice(0, -1) + ': ' + extract;
 		}
+		*/
 	}
 	return {
 		title: title,
 		//TODO? should we add the site name for all pages?
 		//OTOH, many titles are already 30 chars long, some even longer than 40
 		addSitename: isAbout,
+		isMain: isMain,
+		isMeta: isMain || isAbout,
 		text: text,
 		//TODO use
 		desc: desc,
@@ -228,12 +279,17 @@ function finalizeHtml (html, page, searchIndexBuilder) {
 
 	meta = getMetadata(html, page);
 
-	if (searchIndexBuilder) {
+	if (!meta.isMeta) {
 		searchIndexBuilder.addDocument({
 			path: page,
 			title: unhtml(meta.title),
 			text: meta.text
 		});
+	}
+
+	if (meta.isMain) {
+		res = res.slice(3);
+		html = html.replace(/="\.\.\//g, '="');
 	}
 
 	return [
@@ -252,10 +308,10 @@ function finalizeHtml (html, page, searchIndexBuilder) {
 		'</head><body>',
 		'<header>',
 		'<h1>The <span class="ar"><span>(almost</span> really)</span> Complete Works of Lewis Carroll</h1>',
-		getHeaderNav(page),
+		meta.isMain ? '' : getHeaderNav(page),
 		html,
 		getFooterNav(page),
-		'<a id="to-top" href="#top" title="Back to top">↑</a>',
+		meta.isMain ? '' : '<a id="to-top" href="#top" title="Back to top">↑</a>',
 		'</footer>',
 		'</body></html>'
 	].filter(function (line) {
@@ -280,7 +336,7 @@ function convert (latex) {
 			parts[path] = finalizeHtml(
 				parts[path],
 				path,
-				path !== 'index.html' && path.slice(0, 6) !== 'about/' ? searchIndexBuilder : null
+				searchIndexBuilder
 			);
 		}
 	});
@@ -304,7 +360,7 @@ function convert (latex) {
 	copyright = specialPages.extractCopyright(parts['about/introduction.html']);
 	parts['about/introduction.html'] = copyright[0];
 	parts['about/copyright.html'] = finalizeHtml(
-		copyright[1].replace('<h3>', '<h2>').replace('</h3>', '</h2>'),
+		copyright[1].replace('<h3>', '<header>\n<h2>').replace('</h3>', '</h2>\n</header>'),
 		'about/copyright.html'
 	);
 	pageNames.push('about/copyright.html');
