@@ -175,14 +175,13 @@ function getMetadata (html, path) {
 		isMain: isMain,
 		isMeta: isMain || isAbout,
 		text: text,
-		//TODO use
 		desc: desc,
 		img: img
 	};
 }
-/*TODO
-getOgMetadata (data) {
-	var meta = [], match;
+
+function getOgMetadata (data) {
+	var meta = [], match, src;
 	meta.push('<meta property="og:type" content="website">');
 	meta.push('<meta property="og:locale" content="en_UK">');
 	meta.push('<meta property="og:title" content="' + data.title + '">');
@@ -191,27 +190,27 @@ getOgMetadata (data) {
 		meta.push('<meta property="og:description" content="' + data.desc + '">');
 	}
 	if (data.img) {
-		match = /src="([^"]+)"/.exec(img);
+		match = /src="([^"]+)"/.exec(data.img);
 	}
-	//TODO make url absolute
 	if (match) {
-		meta.push('<meta property="og:image" content="' + match[1] + '">');
+		src = match[1];
+		src = 'https://schnark.github.io/lewis-carroll/' + src.replace('../../images/', 'images/');
+		meta.push('<meta property="og:image" content="' + src + '">');
 		match = /width="(\d+)"/.exec(data.img);
 		if (match) {
-			meta.push(<meta property="og:image:width" content="' + match[1] + '">');
+			meta.push('<meta property="og:image:width" content="' + match[1] + '">');
 		}
 		match = /height="(\d+)"/.exec(data.img);
 		if (match) {
-			meta.push(<meta property="og:image:height" content="' + match[1] + '">');
+			meta.push('<meta property="og:image:height" content="' + match[1] + '">');
 		}
 		match = /alt="([^"]*)"/.exec(data.img);
 		if (match) {
-			meta.push(<meta property="og:image:alt" content="' + match[1] + '">');
+			meta.push('<meta property="og:image:alt" content="' + match[1] + '">');
 		}
 	}
 	return meta.join('\n');
 }
-*/
 
 function getHeaderNav (page) {
 	function getLink (path, title, icon) {
@@ -303,6 +302,9 @@ function finalizeHtml (html, page, searchIndexBuilder) {
 		html.indexOf('<a href="https://') > -1 ? '<meta name="referrer" content="no-referrer-when-downgrade">' : '',
 		'<link rel="icon" href="' + res + 'favicon-32.png" sizes="32x32" type="image/png">',
 		'<link rel="icon" href="' + res + 'favicon.svg" sizes="any" type="image/svg+xml">',
+		'<link rel="search" type="application/opensearchdescription+xml" href="' + res + 'osd.xml" title="Lewis Carroll">',
+		meta.desc ? '<meta name="description" content="' + meta.desc + '">' : '',
+		getOgMetadata(meta),
 		'<link rel="stylesheet" href="' + res + 'main.css">',
 		'<script src="' + res + 'main.js" defer></script>',
 		'</head><body>',

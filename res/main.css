@@ -482,9 +482,9 @@ figcaption {
 	height: 0;
 	content: "";
 }
-/*.footnotes li:target {
-	TODO highlight?
-}*/
+.footnotes li:target {
+	background-color: #def;
+}
 .footnote-popup {
 	position: fixed;
 	border: solid thin;
@@ -738,6 +738,9 @@ aside.toggle.wide {
 		background-color: #222;
 		color: #ddd;
 	}
+	.footnotes li:target {
+		background-color: #012;
+	}
 	a:link {
 		color: #99f;
 	}
@@ -765,7 +768,8 @@ aside.toggle.wide {
 	html,
 	body,
 	header,
-	footer {
+	footer,
+	.footnotes li:target {
 		background-color: #fff;
 		color: #000;
 	}

@@ -1,0 +1,9 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Lewis Carroll</ShortName>
+<LongName>The (almost really) Complete Works of Lewis Carroll</LongName>
+<Description>Search the (almost really) Complete Works of Lewis Carroll</Description>
+<Image height="32" width="32" type="image/png">https://schnark.github.io/lewis-carroll/res/favicon-32.png</Image>
+<Image type="image/svg+xml">https://schnark.github.io/lewis-carroll/res/favicon.svg</Image>
+<Url type="text/html" method="get" template="https://schnark.github.io/lewis-carroll/html/about/search.html?q={searchTerms}" />
+<moz:SearchForm>https://schnark.github.io/lewis-carroll/html/about/search.html</moz:SearchForm>
+</OpenSearchDescription>

@@ -109,6 +109,7 @@ function mathToHtml (math, mode) {
 	});
 	math = math.replace(/\\not>/g, '≯').replace(/\\not</g, '≮');
 	math = math.replace(/\\S\b/g, '\\mo{§}');
+	math = math.replace(/::/g, '\\mo{::}');
 	if (mode !== 'math' && ['.', ',', ';'].indexOf(math.slice(-1)) > -1) {
 		math = math.slice(0, -1) + '\\text{' + math.slice(-1) + '}';
 	}
