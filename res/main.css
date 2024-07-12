@@ -493,6 +493,9 @@ figcaption {
 	margin: 0.25em;
 	max-width: 30em;
 }
+.footnote-popup .footnote-back {
+	display: none;
+}
 
 /*Special Elements*/
 .after-hfill,
@@ -739,7 +742,7 @@ aside.toggle.wide {
 		color: #ddd;
 	}
 	.footnotes li:target {
-		background-color: #012;
+		background-color: #035;
 	}
 	a:link {
 		color: #99f;

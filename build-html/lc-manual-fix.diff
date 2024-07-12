@@ -138,7 +138,7 @@ diff -ru a/aaug/preface.html b/aaug/preface.html
 diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
 --- a/about/contents-by-source.html
 +++ b/about/contents-by-source.html
-@@ -110,7 +110,7 @@
+@@ -112,7 +112,7 @@
  <li><a href="../nursery-alice/content.html">Main content</a></li>
  <li><a href="../texts/an-easter-greeting.html">An Easter Greeting</a></li>
  <li><a href="../poems/christmas-greetings.html">Christmas-Greetings</a></li>
@@ -147,7 +147,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Sylvie and Bruno</h4>
-@@ -142,7 +142,7 @@
+@@ -144,7 +144,7 @@
  <li>List of Illustrations (for both volumes, entries used as captions)</li>
  <li><a href="../sylvie-and-bruno-concluded/content.html">Main content</a></li>
  <li>Index (omitted)<!--TODO text ?--></li>
@@ -156,7 +156,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h3 id="poems">Poems</h3>
-@@ -155,7 +155,7 @@
+@@ -157,7 +157,7 @@
  <li>Title</li>
  <li><a href="../texts/phantasmagoria-and-other-poems.html">Preface</a></li>
  <li>Table of contents</li>
@@ -165,7 +165,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../poems/phantasmagoria.html">Phantasmagoria</a></li>
  <li><a href="../poems/a-valentine.html">A Valentine</a></li>
  <li><a href="../poems/a-sea-dirge.html">A Sea Dirge</a></li>
-@@ -169,8 +169,8 @@
+@@ -171,8 +171,8 @@
  <li><a href="../poems/poeta-fit-non-nascitur.html">Poeta Fit, Non Nascitur</a></li>
  <li><a href="../poems/atalanta-in-camden-town.html">Atalanta in Camden-Town</a></li>
  <li><a href="../poems/the-elections-to-the-hebdomadal-council.html">The Elections to the Hebdomadal Council</a></li>
@@ -176,7 +176,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../poems/the-valley-of-the-shadow-of-death.html">The Valley of the Shadow of Death</a></li>
  <li><a href="../poems/beatrice.html">Beatrice</a></li>
  <li><a href="../poems/lines.html">Lines</a></li>
-@@ -184,7 +184,7 @@
+@@ -186,7 +186,7 @@
  <li><a href="../poems/christmas-greetings.html">Christmas Greetings</a></li>
  <li><a href="../poems/after-three-days.html">After Three Days</a></li>
  <li><a href="../poems/faces-in-the-fire.html">Faces in the Fire</a></li>
@@ -185,7 +185,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>The Hunting of the Snark.</h4>
-@@ -232,7 +232,7 @@
+@@ -234,7 +234,7 @@
  <li><a href="../poems/size-and-tears.html">Size and Tears</a></li>
  <li><a href="../poems/atalanta-in-camden-town.html">Atalanta in Camden-Town</a></li>
  <li><a href="../poems/the-lang-coortin.html">The Lang Coortin’</a></li>
@@ -194,7 +194,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../poems/fames-penny-trumpet.html">Fame’s Penny-Trumpet</a></li>
  <li><a href="../poems/christmas-greetings.html">Christmas-Greetings</a> (only in later editions)</li>
  <li>Advertisments</li>
-@@ -246,7 +246,7 @@
+@@ -248,7 +248,7 @@
  <ul>
  <li>Frontispiece</li>
  <li>Title</li>
@@ -203,7 +203,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>Table of contents</li>
  <li>List of Illustrations</li>
  <li><a href="../poems/three-sunsets.html">Three Sunsets</a></li>
-@@ -436,12 +436,12 @@
+@@ -444,12 +444,12 @@
  <li><a href="../euclid-and-his-modern-rivals/preface.html">Preface</a></li>
  <li>Table of Contents</li>
  <li><a href="../euclid-and-his-modern-rivals/content.html">Main content</a></li>
@@ -218,16 +218,16 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>Appendix I contains an extract from Mr.&nbsp;Todhunter’s essay on ‘Elementary Geometry,’ included in ‘The Conflict of Studies, &amp;c.’ Appendix II contains an extract from Mr.&nbsp;De Morgan’s review of Mr.&nbsp;Wilson’s Geometry, in the ‘Athenæum’ for July 18, 1868. Appendix IV contains a list of Propositions of Euc.&nbsp;I, II, with references to their occurence in the manuals of his Modern Rivals.</p>
-@@ -458,7 +458,7 @@
+@@ -466,7 +466,7 @@
  <li>Title</li>
  <li><a href="../euclid-and-his-modern-rivals/preface-supplement.html">Preface</a></li>
  <li><a href="../euclid-and-his-modern-rivals/content.html#supplement-euclid-modern-rivals:henrici">Act II. Scene VI. Henrici</a></li>
--<li>Appendix VII (→ <a href="../euclid-and-his-modern-rivals/appendix-vii.html#supplement-euclid-modern-rivals:vii">here<!--TODO--></a>)<sup class="footnote"><a href="#footnote-1">1</a></sup></li>
-+<li><a href="../euclid-and-his-modern-rivals/appendix-vii.html#supplement-euclid-modern-rivals:vii">Appendix VII</a><sup class="footnote"><a href="#footnote-1">1</a></sup></li>
+-<li>Appendix VII (→ <a href="../euclid-and-his-modern-rivals/appendix-vii.html#supplement-euclid-modern-rivals:vii">here<!--TODO--></a>)<sup id="footnote-1-back" class="footnote"><a href="#footnote-1">1</a></sup></li>
++<li><a href="../euclid-and-his-modern-rivals/appendix-vii.html#supplement-euclid-modern-rivals:vii">Appendix VII</a><sup id="footnote-1-back" class="footnote"><a href="#footnote-1">1</a></sup></li>
  </ul>
  
  <h4>Euclid. Books I, II</h4>
-@@ -492,7 +492,7 @@
+@@ -500,7 +500,7 @@
  <li><a href="../math/the-principles-of-parliamentary-representation.html">Main content</a></li>
  <li>Index</li>
  <li><a href="../math/the-principles-of-parliamentary-representation.html#principles-parliamentary:supplement">Supplement</a></li>
@@ -236,7 +236,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>A Tangled Tale</h4>
-@@ -623,7 +623,7 @@
+@@ -631,7 +631,7 @@
  <li>Title</li>
  <li>Introduction (moved to content)</li>
  <li>Table of Contents</li>
@@ -244,8 +244,8 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
 +<li>Main content: <a href="../notes-oxford-chiel/dynamics-particle.html">The Dynamics of a Parti-cle</a>, <a href="../notes-oxford-chiel/new-method-evaluation.html">The New Method of Evaluation as Applied to <var>π</var></a></li>
  </ul>
  
- <h4>The Election to the Hebdomadal Council</h4>
-@@ -697,45 +697,43 @@
+ <h4>The Elections to the Hebdomadal Council</h4>
+@@ -705,45 +705,43 @@
  <p>scan from <a href="https://archive.org/details/notesbyoxfordchi00carrrich">https://archive.org/details/notesbyoxfordchi00carrrich</a></p>
  
  <ul>
@@ -305,9 +305,9 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
 +<aside class="toggle quoted" id="annotation-1"><b>Quoted</b> from <i>On The Late Captain Grose’s Peregrinations Thro’ Scotland: Collecting The Antiquities Of That Kingdom</i> by Robert Burns</aside>
 +<aside class="toggle quoted" id="annotation-2"><b>Quoted</b> from <i>Macbeth</i> by William Shakespeare</aside>
  
- <p>All parts have been issued separately, including <i>Facts, Figures, and Fancies</i>.</p>
+ <p>All parts have been issued separately, including <i>Facts, Figures, and Fancies</i>, additionally to the original editions listed above.</p>
  
-@@ -805,7 +803,7 @@
+@@ -813,7 +811,7 @@
  <li>Title</li>
  <li>Table of Contents</li>
  <li><a href="../texts/eight-or-nine-wise-words-about-letter-writing.html">Main Content</a></li>
@@ -316,7 +316,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Curiosissima Curatoria</h4>
-@@ -833,13 +831,13 @@
+@@ -841,14 +839,14 @@
  <li>Table of Contents</li>
  <li><a href="../syzygies-and-lanrick/syzygies.html">Syzygies</a></li>
  <li><a href="../syzygies-and-lanrick/lanrick.html">Lanrick</a></li>
@@ -326,14 +326,16 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <h3 id="contributions-to-books">Contributions to Books</h3>
  <ul>
+-<li><i>The Edison Electric Pen and Duplicating Press</i> by The Electric Writing Co. Limited, 1878: Testimonial in instruction manual, p.&nbsp;11 (scan from <a href="https://archive.org/details/edisonmicrofilm27/page/n951/mode/1up">https://archive.org/details/edisonmicrofilm27/page/n951/mode/1up</a>/<a href="https://electricpen.org/Images/dodgson.jpg">https://electricpen.org/Images/dodgson.jpg</a>, → <a href="../texts/testimonial.html">here<!--TODO--></a>)</li>
 -<li><i>The Garland of Rachel</i>, 1881: What hand may wreathe (text from <i>Humorous Verse</i>, pp.&nbsp;330–331, partial scan of reprint from <a href="https://www.calameo.com/usc_lewiscarroll/read/0059563172c668f8dfa56">https://www.calameo.com/usc_lewiscarroll/read/0059563172c668f8dfa56</a>, p.&nbsp;1095 (1103), see also <a href="https://worcestercollegelibrary.wordpress.com/2020/01/31/the-garland-of-rachel/">https://worcestercollegelibrary.wordpress.com/2020/01/31/the-garland-of-rachel/</a> and <a href="https://www.jstor.org/stable/3815822">https://www.jstor.org/stable/3815822</a>, → <a href="../poems/what-hand-may-wreathe.html">here<!--TODO--></a>)<!--TODO scan--></li>
 -<li><i>The Lost Plum Cake</i> by E.&nbsp;G.&nbsp;Wilcox, 1897: Introduction (text from <i>Complete Works</i>, → <a href="../texts/the-lost-plum-cake.html">here<!--TODO--></a>)<!--TODO scan--></li>
++<li><i>The Edison Electric Pen and Duplicating Press</i> by The Electric Writing Co. Limited, 1878: <a href="../texts/testimonial.html">Testimonial in instruction manual</a>, p.&nbsp;11 (scan from <a href="https://archive.org/details/edisonmicrofilm27/page/n951/mode/1up">https://archive.org/details/edisonmicrofilm27/page/n951/mode/1up</a>/<a href="https://electricpen.org/Images/dodgson.jpg">https://electricpen.org/Images/dodgson.jpg</a>)</li>
 +<li><i>The Garland of Rachel</i>, 1881: <a href="../poems/what-hand-may-wreathe.html">What hand may wreathe</a> (text from <i>Humorous Verse</i>, pp.&nbsp;330–331, partial scan of reprint from <a href="https://www.calameo.com/usc_lewiscarroll/read/0059563172c668f8dfa56">https://www.calameo.com/usc_lewiscarroll/read/0059563172c668f8dfa56</a>, p.&nbsp;1095 (1103), see also <a href="https://worcestercollegelibrary.wordpress.com/2020/01/31/the-garland-of-rachel/">https://worcestercollegelibrary.wordpress.com/2020/01/31/the-garland-of-rachel/</a> and <a href="https://www.jstor.org/stable/3815822">https://www.jstor.org/stable/3815822</a>)<!--TODO scan--></li>
 +<li><i>The Lost Plum Cake</i> by E.&nbsp;G.&nbsp;Wilcox, 1897: <a href="../texts/the-lost-plum-cake.html">Introduction</a> (text from <i>Complete Works</i>)<!--TODO scan--></li>
  </ul>
  
  <p>Chapter 11 of <i>The Lost Plum Cake</i> might also be written by Carroll, see <i>Pamphlets: A Miscellany</i>, item 34.</p>
-@@ -853,7 +851,7 @@
+@@ -862,7 +860,7 @@
  
  <ul>
  <li><a href="../poems/the-lady-of-the-ladle.html">The Lady of the Ladle</a> (August 1854)</li>
@@ -342,7 +344,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>The Comic Times</h4>
-@@ -981,10 +979,10 @@
+@@ -990,10 +988,10 @@
  “The Organization of Charity” also included in the <i>Scrapbook</i></p>
  
  <ul>
@@ -355,7 +357,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/vivisection-as-a-sign-of-the-times.html">Vivisection as a Sign of the Times</a> (February 1875)</li>
  <li><a href="../magazines/vivisection.html">Vivisection</a> (February 1875)</li>
  <li><a href="../magazines/natural-science-at-oxford.html">Natural Science at Oxford</a> (May 1877)</li>
-@@ -1003,7 +1001,7 @@
+@@ -1012,7 +1010,7 @@
  <ul>
  <li><a href="../magazines/the-science-of-betting.html#times:betting">The Science of Betting</a> (November 1866)</li>
  <li><a href="../magazines/a-complete-postage-guide.html">A Complete Postage Guide</a> (September 1883)</li>
@@ -364,7 +366,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Proceedings of the Royal Society of London</h4>
-@@ -1034,8 +1032,8 @@
+@@ -1045,8 +1043,8 @@
  <ul>
  <li><a href="../magazines/castle-croquet-1866.html">Castle Croquet</a> (August 1867)</li>
  <li><a href="../magazines/brunos-revenge.html">Bruno’s Revenge</a> (December 1867)</li>
@@ -375,7 +377,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../poems/dreamland.html">Dreamland</a> (July 1882)</li>
  </ul>
  
-@@ -1072,7 +1070,7 @@
+@@ -1083,7 +1081,7 @@
  <a href="https://www.informedparent.co.uk/wp-content/uploads/2017/10/1877-EASTBOURNE-CHRONICLE-debate-with-Lewis-Carroll-C-Dodgson.pdf">https://www.informedparent.co.uk/wp-content/uploads/2017/10/1877-EASTBOURNE-CHRONICLE-debate-with-Lewis-Carroll-C-Dodgson.pdf</a></p>
  
  <ul>
@@ -384,7 +386,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Vanity Fair</h4>
-@@ -1084,7 +1082,7 @@
+@@ -1095,7 +1093,7 @@
  <a href="https://books.google.de/books?id=TfJHAQAAMAAJ">https://books.google.de/books?id=TfJHAQAAMAAJ</a></p>
  
  <ul>
@@ -392,8 +394,8 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
 +<li>Doublets: <a href="../texts/doublets-a-word-puzzle.html">Doublets. A Word-Puzzle</a>, <a href="../magazines/doublets-1879-1881.html">Doublets (1879–1881)</a>, <a href="../magazines/new-method-of-scoring.html">New Method of Scoring</a> (March 1879–April 1881)</li>
  </ul>
  
- <p>The Doublets were managed by Choker (the editor), it is not clear how much of the content was actually written by Carroll. Here only those parts are reproduced, that were reprinted as book, as well as all the doublets.</p>
-@@ -1145,30 +1143,30 @@
+ <p>The Doublets were managed by Choker (the editor), it is not clear how much of the content was actually written by Carroll. Here only those parts are reproduced, that were reprinted as book, as well as all the doublets. Several of these were also published as offprints.</p>
+@@ -1156,30 +1154,30 @@
  <li><a href="../tangled-tale/content.html#tangled:mp-2">Romantic Problems; A Tangled Tale. Knot II. Mad Mathesis</a> (July 1880)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-2a">Answers to “Romantic Problems. Knot II”</a> (September 1880)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-3">A Tangled Tale. Knot III. The Dead Reckoning</a> (October 1880)</li>
@@ -433,7 +435,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/mischmasch-1882.html">Mischmasch</a> (November 1882)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-8">A Tangled Tale. Knot VIII. A Serpent with Corners</a> (January 1883)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-8a">A Tangled Tale. Answers to Knot VIII</a> (April 1883)</li>
-@@ -1188,18 +1186,18 @@
+@@ -1201,18 +1199,18 @@
  <ul>
  <li><a href="../magazines/the-purity-of-election.html">The Purity of Election</a> (May 1881)</li>
  <li><a href="../magazines/traitors-in-the-camp.html">Traitors in the Camp</a> (December 1881)</li>
@@ -456,7 +458,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/whoso-shall-offend-one-of-these-little-ones.html">“Whoso Shall Offend One of These Little Ones—”</a> (July 1885)</li>
  <li><a href="../magazines/hydrophobia-curable.html">Hydrophobia Curable</a> (October 1885)</li>
  <li><a href="../magazines/election-gains-and-losses.html">Election Gains and Losses</a> (December 1885)</li>
-@@ -1316,12 +1314,12 @@
+@@ -1330,12 +1328,12 @@
  for detailed description see also <i>Lewis Carroll and the Press</i></p>
  
  <ul>
@@ -470,16 +472,16 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
 +</ul></li>
  </ul>
  
- <h4>The Daily News</h4>
-@@ -1386,13 +1384,13 @@
- <li><a href="../texts/the-professorship-of-comparative-philology.html">The Professorship of Comparative Philology</a>, 1876 (text from <i>Oxford Pamphlets</i>, item 17)<!--TODO scan--></li>
+ <p>The first two <i>Syzygy</i> issues were also published as offprints.</p>
+@@ -1404,13 +1402,13 @@
+ <li><a href="../texts/the-professorship-of-comparative-philology.html">The Professorship of Comparative Philology</a>, 1876 (three pamphlets, text from <i>Oxford Pamphlets</i>, item 17)<!--TODO scan--></li>
  <li><a href="../texts/an-easter-greeting.html">An Easter Greeting</a>, 1876 (scan from <a href="http://digitallibrary.usc.edu/cdm/compoundobject/collection/p15799coll85/id/137/rec/7">http://digitallibrary.usc.edu/cdm/compoundobject/collection/p15799coll85/id/137/rec/7</a> and others, variants also published in <i>Alice</i> books)</li>
  <li><a href="../poems/fames-penny-trumpet.html">Fame’s Penny-Trumpet</a>, 1876 (text from <i>Pamphlets: A Miscellany</i>, item 90, partial scan from <a href="https://www.bonhams.com/auctions/24116/lot/34/?category=results">https://www.bonhams.com/auctions/24116/lot/34/?category=results</a>)<!--TODO scan--></li>
 -<li><a href="../texts/responsions-hilary-term-1877.html">Responsions, Hilary Term</a>, 1877 (text from <i>Oxford Pamphlets</i>, item 18)<!--TODO scan--></li>
 +<li><a href="../texts/responsions-hilary-term-1877.html">Responsions, Hilary Term, 1877</a> (text from <i>Oxford Pamphlets</i>, item 18)<!--TODO scan--></li>
  <li><a href="../math/algebra-13.html">Algebra (13)</a>, 1877 (text from <i>Mathematical Pamphlets</i>, item 14)<!--TODO scan (University of Texas at Austin, Humanities Research Center)--></li>
  <li><a href="../texts/memoria-technica-1877.html">Memoria Technica</a>, 1877 (scan from <i>The Universe in a Handkerchief</i>, p.&nbsp;32)</li>
- <li><a href="../texts/the-electric-pen.html">The Electric Pen</a>, 1877 (text and partial scan of cyclostyled paper from <i>Illustrated London News</i>, Nov.&nbsp;2, 1976, <a href="https://www.britishnewspaperarchive.co.uk/viewer/BL/0001578/19761102/100/0031?browse=true">https://www.britishnewspaperarchive.co.uk/viewer/BL/0001578/19761102/100/0031?browse=true</a>, scan of extract from instruction manual from <a href="https://electricpen.org/Images/dodgson.jpg">https://electricpen.org/Images/dodgson.jpg</a>)<!--TODO scan--></li>
+ <li><a href="../texts/the-electric-pen.html">The Electric Pen</a>, 1877 (text and partial scan from <i>Illustrated London News</i>, Nov.&nbsp;2, 1976, <a href="https://www.britishnewspaperarchive.co.uk/viewer/BL/0001578/19761102/100/0031?browse=true">https://www.britishnewspaperarchive.co.uk/viewer/BL/0001578/19761102/100/0031?browse=true</a>)<!--TODO scan--></li>
  <li><a href="../texts/specific-gravities-of-metals.html">Specific Gravities of Metals, &amp;c.</a>, 1877 (scan from <i>The Universe in a Handkerchief</i>, p.&nbsp;36)</li>
  <li><a href="../math/formulae.html">Formulæ</a>, 1878 (scan from <a href="https://www.christies.com/img/LotImages/2005/CSK/2005_CSK_05056_0075_000(112114).jpg?mode=max">https://www.christies.com/img/LotImages/2005/CSK/2005_CSK_05056_0075_000(112114).jpg?mode=max</a>)</li>
 -<li><a href="../math/formulae-group-c.html">Formulæ (Group C), 1878? (scan from <a href="https://www.christies.com/img/LotImages/2010/CSK/2010_CSK_05476_0217_000(dodgson_charles_lutwidge_formulae_oxford_c1878_cyclostyled_bifolium_wi043101).jpg?mode=max">https://www.christies.com/img/LotImages/2010/CSK/2010_CSK_05476_0217_000(dodgson_charles_lutwidge_formulae_oxford_c1878_cyclostyled_bifolium_wi043101).jpg?mode=max</a> and <a href="https://www.rootenbergbooks.com/pictures/14039.jpg?v=1551462353">https://www.rootenbergbooks.com/pictures/14039.jpg?v=1551462353</a>, also in <a href="https://www.calameo.com/usc_lewiscarroll/read/0059563172c668f8dfa56">https://www.calameo.com/usc_lewiscarroll/read/0059563172c668f8dfa56</a>, p.&nbsp;939</a> (947))</li>
@@ -487,35 +489,35 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../poems/four-riddles-no-iv.html">A Charade</a>, 1878 (scan from <i>The Story of Lewis Carroll</i>, pp.&nbsp;108–110)</li>
  <li><a href="../texts/word-links-cyclostyled.html">Word-Links</a>, 1878 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;89–92)</li>
  <li><a href="../texts/word-links-printed.html">Word-Links</a>, 1878 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;93–96)</li>
-@@ -1421,14 +1419,14 @@
- <li><a href="../math/sixth-paper-on-logic.html">Sixth Paper on Logic</a>, 1887 (text from <i>Logic Pamphlets</i>, item 20d)<!--TODO scan--></li>
+@@ -1440,14 +1438,14 @@
+ <li><a href="../math/questions-in-logic.html">Questions in Logic</a>, 1887 (text from <i>Logic Pamphlets</i>, item 21)<!--TODO scan--></li>
  <li><a href="../poems/to-my-child-friend.html">To my Child-Friend</a>, 1888 (text from <i>The Game of Logic</i>)<!--TODO scan--></li>
  <li><a href="../texts/memoria-technica-1888.html">Memoria Technica</a>, 1888 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;33–35)</li>
 -<li><a href="../texts/circular-billiards-variant-b.html">Circular Billiards</a>, 1890 (scan of one variant from <i>The Universe in a Handkerchief</i>, pp.&nbsp;149–150, text of other variant from <i>Pamphlets: Games</i>, item 9b, → <a href="../texts/circular-billiards-variant-a.html">here<!--TODO--></a>)<!--TODO scans other variants--></li>
 +<li>Circular Billiards: <a href="../texts/circular-billiards-variant-a.html">Variant A</a>, <a href="../texts/circular-billiards-variant-b.html">Variant B</a>, 1890 (scan of one variant from <i>The Universe in a Handkerchief</i>, pp.&nbsp;149–150, text of other variant from <i>Pamphlets: Games</i>, item 9b)<!--TODO scans other variants--></li>
- <li><a href="../texts/a-postal-problem-june-1891.html">A Postal Problem</a>, 1891 (text from <i>Complete Works</i>, including Supplement)<sup class="footnote"><a href="#footnote-3">3</a></sup><!--TODO scan--></li>
+ <li><a href="../texts/a-postal-problem-june-1891.html">A Postal Problem</a>, 1891 (text from <i>Complete Works</i>, including Supplement)<sup id="footnote-3-back" class="footnote"><a href="#footnote-3">3</a></sup><!--TODO scan--></li>
+ <li><a href="../math/a-challenge-to-logicians.html">A Challenge to Logicians</a>, 1892 (scan from <i>The Mathematical World of Charles L. Dodgson</i>)</li>
  <li><a href="../math/eighth-paper-on-logic.html">Eighth Paper on Logic</a>, 1892 (text from <i>Logic Pamphlets</i>, items 20e–f)<!--TODO scan--></li>
  <li><a href="../math/ninth-paper-on-logic.html">Ninth Paper on Logic</a>, 1892 (text from <i>Logic Pamphlets</i>, item 20g, partial scan from <a href="https://martoru.blogs.uv.es/files/2009/10/7_9thpaperbig-1887.jpg">https://martoru.blogs.uv.es/files/2009/10/7_9thpaperbig-1887.jpg</a>)<!--TODO scan--></li>
  <li><a href="../math/eighth-and-ninth-paper-on-logic-notes.html">Eighth and Ninth Paper on Logic. Notes</a>, 1892 (text from <i>Logic Pamphlets</i>, item 20h)<!--TODO scan--></li>
- <li><a href="../math/a-challenge-to-logicians.html">A Challenge to Logicians</a>, 1892 (scan from <i>The Mathematical World of Charles L. Dodgson</i>)</li>
  <li><a href="../texts/advertisement.html">Advertisement</a>, 1893 (scan from copy in <i>Sylvie and Bruno Concluded</i>)</li>
--<li><a href="../math/symbolic-logic-specimen-syllogisms-2nd-ed-conclusions.html">Symbolic Logic</a>, 1894 (text from <i>Logic Pamphlets</i>, items 23–26, → <a href="../math/symbolic-logic-questions-i.html">here<!--TODO--></a>, → <a href="../math/symbolic-logic-questions-ii.html">here<!--TODO--></a>, → <a href="../math/symbolic-logic-specimen-syllogisms-premisses.html">here<!--TODO--></a>)<!--TODO scan--></li>
-+<li>Symbolic Logic: <a href="../math/symbolic-logic-questions-i.html">Questions. I</a>, <a href="../math/symbolic-logic-questions-ii.html">Questions. II</a>, <a href="../math/symbolic-logic-specimen-syllogisms-premisses.html">Specimen-Syllogisms. Premisses</a>, <a href="../math/symbolic-logic-specimen-syllogisms-2nd-ed-conclusions.html">Specimen-Syllogisms. Conclusions</a>, 1894 (text from <i>Logic Pamphlets</i>, items 23–26)<!--TODO scan--></li>
+-<li><a href="../math/symbolic-logic-questions-ii.html">Symbolic Logic</a>, 1894 (text from <i>Logic Pamphlets</i>, items 23–26, → <a href="../math/symbolic-logic-specimen-syllogisms-premisses.html">here<!--TODO--></a>, → <a href="../math/symbolic-logic-specimen-syllogisms-2nd-ed-conclusions.html">here<!--TODO--></a>, → <a href="../math/symbolic-logic-questions-i.html">here<!--TODO--></a>)<!--TODO scan--></li>
++<li>Symbolic Logic: <a href="../math/symbolic-logic-specimen-syllogisms-premisses.html">Specimen-Syllogisms. Premisses</a>, <a href="../math/symbolic-logic-specimen-syllogisms-2nd-ed-conclusions.html">Specimen-Syllogisms. Conclusions</a>, <a href="../math/symbolic-logic-questions-i.html">Questions. I</a>, <a href="../math/symbolic-logic-questions-ii.html">Questions. II</a>, 1894 (text from <i>Logic Pamphlets</i>, items 23–26)<!--TODO scan--></li>
  <li><a href="../math/a-disputed-point-in-logic-april-1894.html">A Disputed Point in Logic</a>, 1894 (text from <i>Logic Pamphlets</i>, item 15a)<!--TODO scan--></li>
  <li><a href="../math/a-disputed-point-in-logic-may-1894.html">A Disputed Point in Logic</a>, 1894 (text from <i>Logic Pamphlets</i>, item 15b)<!--TODO scan--></li>
  <li><a href="../math/a-theorem-in-logic.html">A Theorem in Logic</a>, 1894 (text from <i>Logic Pamphlets</i>, item 15c)<!--TODO scan--></li>
-@@ -1443,8 +1441,8 @@
+@@ -1462,8 +1460,8 @@
  <ul>
  <li><a href="../manuscripts-proofs/the-wasp-in-a-wig.html">The Wasp in a Wig</a>, 1870 (first published 1977, scan from <a href="https://archive.org/details/waspinwigsuppres0000carr_m8q0">https://archive.org/details/waspinwigsuppres0000carr_m8q0</a>)</li>
  <li><a href="../manuscripts-proofs/a-method-of-taking-votes.html">A Method of Taking Votes on More Than Two Issues</a>, 1876 (first published 1958, scan from <a href="https://digital.bodleian.ox.ac.uk/objects/d5ce1de6-d037-4ab4-9aeb-8e0f10a532be/">https://digital.bodleian.ox.ac.uk/objects/d5ce1de6-d037-4ab4-9aeb-8e0f10a532be/</a>)</li>
+-<li>Symbolic Logic. Part II, 1887–1897 (first published 1977, text (and a few scans) from <i>Lewis Carroll’s Symbolic Logic</i> by W. W. Bartley, → <a href="../manuscripts-proofs/symbolic-logic-part-ii.html">here<!--TODO--></a>)</li>
 -<li>Eternal Punishment, 1895/1897 (first published 1899, text from the <i>Picture Book</i>, pp.&nbsp;345–355, → <a href="../manuscripts-proofs/eternal-punishment.html">here<!--TODO--></a>)</li>
--<li>Symbolic Logic. Part II, 1896/1897 (first published 1977, text (and a few scans) from <i>Lewis Carroll’s Symbolic Logic</i> by W. W. Bartley, → <a href="../manuscripts-proofs/symbolic-logic-part-ii.html">here<!--TODO--></a>)</li>
++<li><a href="../manuscripts-proofs/symbolic-logic-part-ii.html">Symbolic Logic. Part II</a>, 1887–1897 (first published 1977, text (and a few scans) from <i>Lewis Carroll’s Symbolic Logic</i> by W. W. Bartley)</li>
 +<li><a href="../manuscripts-proofs/eternal-punishment.html">Eternal Punishment</a>, 1895/1897 (first published 1899, text from the <i>Picture Book</i>, pp.&nbsp;345–355)</li>
-+<li><a href="../manuscripts-proofs/symbolic-logic-part-ii.html">Symbolic Logic. Part II</a>, 1896/1897 (first published 1977, text (and a few scans) from <i>Lewis Carroll’s Symbolic Logic</i> by W. W. Bartley)</li>
  <li><a href="../manuscripts-proofs/curiosa-mathematica-part-iii.html">Curiosa Mathematica Part III</a>, 1897 (first published 1899, text from the <i>Picture Book</i>, pp.&nbsp;240–263)</li>
  </ul>
  
-@@ -1513,7 +1511,7 @@
+@@ -1532,7 +1530,7 @@
  <li><a href="../rectory-magazine/introductions.html#rectory:rust">Rust</a></li>
  <li><a href="../poems/as-it-fell-upon-a-day.html">As It Fell upon a Day</a></li>
  <li><a href="../rectory-magazine/sidney-hamilton.html#sidney-hamilton:4">Sidney Hamilton. Ch.&nbsp;4</a></li>
@@ -524,7 +526,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>A Tale of the Wars. Part&nbsp;2 (by Wilfred L. Dodgson)</li>
  <li><a href="../rectory-magazine/crundle-castle.html#crundle-castle:3">Crundle Castle. Ch.&nbsp;3</a></li>
  <li><a href="../poems/terrors.html">Terrors</a></li>
-@@ -1562,10 +1560,9 @@
+@@ -1581,10 +1579,9 @@
  <li>Mrs Stoggle’s Dinner-Party. Ch.&nbsp;4 (by Elisabeth L. Dodgson)</li>
  <li>Farmer Grubbins. Ch.&nbsp;2 (by Skeffington H. Dodgson)</li>
  </ul></li>
@@ -537,7 +539,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <h4>The Rectory Umbrella</h4>
  <p>Written about 1850, first published 1932, scan from
-@@ -1613,7 +1610,7 @@
+@@ -1632,7 +1629,7 @@
  <a href="http://www.europeana.eu/portal/record/9200143/BibliographicResource_2000069294604.html">http://www.europeana.eu/portal/record/9200143/BibliographicResource_2000069294604.html</a><!--TODO scan (Harcourt Armory Collection, not (yet) digitized)--></p>
  
  <ul>
@@ -546,7 +548,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../mischmasch/preface.html#mischmasch:preface">Preface</a></li>
  <li><a href="../mischmasch/studies-from-english-poets.html#english-poets:1">Studies from English Poets. No.&nbsp;I</a></li>
  <li><a href="../mischmasch/studies-from-english-poets.html#english-poets:2">Studies from English Poets. No.&nbsp;II</a></li>
-@@ -1649,7 +1646,7 @@
+@@ -1668,7 +1665,7 @@
  
  <h4>Other Manuscripts</h4>
  <ul>
@@ -555,7 +557,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../manuscripts-proofs/loves-railway-guide.html">“Love’s” Railway Guide</a>, 1847? (first published 1932, scan from <i>The Raven and the Writing Desk</i>, p.&nbsp;161)<!--TODO readable table--></li>
  <li><a href="../poems/la-guida-di-bragia.html">La Guida di Bragia</a>, 1850? (first published 1931, text from <a href="https://archive.org/details/knightletterno6100lewi">https://archive.org/details/knightletterno6100lewi</a>, partial scan at <a href="https://archive.org/details/b31639987">https://archive.org/details/b31639987</a>, p.&nbsp;126)<!--TODO scan (Berol Collection)--></li>
  <li><a href="../manuscripts-proofs/the-christ-church-commoner.html">The Christ-Church Commoner</a>, 1851 (first published 1973, text from <i>Lewis Carroll, a Biography</i> by Anne Clark Amor, p.&nbsp;72)<!--TODO scan (Berg Collection, http://archives.nypl.org/brg/19160)--></li>
-@@ -1662,7 +1659,7 @@
+@@ -1681,7 +1678,7 @@
  <li><a href="../poems/prologue-1873.html">Prologue</a>, 1873 (for the Hatch family, first published 1898, scan from <i>The Story of Lewis Carroll</i>, p.&nbsp;115)</li>
  <li><a href="../manuscripts-proofs/an-inconceivable-conversation.html">An Inconceivable Conversation</a>, 1874 (first published 1974, scan from <a href="https://iiif.bodleian.ox.ac.uk/iiif/viewer/dd6d9ce9-c190-4728-a849-524a06f7ade8">https://iiif.bodleian.ox.ac.uk/iiif/viewer/dd6d9ce9-c190-4728-a849-524a06f7ade8</a>)<!--https://www.chch.ox.ac.uk/sites/default/files/Carroll-MS%208%20-%20An%20Inconceivable%20Conversation.pdf--></li>
  <li><a href="../poems/a-russians-day-in-england.html">A Russian’s Day in England</a>, 1874 (for Lady Gwendolen Cecil, first published 1979, text from <i>The Russian Journal—II</i>, p.&nbsp;52)<!--TODO scan--></li>
@@ -564,7 +566,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../manuscripts-proofs/marriage-service.html">Marriage Service</a>, 1877 (first published 1974, text from <i>Pamphlets: A Miscellany</i>, item 27)<!--TODO scan (Harcourt Armory Collection, digitized, but not public)--></li>
  <li><a href="../texts/logs-of-nos.html">Logs of Nos.</a>, 1878 (first published 1974, text from <i>Rare Verses</i>, pp.&nbsp;88–89)<!--TODO scan--></li>
  <li><a href="../poems/verses-for-christmas-cards.html">Verses for Christmas Cards</a>, 1879 (first published 1974, scan from <i>Lewis Carroll and Alice, 1832–1982</i>, p.&nbsp;126)<!--TODO drawings by E. Gertrude Thomson, see also http://corsair.themorgan.org/vwebv/holdingsInfo?bibId=412946&searchType=13&holdingsBibId=412886&returnUrl=holdingsInfo%3FbibId=412886--></li>
-@@ -1731,7 +1728,7 @@
+@@ -1752,7 +1749,7 @@
  <li><a href="../poems/maggie-b.html">Maggie B—</a>, 1891 (for Maggie Bowman, first published 1931, text from <i>Humorous Verse</i>, p.&nbsp;344)<!--Aug 13--></li>
  <li><a href="../poems/my-first-is-a-berry.html">My First is a berry</a>, 1892 (for Olive, Ruth, and Violet Butler, first published 1933, text from <i>Letters to Child-Friends</i>, p.&nbsp;229)<!--Dec 29--></li>
  <li><a href="../poems/girlie-to-whom-in-perennial-bloom.html">Girlie to whom in perennial bloom</a>, 1895? (for Gladys Baly, first published 1932, text from <i>Diaries</i>, p.&nbsp;487)<!--Christmas?--></li>
@@ -573,7 +575,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>Some poems from letters Carroll published himself. These are not listed above and their differences are not reproduced in the poems, but noted where available. These poems are <i>Girt with a Boyish Garb</i> (for Gertrude Chataway), <i>A Charade</i> (<i>Four Riddles. No.&nbsp;III</i>, for Marion Terry), <i>Matilda Jane</i> (for Catherine Holiday), <i>A Game of Fives</i>, and <i>Puck Lost and Found</i>. The first of the <i>Puzzles from Wonderland</i> can be found in his letters, too, but without changes. The poem <i>Lines</i> was published by Carroll, too, but since the manuscript variant is more prominent than the printed one, it is included above. <i>Disillusionized</i>, too, has such a variant, though it is not clear where it comes from.</p>
-@@ -1805,34 +1802,34 @@
+@@ -1825,35 +1822,35 @@
  
  <p class="fakeheadline">Circulars</p>
  <ul>
@@ -607,16 +609,17 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
 -</ul></div></li>
 +</ul></li>
  <li>Circular about Counters, 1886 (<i>Logic Pamphlets</i>, item 1)</li>
+ <li>Stranger Circular, 1890 (<i>Pamphlets: A Miscellany</i>, item 66)</li>
 -<li><p>Circulars offering copies of books:</p><div class="continue"><ul>
 +<li>Circulars offering copies of books:<ul>
  <li>Circular to Hospitals, including “List of Institutions”, 1890 (<i>Pamphlets: A Miscellany</i>, items 53, 54)</li>
  <li>Circular offering copies of <i>Through the Looking-Glass</i>, 1894 (<i>Pamphlets: A Miscellany</i>, item 57)</li>
 -</ul></div></li>
 +</ul></li>
- <li>Stranger Circular, 1890 (<i>Pamphlets: A Miscellany</i>, item 66)</li>
  <li>Circular about Stationers, 1890 (<i>Pamphlets: A Miscellany</i>, item 67)</li>
  <li>Second-Hand Books, 1893 (<i>Pamphlets: A Miscellany</i>, item 68)</li>
-@@ -1842,9 +1839,9 @@
+ </ul>
+@@ -1862,9 +1859,9 @@
  
  <p>The circular about Senior Student’s biographies asked for details for a planned publication <i>Senior Students</i>.</p>
  
@@ -628,7 +631,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>Carroll sent several circulars on behalf of friends and relatives, to help them in various matters.</p>
  
-@@ -1852,7 +1849,7 @@
+@@ -1872,7 +1869,7 @@
  
  <p>The circular about counters asks for suggestions for the colours of the counters in the <i>Game of Logic</i>.</p>
  
@@ -637,7 +640,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>The <i>Stranger Circular</i> is a letter (in two variants) intended to be sent to those who addressed C. L. Dodgson about books written by Lewis Carroll, protesting against this.</p>
  
-@@ -1875,12 +1872,12 @@
+@@ -1900,12 +1897,12 @@
  <ul>
  <li>Ways and Means</li>
  <li>Problem: To trisect a right angle, 1844 (first published 1939, partial scan available from <a href="https://www.maths.ox.ac.uk/system/files/attachments/Lewis%20Carroll.pdf">https://www.maths.ox.ac.uk/system/files/attachments/Lewis%20Carroll.pdf</a>)<!--publ. in The Colophon: https://books.google.de/books?id=5ykubs-386UC--></li>
@@ -652,7 +655,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>On the Population of the World, 1853<!--Aug 19--></li>
  <li>Oxford Limericks, 1856? (first published 2022, text available from <i>Four limericks and a carving</i> by Mark Davies in the <i>Times Literary Supplement</i>, July 1, 2022, <a href="https://morrisoxford.co.uk/wp-content/uploads/10.-St-Frideswides-Door-PDF.pdf">https://morrisoxford.co.uk/wp-content/uploads/10.-St-Frideswides-Door-PDF.pdf</a>)</li>
  <li>Algebraic Geometry, 1858<!--Nov 6--></li>
-@@ -1914,7 +1911,7 @@
+@@ -1939,7 +1936,7 @@
  
  <p>Most of the following texts are minor mathematical manuscripts.</p>
  
@@ -661,7 +664,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>In his last will Carroll divides all his possessions among his brothers and sisters into equal shares. If any of them had died before him, his share would have been divided among his children. Executors were his brothers Wilfred and Edwin, witnesses T. Vere Bayne and A. Vernon Harcourt.</p>
  
-@@ -1985,14 +1982,14 @@
+@@ -2011,14 +2008,14 @@
  <li><i>The Complete Works of Lewis Carroll</i> (1939, this is what the <i>Lewis Carroll Handbook</i> calls the <i>Nonesuch</i> collection): <a href="https://archive.org/details/completeworksofl1920carr">https://archive.org/details/completeworksofl1920carr</a></li>
  <li><i>The Works of Lewis Carroll</i> edited by <span style="font-variant: small-caps;">Roger Lancelyn Green</span> (1965): <a href="https://archive.org/details/worksoflewiscarr0000unse_n2y9">https://archive.org/details/worksoflewiscarr0000unse_n2y9</a></li>
  <li><i>The Complete Stories of Lewis Carroll</i> (1993): <a href="https://archive.org/details/completestorieso0000carr">https://archive.org/details/completestorieso0000carr</a></li>
@@ -711,7 +714,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
 -<p>See also the poem <a href="../poems/after-three-days.html"><i>After Three Days</i></a>, and the prefaces to <a href="../aaug/preface.html"><i>Alice’s Adventures under Ground</i></a>, <a href="../sylvie-and-bruno/preface.html"><i>Sylvie and Bruno</i></a>, <a href="../sylvie-and-bruno-concluded/preface.html"><i>Sylvie and Bruno Concluded</i></a>, and <a href="../texts/the-lost-plum-cake.html"><i>The Lost Plum Cake</i></a>.</p>
 -
 -<h1>Texts concerning Oxford</h1>
--<p>This chapter contains all texts about Christ Church, Oxford, etc. Some of these texts are written in a humourus tone (which may make it hard to understand what they are really about), some seriously. Note that there are also some poems that would have fitted here for its topic, but are together with the other poems. These are: <a href="../poems/examination-statute.html"><i>Examination Statute</i></a>, <a href="../poems/the-elections-to-the-hebdomadal-council.html"><i>The Election of the Hebdomadal Council</i></a>, and <a href="../poems/the-deserted-parks.html"><i>The Deserted Parks</i></a></p>
+-<p>This chapter contains all texts about Christ Church, Oxford, etc. Some of these texts are written in a humourus tone (which may make it hard to understand what they are really about), some seriously. Note that there are also some poems that would have fitted here for its topic, but are together with the other poems. These are: <a href="../poems/examination-statute.html"><i>Examination Statute</i></a>, <a href="../poems/the-elections-to-the-hebdomadal-council.html"><i>The Elections to the Hebdomadal Council</i></a>, and <a href="../poems/the-deserted-parks.html"><i>The Deserted Parks</i></a></p>
 -
 -<h1>Texts concerning Vivisection</h1>
 -<p>See also the poem <a href="../poems/fames-penny-trumpet.html"><i>Fame’s Penny-Trumpet</i></a>.</p>
@@ -834,7 +837,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <li><a href="../magazines/address-by-the-rev-c-l-dodgson.html">Address by the Rev.&nbsp;C. L. Dodgson</a></li>
 +</ul>
 +<h3 id="texts-concerning-oxford">Texts concerning Oxford</h3>
-+<p>This list contains all texts about Christ Church, Oxford, etc. Some of these texts are written in a humourus tone (which may make it hard to understand what they are really about), some seriously. Note that there are also some poems that would have fitted here for its topic, but are together with the other poems. These are: <a href="../poems/examination-statute.html"><i>Examination Statute</i></a>, <a href="../poems/the-elections-to-the-hebdomadal-council.html"><i>The Election of the Hebdomadal Council</i></a>, and <a href="../poems/the-deserted-parks.html"><i>The Deserted Parks</i></a></p>
++<p>This list contains all texts about Christ Church, Oxford, etc. Some of these texts are written in a humourus tone (which may make it hard to understand what they are really about), some seriously. Note that there are also some poems that would have fitted here for its topic, but are together with the other poems. These are: <a href="../poems/examination-statute.html"><i>Examination Statute</i></a>, <a href="../poems/the-elections-to-the-hebdomadal-council.html"><i>The Elections to the Hebdomadal Council</i></a>, and <a href="../poems/the-deserted-parks.html"><i>The Deserted Parks</i></a></p>
 +<ul>
  <li><a href="../texts/endowment-of-the-greek-professorship.html">“Endowment of the Greek Professorship”</a></li>
  <li><a href="../texts/the-new-examination-statute.html">The New Examination Statute</a></li>
@@ -877,7 +880,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <li><a href="../manuscripts-proofs/railway-rules.html">Railway Rules</a></li>
  <li><a href="../manuscripts-proofs/loves-railway-guide.html">“Love’s” Railway Guide</a></li>
  <li><a href="../rectory-magazine/answers-to-correspondents.html">Answers to Correspondents</a></li>
-@@ -291,222 +306,233 @@
+@@ -292,222 +307,233 @@
  <li><a href="../magazines/eight-hours-movement.html">Eight Hours Movement</a></li>
  <li><a href="../magazines/the-cab-runner-nuisance.html">The Cab-Runner Nuisance</a></li>
  <li><a href="../magazines/nyctograph.html">Nyctograph</a></li>
@@ -4360,8 +4363,8 @@ diff -ru a/manuscripts-proofs/limits-of-circle-squaring.html b/manuscripts-proof
  <p>The exact value of <var>π</var> (the name usually given to “the ratio which the area of a circle bears to the square on its radius”) has in all ages proved an <i>ignis fatuus</i>, that has led hundreds, if not thousands, of hapless mathematicians to waste valuable years in the hope of immortalizing themselves by discovering what has been so long sought in vain. I cherish the hope that this little book may fall into the hands of some who have been dazzled by its mocking light, and may prove the means of saving to them much time and labour that would otherwise be wasted.</p>
  
  </article>
--<footer><p>There is also a proof sheet with two propositions (<i>Mathematical Pamphlets</i>, item 8). It has many annotations, indicating that the text would have been more or less completely re-written before publication. Therefore this proof sheet is not included here. The first proposition proves <math><mrow><mn>2</mn><mo>&lt;</mo><mi>π</mi><mo>&lt;</mo><mn>4</mn></mrow></math>, the second <math><mrow><mn>2</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>&lt;</mo><mi>π</mi><mo>&lt;</mo><mn>3</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>. The second relies on <math><mrow><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>=</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math> with a geometric proof for (quite rough) limits of <math><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup></math> and allows for generalisations in the way of Question 11530 in the <i>Educational Times</i> (→ <a href="../magazines/questions-for-solution-11530.html">here<!--TODO--></a>), though much better limits are required to get the precision aimed at.</p>
-+<footer><p>There is also a proof sheet with two propositions (<i>Mathematical Pamphlets</i>, item 8). It has many annotations, indicating that the text would have been more or less completely re-written before publication. Therefore this proof sheet is not included here. The first proposition proves <math><mrow><mn>2</mn><mo>&lt;</mo><mi>π</mi><mo>&lt;</mo><mn>4</mn></mrow></math>, the second <math><mrow><mn>2</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>&lt;</mo><mi>π</mi><mo>&lt;</mo><mn>3</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>. The second relies on <math><mrow><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>=</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math> with a geometric proof for (quite rough) limits of <math><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup></math> and allows for generalisations in the way of <a href="../magazines/questions-for-solution-11530.html">Question 11530</a> in the <i>Educational Times</i>, though much better limits are required to get the precision aimed at.</p>
+-<footer><p>There is also a proof sheet with two propositions. It has many annotations, indicating that the text would have been more or less completely re-written before publication. Therefore this proof sheet is not included here. The first proposition proves <math><mrow><mn>2</mn><mo>&lt;</mo><mi>π</mi><mo>&lt;</mo><mn>4</mn></mrow></math>, the second <math><mrow><mn>2</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>&lt;</mo><mi>π</mi><mo>&lt;</mo><mn>3</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>. The second relies on <math><mrow><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>=</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math> with a geometric proof for (quite rough) limits of <math><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup></math> and allows for generalisations in the way of Question 11530 in the <i>Educational Times</i> (→ <a href="../magazines/questions-for-solution-11530.html">here<!--TODO--></a>), though much better limits are required to get the precision aimed at.</p>
++<footer><p>There is also a proof sheet with two propositions. It has many annotations, indicating that the text would have been more or less completely re-written before publication. Therefore this proof sheet is not included here. The first proposition proves <math><mrow><mn>2</mn><mo>&lt;</mo><mi>π</mi><mo>&lt;</mo><mn>4</mn></mrow></math>, the second <math><mrow><mn>2</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>&lt;</mo><mi>π</mi><mo>&lt;</mo><mn>3</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>. The second relies on <math><mrow><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>=</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math> with a geometric proof for (quite rough) limits of <math><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup></math> and allows for generalisations in the way of <a href="../magazines/questions-for-solution-11530.html">Question 11530</a> in the <i>Educational Times</i>, though much better limits are required to get the precision aimed at.</p>
  <nav><ul>
  <li><a href="../index.html">Home</a></li>
  <li><a href="../about/introduction.html">Introduction</a></li>
@@ -5354,7 +5357,7 @@ diff -ru a/math/a-guide-to-the-mathematical-student.html b/math/a-guide-to-the-m
  <tr><td>20</td><td>B.</td><td>Euclid I, II.</td></tr>
  <tr><td>75</td><td>C.</td><td>Algebra; to Quadratic Equations.</td></tr>
 @@ -54,7 +53,7 @@
- <tr><td>45</td><td>E.</td><td>Algebra; from Quadratic Equations to Binomial Theorem.<sup class="footnote"><a href="#footnote-1">1</a></sup></td></tr>
+ <tr><td>45</td><td>E.</td><td>Algebra; from Quadratic Equations to Binomial Theorem.<sup id="footnote-1-back" class="footnote"><a href="#footnote-1">1</a></sup></td></tr>
  <tr><td>16</td><td>F.</td><td>Euclid V, VI.</td></tr>
  <tr><td>114</td><td>G.</td><td>Linear Algebraical Geometry.</td><td></td></tr>
 -<tr><td></td><td></td><td>Plane<span style="display: inline-block; width: 3.5em;"></span> do.</td><td>to end of Trignometry (1st time).</td></tr>
@@ -5930,7 +5933,7 @@ diff -ru a/math/a-guide-to-the-mathematical-student.html b/math/a-guide-to-the-m
 +<aside class="toggle omitted" id="annotation-2">similar listing omitted here</aside>
  
  <div class="footnotes"><ol>
- <li id="footnote-1">i.&thinsp;e. From Qudratic Equations <i>exclusive</i> to Binomial Theorem <i>inclusive</i>. The same rule of interpretation applies to J, K, &amp;c.</li>
+ <li id="footnote-1">i.&thinsp;e. From Qudratic Equations <i>exclusive</i> to Binomial Theorem <i>inclusive</i>. The same rule of interpretation applies to J, K, &amp;c. <a href="#footnote-1-back" class="footnote-back">↩</a></li>
 diff -ru a/math/algebra-13.html b/math/algebra-13.html
 --- a/math/algebra-13.html
 +++ b/math/algebra-13.html
@@ -6111,8 +6114,8 @@ diff -ru a/math/an-elementary-treatis-on-determinants.html b/math/an-elementary-
  
  <p>∴ the determinantal coefficient of any Element <math><mrow><mrow style="border-top-left-radius: 50%; border-top: solid thin; border-right: solid thin;"><mspace width="0.25em"/><mi>h</mi></mrow><mo>&#x2063;</mo><mrow style="border-bottom-right-radius: 50%; border-bottom: solid thin;"><mi>k</mi><mspace width="0.25em"/></mrow></mrow></math> is the Determinant of its complemental Minor, affected with + or −, according as <var>h</var> and <var>k</var> are similar or dissimilar.</p>
  
--<p><!--TODO \hfill-->Q.&nbsp;E.&nbsp;D<sup class="footnote"><a href="#footnote-12">12</a></sup>.</p>
-+<p><span class="after-hfill">Q.&nbsp;E.&nbsp;D<sup class="footnote"><a href="#footnote-12">12</a></sup>.</span></p>
+-<p><!--TODO \hfill-->Q.&nbsp;E.&nbsp;D<sup id="footnote-12-back" class="footnote"><a href="#footnote-12">12</a></sup>.</p>
++<p><span class="after-hfill">Q.&nbsp;E.&nbsp;D<sup id="footnote-12-back" class="footnote"><a href="#footnote-12">12</a></sup>.</p>
  
  <h4>Corollaries to Prop.&nbsp;I.</h4>
  <h5>1.</h5>
@@ -6120,8 +6123,8 @@ diff -ru a/math/an-elementary-treatis-on-determinants.html b/math/an-elementary-
  
  <p>i.&thinsp;e. <math><mrow><msub><mi>D</mi><mi>a</mi></msub><mo>.</mo><msub><mi>D</mi><mi>A</mi></msub><mo>=</mo><msubsup><mi>D</mi><mi>a</mi><mi>n</mi></msubsup></mrow></math>;</p>
  
--<p>∴ <math><mrow><msub><mi>D</mi><mi>A</mi></msub><mo>=</mo><msubsup><mi>D</mi><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msubsup></mrow></math>. <!--TODO \hfill-->Q.&nbsp;E.&nbsp;D<sup class="footnote"><a href="#footnote-21">21</a></sup>.</p>
-+<p>∴ <math><mrow><msub><mi>D</mi><mi>A</mi></msub><mo>=</mo><msubsup><mi>D</mi><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msubsup></mrow></math>. <span class="after-hfill">Q.&nbsp;E.&nbsp;D<sup class="footnote"><a href="#footnote-21">21</a></sup>.</span></p>
+-<p>∴ <math><mrow><msub><mi>D</mi><mi>A</mi></msub><mo>=</mo><msubsup><mi>D</mi><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msubsup></mrow></math>. <!--TODO \hfill-->Q.&nbsp;E.&nbsp;D<sup id="footnote-21-back" class="footnote"><a href="#footnote-21">21</a></sup>.</p>
++<p>∴ <math><mrow><msub><mi>D</mi><mi>A</mi></msub><mo>=</mo><msubsup><mi>D</mi><mi>a</mi><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msubsup></mrow></math>. <span class="after-hfill">Q.&nbsp;E.&nbsp;D<sup id="footnote-21-back" class="footnote"><a href="#footnote-21">21</a></sup>.</p>
  
  <h4>Proposition VII. Th.</h4>
  
@@ -6607,82 +6610,82 @@ diff -ru a/math/notes-on-the-first-part-of-algebra.html b/math/notes-on-the-firs
  
  <div class="verse">
  <p>Addition,<br>
--<span style="display: inline-block; width: 2em;"></span> when all the signs are alike. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-1">1</a></sup>)<br>
--<span style="display: inline-block; width: 2em;"></span> when some are +, and some −. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-2">2</a></sup>)<br>
-+<span style="display: inline-block; width: 2em;"></span> when all the signs are alike. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-1">1</a></sup>)</span><br>
-+<span style="display: inline-block; width: 2em;"></span> when some are +, and some −. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-2">2</a></sup>)</span><br>
+-<span style="display: inline-block; width: 2em;"></span> when all the signs are alike. <!--TODO \hfill-->(<sup id="footnote-1-back" class="footnote"><a href="#footnote-1">1</a></sup>)<br>
+-<span style="display: inline-block; width: 2em;"></span> when some are +, and some −. <!--TODO \hfill-->(<sup id="footnote-2-back" class="footnote"><a href="#footnote-2">2</a></sup>)<br>
++<span style="display: inline-block; width: 2em;"></span> when all the signs are alike. <span class="after-hfill">(<sup id="footnote-1-back" class="footnote"><a href="#footnote-1">1</a></sup>)</span><br>
++<span style="display: inline-block; width: 2em;"></span> when some are +, and some −. <span class="after-hfill">(<sup id="footnote-2-back" class="footnote"><a href="#footnote-2">2</a></sup>)</span><br>
  Subtraction,<br>
--<span style="display: inline-block; width: 2em;"></span> when the signs are alike, and the upper quantity largest. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-3">3</a></sup>)<br>
--<span style="display: inline-block; width: 2em;"></span> when this is not the case. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-4">4</a></sup>)<br>
-+<span style="display: inline-block; width: 2em;"></span> when the signs are alike, and the upper quantity largest. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-3">3</a></sup>)</span><br>
-+<span style="display: inline-block; width: 2em;"></span> when this is not the case. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-4">4</a></sup>)</span><br>
+-<span style="display: inline-block; width: 2em;"></span> when the signs are alike, and the upper quantity largest. <!--TODO \hfill-->(<sup id="footnote-3-back" class="footnote"><a href="#footnote-3">3</a></sup>)<br>
+-<span style="display: inline-block; width: 2em;"></span> when this is not the case. <!--TODO \hfill-->(<sup id="footnote-4-back" class="footnote"><a href="#footnote-4">4</a></sup>)<br>
++<span style="display: inline-block; width: 2em;"></span> when the signs are alike, and the upper quantity largest. <span class="after-hfill">(<sup id="footnote-3-back" class="footnote"><a href="#footnote-3">3</a></sup>)</span><br>
++<span style="display: inline-block; width: 2em;"></span> when this is not the case. <span class="after-hfill">(<sup id="footnote-4-back" class="footnote"><a href="#footnote-4">4</a></sup>)</span><br>
  Brackets, to put on or take off.<br>
--<span style="display: inline-block; width: 2em;"></span> when the sign outside the bracket is +. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-5">5</a></sup>)<br>
--<span style="display: inline-block; width: 2em;"></span> when it is −. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-6">6</a></sup>)<br>
-+<span style="display: inline-block; width: 2em;"></span> when the sign outside the bracket is +. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-5">5</a></sup>)</span><br>
-+<span style="display: inline-block; width: 2em;"></span> when it is −. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-6">6</a></sup>)</span><br>
+-<span style="display: inline-block; width: 2em;"></span> when the sign outside the bracket is +. <!--TODO \hfill-->(<sup id="footnote-5-back" class="footnote"><a href="#footnote-5">5</a></sup>)<br>
+-<span style="display: inline-block; width: 2em;"></span> when it is −. <!--TODO \hfill-->(<sup id="footnote-6-back" class="footnote"><a href="#footnote-6">6</a></sup>)<br>
++<span style="display: inline-block; width: 2em;"></span> when the sign outside the bracket is +. <span class="after-hfill">(<sup id="footnote-5-back" class="footnote"><a href="#footnote-5">5</a></sup>)</span><br>
++<span style="display: inline-block; width: 2em;"></span> when it is −. <span class="after-hfill">(<sup id="footnote-6-back" class="footnote"><a href="#footnote-6">6</a></sup>)</span><br>
  Multiplication and Division,<br>
  <span style="display: inline-block; width: 2em;"></span> as to indices:<br>
--<span style="display: inline-block; width: 4em;"></span> <math><mrow><msup><mi>a</mi><mi>m</mi></msup><mo>×</mo><msup><mi>a</mi><mi>n</mi></msup><mo>=</mo></mrow></math> <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-7">7</a></sup>)<br>
--<span style="display: inline-block; width: 4em;"></span> <math><mrow><msup><mi>a</mi><mi>m</mi></msup><mo>÷</mo><msup><mi>a</mi><mi>n</mi></msup><mo>=</mo></mrow></math> <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-8">8</a></sup>)<br>
-+<span style="display: inline-block; width: 4em;"></span> <math><mrow><msup><mi>a</mi><mi>m</mi></msup><mo>×</mo><msup><mi>a</mi><mi>n</mi></msup><mo>=</mo></mrow></math> <span class="after-hfill">(<sup class="footnote"><a href="#footnote-7">7</a></sup>)</span><br>
-+<span style="display: inline-block; width: 4em;"></span> <math><mrow><msup><mi>a</mi><mi>m</mi></msup><mo>÷</mo><msup><mi>a</mi><mi>n</mi></msup><mo>=</mo></mrow></math> <span class="after-hfill">(<sup class="footnote"><a href="#footnote-8">8</a></sup>)</span><br>
+-<span style="display: inline-block; width: 4em;"></span> <math><mrow><msup><mi>a</mi><mi>m</mi></msup><mo>×</mo><msup><mi>a</mi><mi>n</mi></msup><mo>=</mo></mrow></math> <!--TODO \hfill-->(<sup id="footnote-7-back" class="footnote"><a href="#footnote-7">7</a></sup>)<br>
+-<span style="display: inline-block; width: 4em;"></span> <math><mrow><msup><mi>a</mi><mi>m</mi></msup><mo>÷</mo><msup><mi>a</mi><mi>n</mi></msup><mo>=</mo></mrow></math> <!--TODO \hfill-->(<sup id="footnote-8-back" class="footnote"><a href="#footnote-8">8</a></sup>)<br>
++<span style="display: inline-block; width: 4em;"></span> <math><mrow><msup><mi>a</mi><mi>m</mi></msup><mo>×</mo><msup><mi>a</mi><mi>n</mi></msup><mo>=</mo></mrow></math> <span class="after-hfill">(<sup id="footnote-7-back" class="footnote"><a href="#footnote-7">7</a></sup>)</span><br>
++<span style="display: inline-block; width: 4em;"></span> <math><mrow><msup><mi>a</mi><mi>m</mi></msup><mo>÷</mo><msup><mi>a</mi><mi>n</mi></msup><mo>=</mo></mrow></math> <span class="after-hfill">(<sup id="footnote-8-back" class="footnote"><a href="#footnote-8">8</a></sup>)</span><br>
  <span style="display: inline-block; width: 2em;"></span> as to signs:<br>
--<span style="display: inline-block; width: 4em;"></span> when the signs of the 2 quantities are alike. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-9">9</a></sup>)<br>
--<span style="display: inline-block; width: 4em;"></span> when they are different. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-10">10</a></sup>)<br>
-+<span style="display: inline-block; width: 4em;"></span> when the signs of the 2 quantities are alike. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-9">9</a></sup>)</span><br>
-+<span style="display: inline-block; width: 4em;"></span> when they are different. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-10">10</a></sup>)</span><br>
+-<span style="display: inline-block; width: 4em;"></span> when the signs of the 2 quantities are alike. <!--TODO \hfill-->(<sup id="footnote-9-back" class="footnote"><a href="#footnote-9">9</a></sup>)<br>
+-<span style="display: inline-block; width: 4em;"></span> when they are different. <!--TODO \hfill-->(<sup id="footnote-10-back" class="footnote"><a href="#footnote-10">10</a></sup>)<br>
++<span style="display: inline-block; width: 4em;"></span> when the signs of the 2 quantities are alike. <span class="after-hfill">(<sup id="footnote-9-back" class="footnote"><a href="#footnote-9">9</a></sup>)</span><br>
++<span style="display: inline-block; width: 4em;"></span> when they are different. <span class="after-hfill">(<sup id="footnote-10-back" class="footnote"><a href="#footnote-10">10</a></sup>)</span><br>
  Resolving into factors,<br>
--<span style="display: inline-block; width: 2em;"></span> when the quantity is of the form <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></math>. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-11">11</a></sup>)<br>
--<span style="display: inline-block; width: 4em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></math>. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-12">12</a></sup>)<br>
--<span style="display: inline-block; width: 4em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>3</mn></msup><mo>−</mo><msup><mi>b</mi><mn>3</mn></msup><mo stretchy="false">)</mo></mrow></math>. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-13">13</a></sup>)<br>
--<span style="display: inline-block; width: 4em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>3</mn></msup><mo>+</mo><msup><mi>b</mi><mn>3</mn></msup><mo stretchy="false">)</mo></mrow></math>. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-14">14</a></sup>)<br>
--<span style="display: inline-block; width: 3em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></math>. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-15">15</a></sup>)<br>
--<span style="display: inline-block; width: 3em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></math>. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-16">16</a></sup>)<br>
-+<span style="display: inline-block; width: 2em;"></span> when the quantity is of the form <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></math>. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-11">11</a></sup>)</span><br>
-+<span style="display: inline-block; width: 4em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></math>. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-12">12</a></sup>)</span><br>
-+<span style="display: inline-block; width: 4em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>3</mn></msup><mo>−</mo><msup><mi>b</mi><mn>3</mn></msup><mo stretchy="false">)</mo></mrow></math>. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-13">13</a></sup>)</span><br>
-+<span style="display: inline-block; width: 4em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>3</mn></msup><mo>+</mo><msup><mi>b</mi><mn>3</mn></msup><mo stretchy="false">)</mo></mrow></math>. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-14">14</a></sup>)</span><br>
-+<span style="display: inline-block; width: 3em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></math>. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-15">15</a></sup>)</span><br>
-+<span style="display: inline-block; width: 3em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></math>. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-16">16</a></sup>)</span><br>
+-<span style="display: inline-block; width: 2em;"></span> when the quantity is of the form <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></math>. <!--TODO \hfill-->(<sup id="footnote-11-back" class="footnote"><a href="#footnote-11">11</a></sup>)<br>
+-<span style="display: inline-block; width: 4em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></math>. <!--TODO \hfill-->(<sup id="footnote-12-back" class="footnote"><a href="#footnote-12">12</a></sup>)<br>
+-<span style="display: inline-block; width: 4em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>3</mn></msup><mo>−</mo><msup><mi>b</mi><mn>3</mn></msup><mo stretchy="false">)</mo></mrow></math>. <!--TODO \hfill-->(<sup id="footnote-13-back" class="footnote"><a href="#footnote-13">13</a></sup>)<br>
+-<span style="display: inline-block; width: 4em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>3</mn></msup><mo>+</mo><msup><mi>b</mi><mn>3</mn></msup><mo stretchy="false">)</mo></mrow></math>. <!--TODO \hfill-->(<sup id="footnote-14-back" class="footnote"><a href="#footnote-14">14</a></sup>)<br>
+-<span style="display: inline-block; width: 3em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></math>. <!--TODO \hfill-->(<sup id="footnote-15-back" class="footnote"><a href="#footnote-15">15</a></sup>)<br>
+-<span style="display: inline-block; width: 3em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></math>. <!--TODO \hfill-->(<sup id="footnote-16-back" class="footnote"><a href="#footnote-16">16</a></sup>)<br>
++<span style="display: inline-block; width: 2em;"></span> when the quantity is of the form <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></math>. <span class="after-hfill">(<sup id="footnote-11-back" class="footnote"><a href="#footnote-11">11</a></sup>)</span><br>
++<span style="display: inline-block; width: 4em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></math>. <span class="after-hfill">(<sup id="footnote-12-back" class="footnote"><a href="#footnote-12">12</a></sup>)</span><br>
++<span style="display: inline-block; width: 4em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>3</mn></msup><mo>−</mo><msup><mi>b</mi><mn>3</mn></msup><mo stretchy="false">)</mo></mrow></math>. <span class="after-hfill">(<sup id="footnote-13-back" class="footnote"><a href="#footnote-13">13</a></sup>)</span><br>
++<span style="display: inline-block; width: 4em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>3</mn></msup><mo>+</mo><msup><mi>b</mi><mn>3</mn></msup><mo stretchy="false">)</mo></mrow></math>. <span class="after-hfill">(<sup id="footnote-14-back" class="footnote"><a href="#footnote-14">14</a></sup>)</span><br>
++<span style="display: inline-block; width: 3em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></math>. <span class="after-hfill">(<sup id="footnote-15-back" class="footnote"><a href="#footnote-15">15</a></sup>)</span><br>
++<span style="display: inline-block; width: 3em;"></span> <math><mrow><mo stretchy="false">(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow></math>. <span class="after-hfill">(<sup id="footnote-16-back" class="footnote"><a href="#footnote-16">16</a></sup>)</span><br>
  G. C. M. (particular cases,)<br>
--<span style="display: inline-block; width: 2em;"></span> when a factor is observed which will divide one of the quantities, but not the other. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-17">17</a></sup>)<br>
--<span style="display: inline-block; width: 2em;"></span> when a factor is observed which will divide both quantities. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-18">18</a></sup>)<br>
--<span style="display: inline-block; width: 2em;"></span> when the first term of the divisor will not exactly divide the first term of the dividend. <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-19">19</a></sup>)<br>
-+<span style="display: inline-block; width: 2em;"></span> when a factor is observed which will divide one of the quantities, but not the other. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-17">17</a></sup>)</span><br>
-+<span style="display: inline-block; width: 2em;"></span> when a factor is observed which will divide both quantities. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-18">18</a></sup>)</span><br>
-+<span style="display: inline-block; width: 2em;"></span> when the first term of the divisor will not exactly divide the first term of the dividend. <span class="after-hfill">(<sup class="footnote"><a href="#footnote-19">19</a></sup>)</span><br>
+-<span style="display: inline-block; width: 2em;"></span> when a factor is observed which will divide one of the quantities, but not the other. <!--TODO \hfill-->(<sup id="footnote-17-back" class="footnote"><a href="#footnote-17">17</a></sup>)<br>
+-<span style="display: inline-block; width: 2em;"></span> when a factor is observed which will divide both quantities. <!--TODO \hfill-->(<sup id="footnote-18-back" class="footnote"><a href="#footnote-18">18</a></sup>)<br>
+-<span style="display: inline-block; width: 2em;"></span> when the first term of the divisor will not exactly divide the first term of the dividend. <!--TODO \hfill-->(<sup id="footnote-19-back" class="footnote"><a href="#footnote-19">19</a></sup>)<br>
++<span style="display: inline-block; width: 2em;"></span> when a factor is observed which will divide one of the quantities, but not the other. <span class="after-hfill">(<sup id="footnote-17-back" class="footnote"><a href="#footnote-17">17</a></sup>)</span><br>
++<span style="display: inline-block; width: 2em;"></span> when a factor is observed which will divide both quantities. <span class="after-hfill">(<sup id="footnote-18-back" class="footnote"><a href="#footnote-18">18</a></sup>)</span><br>
++<span style="display: inline-block; width: 2em;"></span> when the first term of the divisor will not exactly divide the first term of the dividend. <span class="after-hfill">(<sup id="footnote-19-back" class="footnote"><a href="#footnote-19">19</a></sup>)</span><br>
  Theory of negative indices, and of <math><msup><mi>a</mi><mn>0</mn></msup></math><br>
--<span style="display: inline-block; width: 2em;"></span> <math><mrow><msup><mi>a</mi><mrow><mo>−</mo><mi>m</mi></mrow></msup><mo>=</mo></mrow></math> <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-20">20</a></sup>)<br>
--<span style="display: inline-block; width: 2em;"></span> <math><mrow><msup><mi>a</mi><mn>0</mn></msup><mo>=</mo></mrow></math> <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-21">21</a></sup>)<br>
-+<span style="display: inline-block; width: 2em;"></span> <math><mrow><msup><mi>a</mi><mrow><mo>−</mo><mi>m</mi></mrow></msup><mo>=</mo></mrow></math> <span class="after-hfill">(<sup class="footnote"><a href="#footnote-20">20</a></sup>)</span><br>
-+<span style="display: inline-block; width: 2em;"></span> <math><mrow><msup><mi>a</mi><mn>0</mn></msup><mo>=</mo></mrow></math> <span class="after-hfill">(<sup class="footnote"><a href="#footnote-21">21</a></sup>)</span><br>
+-<span style="display: inline-block; width: 2em;"></span> <math><mrow><msup><mi>a</mi><mrow><mo>−</mo><mi>m</mi></mrow></msup><mo>=</mo></mrow></math> <!--TODO \hfill-->(<sup id="footnote-20-back" class="footnote"><a href="#footnote-20">20</a></sup>)<br>
+-<span style="display: inline-block; width: 2em;"></span> <math><mrow><msup><mi>a</mi><mn>0</mn></msup><mo>=</mo></mrow></math> <!--TODO \hfill-->(<sup id="footnote-21-back" class="footnote"><a href="#footnote-21">21</a></sup>)<br>
++<span style="display: inline-block; width: 2em;"></span> <math><mrow><msup><mi>a</mi><mrow><mo>−</mo><mi>m</mi></mrow></msup><mo>=</mo></mrow></math> <span class="after-hfill">(<sup id="footnote-20-back" class="footnote"><a href="#footnote-20">20</a></sup>)</span><br>
++<span style="display: inline-block; width: 2em;"></span> <math><mrow><msup><mi>a</mi><mn>0</mn></msup><mo>=</mo></mrow></math> <span class="after-hfill">(<sup id="footnote-21-back" class="footnote"><a href="#footnote-21">21</a></sup>)</span><br>
  Involution and Evolution,<br>
--<span style="display: inline-block; width: 2em;"></span> <math><mrow><msup><msup><mi>a</mi><mi>m</mi></msup><mi>n</mi></msup><mo>=</mo></mrow></math> <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-22">22</a></sup>)<br>
--<span style="display: inline-block; width: 2em;"></span> the <var>n</var>th root of <math><msup><mi>a</mi><mi>m</mi></msup></math>, i.&thinsp;e. <math><mrow><mroot><msup><mi>a</mi><mi>m</mi></msup><mi>n</mi></mroot><mo>=</mo></mrow></math> <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-23">23</a></sup>)<br>
--<span style="display: inline-block; width: 2em;"></span> hence, the <var>n</var>th root of <var>a</var>, i.&thinsp;e. <math><mroot><mi>a</mi><mi>n</mi></mroot></math> <!--TODO \hfill-->(<sup class="footnote"><a href="#footnote-24">24</a></sup>)
-+<span style="display: inline-block; width: 2em;"></span> <math><mrow><msup><msup><mi>a</mi><mi>m</mi></msup><mi>n</mi></msup><mo>=</mo></mrow></math> <span class="after-hfill">(<sup class="footnote"><a href="#footnote-22">22</a></sup>)</span><br>
-+<span style="display: inline-block; width: 2em;"></span> the <var>n</var>th root of <math><msup><mi>a</mi><mi>m</mi></msup></math>, i.&thinsp;e. <math><mrow><mroot><msup><mi>a</mi><mi>m</mi></msup><mi>n</mi></mroot><mo>=</mo></mrow></math> <span class="after-hfill">(<sup class="footnote"><a href="#footnote-23">23</a></sup>)</span><br>
-+<span style="display: inline-block; width: 2em;"></span> hence, the <var>n</var>th root of <var>a</var>, i.&thinsp;e. <math><mroot><mi>a</mi><mi>n</mi></mroot></math> <span class="after-hfill">(<sup class="footnote"><a href="#footnote-24">24</a></sup>)</span>
+-<span style="display: inline-block; width: 2em;"></span> <math><mrow><msup><msup><mi>a</mi><mi>m</mi></msup><mi>n</mi></msup><mo>=</mo></mrow></math> <!--TODO \hfill-->(<sup id="footnote-22-back" class="footnote"><a href="#footnote-22">22</a></sup>)<br>
+-<span style="display: inline-block; width: 2em;"></span> the <var>n</var>th root of <math><msup><mi>a</mi><mi>m</mi></msup></math>, i.&thinsp;e. <math><mrow><mroot><msup><mi>a</mi><mi>m</mi></msup><mi>n</mi></mroot><mo>=</mo></mrow></math> <!--TODO \hfill-->(<sup id="footnote-23-back" class="footnote"><a href="#footnote-23">23</a></sup>)<br>
+-<span style="display: inline-block; width: 2em;"></span> hence, the <var>n</var>th root of <var>a</var>, i.&thinsp;e. <math><mroot><mi>a</mi><mi>n</mi></mroot></math> <!--TODO \hfill-->(<sup id="footnote-24-back" class="footnote"><a href="#footnote-24">24</a></sup>)
++<span style="display: inline-block; width: 2em;"></span> <math><mrow><msup><msup><mi>a</mi><mi>m</mi></msup><mi>n</mi></msup><mo>=</mo></mrow></math> <span id="footnote-22-back" class="after-hfill">(<sup class="footnote"><a href="#footnote-22">22</a></sup>)</span><br>
++<span style="display: inline-block; width: 2em;"></span> the <var>n</var>th root of <math><msup><mi>a</mi><mi>m</mi></msup></math>, i.&thinsp;e. <math><mrow><mroot><msup><mi>a</mi><mi>m</mi></msup><mi>n</mi></mroot><mo>=</mo></mrow></math> <span class="after-hfill">(<sup id="footnote-23-back" class="footnote"><a href="#footnote-23">23</a></sup>)</span><br>
++<span style="display: inline-block; width: 2em;"></span> hence, the <var>n</var>th root of <var>a</var>, i.&thinsp;e. <math><mroot><mi>a</mi><mi>n</mi></mroot></math> <span class="after-hfill">(<sup id="footnote-24-back" class="footnote"><a href="#footnote-24">24</a></sup>)</span>
  </p></div>
  
  <div class="footnotes"><ol>
 @@ -95,12 +95,12 @@
- <li id="footnote-8"><math><mrow><mo>=</mo><msup><mi>a</mi><mrow><mi>m</mi><mo>−</mo><mi>n</mi></mrow></msup></mrow></math>.</li>
- <li id="footnote-9">the sign of the result is +.</li>
- <li id="footnote-10">the sign of the result is −.</li>
--<li id="footnote-11">it <math><mrow><mo>=</mo><mo stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo stretchy="false">)</mo><mo>.</mo><mo stretchy="false">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo stretchy="false">)</mo></mrow></math>.</li>
-+<li id="footnote-11">it <math><mrow><mo>=</mo><mrow><mo stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo stretchy="false">)</mo></mrow><mo>.</mo><mrow><mo stretchy="false">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo stretchy="false">)</mo></mrow></mrow></math>.</li>
- <li id="footnote-12">it cannot be resolved.</li>
- <li id="footnote-13">it will divide by <math><mrow><mo stretchy="false">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo stretchy="false">)</mo></mrow></math>.</li>
- <li id="footnote-14">is will divide by <math><mrow><mo stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo stretchy="false">)</mo></mrow></math>.</li>
--<li id="footnote-15">it <math><mrow><mo>=</mo><mo stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup></mrow></math>.</li>
--<li id="footnote-16">it <math><mrow><mo>=</mo><mo stretchy="false">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup></mrow></math>.</li>
-+<li id="footnote-15">it <math><mrow><mo>=</mo><msup><mrow><mo stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow></math>.</li>
-+<li id="footnote-16">it <math><mrow><mo>=</mo><msup><mrow><mo stretchy="false">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow></math>.</li>
- <li id="footnote-17">divide it out of that quantity.</li>
- <li id="footnote-18">divide it out of both, and multiply the answer by it.</li>
- <li id="footnote-19">find the L. C. M. of coefficients of these 2 terms, and multiply the divident by such a quantity as will raise the coefficient of its first term to this L. C. M.</li>
+ <li id="footnote-8"><math><mrow><mo>=</mo><msup><mi>a</mi><mrow><mi>m</mi><mo>−</mo><mi>n</mi></mrow></msup></mrow></math>. <a href="#footnote-8-back" class="footnote-back">↩</a></li>
+ <li id="footnote-9">the sign of the result is +. <a href="#footnote-9-back" class="footnote-back">↩</a></li>
+ <li id="footnote-10">the sign of the result is −. <a href="#footnote-10-back" class="footnote-back">↩</a></li>
+-<li id="footnote-11">it <math><mrow><mo>=</mo><mo stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo stretchy="false">)</mo><mo>.</mo><mo stretchy="false">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo stretchy="false">)</mo></mrow></math>. <a href="#footnote-11-back" class="footnote-back">↩</a></li>
++<li id="footnote-11">it <math><mrow><mo>=</mo><mrow><mo stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo stretchy="false">)</mo></mrow><mo>.</mo><mrow><mo stretchy="false">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo stretchy="false">)</mo></mrow></mrow></math>. <a href="#footnote-11-back" class="footnote-back">↩</a></li>
+ <li id="footnote-12">it cannot be resolved. <a href="#footnote-12-back" class="footnote-back">↩</a></li>
+ <li id="footnote-13">it will divide by <math><mrow><mo stretchy="false">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo stretchy="false">)</mo></mrow></math>. <a href="#footnote-13-back" class="footnote-back">↩</a></li>
+ <li id="footnote-14">is will divide by <math><mrow><mo stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo stretchy="false">)</mo></mrow></math>. <a href="#footnote-14-back" class="footnote-back">↩</a></li>
+-<li id="footnote-15">it <math><mrow><mo>=</mo><mo stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup></mrow></math>. <a href="#footnote-15-back" class="footnote-back">↩</a></li>
+-<li id="footnote-16">it <math><mrow><mo>=</mo><mo stretchy="false">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup></mrow></math>. <a href="#footnote-16-back" class="footnote-back">↩</a></li>
++<li id="footnote-15">it <math><mrow><mo>=</mo><msup><mrow><mo stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow></math>. <a href="#footnote-15-back" class="footnote-back">↩</a></li>
++<li id="footnote-16">it <math><mrow><mo>=</mo><msup><mrow><mo stretchy="false">(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo stretchy="false">)</mo></mrow><mn>2</mn></msup></mrow></math>. <a href="#footnote-16-back" class="footnote-back">↩</a></li>
+ <li id="footnote-17">divide it out of that quantity. <a href="#footnote-17-back" class="footnote-back">↩</a></li>
+ <li id="footnote-18">divide it out of both, and multiply the answer by it. <a href="#footnote-18-back" class="footnote-back">↩</a></li>
+ <li id="footnote-19">find the L. C. M. of coefficients of these 2 terms, and multiply the divident by such a quantity as will raise the coefficient of its first term to this L. C. M. <a href="#footnote-19-back" class="footnote-back">↩</a></li>
 diff -ru a/math/notes-on-the-first-two-books-of-euclid.html b/math/notes-on-the-first-two-books-of-euclid.html
 --- a/math/notes-on-the-first-two-books-of-euclid.html
 +++ b/math/notes-on-the-first-two-books-of-euclid.html
@@ -7606,8 +7609,8 @@ diff -ru a/notes-oxford-chiel/clarendon.html b/notes-oxford-chiel/clarendon.html
  <aside class="toggle variant" id="annotation-4">Ch.&nbsp;Ch. Feb.&nbsp;6, 1868.</aside></div>
  
  <div class="footnotes"><ol>
--<li id="footnote-1">See <a href="../poems/the-elections-to-the-hebdomadal-council.html#hebdomadal:footnote-1">page&nbsp;10</a>, Notes <a href="../poems/the-elections-to-the-hebdomadal-council.html#hebdomadal:footnote-1">?</a>, <a href="../poems/the-elections-to-the-hebdomadal-council.html#hebdomadal:footnote-2">?</a>.</li>
-+<li id="footnote-1">See <a href="../poems/the-elections-to-the-hebdomadal-council.html#hebdomadal:footnote-1">page&nbsp;10</a>, Notes <a href="../poems/the-elections-to-the-hebdomadal-council.html#footnote-2">2</a>, <a href="../poems/the-elections-to-the-hebdomadal-council.html#footnote-3">3</a>.</li>
+-<li id="footnote-1">See <a href="../poems/the-elections-to-the-hebdomadal-council.html#hebdomadal:footnote-1">page&nbsp;10</a>, Notes <a href="../poems/the-elections-to-the-hebdomadal-council.html#hebdomadal:footnote-1">?</a>, <a href="../poems/the-elections-to-the-hebdomadal-council.html#hebdomadal:footnote-2">?</a>. <a href="#footnote-1-back" class="footnote-back">↩</a></li>
++<li id="footnote-1">See <a href="../poems/the-elections-to-the-hebdomadal-council.html#hebdomadal:footnote-1">page&nbsp;10</a>, Notes <a href="../poems/the-elections-to-the-hebdomadal-council.html#footnote-2">2</a>, <a href="../poems/the-elections-to-the-hebdomadal-council.html#footnote-3">3</a>. <a href="#footnote-1-back" class="footnote-back">↩</a></li>
  </ol></div>
 -<!--TODO missing annotations: annotation-2 -->
  </article>
@@ -8147,9 +8150,9 @@ diff -ru a/poems/the-elections-to-the-hebdomadal-council.html b/poems/the-electi
  Dear Senior Censor, that you chanced to say<br>
  You thought these party-combinations would<br>
  Be found, “though needful, no unmingled good.”<br>
--Unmingled good? They are unmingled ill<sup class="footnote"><a href="#footnote-2">2</a></sup>!<br>
-+Unmingled good? They are unmingled ill<span id="hebdomadal:footnote-1"></span><sup class="footnote"><a href="#footnote-2">2</a></sup>!<br>
- <i>I</i> never took to them, and never will<sup class="footnote"><a href="#footnote-3">3</a></sup>—<br>
+-Unmingled good? They are unmingled ill<sup id="footnote-2-back" class="footnote"><a href="#footnote-2">2</a></sup>!<br>
++Unmingled good? They are unmingled ill<span id="hebdomadal:footnote-1"></span><sup id="footnote-2-back" class="footnote"><a href="#footnote-2">2</a></sup>!<br>
+ <i>I</i> never took to them, and never will<sup id="footnote-3-back" class="footnote"><a href="#footnote-3">3</a></sup>—<br>
  What am I saying? Heed it not, my friend:<br>
  On the next page I mean to recommend<br>
 @@ -235,14 +235,14 @@
@@ -8161,7 +8164,7 @@ diff -ru a/poems/the-elections-to-the-hebdomadal-council.html b/poems/the-electi
  Allegiance to the intellectual few—<br>
  (I mean, of course, the—pshaw! no matter who!)<br>
  But, were I to pursue the boundless theme,<br>
- I fear that I should seem to you to dream<sup class="footnote"><a href="#footnote-27">27</a></sup>.<br>
+ I fear that I should seem to you to dream<sup id="footnote-27-back" class="footnote"><a href="#footnote-27">27</a></sup>.<br>
  <span style="display: inline-block; width: 1em;"></span>This to fulfil, or even—humbler far—<br>
  To shun Conservatism’s noxious star<br>
 -And all the evils that it brings behind, <span style="font-size: 350%; line-height: 0; position: relative; top: 0.6em; display: inline-block; transform: scaleX(0.75); left: 4.2rem">}</span><br>
@@ -8172,14 +8175,14 @@ diff -ru a/poems/the-elections-to-the-hebdomadal-council.html b/poems/the-electi
 @@ -286,8 +286,8 @@
  
  <div class="footnotes"><ol>
- <li id="footnote-1">Dr.&nbsp;Wynter, President of St.&nbsp;John’s, one of the recently elected Conservative members of Council.</li>
--<li id="footnote-2"><span id="hebdomadal:footnote-1"></span><p>‘In a letter on a point connected with the late elections to the Hebdomadal Council you incidentally remarked to me that our combinations for these elections, “though necessary, were not an unmixed good.” They are an unmixed evil.’</p></li>
--<li id="footnote-3"><span id="hebdomadal:footnote-2"></span><p>‘I never go to a <i>caucus</i> without reluctance: I never write a canvassing letter without a feeling of repugnance to my task.’</p></li>
-+<li id="footnote-2">‘In a letter on a point connected with the late elections to the Hebdomadal Council you incidentally remarked to me that our combinations for these elections, “though necessary, were not an unmixed good.” They are an unmixed evil.’</li>
-+<li id="footnote-3">‘I never go to a <i>caucus</i> without reluctance: I never write a canvassing letter without a feeling of repugnance to my task.’</li>
- <li id="footnote-4">‘I need not rehearse the history of the Regius Professorship of Greek.’</li>
- <li id="footnote-5">‘The University cannot afford at the present moment to be delivered over as a slave to any non-academical interest whatever.’</li>
- <li id="footnote-6">‘It may be right to go on, it may be right to stand still, or it may be right to go back.’</li>
+ <li id="footnote-1">Dr.&nbsp;Wynter, President of St.&nbsp;John’s, one of the recently elected Conservative members of Council. <a href="#footnote-1-back" class="footnote-back">↩</a></li>
+-<li id="footnote-2"><span id="hebdomadal:footnote-1"></span><p>‘In a letter on a point connected with the late elections to the Hebdomadal Council you incidentally remarked to me that our combinations for these elections, “though necessary, were not an unmixed good.” They are an unmixed evil.’</p> <a href="#footnote-2-back" class="footnote-back">↩</a></li>
+-<li id="footnote-3"><span id="hebdomadal:footnote-2"></span><p>‘I never go to a <i>caucus</i> without reluctance: I never write a canvassing letter without a feeling of repugnance to my task.’</p> <a href="#footnote-3-back" class="footnote-back">↩</a></li>
++<li id="footnote-2">‘In a letter on a point connected with the late elections to the Hebdomadal Council you incidentally remarked to me that our combinations for these elections, “though necessary, were not an unmixed good.” They are an unmixed evil.’ <a href="#footnote-2-back" class="footnote-back">↩</a></li>
++<li id="footnote-3">‘I never go to a <i>caucus</i> without reluctance: I never write a canvassing letter without a feeling of repugnance to my task.’ <a href="#footnote-3-back" class="footnote-back">↩</a></li>
+ <li id="footnote-4">‘I need not rehearse the history of the Regius Professorship of Greek.’ <a href="#footnote-4-back" class="footnote-back">↩</a></li>
+ <li id="footnote-5">‘The University cannot afford at the present moment to be delivered over as a slave to any non-academical interest whatever.’ <a href="#footnote-5-back" class="footnote-back">↩</a></li>
+ <li id="footnote-6">‘It may be right to go on, it may be right to stand still, or it may be right to go back.’ <a href="#footnote-6-back" class="footnote-back">↩</a></li>
 diff -ru a/poems/the-path-of-roses.html b/poems/the-path-of-roses.html
 --- a/poems/the-path-of-roses.html
 +++ b/poems/the-path-of-roses.html
@@ -8285,21 +8288,21 @@ diff -ru a/poems/ye-fatalle-cheyse.html b/poems/ye-fatalle-cheyse.html
 @@ -71,7 +71,7 @@
  <p>Wi’ eager bounde hes ilka honde<br>
  <span style="display: inline-block; width: 1em;"></span>Gane till that caverne dreir,<br>
- Fou<sup class="footnote"><a href="#footnote-11">11</a></sup> many a yowl<sup class="footnote"><a href="#footnote-12">12</a></sup> ys<sup class="footnote"><a href="#footnote-13">13</a></sup> hearde around,<br>
+ Fou<sup id="footnote-11-back" class="footnote"><a href="#footnote-11">11</a></sup> many a yowl<sup id="footnote-12-back" class="footnote"><a href="#footnote-12">12</a></sup> ys<sup id="footnote-13-back" class="footnote"><a href="#footnote-13">13</a></sup> hearde around,<br>
 -<span style="display: inline-block; width: 1em;"></span>Fou<!--Command \footnoteref not defined!-->YeFatalleCheyse:fou many a screech of feir.</p>
-+<span style="display: inline-block; width: 1em;"></span>Fou<sup class="footnote"><a href="#footnote-11">11</a></sup> many a screech of feir.</p>
++<span style="display: inline-block; width: 1em;"></span>Fou<sup id="footnote-11b-back" class="footnote"><a href="#footnote-11">11</a></sup> many a screech of feir.</p>
  
  <p>Like ane wi’ thirstie appetite<br>
  <span style="display: inline-block; width: 1em;"></span>Quha swalloweth orange pulp,<br>
 @@ -105,7 +105,7 @@
- <li id="footnote-8">cunning.</li>
- <li id="footnote-9">much wearied.</li>
- <li id="footnote-10">brave.</li>
--<li id="footnote-11"><span id="YeFatalleCheyse:fou"></span><p>full.</p></li>
-+<li id="footnote-11">full.</li>
- <li id="footnote-12">howl.</li>
- <li id="footnote-13">is.</li>
- <li id="footnote-14">drawn.</li>
+ <li id="footnote-8">cunning. <a href="#footnote-8-back" class="footnote-back">↩</a></li>
+ <li id="footnote-9">much wearied. <a href="#footnote-9-back" class="footnote-back">↩</a></li>
+ <li id="footnote-10">brave. <a href="#footnote-10-back" class="footnote-back">↩</a></li>
+-<li id="footnote-11"><span id="YeFatalleCheyse:fou"></span><p>full.</p> <a href="#footnote-11-back" class="footnote-back">↩</a></li>
++<li id="footnote-11">full. <a href="#footnote-11-back" class="footnote-back">↩</a> <a href="#footnote-11b-back" class="footnote-back">↩</a></li>
+ <li id="footnote-12">howl. <a href="#footnote-12-back" class="footnote-back">↩</a></li>
+ <li id="footnote-13">is. <a href="#footnote-13-back" class="footnote-back">↩</a></li>
+ <li id="footnote-14">drawn. <a href="#footnote-14-back" class="footnote-back">↩</a></li>
 diff -ru a/rectory-magazine/introductions.html b/rectory-magazine/introductions.html
 --- a/rectory-magazine/introductions.html
 +++ b/rectory-magazine/introductions.html
@@ -8412,7 +8415,7 @@ diff -ru a/rectory-umbrella/the-vernon-gallery.html b/rectory-umbrella/the-verno
 +<figcaption><span style="float: left;">J.&nbsp;F.&nbsp;Herring. Painter.</span> <span class="after-hfill">E.&nbsp;Hacker. Engraver.</span><br>The Scanty Meal.<br>from the picture in the Vernom Gallery.
  </figcaption></figure>
  
- <p>We have been unusually<sup class="footnote"><a href="#footnote-1">1</a></sup> successful in our second engraving from the Vernon Gallery. The picture is intended, as our readers will perceive, to illustrate the evils of homœopathy.<sup class="footnote"><a href="#footnote-2">2</a></sup> This idea is well carried out through the whole picture. The thin old lady at the head of the table is in the painter’s best style: we almost fancy we can trace in the eye of the other lady a lurking suspicion that her glasses are not really in fault, and that the old gentleman has helped her to <i>nothing</i> instead of a nonillionth.<sup class="footnote"><a href="#footnote-3">3</a></sup> Her companion has evidently got an empty glass in his hand: the two children in front are admirably managed, and there is a sly smile on the footman’s face, as if he thoroughly enjoyed either the bad news he is bringing, or the wrath of his mistress. The carpet is executed with that elaborate care for which M<sup>r</sup>&nbsp;Herring is so famed, and the picture on the whole is one of his best.</p>
+ <p>We have been unusually<sup id="footnote-1-back" class="footnote"><a href="#footnote-1">1</a></sup> successful in our second engraving from the Vernon Gallery. The picture is intended, as our readers will perceive, to illustrate the evils of homœopathy.<sup id="footnote-2-back" class="footnote"><a href="#footnote-2">2</a></sup> This idea is well carried out through the whole picture. The thin old lady at the head of the table is in the painter’s best style: we almost fancy we can trace in the eye of the other lady a lurking suspicion that her glasses are not really in fault, and that the old gentleman has helped her to <i>nothing</i> instead of a nonillionth.<sup id="footnote-3-back" class="footnote"><a href="#footnote-3">3</a></sup> Her companion has evidently got an empty glass in his hand: the two children in front are admirably managed, and there is a sly smile on the footman’s face, as if he thoroughly enjoyed either the bad news he is bringing, or the wrath of his mistress. The carpet is executed with that elaborate care for which M<sup>r</sup>&nbsp;Herring is so famed, and the picture on the whole is one of his best.</p>
 @@ -69,7 +69,7 @@
  <figure>
  <img src="../../images/rectory-umbrella/vernon-3.jpg" width="729" height="592" alt="Two musicians and two dancers">
@@ -8430,7 +8433,7 @@ diff -ru a/rectory-umbrella/the-vernon-gallery.html b/rectory-umbrella/the-verno
 +<figcaption><span style="float: left;">Sir D.&nbsp;Wilkie. Painter.</span> <span class="after-hfill">W.&nbsp;Greatbach. Engraver.</span><br>The First Earring.<br>from the picture in the Vernom Gallery.
  </figcaption></figure>
  
- <p>The scene from which this excellent picture is painted is taken from a passage in the autobiography<sup class="footnote"><a href="#footnote-5">5</a></sup> of the celebrated Sir William Smith<sup class="footnote"><a href="#footnote-6">6</a></sup> of his life when a schoolboy: we transcribe the passage: “One day Bill Tomkins<sup class="footnote"><a href="#footnote-7">7</a></sup> and I were left alone in the house, the old doctor being out: after playing a number of pranks Bill laid me a bet of sixpence that I wouldn’t pour a bottle of ink over the Doctor’s cat. <i>I did it</i>, but at that moment old Muggles came home, and caught me by the ear as I attempted to run away. My sensation at the moment I shall never forget: <i>on that occasion I received my first earring</i>.<sup class="footnote"><a href="#footnote-8">8</a></sup> The only remark Bill made to me, as he paid me the money afterwards was, “I say, didn’t you just howl jolly!”” The engraving is an excellent copy of the picture.</p>
+ <p>The scene from which this excellent picture is painted is taken from a passage in the autobiography<sup id="footnote-5-back" class="footnote"><a href="#footnote-5">5</a></sup> of the celebrated Sir William Smith<sup id="footnote-6-back" class="footnote"><a href="#footnote-6">6</a></sup> of his life when a schoolboy: we transcribe the passage: “One day Bill Tomkins<sup id="footnote-7-back" class="footnote"><a href="#footnote-7">7</a></sup> and I were left alone in the house, the old doctor being out: after playing a number of pranks Bill laid me a bet of sixpence that I wouldn’t pour a bottle of ink over the Doctor’s cat. <i>I did it</i>, but at that moment old Muggles came home, and caught me by the ear as I attempted to run away. My sensation at the moment I shall never forget: <i>on that occasion I received my first earring</i>.<sup id="footnote-8-back" class="footnote"><a href="#footnote-8">8</a></sup> The only remark Bill made to me, as he paid me the money afterwards was, “I say, didn’t you just howl jolly!”” The engraving is an excellent copy of the picture.</p>
 @@ -90,7 +90,7 @@
  <figure>
  <img src="../../images/rectory-umbrella/vernon-5.jpg" width="742" height="599" alt="Four boys and a pig on a bridge">
@@ -8439,7 +8442,7 @@ diff -ru a/rectory-umbrella/the-vernon-gallery.html b/rectory-umbrella/the-verno
 +<figcaption><span style="float: left;">Sir A.&nbsp;W.&nbsp;Calcott. Painter.</span> <span class="after-hfill">J.&nbsp;C.&nbsp;Sentley. Engraver.</span><br>The Wooden Bridge.<br>from the picture in the Vernom Gallery.
  </figcaption></figure>
  
- <p>A very few words will suffice to explain the meaning of this charming picture. Four ploughboys are trying to force an obstinate pig across a wooden bridge: the hands of a fifth are just visible at the edge of the picture. It appears either the height of cruelty or insanity to expect it to walk<sup class="footnote"><a href="#footnote-9">9</a></sup> across on one leg. This however they do not seem to have sufficiently considered, and the consequence is they are taking a great deal of trouble with scarcely a hope of success. It is scarcely possible for the unhappy creature to stand, much less to progress a single inch, until one or more of its legs are released. The fourth figure appears as if he would prefer no help at all in pulling to the help he is receiving.<sup class="footnote"><a href="#footnote-10">10</a></sup> The one who is pushing is evidently much of the same opinion. The trees, the cottage, and the setting sun in the background produce a fine effect.</p>
+ <p>A very few words will suffice to explain the meaning of this charming picture. Four ploughboys are trying to force an obstinate pig across a wooden bridge: the hands of a fifth are just visible at the edge of the picture. It appears either the height of cruelty or insanity to expect it to walk<sup id="footnote-9-back" class="footnote"><a href="#footnote-9">9</a></sup> across on one leg. This however they do not seem to have sufficiently considered, and the consequence is they are taking a great deal of trouble with scarcely a hope of success. It is scarcely possible for the unhappy creature to stand, much less to progress a single inch, until one or more of its legs are released. The fourth figure appears as if he would prefer no help at all in pulling to the help he is receiving.<sup id="footnote-10-back" class="footnote"><a href="#footnote-10">10</a></sup> The one who is pushing is evidently much of the same opinion. The trees, the cottage, and the setting sun in the background produce a fine effect.</p>
 @@ -99,7 +99,7 @@
  <figure>
  <img src="../../images/rectory-umbrella/vernon-6.jpg" width="739" height="591" alt="Four boys are chased by a man and are trying to escape over a garden wall.">
@@ -8448,7 +8451,7 @@ diff -ru a/rectory-umbrella/the-vernon-gallery.html b/rectory-umbrella/the-verno
 +<figcaption><span style="float: left;">E.&nbsp;Landser. Painter.</span> <span class="after-hfill">H.&nbsp;Beckwith. Engraver.</span><br>High Life and Low Life.<br>from the picture in the Vernom Gallery.
  </figcaption></figure>
  
- <p>Never was the name of a picture more fully borne out in the picture than in this. The face of the boy suspended on the wall, representing “High Life,” is positively exquisite<sup class="footnote"><a href="#footnote-11">11</a></sup>: we have rarely seen anything more true to nature. One can trace in it, besides fear of the approaching gardener, a shade of sorrow and regret for the basket of apples<sup class="footnote"><a href="#footnote-12">12</a></sup> he has just dropped. His companion however, whose face is just visible from under the basket, probably feels more <i>real</i> sorrow for that event. This last, the reader will of course perceive, is meant to represent “Low Life.” The gardener is admirably drawn, but the potatoe beds and gravel walk are rather inferior to the artist’s usual style. On the whole, however, the picture does him great credit.</p>
+ <p>Never was the name of a picture more fully borne out in the picture than in this. The face of the boy suspended on the wall, representing “High Life,” is positively exquisite<sup id="footnote-11-back" class="footnote"><a href="#footnote-11">11</a></sup>: we have rarely seen anything more true to nature. One can trace in it, besides fear of the approaching gardener, a shade of sorrow and regret for the basket of apples<sup id="footnote-12-back" class="footnote"><a href="#footnote-12">12</a></sup> he has just dropped. His companion however, whose face is just visible from under the basket, probably feels more <i>real</i> sorrow for that event. This last, the reader will of course perceive, is meant to represent “Low Life.” The gardener is admirably drawn, but the potatoe beds and gravel walk are rather inferior to the artist’s usual style. On the whole, however, the picture does him great credit.</p>
 @@ -108,7 +108,7 @@
  <figure>
  <img src="../../images/rectory-umbrella/vernon-7.jpg" width="734" height="590" alt="A man and a woman are singing (“Coal Black Rose”), another man is listening.">
@@ -8457,7 +8460,7 @@ diff -ru a/rectory-umbrella/the-vernon-gallery.html b/rectory-umbrella/the-verno
 +<figcaption><span style="float: left;">W.&nbsp;Etty. R.A. Painter.</span> <span class="after-hfill">A.&nbsp;Bell. Engraver.</span><br>The Duett.<br>from the picture in the Vernom Gallery.
  </figcaption></figure>
  
- <p>This charming picture is intended to represent three true lovers of music; for though the boy on the left is taking no part in the performance, yet there is a fire in his eye which forbids us to think him an inattentive or unadmiring listener. The most casual observer cannot fail to remark what a tendency the love of music has to make the hair grow in full luxuriance, nay, he may safely conclude, if he finds no such effect produced in <i>him</i>, that he has no ear for melody. A further proof of the lady’s great musical taste is that she is producing the most mellow strains from a pair of common kitchen bellows<sup class="footnote"><a href="#footnote-13">13</a></sup>: the song they are singing my readers have no doubt often heard.</p>
+ <p>This charming picture is intended to represent three true lovers of music; for though the boy on the left is taking no part in the performance, yet there is a fire in his eye which forbids us to think him an inattentive or unadmiring listener. The most casual observer cannot fail to remark what a tendency the love of music has to make the hair grow in full luxuriance, nay, he may safely conclude, if he finds no such effect produced in <i>him</i>, that he has no ear for melody. A further proof of the lady’s great musical taste is that she is producing the most mellow strains from a pair of common kitchen bellows<sup id="footnote-13-back" class="footnote"><a href="#footnote-13">13</a></sup>: the song they are singing my readers have no doubt often heard.</p>
 diff -ru a/rectory-umbrella/the-walking-stick-of-destiny.html b/rectory-umbrella/the-walking-stick-of-destiny.html
 --- a/rectory-umbrella/the-walking-stick-of-destiny.html
 +++ b/rectory-umbrella/the-walking-stick-of-destiny.html
@@ -8470,14 +8473,14 @@ diff -ru a/rectory-umbrella/the-walking-stick-of-destiny.html b/rectory-umbrella
 +<img src="../../images/rectory-umbrella/walkingstick-1-2.jpg" width="233" height="176" alt="The man has taken off his hat and is bowing.">
 +</figure>
  
- <p>Uprose the glorious sun, and illumined<sup class="footnote"><a href="#footnote-4">4</a></sup> the darkened world with the light of day: still was the haughty Baron pacing his chamber, albeit his step was hastier and more impatient than before, and more than once he stood motionless, listening anxiously and eagerly, then turned with a disappointed air upon his heel, while a darker shade passed over his brow. Suddenly the trumpet<sup class="footnote"><a href="#footnote-5">5</a></sup> which hung at the castle gate gave forth a <span id="walkingstick:trumpet"></span>shrill<sup class="footnote"><a href="#footnote-6">6</a></sup> blast: the Baron heard it, and savagely beating his breast with both his clenched fists, he murmured in bitter tone “the time draws nigh, I must nerve myself for action.” Then, throwing himself into an easy chair, he hastily <span id="walkingstick:breakfast"></span>drank<sup class="footnote"><a href="#footnote-7">7</a></sup> off the contents of a large goblet of wine which stood on the table, and in vain attempted to assume an air of indifference. The door was suddenly thrown open and in a loud voice an <span id="walkingstick:attendant"></span>attendant announced “Signor Blowski!”</p>
+ <p>Uprose the glorious sun, and illumined<sup id="footnote-4-back" class="footnote"><a href="#footnote-4">4</a></sup> the darkened world with the light of day: still was the haughty Baron pacing his chamber, albeit his step was hastier and more impatient than before, and more than once he stood motionless, listening anxiously and eagerly, then turned with a disappointed air upon his heel, while a darker shade passed over his brow. Suddenly the trumpet<sup id="footnote-5-back" class="footnote"><a href="#footnote-5">5</a></sup> which hung at the castle gate gave forth a <span id="walkingstick:trumpet"></span>shrill<sup id="footnote-6-back" class="footnote"><a href="#footnote-6">6</a></sup> blast: the Baron heard it, and savagely beating his breast with both his clenched fists, he murmured in bitter tone “the time draws nigh, I must nerve myself for action.” Then, throwing himself into an easy chair, he hastily <span id="walkingstick:breakfast"></span>drank<sup id="footnote-7-back" class="footnote"><a href="#footnote-7">7</a></sup> off the contents of a large goblet of wine which stood on the table, and in vain attempted to assume an air of indifference. The door was suddenly thrown open and in a loud voice an <span id="walkingstick:attendant"></span>attendant announced “Signor Blowski!”</p>
  
 @@ -107,7 +107,7 @@
  
- <p>“Greetings fair, noble sir,” commenced the illustrious visitor, in a pompous tone and with a toss<sup class="footnote"><a href="#footnote-38">38</a></sup> of the head, “it betided me to hear of your name and abode, and I made high resolve to visit and behold you ’ere night!” “Well, fair sir, I hope you are satisfied with the sight,” interrupted the Baron, wishing to cut short a conversation he neither understood nor liked. “It rejoiceth me,” was the reply, “nay, so much so that I could wish to prolong the pleasure, for there is a Life and Truth<sup class="footnote"><a href="#footnote-39">39</a></sup> in those tones which recall to me scenes of earlier days—” “does it indeed?” said the Baron, considerably puzzled; “ay soothly,” returned the other, “and now I bethink me,” walking to the window, “it was the country likewise I did desire to look upon; ’tis fine, is’t not?” “It’s a very fine country,<sup class="footnote"><a href="#footnote-40">40</a></sup>” replied the Baron, adding internally, “and I wish you were well out of it!”</p>
+ <p>“Greetings fair, noble sir,” commenced the illustrious visitor, in a pompous tone and with a toss<sup id="footnote-38-back" class="footnote"><a href="#footnote-38">38</a></sup> of the head, “it betided me to hear of your name and abode, and I made high resolve to visit and behold you ’ere night!” “Well, fair sir, I hope you are satisfied with the sight,” interrupted the Baron, wishing to cut short a conversation he neither understood nor liked. “It rejoiceth me,” was the reply, “nay, so much so that I could wish to prolong the pleasure, for there is a Life and Truth<sup id="footnote-39-back" class="footnote"><a href="#footnote-39">39</a></sup> in those tones which recall to me scenes of earlier days—” “does it indeed?” said the Baron, considerably puzzled; “ay soothly,” returned the other, “and now I bethink me,” walking to the window, “it was the country likewise I did desire to look upon; ’tis fine, is’t not?” “It’s a very fine country,<sup id="footnote-40-back" class="footnote"><a href="#footnote-40">40</a></sup>” replied the Baron, adding internally, “and I wish you were well out of it!”</p>
  
--<p>The stranger stood some minutes gazing out of the window, and then said, suddenly turning to the Baron, “you must know, fair sir, that I am a poet!” “Really?” replied he, “and pray what’s that?” M<sup>r</sup>&nbsp;Milton Smith made no reply, but continued his observations, “perceive you, mine host, the enthusiastic<sup class="footnote"><a href="#footnote-41">41</a></sup> halo which encircles yon tranquil mead?” “The quickset hedge, you mean;” remarked the Baron rather contemptuously, as he walked up to the window. “My mind,” continued his guest, “feels alway a bounding—and a longing—for—what is True and Fair<sup class="footnote"><a href="#footnote-42">42</a></sup> in Nature, and—and—see you not the gorgeous rusticity—I mean sublimity, which is wafted over, and as it were intermingled with the verdure—that is, you know, the grass?” “Intermingled with the grass? oh! you mean the butter-cups<sup class="footnote"><a href="#footnote-43">43</a></sup>?” said the other, “yes, they’ve a very pretty effect.” “Pardon me,” replied M<sup>r</sup>&nbsp;Milton Smith, “I meant not that, but—but I could almost poetise thereon!</p>
-+<p>The stranger stood some minutes gazing out of the window, and then said, suddenly turning to the Baron, “you must know, fair sir, that I am a poet!” “Really?” replied he, “and pray what’s that?” M<sup>r</sup>&nbsp;Milton Smith made no reply, but continued his observations, “perceive you, mine host, the enthusiastic<sup class="footnote"><a href="#footnote-41">41</a></sup> halo which encircles yon tranquil mead?” “The quickset hedge, you mean;” remarked the Baron rather contemptuously, as he walked up to the window. “My mind,” continued his guest, “feels alway a bounding—and a longing—for—what is True and Fair<sup class="footnote"><a href="#footnote-42">42</a></sup> in Nature, and—and—see you not the gorgeous rusticity—I mean sublimity, which is wafted over, and as it were intermingled with the verdure—that is, you know, the grass?” “Intermingled with the grass? oh! you mean the butter-cups<span id="walkingstick:poor2"></span><sup class="footnote"><a href="#footnote-43">43</a></sup>?” said the other, “yes, they’ve a very pretty effect.” “Pardon me,” replied M<sup>r</sup>&nbsp;Milton Smith, “I meant not that, but—but I could almost poetise thereon!</p>
+-<p>The stranger stood some minutes gazing out of the window, and then said, suddenly turning to the Baron, “you must know, fair sir, that I am a poet!” “Really?” replied he, “and pray what’s that?” M<sup>r</sup>&nbsp;Milton Smith made no reply, but continued his observations, “perceive you, mine host, the enthusiastic<sup id="footnote-41-back" class="footnote"><a href="#footnote-41">41</a></sup> halo which encircles yon tranquil mead?” “The quickset hedge, you mean;” remarked the Baron rather contemptuously, as he walked up to the window. “My mind,” continued his guest, “feels alway a bounding—and a longing—for—what is True and Fair<sup id="footnote-42-back" class="footnote"><a href="#footnote-42">42</a></sup> in Nature, and—and—see you not the gorgeous rusticity—I mean sublimity, which is wafted over, and as it were intermingled with the verdure—that is, you know, the grass?” “Intermingled with the grass? oh! you mean the butter-cups<sup id="footnote-43-back" class="footnote"><a href="#footnote-43">43</a></sup>?” said the other, “yes, they’ve a very pretty effect.” “Pardon me,” replied M<sup>r</sup>&nbsp;Milton Smith, “I meant not that, but—but I could almost poetise thereon!</p>
++<p>The stranger stood some minutes gazing out of the window, and then said, suddenly turning to the Baron, “you must know, fair sir, that I am a poet!” “Really?” replied he, “and pray what’s that?” M<sup>r</sup>&nbsp;Milton Smith made no reply, but continued his observations, “perceive you, mine host, the enthusiastic<sup id="footnote-41-back" class="footnote"><a href="#footnote-41">41</a></sup> halo which encircles yon tranquil mead?” “The quickset hedge, you mean;” remarked the Baron rather contemptuously, as he walked up to the window. “My mind,” continued his guest, “feels alway a bounding—and a longing—for—what is True and Fair<sup id="footnote-42-back" class="footnote"><a href="#footnote-42">42</a></sup> in Nature, and—and—see you not the gorgeous rusticity—I mean sublimity, which is wafted over, and as it were intermingled with the verdure—that is, you know, the grass?” “Intermingled with the grass? oh! you mean the butter-cups<span id="walkingstick:poor2"></span><sup id="footnote-43-back" class="footnote"><a href="#footnote-43">43</a></sup>?” said the other, “yes, they’ve a very pretty effect.” “Pardon me,” replied M<sup>r</sup>&nbsp;Milton Smith, “I meant not that, but—but I could almost poetise thereon!</p>
  
  <div class="verse">
  <p>“Lovely meadow, thou whose fragrance<br>
@@ -8486,9 +8489,9 @@ diff -ru a/rectory-umbrella/the-walking-stick-of-destiny.html b/rectory-umbrella
  <p>“Where repose the lowly violets,” “violets doesn’t rhyme half as well as vagrants,” argued the Baron, “can’t help that,” was the reply:</p>
  
 -<p>“Murmuring gently”—“oh my eye!”<!--Command \footnoteref not defined!-->walkingstick:rhyme said the Baron, finishing the line for him, “so there’s one stanza done, and now I must wish you good night; you’re welcome to a bed, so, when you’ve done poetising, ring the bell, and the servant will show you where to sleep.” “Thanks,” replied the poet, as the Baron left the room.</p>
-+<p>“Murmuring gently”—“oh my eye!”<sup class="footnote"><a href="#footnote-44">44</a></sup> said the Baron, finishing the line for him, “so there’s one stanza done, and now I must wish you good night; you’re welcome to a bed, so, when you’ve done poetising, ring the bell, and the servant will show you where to sleep.” “Thanks,” replied the poet, as the Baron left the room.</p>
++<p>“Murmuring gently”—“oh my eye!”<sup id="footnote-44b-back" class="footnote"><a href="#footnote-44">44</a></sup> said the Baron, finishing the line for him, “so there’s one stanza done, and now I must wish you good night; you’re welcome to a bed, so, when you’ve done poetising, ring the bell, and the servant will show you where to sleep.” “Thanks,” replied the poet, as the Baron left the room.</p>
  
- <p>“Murmuring gently with a sigh—Ah! <i>that’s</i> all right,” he continued when the door was shut, and leaning out of the window he gave a low whistle. The <span id="walkingstick:mysterious"></span>mysterious figure in a cloak immediately emerged<sup class="footnote"><a href="#footnote-46">46</a></sup> from the bushes, and said in a whisper, “all right?” “<i>all right</i>,” returned the poet, “I’ve sent the old covey<sup class="footnote"><a href="#footnote-47">47</a></sup> to sleep with some poetry, by the bye I nearly forgot that stanza you taught me, I got into <i>such</i> a fix! However the coast is clear now, so look sharp.” The figure then produced a rope <span id="walkingstick:ladder"></span>ladder from under his cloak, which the poet proceeded to draw up.</p>
+ <p>“Murmuring gently with a sigh—Ah! <i>that’s</i> all right,” he continued when the door was shut, and leaning out of the window he gave a low whistle. The <span id="walkingstick:mysterious"></span>mysterious figure in a cloak immediately emerged<sup id="footnote-46-back" class="footnote"><a href="#footnote-46">46</a></sup> from the bushes, and said in a whisper, “all right?” “<i>all right</i>,” returned the poet, “I’ve sent the old covey<sup id="footnote-47-back" class="footnote"><a href="#footnote-47">47</a></sup> to sleep with some poetry, by the bye I nearly forgot that stanza you taught me, I got into <i>such</i> a fix! However the coast is clear now, so look sharp.” The figure then produced a rope <span id="walkingstick:ladder"></span>ladder from under his cloak, which the poet proceeded to draw up.</p>
  
 @@ -129,8 +129,8 @@
  <h3 id="walkingstick:5">Ch.&nbsp;5</h3>
@@ -8511,62 +8514,62 @@ diff -ru a/rectory-umbrella/the-walking-stick-of-destiny.html b/rectory-umbrella
 +<img src="../../images/rectory-umbrella/walkingstick-7-3.jpg" width="172" height="221" style="max-width:7em; display:inline-block; float: right;" alt="The Baron Muggzwig.">
  </figure>
  
- <p>On entering the room they made a low obeisance, and the Baron starting from his seat exclaimed with singular rapidity, “and even if you have called on behalf of Slogdod that infatuated wretch and I’m sure I’ve often told him—” “we have called,” gravely interrupted the magician, “to ascertain whether—” “yes” continued the excited<sup class="footnote"><a href="#footnote-67">67</a></sup> Baron, “scores of times aye scores of times I have and you may believe me or not as you like for though—” “to ascertain,” persisted the magician, “whether you have in your possession,<sup class="footnote"><a href="#footnote-68">68</a></sup> and if so—” “but yet” broke in Muggzwig, “he always would and as he used to say if—” “and if so,” shouted the man in a cloak despairing of the Magician ever getting through the sentence, “to know what you would like to be done with regard to Signor Blowski.” So saying, they retired a few steps, and waited for the Baron’s reply, and their host, without further delay delivered the following remarkable<sup class="footnote"><a href="#footnote-69">69</a></sup> speech: “and though I have no wish to provoke the enmity which considering the provocations I have received and really if you reckon them up they are more than any mortal man let alone a Baron for the family temper has been known for years to be beyond nay the royal family themselves will hardly boast of considering too that he has so long a time kept which I shouldn’t have found out only that rascal Blowski said and how he could bring himself to tell all those lies I ca’n’t think for I always considered him quite honest and of course wishing if possible to prove him innocent<sup class="footnote"><a href="#footnote-70">70</a></sup> and the walkingstick since it is absolutely necessary in such matters and begging your pardon I consider the toad and all that humbug but that’s between you and me and even when I had sent for it by two of my bandits<sup class="footnote"><a href="#footnote-71">71</a></sup> and one of them bringing it to me yesterday for which I gave him a purse of gold and I hope he was grateful for it and though the employment of bandits is at all times and particularly in this case if you consider the but even on account of some civilities he showed me though I daresay there was something and by-the-bye perhaps that was the reason he pitched himself I mean him out of the window for—” here he paused, seeing that his visitors in despair had left the room. Now, Reader, prepare yourself for the last chapter.</p>
+ <p>On entering the room they made a low obeisance, and the Baron starting from his seat exclaimed with singular rapidity, “and even if you have called on behalf of Slogdod that infatuated wretch and I’m sure I’ve often told him—” “we have called,” gravely interrupted the magician, “to ascertain whether—” “yes” continued the excited<sup id="footnote-67-back" class="footnote"><a href="#footnote-67">67</a></sup> Baron, “scores of times aye scores of times I have and you may believe me or not as you like for though—” “to ascertain,” persisted the magician, “whether you have in your possession,<sup id="footnote-68-back" class="footnote"><a href="#footnote-68">68</a></sup> and if so—” “but yet” broke in Muggzwig, “he always would and as he used to say if—” “and if so,” shouted the man in a cloak despairing of the Magician ever getting through the sentence, “to know what you would like to be done with regard to Signor Blowski.” So saying, they retired a few steps, and waited for the Baron’s reply, and their host, without further delay delivered the following remarkable<sup id="footnote-69-back" class="footnote"><a href="#footnote-69">69</a></sup> speech: “and though I have no wish to provoke the enmity which considering the provocations I have received and really if you reckon them up they are more than any mortal man let alone a Baron for the family temper has been known for years to be beyond nay the royal family themselves will hardly boast of considering too that he has so long a time kept which I shouldn’t have found out only that rascal Blowski said and how he could bring himself to tell all those lies I ca’n’t think for I always considered him quite honest and of course wishing if possible to prove him innocent<sup id="footnote-70-back" class="footnote"><a href="#footnote-70">70</a></sup> and the walkingstick since it is absolutely necessary in such matters and begging your pardon I consider the toad and all that humbug but that’s between you and me and even when I had sent for it by two of my bandits<sup id="footnote-71-back" class="footnote"><a href="#footnote-71">71</a></sup> and one of them bringing it to me yesterday for which I gave him a purse of gold and I hope he was grateful for it and though the employment of bandits is at all times and particularly in this case if you consider the but even on account of some civilities he showed me though I daresay there was something and by-the-bye perhaps that was the reason he pitched himself I mean him out of the window for—” here he paused, seeing that his visitors in despair had left the room. Now, Reader, prepare yourself for the last chapter.</p>
 @@ -225,7 +225,7 @@
- <li id="footnote-11">with most probably an hyena’s laugh.</li>
- <li id="footnote-12">This celebrated individual was born in Stockholm in 1548.</li>
- <li id="footnote-13">probably some magic charm.</li>
+ <li id="footnote-11">with most probably an hyena’s laugh. <a href="#footnote-11-back" class="footnote-back">↩</a></li>
+ <li id="footnote-12">This celebrated individual was born in Stockholm in 1548. <a href="#footnote-12-back" class="footnote-back">↩</a></li>
+ <li id="footnote-13">probably some magic charm. <a href="#footnote-13-back" class="footnote-back">↩</a></li>
 -<li id="footnote-14"><table class="r1 r2">
 +<li id="footnote-14"><table class="r1 r2" style="margin: 0;">
  <tr><td>from</td><td>1000</td><td>ingredients</td></tr>
  <tr><td>subtract</td><td style="border-bottom: solid thin;">832</td></tr>
  <tr><td>and there remain</td><td>168</td><td>more to put in.</td></tr>
 @@ -254,12 +254,12 @@
- <li id="footnote-36">vide <a href="#walkingstick:trumpet">page&nbsp;2</a>.</li>
- <li id="footnote-37">and “unwanted” too, as we afterwards learn.</li>
- <li id="footnote-38">vide illustration.</li>
--<li id="footnote-39"><span id="walkingstick:dickens"></span><p>Dickens’ style.</p></li>
-+<li id="footnote-39">Dickens’ style.</li>
- <li id="footnote-40">i.&thinsp;e. by daylight, it was now growing dark.</li>
- <li id="footnote-41">reason sacrificed to poetry.</li>
--<li id="footnote-42">vide note (<a href="#walkingstick:dickens">?</a>), an imitation, but superior.</li>
--<li id="footnote-43"><span id="walkingstick:poor2"></span><p>a sign of bad land, and as it was the Baron’s estate, we may guess from this that he was not rich. A further proof of this may be found in <a href="#walkingstick:poor">page&nbsp;58</a>.</p></li>
--<li id="footnote-44"><span id="walkingstick:rhyme"></span><p>the Baron had evidently a good ear for rhyme.</p></li>
-+<li id="footnote-42">vide note (<a href="#footnote-39">39</a>), an imitation, but superior.</li>
-+<li id="footnote-43">a sign of bad land, and as it was the Baron’s estate, we may guess from this that he was not rich. A further proof of this may be found in <a href="#walkingstick:poor">page&nbsp;58</a>.</li>
-+<li id="footnote-44">the Baron had evidently a good ear for rhyme.</li>
- <li id="footnote-45">quasi-inspired.</li>
- <li id="footnote-46">came out of.</li>
- <li id="footnote-47">the “o” long.</li>
+ <li id="footnote-36">vide <a href="#walkingstick:trumpet">page&nbsp;2</a>. <a href="#footnote-36-back" class="footnote-back">↩</a></li>
+ <li id="footnote-37">and “unwanted” too, as we afterwards learn. <a href="#footnote-37-back" class="footnote-back">↩</a></li>
+ <li id="footnote-38">vide illustration. <a href="#footnote-38-back" class="footnote-back">↩</a></li>
+-<li id="footnote-39"><span id="walkingstick:dickens"></span><p>Dickens’ style.</p> <a href="#footnote-39-back" class="footnote-back">↩</a></li>
++<li id="footnote-39">Dickens’ style. <a href="#footnote-39-back" class="footnote-back">↩</a></li>
+ <li id="footnote-40">i.&thinsp;e. by daylight, it was now growing dark. <a href="#footnote-40-back" class="footnote-back">↩</a></li>
+ <li id="footnote-41">reason sacrificed to poetry. <a href="#footnote-41-back" class="footnote-back">↩</a></li>
+-<li id="footnote-42">vide note (<a href="#walkingstick:dickens">?</a>), an imitation, but superior. <a href="#footnote-42-back" class="footnote-back">↩</a></li>
+-<li id="footnote-43"><span id="walkingstick:poor2"></span><p>a sign of bad land, and as it was the Baron’s estate, we may guess from this that he was not rich. A further proof of this may be found in <a href="#walkingstick:poor">page&nbsp;58</a>.</p> <a href="#footnote-43-back" class="footnote-back">↩</a></li>
+-<li id="footnote-44"><span id="walkingstick:rhyme"></span><p>the Baron had evidently a good ear for rhyme.</p> <a href="#footnote-44-back" class="footnote-back">↩</a></li>
++<li id="footnote-42">vide note (<a href="#footnote-39">39</a>), an imitation, but superior. <a href="#footnote-42-back" class="footnote-back">↩</a></li>
++<li id="footnote-43">a sign of bad land, and as it was the Baron’s estate, we may guess from this that he was not rich. A further proof of this may be found in <a href="#walkingstick:poor">page&nbsp;58</a>. <a href="#footnote-43-back" class="footnote-back">↩</a></li>
++<li id="footnote-44">the Baron had evidently a good ear for rhyme. <a href="#footnote-44-back" class="footnote-back">↩</a> <a href="#footnote-44b-back" class="footnote-back">↩</a></li>
+ <li id="footnote-45">quasi-inspired. <a href="#footnote-45-back" class="footnote-back">↩</a></li>
+ <li id="footnote-46">came out of. <a href="#footnote-46-back" class="footnote-back">↩</a></li>
+ <li id="footnote-47">the “o” long. <a href="#footnote-47-back" class="footnote-back">↩</a></li>
 @@ -273,7 +273,7 @@
- <li id="footnote-55">it rolled spirally round the cave.</li>
- <li id="footnote-56">the Awful Form, the potatoe, and the right-hand cat.</li>
- <li id="footnote-57">vide <a href="#walkingstick:toad">page&nbsp;59</a>. the toad was always necessary to magical rites, see Shakespeare’s “Macbeth.”</li>
--<li id="footnote-58">it’s contents, as afterwards appears were very small. vide <a href="#walkingstick:poor2">page&nbsp;27</a>, note (<a href="#walkingstick:poor2">?</a>).</li>
-+<li id="footnote-58">it’s contents, as afterwards appears were very small. vide <a href="#walkingstick:poor2">page&nbsp;27</a>, note (<a href="#footnote-43">43</a>).</li>
- <li id="footnote-59">probably they began at about one o’clock.</li>
- <li id="footnote-60">the amount of this noise can only be guessed at, as the experiment has never been tried.</li>
- <li id="footnote-61">probably red hot. vide <a href="#walkingstick:redhot">page&nbsp;17</a>.</li>
+ <li id="footnote-55">it rolled spirally round the cave. <a href="#footnote-55-back" class="footnote-back">↩</a></li>
+ <li id="footnote-56">the Awful Form, the potatoe, and the right-hand cat. <a href="#footnote-56-back" class="footnote-back">↩</a></li>
+ <li id="footnote-57">vide <a href="#walkingstick:toad">page&nbsp;59</a>. the toad was always necessary to magical rites, see Shakespeare’s “Macbeth.” <a href="#footnote-57-back" class="footnote-back">↩</a></li>
+-<li id="footnote-58">it’s contents, as afterwards appears were very small. vide <a href="#walkingstick:poor2">page&nbsp;27</a>, note (<a href="#walkingstick:poor2">?</a>). <a href="#footnote-58-back" class="footnote-back">↩</a></li>
++<li id="footnote-58">it’s contents, as afterwards appears were very small. vide <a href="#walkingstick:poor2">page&nbsp;27</a>, note (<a href="#footnote-43">43</a>). <a href="#footnote-58-back" class="footnote-back">↩</a></li>
+ <li id="footnote-59">probably they began at about one o’clock. <a href="#footnote-59-back" class="footnote-back">↩</a></li>
+ <li id="footnote-60">the amount of this noise can only be guessed at, as the experiment has never been tried. <a href="#footnote-60-back" class="footnote-back">↩</a></li>
+ <li id="footnote-61">probably red hot. vide <a href="#walkingstick:redhot">page&nbsp;17</a>. <a href="#footnote-61-back" class="footnote-back">↩</a></li>
 diff -ru a/rectory-umbrella/zoological-papers.html b/rectory-umbrella/zoological-papers.html
 --- a/rectory-umbrella/zoological-papers.html
 +++ b/rectory-umbrella/zoological-papers.html
 @@ -144,14 +144,14 @@
- <li id="footnote-20">vide <a href="#dove:connection">page&nbsp;49</a>.</li>
- <li id="footnote-21">not that we have not begun already, but here commences that close, learned, and unanswerable argument which has made this paper so deservedly celebrated.</li>
- <li id="footnote-22">fact (2).</li>
--<li id="footnote-23"><span id="dove:talent"></span><p>or “accomplishments,” which, though common among men, are rarely found in other creaturs.</p></li>
-+<li id="footnote-23">or “accomplishments,” which, though common among men, are rarely found in other creaturs.</li>
- <li id="footnote-24">fact (1.)</li>
- <li id="footnote-25">fact (3.)</li>
- <li id="footnote-26">or quadrupeds</li>
- <li id="footnote-27">fact (4.)</li>
- <li id="footnote-28">see Buffon: “wild” does not here mean “savage,” but “undomesticated.”</li>
- <li id="footnote-29"><a href="#zoological:fishs">page&nbsp;33</a>.</li>
--<li id="footnote-30">the use of this word is explained <!--Command \maybeThisPage not defined!-->dove:talenton this page abovein the preceeding page: note (<a href="#dove:talent">?</a>).</li>
-+<li id="footnote-30">the use of this word is explained in the preceeding page: note (<a href="#footnote-23">23</a>).</li>
- <li id="footnote-31">by this is not meant that it is tenderer than other doves.</li>
- <li id="footnote-32">see <a href="#dove:punch">preceding page</a>.</li>
- <li id="footnote-33">generally of a goose or swan, but there is no reason why a Dove’s should not be used.</li>
+ <li id="footnote-20">vide <a href="#dove:connection">page&nbsp;49</a>. <a href="#footnote-20-back" class="footnote-back">↩</a></li>
+ <li id="footnote-21">not that we have not begun already, but here commences that close, learned, and unanswerable argument which has made this paper so deservedly celebrated. <a href="#footnote-21-back" class="footnote-back">↩</a></li>
+ <li id="footnote-22">fact (2). <a href="#footnote-22-back" class="footnote-back">↩</a></li>
+-<li id="footnote-23"><span id="dove:talent"></span><p>or “accomplishments,” which, though common among men, are rarely found in other creaturs.</p> <a href="#footnote-23-back" class="footnote-back">↩</a></li>
++<li id="footnote-23">or “accomplishments,” which, though common among men, are rarely found in other creaturs. <a href="#footnote-23-back" class="footnote-back">↩</a></li>
+ <li id="footnote-24">fact (1.) <a href="#footnote-24-back" class="footnote-back">↩</a></li>
+ <li id="footnote-25">fact (3.) <a href="#footnote-25-back" class="footnote-back">↩</a></li>
+ <li id="footnote-26">or quadrupeds <a href="#footnote-26-back" class="footnote-back">↩</a></li>
+ <li id="footnote-27">fact (4.) <a href="#footnote-27-back" class="footnote-back">↩</a></li>
+ <li id="footnote-28">see Buffon: “wild” does not here mean “savage,” but “undomesticated.” <a href="#footnote-28-back" class="footnote-back">↩</a></li>
+ <li id="footnote-29"><a href="#zoological:fishs">page&nbsp;33</a>. <a href="#footnote-29-back" class="footnote-back">↩</a></li>
+-<li id="footnote-30">the use of this word is explained <!--Command \maybeThisPage not defined!-->dove:talenton this page abovein the preceeding page: note (<a href="#dove:talent">?</a>). <a href="#footnote-30-back" class="footnote-back">↩</a></li>
++<li id="footnote-30">the use of this word is explained in the preceeding page: note (<a href="#footnote-23">23</a>). <a href="#footnote-30-back" class="footnote-back">↩</a></li>
+ <li id="footnote-31">by this is not meant that it is tenderer than other doves. <a href="#footnote-31-back" class="footnote-back">↩</a></li>
+ <li id="footnote-32">see <a href="#dove:punch">preceding page</a>. <a href="#footnote-32-back" class="footnote-back">↩</a></li>
+ <li id="footnote-33">generally of a goose or swan, but there is no reason why a Dove’s should not be used. <a href="#footnote-33-back" class="footnote-back">↩</a></li>
 diff -ru a/sylvie-and-bruno/content.html b/sylvie-and-bruno/content.html
 --- a/sylvie-and-bruno/content.html
 +++ b/sylvie-and-bruno/content.html
@@ -9532,8 +9535,8 @@ diff -ru a/tangled-tale/content.html b/tangled-tale/content.html
  <p><span class="annotated variant" data-ref="annotation-128">I must postpone, <i>sine die</i>,</span> the geographical problem—partly because I have not yet received the statistics I am hoping for, and partly because I am myself so entirely puzzled by it; and when an examiner is himself dimly hovering between a second class and a third how is he to decide the position of <span class="annotated variant" data-ref="annotation-129">others?</span></p>
  <aside class="toggle variant" id="annotation-128">Once more I must postpone</aside>
 @@ -1874,7 +1877,6 @@
- <li id="footnote-1">“<i>Maskee</i>,” in Pigeon-English, means “<i>without</i>.”</li>
- <li id="footnote-2"><i>Note by the writer.</i>—For the above Essay I am indebted to a dear friend, now deceased.</li>
+ <li id="footnote-1">“<i>Maskee</i>,” in Pigeon-English, means “<i>without</i>.” <a href="#footnote-1-back" class="footnote-back">↩</a></li>
+ <li id="footnote-2"><i>Note by the writer.</i>—For the above Essay I am indebted to a dear friend, now deceased. <a href="#footnote-2-back" class="footnote-back">↩</a></li>
  </ol></div>
 -<!--TODO missing annotations: annotation-113, annotation-116, annotation-127 -->
  </article>
@@ -10565,6 +10568,19 @@ diff -ru a/texts/suggestions-as-to-the-election-of-proctors.html b/texts/suggest
  <tr style="border-bottom: solid thin;"><td><i>Colleges.</i></td><td><i>No. of Members.</i></td><td>1908</td><td>1909</td><td>1910</td><td>1911</td><td>1912</td><td>1913</td><td>1914</td><td>1915</td><td>1916</td><td>1917</td><td>1918</td><td>1919</td></tr>
  <tr style="border-top: solid thin;"><td>A</td><td>10</td><td>60*</td><td>10</td><td>20</td><td>30</td><td>40</td><td>50</td><td>60*</td><td>10</td><td>20</td><td>30</td><td>40</td><td>50</td></tr>
  <tr><td>B</td><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td><td>30</td><td>35</td><td>40</td><td>45</td><td>50</td><td>55</td><td>60*</td><td><span style="visibility: hidden;">0</span>5</td></tr>
+diff -ru a/texts/testimonial.html b/texts/testimonial.html
+--- a/texts/testimonial.html
++++ b/texts/testimonial.html
+@@ -26,7 +26,8 @@
+ </ul></nav>
+ <search><form action="../about/search.html"><input aria-label="Search for: " type="search" name="q"><button title="Search" aria-label="Search"><svg><use xlink:href="../../res/icons.svg#search" /></svg></button></form></search>
+ <h2>Testimonial</h2>
+-<p>Source: The Edison Electric Pen and Duplicating Press, 1878, untitled entry in Testimonials section of instruction manual</p></header>
++<p>Source: The Edison Electric Pen and Duplicating Press, 1878, untitled entry in Testimonials section of instruction manual</p>
++<p>Other version: <a href="the-electric-pen.html">The Electric Pen</a></p></header>
+ <article>
+ 
+ <div class="signature"><p>July 11th, 1877.</p></div>
 diff -ru a/texts/the-alphabet-cipher.html b/texts/the-alphabet-cipher.html
 --- a/texts/the-alphabet-cipher.html
 +++ b/texts/the-alphabet-cipher.html
@@ -10697,26 +10713,16 @@ diff -ru a/texts/the-alphabet-cipher.html b/texts/the-alphabet-cipher.html
 diff -ru a/texts/the-electric-pen.html b/texts/the-electric-pen.html
 --- a/texts/the-electric-pen.html
 +++ b/texts/the-electric-pen.html
-@@ -26,9 +26,9 @@
+@@ -26,7 +26,8 @@
  </ul></nav>
  <search><form action="../about/search.html"><input aria-label="Search for: " type="search" name="q"><button title="Search" aria-label="Search"><svg><use xlink:href="../../res/icons.svg#search" /></svg></button></form></search>
  <h2>The Electric Pen</h2>
--<h3>Cyclostyled Paper</h3>
 -<p>Source: cyclostyled 1877</p></header>
-+<p>Source: cyclostyled 1877; instruction manual of the electric pen, distributed by The Electric Writing Co.&nbsp;Ltd., 1877</p></header>
++<p>Source: cyclostyled 1877</p>
++<p>Other version: <a href="testimonial.html">Testimonial</a></p></header>
  <article>
-+<h3>Cyclostyled Paper</h3>
  
  <p>The Electric Pen, with which I am now writing, seems to me to be quite the best thing yet invented for taking a number of copies of M.S., drawings, or maps.</p>
- 
-@@ -43,7 +43,6 @@
- <p>The pen is a patented invention, &amp; may be had, with battery &amp;c., for 8 guineas, from the Electric Pen Company, 9.&nbsp;New Broad Street, City, London. </p><div class="signature"><p>C. L. Dodgson.<br>Ch&nbsp;Ch June 28/77</p></div>
- 
- <h3>Instruction Manual</h3>
--<header><p>Source: instruction manual of the electric pen, distributed by The Electric Writing Co.&nbsp;Ltd., 1877</p></header>
- 
- <div class="signature"><p>July 11th, 1877.</p></div>
- 
 diff -ru a/texts/the-proposed-procuratorial-cycle.html b/texts/the-proposed-procuratorial-cycle.html
 --- a/texts/the-proposed-procuratorial-cycle.html
 +++ b/texts/the-proposed-procuratorial-cycle.html

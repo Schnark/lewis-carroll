@@ -351,9 +351,10 @@ toHtml.atEnd(function () {
 
 footnotes = [];
 registerCommand('footnote', function (fn) {
-	var id = 'footnote-' + (footnotes.length + 1);
-	footnotes.push('<li id="' + id + '">' + unwrapP(fn) + '</li>');
-	return '<sup class="footnote"><a href="#' + id + '">' + footnotes.length + '</a></sup>';
+	var id = 'footnote-' + (footnotes.length + 1),
+		idBack = id + '-back';
+	footnotes.push('<li id="' + id + '">' + unwrapP(fn) + ' <a href="#' + idBack + '" class="footnote-back">↩</a></li>');
+	return '<sup id="' + idBack + '" class="footnote"><a href="#' + id + '">' + footnotes.length + '</a></sup>';
 }, ['long']);
 toHtml.atEnd(function () {
 	var result;

@@ -252,16 +252,16 @@ function getNav (page) {
 		'Papers on Logic': {
 			'math/first-paper-on-logic.html': 'First Paper',
 			'math/fourth-paper-on-logic.html': 'Fourth Paper',
-			'math/questions-in-logic.html': 'Questions in Logic',
 			'math/fifth-paper-on-logic.html': 'Fifth Paper',
 			'math/sixth-paper-on-logic.html': 'Sixth Paper',
+			'math/questions-in-logic.html': 'Questions in Logic',
 			'math/eighth-paper-on-logic.html': 'Eighth Paper',
 			'math/ninth-paper-on-logic.html': 'Ninth Paper',
 			'math/eighth-and-ninth-paper-on-logic-notes.html': 'Notes on Eighth and Ninth Paper',
-			'math/symbolic-logic-questions-i.html': 'Symbolic Logic. Questions. I',
-			'math/symbolic-logic-questions-ii.html': 'Symbolic Logic. Questions. II',
 			'math/symbolic-logic-specimen-syllogisms-premisses.html': 'Symbolic Logic. Premisses',
-			'math/symbolic-logic-specimen-syllogisms-2nd-ed-conclusions.html': 'Symbolic Logic. Conclusions'
+			'math/symbolic-logic-specimen-syllogisms-2nd-ed-conclusions.html': 'Symbolic Logic. Conclusions',
+			'math/symbolic-logic-questions-i.html': 'Symbolic Logic. Questions. I',
+			'math/symbolic-logic-questions-ii.html': 'Symbolic Logic. Questions. II'
 		},
 		'Paradox on Hypotheticals': {
 			'math/a-disputed-point-in-logic-april-1894.html': 'A Disputed Point in Logic',

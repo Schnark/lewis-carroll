@@ -287,6 +287,7 @@ imageData = {
 		"snark/09": [360, 243],
 		"snark/10": [241, 360],
 		"snark/back": [433, 659],
+		"snark/back2": [130, 130],
 		"snark/cover": [431, 655],
 		"stamp-case/1": [612, 904],
 		"stamp-case/2": [636, 922],

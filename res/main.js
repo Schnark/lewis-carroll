@@ -151,7 +151,7 @@ document.getElementsByTagName('html')[0].addEventListener('keydown', function (e
 "use strict";
 
 var links = document.getElementsByTagName('a'),
-	i,
+	i, href,
 	currentFootnote,
 	timeout;
 
@@ -208,7 +208,8 @@ function onMouseenter (e) {
 }
 
 for (i = 0; i < links.length; i++) {
-	if (links[i].getAttribute('href').slice(0, '#footnote-'.length) === '#footnote-') {
+	href = links[i].getAttribute('href');
+	if (href.slice(0, '#footnote-'.length) === '#footnote-' && href.slice(-('-back'.length)) !== '-back') {
 		links[i].addEventListener('mouseenter', onMouseenter); //TODO delay?
 		links[i].addEventListener('mouseleave', delayedHideFootnote);
 		links[i].addEventListener('click', hideFootnote);
