@@ -129,7 +129,7 @@ function getMetadata (html, path) {
 	title = /<h2>(.*?)<\/h2>/.exec(html);
 	if (title) {
 		title = title[1]
-			.replace(/<sup class="footnote">.*?<\/sup>/g, '')
+			.replace(/<sup id="footnote-\d+-back" class="footnote">.*?<\/sup>/g, '')
 			.replace(/<[^<>]+>/g, '');
 	} else if (isMain) {
 		title = 'The (almost really) Complete Works of Lewis Carroll';
