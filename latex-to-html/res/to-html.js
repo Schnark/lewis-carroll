@@ -107,6 +107,12 @@ function mathToHtml (math, mode) {
 	mathFixCallbacks.forEach(function (callback) {
 		math = callback(math, mode);
 	});
+	/*TODO enable
+	//TeXZilla behaves much better when \left and \right is always used, so just add them if that seems ok
+	if (math.replace(/[^(]+/g, '').length === math.replace(/[^)]+/g, '').length) {
+		math = math.replace(/\(/g, '\\left(').replace(/\)/g, '\\right)')
+			.replace(/\\left\\left\(/g, '\\left(').replace(/\\right\\right\)/g, '\\right)');
+	}*/
 	math = math.replace(/\\not>/g, '≯').replace(/\\not</g, '≮');
 	math = math.replace(/\\S\b/g, '\\mo{§}');
 	math = math.replace(/::/g, '\\mo{::}');

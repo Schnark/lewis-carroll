@@ -404,7 +404,7 @@ function getNav (page) {
 
 var TOC = [ //TODO more?
 	'about/contents-by-source.html',
-	//'about/contents-by-topic.html',
+	'about/contents-by-topic.html',
 	'about/introduction.html',
 
 	'aaiw/content.html',
@@ -467,10 +467,31 @@ function addToc (html) {
 	return html;
 }
 
+function getOtherVersions (page) {
+	var groups = [
+		['math/algebraical-formulae.html', 'math/formulae-in-algebra.html', 'math/algebraical-formulae-and-rules.html'],
+		['magazines/syzygies.html', 'syzygies-and-lanrick/syzygies.html'],
+		['texts/a-postal-problem-june-1891.html', 'magazines/a-postal-problem.html'],
+		['manuscripts-proofs/railway-rules.html', 'manuscripts-proofs/loves-railway-guide.html'],
+		['texts/the-electric-pen.html', 'texts/testimonial.html'],
+		['magazines/nineteenth-century.html', 'texts/cautions-to-readers.html'],
+		['magazines/through-the-looking-glass.html', 'texts/advertisement.html']
+	], i;
+	for (i = 0; i < groups.length; i++) {
+		if (groups[i].indexOf(page) > -1) {
+			return groups[i].filter(function (name) {
+				return name !== page;
+			});
+		}
+	}
+	return [];
+}
+
 return {
 	checkBooks: checkBooks,
 	getNav: getNav,
 	TOC: TOC,
-	addToc: addToc
+	addToc: addToc,
+	getOtherVersions: getOtherVersions
 };
 })();

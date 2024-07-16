@@ -56,6 +56,66 @@ function fixRefs (pages) {
 	});
 }
 
+function fixOtherVersion (pages) {
+	var pageNames = Object.keys(pages), dropHash = [],
+		shortTitle = {
+			'Difficulties': 'Difficulties. No. 1',
+			'Brief Method of Dividing a Given Number by 9 or 11': 'Brief Method of Dividing',
+			'Hiawatha’s Photographing (early version)': 'The Train/Phantasmagoria',
+			'Hiawatha’s Photographing (later version)': 'Rhyme? and Reason?',
+			'Pillow-Problems (Curiosa Mathematica. Part II)': 'Pillow-Problems',
+			'Preface to Syzygies and Lanrick': 'Syzygies and Lanrick',
+			'Symbolic Logic. Part I: Elementary': 'Symbolic Logic',
+			'Symbolic Logic. Specimen-Syllogisms. Premisses': 'Symbolic Logic. Specimen-Syllogisms.',
+			'The Three Voices (early version)': 'The Train/Mischmasch/Phantasmagoria',
+			'The Three Voices (later version)': 'Rhyme? and Reason?'
+		};
+	pageNames.forEach(function (pageName) {
+		var html = pages[pageName], old, other;
+		//add links for pages adjacent in PDF
+		other = navigation.getOtherVersions(pageName);
+		if (other.length) {
+			other = 'Other version' + (other.length > 1 ? 's' : '') + ': ' + other.map(function (otherName) {
+				return '<a href="' + util.relPath(pageName, otherName) + '">seeother-0</a>';
+			}).join(', ');
+			html = html.replace(/\s*<\/header>/, '\n<p>' + other + '</p>\n</header>');
+		}
+		//move aside up into header (keep one even on top if there is more than one)
+		if (html.indexOf('<b>Other version</b>') === html.lastIndexOf('<b>Other version</b>')) {
+			old = html;
+			html = html.replace(/(\s*<\/header>\n<article>)\s*<aside id="[^"]+"><b>(Other versions?)<\/b>(:.*?)<\/aside>\s*/, '\n<p>$2$3</p>$1\n');
+			if (old !== html) {
+				dropHash.push(/<aside id="([^"]+)">/.exec(old)[1]);
+			}
+		}
+		//insert title
+		html = html.replace(/<a href="([^"]+)">seeother-\d<\/a>/g, function (all, href) {
+			var path = href, i, title;
+			i = path.indexOf('#');
+			if (i > -1) {
+				path = path.slice(0, i);
+			}
+			if (path.slice(0, 3) === '../') {
+				path = path.slice(3);
+			} else {
+				i = pageName.indexOf('/');
+				path = pageName.slice(0, i) + '/' + path;
+			}
+			title = /<title>(.*?)<\/title>/.exec(pages[path] || '<title>TODO: ' + path + '</title>')[1];
+			title = shortTitle[title] || title;
+			return '<a href="' + href + '">' + title + '</a>';
+		});
+		pages[pageName] = html;
+	});
+	//remove hash
+	dropHash = new RegExp('#(?:' + dropHash.join('|') + ')"', 'g');
+	pageNames.forEach(function (pageName) {
+		var html = pages[pageName];
+		html = html.replace(dropHash, '"');
+		pages[pageName] = html;
+	});
+}
+
 function unhtml (html) {
 	return html
 		.replace(/<header>[\s\S]*?<\/header>/g, '')
@@ -342,17 +402,11 @@ function convert (latex) {
 			);
 		}
 	});
+	fixOtherVersion(parts);
 
-	parts['about/contents-by-topic.html'] += [
+	parts['about/contents-by-topic.html'] = [
 		'<h2>Contents by Topic</h2>',
-		'<ul>',
-		pageNames.filter(function (name) {
-			return name !== 'about/contents-by-topic.html';
-		}).map(function (name) {
-			var title = /<title>([^<]*)<\/title>/.exec(parts[name])[1];
-			return '<li><a href="../' + name + '">' + title + '</a></li>';
-		}).join('\n'),
-		'</ul>'
+		specialPages.generateContentsByTopicList(parts['about/contents-by-topic.html'], pageNames, parts)
 	].join('\n');
 	parts['about/contents-by-topic.html'] = finalizeHtml(
 		parts['about/contents-by-topic.html'],

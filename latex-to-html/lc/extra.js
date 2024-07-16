@@ -18,6 +18,34 @@ registerCommand('=', function () { //we don't use \={char}, but only the command
 	return toHtml.stringWithProps('', {separator: 'col'});
 });
 
+registerCommand('parbox', function (pos, width, content) {
+	var align = {
+		t: 'top',
+		c: 'middle',
+		b: 'bottom'
+	};
+	if (toHtml.currentEnvironment() === 'tabbing') { //causes more problems than it solves
+		return toHtml.stringWithProps(content, {mode: 'block'});
+	}
+	return toHtml.stringWithProps(
+		'<div style="width: ' + define.parseLength(width) + '; ' +
+		'vertical-align: ' + align[pos || 'c'] + ';">' + content + '</div>',
+		{mode: 'block'}
+	);
+}, ['optional', 'raw', 'long']);
+
+toHtml.fixup(function (html) {
+	//this may lead to invalid HTML, but in most cases it is better just to do it than to be careful
+	//only do this once you identified all places where a manual fix is needed, to reduce that number
+	//as it may well hide problems that do exist
+	return html.replace(/<!--TODO \\(hfill|dotfill|hrulefill)-->(.*?)(<br>|<\/p>|<\/td>)/g, function (all, fill, after, close) {
+		if (after.indexOf('<!--TODO') > -1 || after.indexOf('class="after-') > -1) {
+			return all;
+		}
+		return '<span class="after-' + fill + '">' + after + '</span>' + close;
+	});
+});
+
 //babel
 registerCommand('textgreek', function (greek) {
 	return '<span lang="grc">' + greek.replace(/((?:&lt;|&gt;|&nbsp;|’|‘|&quot;)*[a-z|])|(&[^;]+;|<[^>]+>)/gi, function (all, l, other) {
@@ -345,11 +373,11 @@ registerCommand('seeother', function (max, label, n) {
 	var links = [], i;
 	for (i = 0; i <= (max || 1); i++) {
 		if (i !== Number(n)) {
-			links.push('<a href="#' + label + ':' + i + '">' + i + '</a>');
+			links.push('<a href="#' + label + ':' + i + '">seeother-' + i + '</a>');
 		}
 	}
 	return toHtml.stringWithProps(
-		'<aside id="' + label + ':' + n + '"><b>Other version' + (max ? 's' : '') + '</b>: ' + links.join(', ') + '<!--TODO--></aside>',
+		'<aside id="' + label + ':' + n + '"><b>Other version' + (max ? 's' : '') + '</b>: ' + links.join(', ') + '</aside>',
 		{mode: 'block'}
 	);
 }, ['optional', 'raw', 'raw']);

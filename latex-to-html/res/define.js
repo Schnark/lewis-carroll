@@ -579,9 +579,16 @@ registerEnvironment('align', null, [[], 'math']);
 registerEnvironment('align*', null, [[], 'math']);
 
 function unwrapP (par) {
+	var p, cont;
 	par = par.trim();
-	if (par.lastIndexOf('<p>') === 0 && par.indexOf('</p>') === par.length - 4) {
+	p = par.lastIndexOf('<p>');
+	if (p === 0 && par.indexOf('</p>') === par.length - 4) {
 		return par.slice(3, -4).trim();
+	}
+	cont = par.indexOf('</p><div class="continue">');
+	//nested lists
+	if (p === 0 && cont > -1 && par.indexOf('</div>') === par.length - 6) {
+		return (par.slice(3, cont) + par.slice(cont + 26, -6)).trim();
 	}
 	return par;
 }

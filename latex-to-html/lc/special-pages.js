@@ -11,6 +11,67 @@ function extractCopyright (html) {
 	];
 }
 
+function generateContentsByTopicList (headlines, pageNames, parts) {
+	var startPages = [ //TODO retrive from latex instead of duplicating it here
+		'rectory-magazine/sidney-hamilton.html',
+		'math/a-syllabus-of-plane-algebraical-geometry.html',
+		'math/a-discussion-of-the-various-methods-of-elections.html',
+		'math/first-paper-on-logic.html',
+		'magazines/condensation-of-determinants.html',
+		'math/algebraical-formulae.html',
+		'math/notes-on-the-first-part-of-algebra.html',
+		'texts/rules-for-court-circular-1860.html',
+		'texts/to-all-child-readers-of-alices-adventures-in-wonderland.html',
+		'texts/endowment-of-the-greek-professorship.html',
+		'magazines/vivisection-as-a-sign-of-the-times.html',
+		'texts/the-guildford-gazette-extraordinary.html',
+		'texts/the-telegraph-cipher.html',
+		'manuscripts-proofs/railway-rules.html',
+		'rectory-umbrella/the-vernon-gallery.html',
+		'poems/a-boat-beneath-a-sunny-sky.html',
+		'aaiw/preface.html'
+	];
+	headlines = headlines.replace(/<(\/?)h1>/g, '<$1h3>').split('<h3>');
+	return headlines[0] + '<h3>' + headlines[1] + '<ul>\n' + pageNames.filter(function (name) {
+		return name !== 'index.html' && name.slice(0, 6) !== 'about/';
+	}).map(function (name) {
+		var headline, title, incipit = '', start = '';
+		headline = startPages.indexOf(name);
+		if (headline > -1) {
+			start = '</ul>\n<h3>' + headlines[headline + 2].trim().replace('chapter', 'list') + '\n<ul>\n';
+		}
+		title = /<title>([^<]*)<\/title>/.exec(parts[name])[1];
+		if (name.slice(0, 6) === 'poems/') {
+			incipit = /<div class="verse">\s*<p>\s*(.*?)<br>/.exec(parts[name].replace(/<figure[\s\S]*?<\/figure>/g, ''));
+			if (incipit) {
+				incipit = incipit[1].replace(/<[^>]+>/g, '') //tags
+					.replace('1', '') //footnote
+					.trim();
+				if (incipit.indexOf('”') === -1) {
+					incipit = incipit.replace('“', ''); //unclosed quotes
+				}
+				if (incipit.indexOf('’') === -1) {
+					incipit = incipit.replace('‘', '');
+				}
+				if (incipit.indexOf('“') === 0 && incipit.indexOf('”') === incipit.length - 1) {
+					incipit = incipit.slice(1, -1);
+				}
+				incipit = incipit.replace(/[.,:;—]$/, ''); //trailing punctuation
+			}
+			if (
+				incipit &&
+				incipit.slice(0, title.length).toLowerCase() !== title.toLowerCase() &&
+				incipit.slice(1, title.length + 1).toLowerCase() !== title.toLowerCase()
+			) {
+				incipit = incipit + ': ';
+			} else {
+				incipit = '';
+			}
+		}
+		return start + '<li>' + incipit + '<a href="../' + name + '">' + title + '</a></li>';
+	}).join('\n') + '\n</ul>';
+}
+
 /*
 function generateMaintenance (pages) {
 	return [
@@ -118,6 +179,7 @@ function generateSitemap (pages) {
 
 return {
 	extractCopyright: extractCopyright,
+	generateContentsByTopicList: generateContentsByTopicList,
 	//generateMaintenance: generateMaintenance,
 	searchMeta: searchMeta,
 	searchPage: searchPage,
