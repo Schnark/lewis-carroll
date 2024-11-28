@@ -196,7 +196,7 @@ function getMetadata (html, path) {
 	} else {
 		title = 'TODO';
 	}
-	if (path.slice(-13) === '/preface.html') {
+	if (path.slice(-13) === '/preface.html' || path.slice(-24) === '/preface-supplement.html') {
 		title = 'Preface to ' + title;
 	}
 

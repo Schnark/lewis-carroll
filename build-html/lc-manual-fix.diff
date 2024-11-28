@@ -166,7 +166,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>A Tangled Tale</h4>
-@@ -631,7 +631,7 @@
+@@ -632,7 +632,7 @@
  <li>Title</li>
  <li>Introduction (moved to content)</li>
  <li>Table of Contents</li>
@@ -175,7 +175,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>The Elections to the Hebdomadal Council</h4>
-@@ -705,9 +705,7 @@
+@@ -707,9 +707,7 @@
  <p>scan from <a href="https://archive.org/details/notesbyoxfordchi00carrrich">https://archive.org/details/notesbyoxfordchi00carrrich</a></p>
  
  <ul>
@@ -186,7 +186,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>Table of contents</li>
  <li>The New Method of Evaluation as Applied to <var>π</var>.<ul>
  <li>Title (motto moved to content)</li>
-@@ -720,15 +718,13 @@
+@@ -722,15 +720,13 @@
  <li>Table of contents</li>
  <li><a href="../notes-oxford-chiel/dynamics-particle.html">Content</a></li>
  </ul></li>
@@ -205,7 +205,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>The New Belfry of Christ Church, Oxford.<ul>
  <li>Title (motto and image moved to content)</li>
  <li>Table of Contents</li>
-@@ -744,6 +740,8 @@
+@@ -746,6 +742,8 @@
  <li><a href="../notes-oxford-chiel/blank-cheque.html">Content</a></li>
  </ul></li>
  </ul>
@@ -214,7 +214,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>All parts have been issued separately, including <i>Facts, Figures, and Fancies</i>, additionally to the original editions listed above.</p>
  
-@@ -813,7 +811,7 @@
+@@ -815,7 +813,7 @@
  <li>Title</li>
  <li>Table of Contents</li>
  <li><a href="../texts/eight-or-nine-wise-words-about-letter-writing.html">Main Content</a></li>
@@ -223,7 +223,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Curiosissima Curatoria</h4>
-@@ -841,14 +839,14 @@
+@@ -843,14 +841,14 @@
  <li>Table of Contents</li>
  <li><a href="../syzygies-and-lanrick/syzygies.html">Syzygies</a></li>
  <li><a href="../syzygies-and-lanrick/lanrick.html">Lanrick</a></li>
@@ -234,15 +234,15 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <h3 id="contributions-to-books">Contributions to Books</h3>
  <ul>
 -<li><i>The Edison Electric Pen and Duplicating Press</i> by The Electric Writing Co. Limited, 1878: Testimonial in instruction manual, p.&nbsp;11 (scan from <a href="https://archive.org/details/edisonmicrofilm27/page/n951/mode/1up">https://archive.org/details/edisonmicrofilm27/page/n951/mode/1up</a>/<a href="https://electricpen.org/Images/dodgson.jpg">https://electricpen.org/Images/dodgson.jpg</a>, → <a href="../texts/testimonial.html">here<!--TODO--></a>)</li>
--<li><i>The Garland of Rachel</i>, 1881: What hand may wreathe (text from <i>Humorous Verse</i>, pp.&nbsp;330–331, partial scan of reprint from <a href="https://www.calameo.com/usc_lewiscarroll/read/0059563172c668f8dfa56">https://www.calameo.com/usc_lewiscarroll/read/0059563172c668f8dfa56</a>, p.&nbsp;1095 (1103), see also <a href="https://worcestercollegelibrary.wordpress.com/2020/01/31/the-garland-of-rachel/">https://worcestercollegelibrary.wordpress.com/2020/01/31/the-garland-of-rachel/</a> and <a href="https://www.jstor.org/stable/3815822">https://www.jstor.org/stable/3815822</a>, → <a href="../poems/what-hand-may-wreathe.html">here<!--TODO--></a>)<!--TODO scan--></li>
+-<li><i>The Garland of Rachel</i>, 1881: What hand may wreathe (text from <i>Humorous Verse</i>, pp.&nbsp;330–331, scan of 1902 reprint from <a href="https://babel.hathitrust.org/cgi/pt?id=uc1.31822043036490&amp;seq=65">https://babel.hathitrust.org/cgi/pt?id=uc1.31822043036490&amp;seq=65</a>, see also <a href="https://worcestercollegelibrary.wordpress.com/2020/01/31/the-garland-of-rachel/">https://worcestercollegelibrary.wordpress.com/2020/01/31/the-garland-of-rachel/</a> and <a href="https://www.jstor.org/stable/3815822">https://www.jstor.org/stable/3815822</a>, → <a href="../poems/what-hand-may-wreathe.html">here<!--TODO--></a>)<!--TODO scan--></li>
 -<li><i>The Lost Plum Cake</i> by E.&nbsp;G.&nbsp;Wilcox, 1897: Introduction (text from <i>Complete Works</i>, → <a href="../texts/the-lost-plum-cake.html">here<!--TODO--></a>)<!--TODO scan--></li>
 +<li><i>The Edison Electric Pen and Duplicating Press</i> by The Electric Writing Co. Limited, 1878: <a href="../texts/testimonial.html">Testimonial in instruction manual</a>, p.&nbsp;11 (scan from <a href="https://archive.org/details/edisonmicrofilm27/page/n951/mode/1up">https://archive.org/details/edisonmicrofilm27/page/n951/mode/1up</a>/<a href="https://electricpen.org/Images/dodgson.jpg">https://electricpen.org/Images/dodgson.jpg</a>)</li>
-+<li><i>The Garland of Rachel</i>, 1881: <a href="../poems/what-hand-may-wreathe.html">What hand may wreathe</a> (text from <i>Humorous Verse</i>, pp.&nbsp;330–331, partial scan of reprint from <a href="https://www.calameo.com/usc_lewiscarroll/read/0059563172c668f8dfa56">https://www.calameo.com/usc_lewiscarroll/read/0059563172c668f8dfa56</a>, p.&nbsp;1095 (1103), see also <a href="https://worcestercollegelibrary.wordpress.com/2020/01/31/the-garland-of-rachel/">https://worcestercollegelibrary.wordpress.com/2020/01/31/the-garland-of-rachel/</a> and <a href="https://www.jstor.org/stable/3815822">https://www.jstor.org/stable/3815822</a>)<!--TODO scan--></li>
++<li><i>The Garland of Rachel</i>, 1881: <a href="../poems/what-hand-may-wreathe.html">What hand may wreathe</a> (text from <i>Humorous Verse</i>, pp.&nbsp;330–331, scan of 1902 reprint from <a href="https://babel.hathitrust.org/cgi/pt?id=uc1.31822043036490&amp;seq=65">https://babel.hathitrust.org/cgi/pt?id=uc1.31822043036490&amp;seq=65</a>, see also <a href="https://worcestercollegelibrary.wordpress.com/2020/01/31/the-garland-of-rachel/">https://worcestercollegelibrary.wordpress.com/2020/01/31/the-garland-of-rachel/</a> and <a href="https://www.jstor.org/stable/3815822">https://www.jstor.org/stable/3815822</a>)<!--TODO scan--></li>
 +<li><i>The Lost Plum Cake</i> by E.&nbsp;G.&nbsp;Wilcox, 1897: <a href="../texts/the-lost-plum-cake.html">Introduction</a> (text from <i>Complete Works</i>)<!--TODO scan--></li>
  </ul>
  
  <p>Chapter 11 of <i>The Lost Plum Cake</i> might also be written by Carroll, see <i>Pamphlets: A Miscellany</i>, item 34.</p>
-@@ -862,7 +860,7 @@
+@@ -864,7 +862,7 @@
  
  <ul>
  <li><a href="../poems/the-lady-of-the-ladle.html">The Lady of the Ladle</a> (August 1854)</li>
@@ -251,7 +251,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>The Comic Times</h4>
-@@ -990,10 +988,10 @@
+@@ -992,10 +990,10 @@
  “The Organization of Charity” also included in the <i>Scrapbook</i></p>
  
  <ul>
@@ -264,7 +264,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/vivisection-as-a-sign-of-the-times.html">Vivisection as a Sign of the Times</a> (February 1875)</li>
  <li><a href="../magazines/vivisection.html">Vivisection</a> (February 1875)</li>
  <li><a href="../magazines/natural-science-at-oxford.html">Natural Science at Oxford</a> (May 1877)</li>
-@@ -1012,7 +1010,7 @@
+@@ -1014,7 +1012,7 @@
  <ul>
  <li><a href="../magazines/the-science-of-betting.html#times:betting">The Science of Betting</a> (November 1866)</li>
  <li><a href="../magazines/a-complete-postage-guide.html">A Complete Postage Guide</a> (September 1883)</li>
@@ -273,7 +273,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Proceedings of the Royal Society of London</h4>
-@@ -1045,8 +1043,8 @@
+@@ -1047,8 +1045,8 @@
  <ul>
  <li><a href="../magazines/castle-croquet-1866.html">Castle Croquet</a> (August 1867)</li>
  <li><a href="../magazines/brunos-revenge.html">Bruno’s Revenge</a> (December 1867)</li>
@@ -284,7 +284,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../poems/dreamland.html">Dreamland</a> (July 1882)</li>
  </ul>
  
-@@ -1083,7 +1081,7 @@
+@@ -1085,7 +1083,7 @@
  <a href="https://www.informedparent.co.uk/wp-content/uploads/2017/10/1877-EASTBOURNE-CHRONICLE-debate-with-Lewis-Carroll-C-Dodgson.pdf">https://www.informedparent.co.uk/wp-content/uploads/2017/10/1877-EASTBOURNE-CHRONICLE-debate-with-Lewis-Carroll-C-Dodgson.pdf</a></p>
  
  <ul>
@@ -293,7 +293,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Vanity Fair</h4>
-@@ -1095,7 +1093,7 @@
+@@ -1097,7 +1095,7 @@
  <a href="https://books.google.de/books?id=TfJHAQAAMAAJ">https://books.google.de/books?id=TfJHAQAAMAAJ</a></p>
  
  <ul>
@@ -302,7 +302,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>The Doublets were managed by Choker (the editor), it is not clear how much of the content was actually written by Carroll. Here only those parts are reproduced, that were reprinted as book, as well as all the doublets. Several of these were also published as offprints.</p>
-@@ -1156,28 +1154,28 @@
+@@ -1158,28 +1156,28 @@
  <li><a href="../tangled-tale/content.html#tangled:mp-2">Romantic Problems; A Tangled Tale. Knot II. Mad Mathesis</a> (July 1880)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-2a">Answers to “Romantic Problems. Knot II”</a> (September 1880)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-3">A Tangled Tale. Knot III. The Dead Reckoning</a> (October 1880)</li>
@@ -336,7 +336,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/note-about-shakespeare-for-girls.html">Untitled note about “Shakespeare for Girls”</a> (June 1882)</li>
  </ul></li>
  <li><a href="../magazines/mischmasch-1882.html">Mischmasch</a> (November 1882)</li>
-@@ -1201,18 +1199,18 @@
+@@ -1203,18 +1201,18 @@
  <ul>
  <li><a href="../magazines/the-purity-of-election.html">The Purity of Election</a> (May 1881)</li>
  <li><a href="../magazines/traitors-in-the-camp.html">Traitors in the Camp</a> (December 1881)</li>
@@ -359,7 +359,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/whoso-shall-offend-one-of-these-little-ones.html">“Whoso Shall Offend One of These Little Ones—”</a> (July 1885)</li>
  <li><a href="../magazines/hydrophobia-curable.html">Hydrophobia Curable</a> (October 1885)</li>
  <li><a href="../magazines/election-gains-and-losses.html">Election Gains and Losses</a> (December 1885)</li>
-@@ -1330,7 +1328,7 @@
+@@ -1332,7 +1330,7 @@
  for detailed description see also <i>Lewis Carroll and the Press</i></p>
  
  <ul>
@@ -368,7 +368,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/nyctograph.html">Nyctograph</a> (October 1891)</li>
  <li><a href="../magazines/a-postal-problem.html">A Postal Problem</a> (December 1891)</li>
  <li><a href="../magazines/for-all-lovers-of-children.html">For All Lovers of Children</a> (March–May 1892)</li>
-@@ -1404,13 +1402,13 @@
+@@ -1406,13 +1404,13 @@
  <li><a href="../texts/the-professorship-of-comparative-philology.html">The Professorship of Comparative Philology</a>, 1876 (three pamphlets, text from <i>Oxford Pamphlets</i>, item 17)<!--TODO scan--></li>
  <li><a href="../texts/an-easter-greeting.html">An Easter Greeting</a>, 1876 (scan from <a href="http://digitallibrary.usc.edu/cdm/compoundobject/collection/p15799coll85/id/137/rec/7">http://digitallibrary.usc.edu/cdm/compoundobject/collection/p15799coll85/id/137/rec/7</a> and others, variants also published in <i>Alice</i> books)</li>
  <li><a href="../poems/fames-penny-trumpet.html">Fame’s Penny-Trumpet</a>, 1876 (text from <i>Pamphlets: A Miscellany</i>, item 90, partial scan from <a href="https://www.bonhams.com/auctions/24116/lot/34/?category=results">https://www.bonhams.com/auctions/24116/lot/34/?category=results</a>)<!--TODO scan--></li>
@@ -384,7 +384,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../poems/four-riddles-no-iv.html">A Charade</a>, 1878 (scan from <i>The Story of Lewis Carroll</i>, pp.&nbsp;108–110)</li>
  <li><a href="../texts/word-links-cyclostyled.html">Word-Links</a>, 1878 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;89–92)</li>
  <li><a href="../texts/word-links-printed.html">Word-Links</a>, 1878 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;93–96)</li>
-@@ -1440,14 +1438,14 @@
+@@ -1442,14 +1440,14 @@
  <li><a href="../math/questions-in-logic.html">Questions in Logic</a>, 1887 (text from <i>Logic Pamphlets</i>, item 21)<!--TODO scan--></li>
  <li><a href="../poems/to-my-child-friend.html">To my Child-Friend</a>, 1888 (text from <i>The Game of Logic</i>)<!--TODO scan--></li>
  <li><a href="../texts/memoria-technica-1888.html">Memoria Technica</a>, 1888 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;33–35)</li>
@@ -401,7 +401,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../math/a-disputed-point-in-logic-april-1894.html">A Disputed Point in Logic</a>, 1894 (text from <i>Logic Pamphlets</i>, item 15a)<!--TODO scan--></li>
  <li><a href="../math/a-disputed-point-in-logic-may-1894.html">A Disputed Point in Logic</a>, 1894 (text from <i>Logic Pamphlets</i>, item 15b)<!--TODO scan--></li>
  <li><a href="../math/a-theorem-in-logic.html">A Theorem in Logic</a>, 1894 (text from <i>Logic Pamphlets</i>, item 15c)<!--TODO scan--></li>
-@@ -1462,8 +1460,8 @@
+@@ -1464,8 +1462,8 @@
  <ul>
  <li><a href="../manuscripts-proofs/the-wasp-in-a-wig.html">The Wasp in a Wig</a>, 1870 (first published 1977, scan from <a href="https://archive.org/details/waspinwigsuppres0000carr_m8q0">https://archive.org/details/waspinwigsuppres0000carr_m8q0</a>)</li>
  <li><a href="../manuscripts-proofs/a-method-of-taking-votes.html">A Method of Taking Votes on More Than Two Issues</a>, 1876 (first published 1958, scan from <a href="https://digital.bodleian.ox.ac.uk/objects/d5ce1de6-d037-4ab4-9aeb-8e0f10a532be/">https://digital.bodleian.ox.ac.uk/objects/d5ce1de6-d037-4ab4-9aeb-8e0f10a532be/</a>)</li>
@@ -412,7 +412,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../manuscripts-proofs/curiosa-mathematica-part-iii.html">Curiosa Mathematica Part III</a>, 1897 (first published 1899, text from the <i>Picture Book</i>, pp.&nbsp;240–263)</li>
  </ul>
  
-@@ -1532,7 +1530,7 @@
+@@ -1534,7 +1532,7 @@
  <li><a href="../rectory-magazine/introductions.html#rectory:rust">Rust</a></li>
  <li><a href="../poems/as-it-fell-upon-a-day.html">As It Fell upon a Day</a></li>
  <li><a href="../rectory-magazine/sidney-hamilton.html#sidney-hamilton:4">Sidney Hamilton. Ch.&nbsp;4</a></li>
@@ -421,7 +421,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>A Tale of the Wars. Part&nbsp;2 (by Wilfred L. Dodgson)</li>
  <li><a href="../rectory-magazine/crundle-castle.html#crundle-castle:3">Crundle Castle. Ch.&nbsp;3</a></li>
  <li><a href="../poems/terrors.html">Terrors</a></li>
-@@ -1581,10 +1579,9 @@
+@@ -1583,10 +1581,9 @@
  <li>Mrs Stoggle’s Dinner-Party. Ch.&nbsp;4 (by Elisabeth L. Dodgson)</li>
  <li>Farmer Grubbins. Ch.&nbsp;2 (by Skeffington H. Dodgson)</li>
  </ul></li>
@@ -434,7 +434,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <h4>The Rectory Umbrella</h4>
  <p>Written about 1850, first published 1932, scan from
-@@ -1632,7 +1629,7 @@
+@@ -1634,7 +1631,7 @@
  <a href="http://www.europeana.eu/portal/record/9200143/BibliographicResource_2000069294604.html">http://www.europeana.eu/portal/record/9200143/BibliographicResource_2000069294604.html</a><!--TODO scan (Harcourt Armory Collection, not (yet) digitized)--></p>
  
  <ul>
@@ -443,7 +443,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../mischmasch/preface.html#mischmasch:preface">Preface</a></li>
  <li><a href="../mischmasch/studies-from-english-poets.html#english-poets:1">Studies from English Poets. No.&nbsp;I</a></li>
  <li><a href="../mischmasch/studies-from-english-poets.html#english-poets:2">Studies from English Poets. No.&nbsp;II</a></li>
-@@ -1668,7 +1665,7 @@
+@@ -1670,7 +1667,7 @@
  
  <h4>Other Manuscripts</h4>
  <ul>
@@ -452,16 +452,16 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../manuscripts-proofs/loves-railway-guide.html">“Love’s” Railway Guide</a>, 1847? (first published 1932, scan from <i>The Raven and the Writing Desk</i>, p.&nbsp;161)<!--TODO readable table--></li>
  <li><a href="../poems/la-guida-di-bragia.html">La Guida di Bragia</a>, 1850? (first published 1931, text from <a href="https://archive.org/details/knightletterno6100lewi">https://archive.org/details/knightletterno6100lewi</a>, partial scan at <a href="https://archive.org/details/b31639987">https://archive.org/details/b31639987</a>, p.&nbsp;126)<!--TODO scan (Berol Collection)--></li>
  <li><a href="../manuscripts-proofs/the-christ-church-commoner.html">The Christ-Church Commoner</a>, 1851 (first published 1973, text from <i>Lewis Carroll, a Biography</i> by Anne Clark Amor, p.&nbsp;72)<!--TODO scan (Berg Collection, http://archives.nypl.org/brg/19160)--></li>
-@@ -1681,7 +1678,7 @@
+@@ -1683,7 +1680,7 @@
  <li><a href="../poems/prologue-1873.html">Prologue</a>, 1873 (for the Hatch family, first published 1898, scan from <i>The Story of Lewis Carroll</i>, p.&nbsp;115)</li>
  <li><a href="../manuscripts-proofs/an-inconceivable-conversation.html">An Inconceivable Conversation</a>, 1874 (first published 1974, scan from <a href="https://iiif.bodleian.ox.ac.uk/iiif/viewer/dd6d9ce9-c190-4728-a849-524a06f7ade8">https://iiif.bodleian.ox.ac.uk/iiif/viewer/dd6d9ce9-c190-4728-a849-524a06f7ade8</a>)<!--https://www.chch.ox.ac.uk/sites/default/files/Carroll-MS%208%20-%20An%20Inconceivable%20Conversation.pdf--></li>
  <li><a href="../poems/a-russians-day-in-england.html">A Russian’s Day in England</a>, 1874 (for Lady Gwendolen Cecil, first published 1979, text from <i>The Russian Journal—II</i>, p.&nbsp;52)<!--TODO scan--></li>
 -<li>Various Memoria Technica Verses, 1877–1897 (first published 1898/1933/1979/1994, text from <i>Life and Letters</i>, p.&nbsp;270, <i>Letters to Child-Friends</i>, pp.&nbsp;232–234, <i>Library Chronicle of the University of Texas at Austin, 1979</i>, <a href="https://archive.org/details/sim_library-chronicle-of-the-university-of-texas-at-austin_1979_11">https://archive.org/details/sim_library-chronicle-of-the-university-of-texas-at-austin_1979_11</a>, p.&nbsp;88, <i>Mathematical Pamphlets</i>, item 35, → <a href="../texts/various-memoria-technica-verses.html">here<!--TODO--></a>)<!--also https://archive.org/details/b31639987, p. 124f TODO scans where available--></li>
 +<li><a href="../texts/various-memoria-technica-verses.html">Various Memoria Technica Verses</a>, 1877–1897 (first published 1898/1933/1979/1994, text from <i>Life and Letters</i>, p.&nbsp;270, <i>Letters to Child-Friends</i>, pp.&nbsp;232–234, <i>Library Chronicle of the University of Texas at Austin, 1979</i>, <a href="https://archive.org/details/sim_library-chronicle-of-the-university-of-texas-at-austin_1979_11">https://archive.org/details/sim_library-chronicle-of-the-university-of-texas-at-austin_1979_11</a>, p.&nbsp;88, <i>Mathematical Pamphlets</i>, item 35)<!--also https://archive.org/details/b31639987, p. 124f TODO scans where available--></li>
- <li><a href="../manuscripts-proofs/marriage-service.html">Marriage Service</a>, 1877 (first published 1974, text from <i>Pamphlets: A Miscellany</i>, item 27)<!--TODO scan (Harcourt Armory Collection, digitized, but not public)--></li>
+ <li><a href="../manuscripts-proofs/marriage-service.html">Marriage Service</a>, 1877 (first published 1974, text from <i>Pamphlets: A Miscellany</i>, item 27/<i>The Carrollian</i>, No. 15, 2005, pp.&nbsp;47–48, <a href="https://archive.org/details/the-carrollian-2005-15/page/46">https://archive.org/details/the-carrollian-2005-15/page/46</a>)<!--TODO scan (Harcourt Armory Collection, digitized, but not public)--></li>
  <li><a href="../texts/logs-of-nos.html">Logs of Nos.</a>, 1878 (first published 1974, text from <i>Rare Verses</i>, pp.&nbsp;88–89)<!--TODO scan--></li>
  <li><a href="../poems/verses-for-christmas-cards.html">Verses for Christmas Cards</a>, 1879 (first published 1974, scan from <i>Lewis Carroll and Alice, 1832–1982</i>, p.&nbsp;126)<!--TODO drawings by E. Gertrude Thomson, see also http://corsair.themorgan.org/vwebv/holdingsInfo?bibId=412946&searchType=13&holdingsBibId=412886&returnUrl=holdingsInfo%3FbibId=412886--></li>
-@@ -1752,7 +1749,7 @@
+@@ -1754,7 +1751,7 @@
  <li><a href="../poems/maggie-b.html">Maggie B—</a>, 1891 (for Maggie Bowman, first published 1931, text from <i>Humorous Verse</i>, p.&nbsp;344)<!--Aug 13--></li>
  <li><a href="../poems/my-first-is-a-berry.html">My First is a berry</a>, 1892 (for Olive, Ruth, and Violet Butler, first published 1933, text from <i>Letters to Child-Friends</i>, p.&nbsp;229)<!--Dec 29--></li>
  <li><a href="../poems/girlie-to-whom-in-perennial-bloom.html">Girlie to whom in perennial bloom</a>, 1895? (for Gladys Baly, first published 1932, text from <i>Diaries</i>, p.&nbsp;487)<!--Christmas?--></li>
@@ -470,7 +470,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>Some poems from letters Carroll published himself. These are not listed above and their differences are not reproduced in the poems, but noted where available. These poems are <i>Girt with a Boyish Garb</i> (for Gertrude Chataway), <i>A Charade</i> (<i>Four Riddles. No.&nbsp;III</i>, for Marion Terry), <i>Matilda Jane</i> (for Catherine Holiday), <i>A Game of Fives</i>, and <i>Puck Lost and Found</i>. The first of the <i>Puzzles from Wonderland</i> can be found in his letters, too, but without changes. The poem <i>Lines</i> was published by Carroll, too, but since the manuscript variant is more prominent than the printed one, it is included above. <i>Disillusionized</i>, too, has such a variant, though it is not clear where it comes from.</p>
-@@ -1862,9 +1859,9 @@
+@@ -1864,9 +1861,9 @@
  
  <p>The circular about Senior Student’s biographies asked for details for a planned publication <i>Senior Students</i>.</p>
  
@@ -482,7 +482,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>Carroll sent several circulars on behalf of friends and relatives, to help them in various matters.</p>
  
-@@ -1872,7 +1869,7 @@
+@@ -1874,7 +1871,7 @@
  
  <p>The circular about counters asks for suggestions for the colours of the counters in the <i>Game of Logic</i>.</p>
  
@@ -491,7 +491,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>The <i>Stranger Circular</i> is a letter (in two variants) intended to be sent to those who addressed C. L. Dodgson about books written by Lewis Carroll, protesting against this.</p>
  
-@@ -1939,7 +1936,7 @@
+@@ -1941,7 +1938,7 @@
  
  <p>Most of the following texts are minor mathematical manuscripts.</p>
  
@@ -1744,7 +1744,7 @@ diff -ru a/magazines/condensation-of-determinants.html b/magazines/condensation-
 -<aside id="condensation:0"><b>Other version</b>: <a href="../math/an-elementary-treatis-on-determinants.html#condensation:1">An Elementary Treatis on Determinants</a></aside>
 -
  <p>If it be proposed to solve a set of <var>n</var> simultaneous linear equations, not being all homogeneous, involving <var>n</var> unknowns, or to test their compatibility when all are homogeneous, by the method of determinants, in these, as well as in other cases of common occurrence, it is necessary to compute the arithmetical values of one or more determinants—such, for example, as
- <math display="block"><mrow><mrow><mo>|</mo><mtable displaystyle="false" rowspacing="0.5ex" columnalign="right right right"><mtr><mtd><mn>1</mn><mo>,</mo></mtd><mtd><mn>3</mn><mo>,</mo></mtd><mtd><mo>−</mo><mn>2</mn></mtd></mtr><mtr><mtd><mn>2</mn><mo>,</mo></mtd><mtd><mn>1</mn><mo>,</mo></mtd><mtd><mn>4</mn></mtd></mtr><mtr><mtd><mn>3</mn><mo>,</mo></mtd><mtd><mn>5</mn><mo>,</mo></mtd><mtd><mo>−</mo><mn>1</mn></mtd></mtr></mtable><mo>|</mo></mrow><mo>.</mo></mrow></math></p>
+ <math display="block"><mrow><mrow><mo>|</mo><mtable displaystyle="false" rowspacing="0.5ex" columnalign="right right right"><mtr><mtd><mn>1</mn><mo>,</mo></mtd><mtd><mn>3</mn><mo>,</mo></mtd><mtd><mo>−</mo><mn>2</mn></mtd></mtr><mtr><mtd><mn>2</mn><mo>,</mo></mtd><mtd><mn>1</mn><mo>,</mo></mtd><mtd><mn>4</mn></mtd></mtr><mtr><mtd><mn>3</mn><mo>,</mo></mtd><mtd><mn>5</mn><mo>,</mo></mtd><mtd><mo>−</mo><mn>1</mn></mtd></mtr></mtable><mo>|</mo></mrow><mtext>.</mtext></mrow></math></p>
  
 diff -ru a/magazines/divisibility-by-seven.html b/magazines/divisibility-by-seven.html
 --- a/magazines/divisibility-by-seven.html
@@ -2046,18 +2046,6 @@ diff -ru a/magazines/proportionate-representation.html b/magazines/proportionate
  
  <p class="subtitle">To the <span style="font-variant: small-caps;">Editor</span> of the <span style="font-variant: small-caps;">St.&nbsp;James’s Gazette</span></p>
  <p><span style="font-variant: small-caps;">Sir</span>,—In reply to the charge which I brought (on the 15th of May) against the method of voting proposed by the “Society for Proportionate Representation,” that it is liable to bring in the wrong man, two pleas have been put forward: one, that the most probable result is also the most equitable; the other, that it can never be a matter of chance which of two candidates shall get in, unless they are <i>of the same party</i>.</p>
-diff -ru a/magazines/questions-for-solution-11530.html b/magazines/questions-for-solution-11530.html
---- a/magazines/questions-for-solution-11530.html
-+++ b/magazines/questions-for-solution-11530.html
-@@ -32,7 +32,7 @@
- <p>Solution by H. J. Woodall, A.R.C.S. was published in March 1893, see <a href="https://archive.org/details/educationaltimes46educ/page/156">https://archive.org/details/educationaltimes46educ/page/156</a>, an expanded version in MQS LIX, <a href="https://archive.org/details/mathematicalque64unkngoog/page/n72">https://archive.org/details/mathematicalque64unkngoog/page/n72</a></p></header>
- <article>
- 
--<p><b>11530.</b> (Rev.&nbsp;C. L. <span style="font-variant: small-caps;">Dodgson</span>, M.A.)—Required a general investigation of the following trigonometrical formula, which, so far as I know, is new, and very useful in calculating limits for the value of <var>π</var>. The problem, which I set myself, was to break up <math><mrow><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mn>1</mn><mo>/</mo><mi>a</mi></mrow></math> into two angles of the same form. Let
-+<p><b>11530.</b> (Rev.&nbsp;C. L. <span style="font-variant: small-caps;">Dodgson</span>, M.A.)—Required a general investigation of the following trigonometrical formula, which, so far as I know, is new, and very useful in calculating limits for the value of <var>π</var>. The problem, which I set myself, was to break up <math><mrow><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mrow><mn>1</mn><mo>/</mo><mi>a</mi></mrow></mrow></math> into two angles of the same form. Let
- <math display="block"><mrow><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mn>1</mn><mi>a</mi></mfrac><mo>=</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mn>1</mn><mrow><mi>a</mi><mo>+</mo><mi>x</mi></mrow></mfrac><mo>+</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mn>1</mn><mrow><mi>a</mi><mo>+</mo><mi>y</mi></mrow></mfrac><mtext>.</mtext></mrow></math></p>
- 
- <p>Then it is also <math display="block"><mrow><mo>=</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mrow><mfrac><mn>1</mn><mrow><mi>a</mi><mo>+</mo><mi>x</mi></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mi>a</mi><mo>+</mo><mi>y</mi></mrow></mfrac></mrow><mrow><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mrow><mi>a</mi><mo>+</mo><mi>x</mi></mrow></mfrac><mo>⋅</mo><mfrac><mn>1</mn><mrow><mi>a</mi><mo>+</mo><mi>y</mi></mrow></mfrac></mrow></mfrac><mo>=</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mi>a</mi><mo stretchy="false">(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo stretchy="false">)</mo><mo>+</mo><mi>x</mi><mi>y</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mtext>.</mtext></mrow></math>
 diff -ru a/magazines/questions-for-solution-13614.html b/magazines/questions-for-solution-13614.html
 --- a/magazines/questions-for-solution-13614.html
 +++ b/magazines/questions-for-solution-13614.html
@@ -2201,14 +2189,7 @@ diff -ru a/magazines/redistribution.html b/magazines/redistribution.html
  </table>
  
  <p>By inspecting these Tables we see that, the fewer the Districts (<i>i.&thinsp;e.</i> the greater the number of Members assigned to each District) and the smaller the number of votes each Elector can give, the more equitable is the result. With less then 10 Members to a District, or with more than one vote to an Elector, it is always possible that the majority of the Electors should be ‘blue,’ although 6-11ths of the House are ‘red.’ For example, if 3 Members be assigned to each District, and each Elector have 2 votes, the ‘reds’ in the House represent 33&nbsp;p.&thinsp;c. of the Electors, and the ‘blues’ 28&nbsp;p.&thinsp;c., while 39&nbsp;p.&thinsp;c. are unrepresented. It might easily happen that 25 of these 39 were ‘blue’ and 14 ‘red’: in which case 53&nbsp;p.&thinsp;c. of the Electors would be ‘blue,’ and only 47&nbsp;p.&thinsp;c. ‘red,’ and yet the ‘reds’ would have a large majority in the House!</p>
-@@ -102,13 +99,12 @@
- <p>We have now to determine a formula by which, given the number of Electors in a district (that is the <i>nominal</i> number, making due allowance for rateable property &amp;c.) it may be calculated how many Members ought to be assigned to it. This formula should be such as to make the “quota,” necessary to return a Member, as nearly as possible the same for every District. Now, if ‘<var>Q</var>’ be this uniform quota, and if ‘<var>e</var>’ be the (nominal) number of Electors in a District, and ‘<var>m</var>’ the number of Members assigned to it, and if it be agreed that each Elector is to have one vote only, we know that <var>Q</var> must be just greater then <math><mfrac><mi>e</mi><mrow><mi>m</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math>. Hence we set <math><mrow><mi>m</mi><mo>=</mo><mfrac><mi>e</mi><mi>Q</mi></mfrac><mo>−</mo><mn>1</mn></mrow></math>, as the formula required. For example, if the quota were 5,000, a District containing (nominally) 30,000 Electors would have 5 Members assigned to it.</p>
- 
- <p>It remains to be seen how to find an equitable value for <var>Q</var>. Let <math><msub><mi>e</mi><mn>1</mn></msub></math> be the (nominal) number of Electors in District No.&nbsp;1, and <math><msub><mi>m</mi><mn>1</mn></msub></math> the number of Members assigned to it, and so on: also let <var>E</var> be the total (nominal) number of Electors, <var>M</var> the total number of Members, and <var>D</var> the number of Districts: then we have
--<math display="block"><mtable displaystyle="false" rowspacing="0.5ex" columnalign="right left"><mtr><mtd><mo stretchy="false">(</mo><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mo>.</mo><mi>Q</mi></mtd><mtd><mo>=</mo><msub><mi>e</mi><mn>1</mn></msub></mtd></mtr><mtr><mtd><mo stretchy="false">(</mo><msub><mi>m</mi><mn>2</mn></msub><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mo>.</mo><mi>Q</mi></mtd><mtd><mo>=</mo><msub><mi>e</mi><mn>2</mn></msub></mtd></mtr><mtr><mtd><mtext>&amp;c.</mtext></mtd><mtd></mtd></mtr><mtr><mtd><mo>∴</mo><mo stretchy="false">(</mo><mi>M</mi><mo>+</mo><mi>D</mi><mo stretchy="false">)</mo><mo>.</mo><mi>Q</mi></mtd><mtd><mo>=</mo><mi>E</mi><mtext>; i.&thinsp;e. </mtext><mi>Q</mi><mo>=</mo><mfrac><mi>E</mi><mrow><mi>M</mi><mo>+</mo><mi>D</mi></mrow></mfrac><mo>.</mo></mtd></mtr></mtable></math></p>
-+<math display="block"><mtable displaystyle="false" rowspacing="0.5ex" columnalign="right left"><mtr><mtd><mo stretchy="false">(</mo><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mo>.</mo><mi>Q</mi></mtd><mtd><mo>=</mo><msub><mi>e</mi><mn>1</mn></msub></mtd></mtr><mtr><mtd><mo stretchy="false">(</mo><msub><mi>m</mi><mn>2</mn></msub><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mo>.</mo><mi>Q</mi></mtd><mtd><mo>=</mo><msub><mi>e</mi><mn>2</mn></msub></mtd></mtr><mtr><mtd><mtext>&amp;c.</mtext></mtd><mtd></mtd></mtr><mtr><mtd><mo>∴</mo><mo stretchy="false">(</mo><mi>M</mi><mo>+</mo><mi>D</mi><mo stretchy="false">)</mo><mo>.</mo><mi>Q</mi></mtd><mtd><mo>=</mo><mi>E</mi><mtext>; i.&thinsp;e. </mtext><mi>Q</mi><mo>=</mo><mfrac><mi>E</mi><mrow><mi>M</mi><mo>+</mo><mi>D</mi></mrow></mfrac><mtext>.</mtext></mtd></mtr></mtable></math></p>
- 
- <p>Let me say in conclusion that the object aimed at, in the methods I have proposed for Redistribution and the conduct of Elections, is fully as much to secure that the <i>Majority</i> of the Electors shall be duly represented as that the <i>Minority</i> shall be so. The same is true of the method (a less perfect one, as I believe) proposed by “the Proportional Representation Society.” In speaking to friends about this Society, I have had such answers as this:—“I have no interest in their proposal. All I care for is that the Majority of the Electors shall be fully represented in the House: it matters little whether the Minority are represented or not.” Such people seem to think that the existing system secures what they desire. In this they are utterly mistaken: there is ample room, under the existing system, for a large Majority of the Electors to find themselves in a woeful minority in the House. The only change for the worse, that I can think of, would be the method of “equal electoral Districts each returning one Member.” Almost any other change would be a change for the better: but any system which, like the one I have here proposed, secures that the Majority of the Electors shall be duly represented, must necessarily do the same for the Minority.
+@@ -108,7 +105,6 @@
  </p><div class="signature"><p>Charles L. Dodgson.</p></div>
  
  <h3 id="james:redistribution-2">October 22, 1884</h3>
@@ -5570,7 +5551,7 @@ diff -ru a/math/pillow-problems.html b/math/pillow-problems.html
 +++ b/math/pillow-problems.html
 @@ -88,7 +88,7 @@
  
- <p>“Let <math><mrow><mn>3</mn><mi>m</mi></mrow></math>, <math><mrow><mn>21</mn><mi>m</mi></mrow></math>, <math><mrow><mn>30</mn><mi>m</mi></mrow></math> be the three Numbers: then
+ <p>“Let <math><mrow><mn>3</mn><mi>m</mi></mrow></math>, <math><mrow><mn>21</mn><mi>m</mi></mrow></math>, <math><mrow><mn>30</mn><mi>m</mi></mrow></math> be the three Numbers; then
  <math display="block"><mrow><mn>3</mn><mi>m</mi><mo>+</mo><mn>21</mn><mi>m</mi><mo>+</mo><mn>30</mn><mi>m</mi><mo>=</mo><mn>3</mn><mo>×</mo><mn>18</mn><mi>m</mi><mtext>.</mtext></mrow></math>
 -Also <math><mrow><mo stretchy="false">(</mo><mn>3</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>21</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>30</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>=</mo><mo stretchy="false">(</mo><mn>6</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>15</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>33</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>=</mo><mo stretchy="false">(</mo><mn>5</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>13</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>34</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>=</mo><mo stretchy="false">(</mo><mn>10</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>17</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>31</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>=</mo><mo stretchy="false">(</mo><mn>14</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>23</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>25</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup></mrow></math>.”</p>
 +Also <math><mrow><mo stretchy="false">(</mo><mn>3</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>21</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>30</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>=</mo></mrow></math><math><mrow><mo stretchy="false">(</mo><mn>6</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>15</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>33</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>=</mo></mrow></math><math><mrow><mo stretchy="false">(</mo><mn>5</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>13</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>34</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>=</mo></mrow></math><math><mrow><mo stretchy="false">(</mo><mn>10</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>17</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>31</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>=</mo></mrow></math><math><mrow><mo stretchy="false">(</mo><mn>14</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>23</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup><mo>+</mo><mo stretchy="false">(</mo><mn>25</mn><mi>m</mi><msup><mo stretchy="false">)</mo><mn>2</mn></msup></mrow></math>.”</p>
@@ -5632,7 +5613,7 @@ diff -ru a/math/pillow-problems.html b/math/pillow-problems.html
  
 @@ -1533,7 +1533,7 @@
  <h4 id="pillow-problems-38s">38. (<a href="#pillow-problems-38q">9</a>, <a href="#pillow-problems-38a">22</a>)</h4>
- <p>Taking, in order, the bag from which this unknown counter is drawn, the bag from which a red one was twice drawn, and the remaining bag, we see that there are six possible arrangement of ‘<var>A</var>’, ‘<var>B</var>’, and ‘<var>C</var>’: viz.—</p>
+ <p>Taking, in order, the bag from which this unknown counter is drawn, the bag from which a red one was twice drawn, and the remaining bag, we see that there are six possible arrangements of ‘<var>A</var>’, ‘<var>B</var>’, and ‘<var>C</var>’: viz.—</p>
  
 -<table class="">
 +<table style="white-space: nowrap;">
@@ -5648,20 +5629,19 @@ diff -ru a/math/pillow-problems.html b/math/pillow-problems.html
  
  <p><math><mrow><mo>=</mo><mfrac><mrow><mo><svg width="1em" height="0.5em" viewbox="0 0 20 10"><path d="M2,10 A8,8 0 0 1 18,10 M0,10 H20" fill="none" stroke="currentColor" /></svg></mo><mfrac><mi>A</mi><mn>2</mn></mfrac></mrow><mrow><mo><svg width="1em" height="0.5em" viewbox="0 0 20 10"><path d="M2,10 A8,8 0 0 1 18,10 M10,10 V2" fill="none" stroke="currentColor" /></svg></mo><mfrac><mi>B</mi><mn>2</mn></mfrac><mo><svg width="1em" height="0.5em" viewbox="0 0 20 10"><path d="M2,10 A8,8 0 0 1 18,10 M10,10 V2" fill="none" stroke="currentColor" /></svg></mo><mfrac><mi>C</mi><mn>2</mn></mfrac><mo>.</mo><mn>2</mn><mo><svg width="1em" height="0.5em" viewbox="0 0 20 10"><path d="M2,10 A8,8 0 0 1 18,10 M10,10 V2" fill="none" stroke="currentColor" /></svg></mo><mfrac><mi>A</mi><mn>2</mn></mfrac><mo><svg width="1em" height="0.5em" viewbox="0 0 20 10"><path d="M2,10 A8,8 0 0 1 18,10 M0,10 H20" fill="none" stroke="currentColor" /></svg></mo><mi>A</mi><mn>2</mn></mrow></mfrac></mrow></math>,</p>
  
-@@ -1944,11 +1944,7 @@
+@@ -1943,10 +1943,7 @@
+ 
  <p>No.&nbsp;(1) put in 2. The sack now contained <math><mrow><mn>5</mn><mi>x</mi></mrow></math>.</p>
  
- <p>Hence <math><mrow><mi>x</mi><msup><mi>a</mi><mn>4</mn></msup><mo>−</mo><mn>6</mn><msup><mi>a</mi><mn>3</mn></msup><mo>−</mo><mn>5</mn><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>a</mi><mo>−</mo><mn>6</mn><mo>=</mo><mn>5</mn><mi>x</mi></mrow></math>;
--<math display="block"><merror><mtext>\begin{array}{rl}
--\therefore x &amp;= \frac{6a^3+5a^2+4a+6}{a^4-5};\\
+-<p>Hence <math><mrow><mi>x</mi><msup><mi>a</mi><mn>4</mn></msup><mo>−</mo><mn>6</mn><msup><mi>a</mi><mn>3</mn></msup><mo>−</mo><mn>5</mn><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>a</mi><mo>−</mo><mn>6</mn><mo>=</mo><mn>5</mn><mi>x</mi></mrow></math>;
+-<math display="block"><merror><mtext>\begin{array}{rl}\therefore x &amp;= \frac{6a^3+5a^2+4a+6}{a^4-5};\\
 -&amp;= \frac{6\mo{.}3^3+5\mo{.}3^2\mo{.}2+4\mo{.}3\mo{.}2^2+6\mo{.}2^3)\mo{.}2}{3^4-5\mo{.}2^4};\\
--&amp;= \frac{162+90+48+48)\mo{.}2}{81-80}=696=\text{2\textit{l.} 18\textit{s.} 0\textit{d.}}
--\end{array}</mtext></merror></math>
-+<math display="block"><mtable displaystyle="false" rowspacing="0.5ex" columnalign="right left"><mtr><mtd><mo>∴</mo><mi>x</mi></mtd><mtd><mo>=</mo><mfrac><mrow><mn>6</mn><msup><mi>a</mi><mn>3</mn></msup><mo>+</mo><mn>5</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>a</mi><mo>+</mo><mn>6</mn></mrow><mrow><msup><mi>a</mi><mn>4</mn></msup><mo>−</mo><mn>5</mn></mrow></mfrac><mo>;</mo></mtd></mtr><mtr><mtd></mtd><mtd><mo>=</mo><mfrac><mrow><mn>6</mn><mo>.</mo><msup><mn>3</mn><mn>3</mn></msup><mo>+</mo><mn>5</mn><mo>.</mo><msup><mn>3</mn><mn>2</mn></msup><mo>.</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>.</mo><mn>3</mn><mo>.</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><mn>6</mn><mo>.</mo><msup><mn>2</mn><mn>3</mn></msup><mo stretchy="false">)</mo><mo>.</mo><mn>2</mn></mrow><mrow><msup><mn>3</mn><mn>4</mn></msup><mo>−</mo><mn>5</mn><mo>.</mo><msup><mn>2</mn><mn>4</mn></msup></mrow></mfrac><mo>;</mo></mtd></mtr><mtr><mtd></mtd><mtd><mo>=</mo><mfrac><mrow><mn>162</mn><mo>+</mo><mn>90</mn><mo>+</mo><mn>48</mn><mo>+</mo><mn>48</mn><mo stretchy="false">)</mo><mo>.</mo><mn>2</mn></mrow><mrow><mn>81</mn><mo>−</mo><mn>80</mn></mrow></mfrac><mo>=</mo><mn>696</mn><mo>=</mo><mtext>2<i>l.</i> 18<i>s.</i> 0<i>d.</i></mtext></mtd></mtr></mtable></math>
+-&amp;= \frac{162+90+48+48)\mo{.}2}{81-80}=696=\text{2\textit{l.} 18\textit{s.} 0\textit{d.}}\end{array}</mtext></merror></math>
++<p>Hence <math display="block"><mtable displaystyle="false" rowspacing="0.5ex" columnalign="right left"><mtr><mtd><mo>∴</mo><mi>x</mi></mtd><mtd><mo>=</mo><mfrac><mrow><mn>6</mn><msup><mi>a</mi><mn>3</mn></msup><mo>+</mo><mn>5</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>a</mi><mo>+</mo><mn>6</mn></mrow><mrow><msup><mi>a</mi><mn>4</mn></msup><mo>−</mo><mn>5</mn></mrow></mfrac><mo>;</mo></mtd></mtr><mtr><mtd></mtd><mtd><mo>=</mo><mfrac><mrow><mn>6</mn><mo>.</mo><msup><mn>3</mn><mn>3</mn></msup><mo>+</mo><mn>5</mn><mo>.</mo><msup><mn>3</mn><mn>2</mn></msup><mo>.</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>.</mo><mn>3</mn><mo>.</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><mn>6</mn><mo>.</mo><msup><mn>2</mn><mn>3</mn></msup><mo stretchy="false">)</mo><mo>.</mo><mn>2</mn></mrow><mrow><msup><mn>3</mn><mn>4</mn></msup><mo>−</mo><mn>5</mn><mo>.</mo><msup><mn>2</mn><mn>4</mn></msup></mrow></mfrac><mo>;</mo></mtd></mtr><mtr><mtd></mtd><mtd><mo>=</mo><mfrac><mrow><mn>162</mn><mo>+</mo><mn>90</mn><mo>+</mo><mn>48</mn><mo>+</mo><mn>48</mn><mo stretchy="false">)</mo><mo>.</mo><mn>2</mn></mrow><mrow><mn>81</mn><mo>−</mo><mn>80</mn></mrow></mfrac><mo>=</mo><mn>696</mn><mo>=</mo><mtext>2<i>l.</i> 18<i>s.</i> 0<i>d.</i></mtext></mtd></mtr></mtable></math>
  <span class="after-hfill">Q.&nbsp;E.&nbsp;F.</span></p>
  
  <h4 id="pillow-problems-53s">53. (<a href="#pillow-problems-53q">13</a>, <a href="#pillow-problems-53a">24</a>)</h4>
-@@ -2019,7 +2015,7 @@
+@@ -2017,7 +2014,7 @@
  
  <p><math><mrow><mo>∴</mo><mfrac><mrow><mi>G</mi><mi>B</mi></mrow><mi>c</mi></mfrac><mo>=</mo><mn>1</mn><mo>−</mo><mi>k</mi><mo>−</mo><mi>k</mi><mo>.</mo><mfrac><mi>a</mi><mi>c</mi></mfrac></mrow></math>;</p>
  
@@ -5670,7 +5650,7 @@ diff -ru a/math/pillow-problems.html b/math/pillow-problems.html
  
  <p>but <math><mrow><mi>G</mi><mi>F</mi><mo>=</mo><mi>D</mi><mi>E</mi><mo>=</mo><mi>k</mi><mi>a</mi></mrow></math>;</p>
  
-@@ -2031,7 +2027,7 @@
+@@ -2029,7 +2026,7 @@
  
  <p>Hence <math><mrow><mi>A</mi><mi>D</mi><mo>=</mo><mfrac><mrow><mi>c</mi><mo>.</mo><mfrac><mn>1</mn><mi>a</mi></mfrac></mrow><mi>m</mi></mfrac></mrow></math>; <math><mrow><mi>D</mi><mi>G</mi><mo>=</mo><mfrac><mn>1</mn><mi>m</mi></mfrac><mo>=</mo><mfrac><mrow><mi>c</mi><mo>.</mo><mfrac><mn>1</mn><mi>c</mi></mfrac></mrow><mi>m</mi></mfrac></mrow></math>.</p>
  
@@ -5679,7 +5659,7 @@ diff -ru a/math/pillow-problems.html b/math/pillow-problems.html
  
  <p><math><mrow><mo>∴</mo><mi>A</mi><mi>D</mi><mo>:</mo><mi>D</mi><mi>G</mi><mo>:</mo><mi>G</mi><mi>B</mi><mo>::</mo><mfrac><mn>1</mn><mi>a</mi></mfrac><mo>:</mo><mfrac><mn>1</mn><mi>b</mi></mfrac><mo>:</mo><mfrac><mn>1</mn><mi>c</mi></mfrac></mrow></math>.</p>
  
-@@ -2164,9 +2160,9 @@
+@@ -2162,9 +2159,9 @@
  
  <p>Also, if it fall inside the semicircle, the Triangle is obtuse-angled: if outside it, acute-angled. (The chance, of its falling <i>on</i> the semicircle, is practically <i>nil</i>.)</p>
  
@@ -5691,7 +5671,7 @@ diff -ru a/math/pillow-problems.html b/math/pillow-problems.html
  
  <p><math><mrow><mo>=</mo><mn>2</mn><mo>.</mo><mfrac><mrow><mn>4</mn><mi>π</mi><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>6</mn></mfrac><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>.</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>.</mo><mo stretchy="false">(</mo><mfrac><mrow><mn>4</mn><mi>π</mi></mrow><mn>3</mn></mfrac><mo>−</mo><msqrt><mn>3</mn></msqrt><mo stretchy="false">)</mo></mrow></math>;</p>
  
-@@ -2327,9 +2323,8 @@
+@@ -2325,9 +2322,8 @@
  
  <p>Hence, contranominally, if <var>a</var>, <var>b</var>, <var>c</var> can <i>not</i> be arranged in <i>A.P.</i>, then 2 sets of squares have no common term. <span class="after-hfill">Q.&nbsp;E.&nbsp;D.</span></p>
  
@@ -5702,7 +5682,7 @@ diff -ru a/math/pillow-problems.html b/math/pillow-problems.html
  <tr style="border-top: solid thin;border-bottom: solid thin;"><td><math><msup><mi>a</mi><mn>2</mn></msup></math></td><td><math><msup><mi>b</mi><mn>2</mn></msup></math></td><td><math><msup><mi>c</mi><mn>2</mn></msup></math></td><td><math><mrow><mo stretchy="false">(</mo><mfrac><mrow><mo>−</mo><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>2</mn><mi>c</mi></mrow><mn>3</mn></mfrac><msup><mo stretchy="false">)</mo><mn>2</mn></msup></mrow></math></td><td><math><mrow><mo stretchy="false">(</mo><mfrac><mrow><mn>2</mn><mi>a</mi><mo>−</mo><mi>b</mi><mo>+</mo><mn>2</mn><mi>c</mi></mrow><mn>3</mn></mfrac><msup><mo stretchy="false">)</mo><mn>2</mn></msup></mrow></math></td><td><math><mrow><mo stretchy="false">(</mo><mfrac><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>−</mo><mi>c</mi></mrow><mn>3</mn></mfrac><msup><mo stretchy="false">)</mo><mn>2</mn></msup></mrow></math></td></tr>
  <tr style="border-top: solid thin;"><td><math><msup><mn>1</mn><mn>2</mn></msup></math></td><td><math><msup><mn>4</mn><mn>2</mn></msup></math></td><td><math><msup><mn>4</mn><mn>2</mn></msup></math></td><td><math><msup><mn>5</mn><mn>2</mn></msup></math></td><td><math><msup><mn>2</mn><mn>2</mn></msup></math></td><td><math><msup><mn>2</mn><mn>2</mn></msup></math></td></tr>
  <tr><td><math><msup><mn>3</mn><mn>2</mn></msup></math></td><td><math><msup><mn>4</mn><mn>2</mn></msup></math></td><td><math><msup><mn>8</mn><mn>2</mn></msup></math></td><td><math><msup><mn>7</mn><mn>2</mn></msup></math></td><td><math><msup><mn>6</mn><mn>2</mn></msup></math></td><td><math><msup><mn>2</mn><mn>2</mn></msup></math></td></tr>
-@@ -2455,7 +2450,7 @@
+@@ -2453,7 +2449,7 @@
  
  <p>Let <math><mfrac><mn>1</mn><mi>y</mi></mfrac></math> be <math><mrow><mo>≮</mo><mfrac><mn>1</mn><mi>z</mi></mfrac></mrow></math>. Then <math><mrow><mfrac><mi>k</mi><mrow><mi>k</mi><mo>+</mo><mi>l</mi></mrow></mfrac><mo>≮</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>.</p>
  
@@ -5711,7 +5691,7 @@ diff -ru a/math/pillow-problems.html b/math/pillow-problems.html
  <tr><td>Then its possible values are <math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>,</td><td>so that <math><mrow><mfrac><mi>l</mi><mrow><mi>k</mi><mo>+</mo><mi>l</mi></mrow></mfrac><mo>=</mo></mrow></math></td><td><math><mfrac><mn>1</mn><mn>2</mn></mfrac></math></td></tr>
  <tr><td><math><mfrac><mn>2</mn><mn>3</mn></mfrac></math>,</td><td><span class="after-dotfill"></span></td><td><math><mfrac><mn>1</mn><mn>3</mn></mfrac></math></td></tr>
  <tr><td><math><mfrac><mn>3</mn><mn>4</mn></mfrac></math>,</td><td><span class="after-dotfill"></span></td><td><math><mfrac><mn>1</mn><mn>4</mn></mfrac></math></td></tr>
-@@ -2467,7 +2462,8 @@
+@@ -2465,7 +2461,8 @@
  <math><mfrac><mn>1</mn><mn>3</mn></mfrac></math>, <math><mfrac><mn>1</mn><mn>12</mn></mfrac></math>, <math><mfrac><mn>1</mn><mn>12</mn></mfrac></math>; <math><mfrac><mn>1</mn><mn>3</mn></mfrac></math>, <math><mfrac><mn>1</mn><mn>9</mn></mfrac></math>, <math><mfrac><mn>1</mn><mn>18</mn></mfrac></math>; <math><mfrac><mn>1</mn><mn>3</mn></mfrac></math>, <math><mfrac><mn>1</mn><mn>8</mn></mfrac></math>, <math><mfrac><mn>1</mn><mn>24</mn></mfrac></math>; <math><mfrac><mn>1</mn><mn>3</mn></mfrac></math>, <math><mfrac><mn>1</mn><mn>10</mn></mfrac></math>, <math><mfrac><mn>1</mn><mn>15</mn></mfrac></math>; <math><mfrac><mn>1</mn><mn>3</mn></mfrac></math>, <math><mfrac><mn>1</mn><mn>7</mn></mfrac></math>, <math><mfrac><mn>1</mn><mn>42</mn></mfrac></math>.</p>
  
  <p><span style="display: inline-block; width: 1em;"></span>(2) Let <math><mrow><mi>x</mi><mo>=</mo><mn>4</mn></mrow></math>. Then <math><mrow><mfrac><mn>1</mn><mi>y</mi></mfrac><mo>+</mo><mfrac><mn>1</mn><mi>z</mi></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>, and, as before, <var>k</var> can only be 1, or 2, or 4, and the same is true of <var>l</var>.<br>
@@ -5721,7 +5701,7 @@ diff -ru a/math/pillow-problems.html b/math/pillow-problems.html
  <tr><td>Hence the possible values for <math><mfrac><mi>k</mi><mrow><mi>k</mi><mo>+</mo><mi>l</mi></mrow></mfrac></math> are <math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>,</td><td>so that <math><mrow><mfrac><mi>l</mi><mrow><mi>k</mi><mo>+</mo><mi>l</mi></mrow></mfrac><mo>=</mo></mrow></math></td><td><math><mfrac><mn>1</mn><mn>2</mn></mfrac></math></td></tr>
  <tr><td><math><mfrac><mn>2</mn><mn>3</mn></mfrac></math>,</td><td><span class="after-dotfill"></span></td><td><math><mfrac><mn>1</mn><mn>3</mn></mfrac></math></td></tr>
  <tr><td><math><mfrac><mn>4</mn><mn>5</mn></mfrac></math>,</td><td><span class="after-dotfill"></span></td><td><math><mfrac><mn>1</mn><mn>5</mn></mfrac></math>.</td></tr>
-@@ -2480,7 +2476,7 @@
+@@ -2478,7 +2475,7 @@
  
  <p>Hence denominator must contain factor “3”, and <var>k</var> can be only 1, or 2, or 5, or 10; and the same is true of <var>l</var>.</p>
  
@@ -5730,7 +5710,7 @@ diff -ru a/math/pillow-problems.html b/math/pillow-problems.html
  <tr><td>Hence possible values of <math><mfrac><mi>k</mi><mrow><mi>k</mi><mo>+</mo><mi>l</mi></mrow></mfrac></math> are <math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>,</td><td>so that <math><mrow><mfrac><mi>l</mi><mrow><mi>k</mi><mo>+</mo><mi>l</mi></mrow></mfrac><mo>=</mo></mrow></math></td><td><math><mfrac><mn>1</mn><mn>2</mn></mfrac></math></td></tr>
  <tr><td><math><mfrac><mn>2</mn><mn>3</mn></mfrac></math>,</td><td><span class="after-dotfill"></span></td><td><math><mfrac><mn>1</mn><mn>3</mn></mfrac></math></td></tr>
  <tr><td><math><mfrac><mn>5</mn><mn>6</mn></mfrac></math>,</td><td><span class="after-dotfill"></span></td><td><math><mfrac><mn>1</mn><mn>5</mn></mfrac></math>.</td></tr>
-@@ -2494,7 +2490,7 @@
+@@ -2492,7 +2489,7 @@
  
  <p>Hence <var>k</var> can be only 1, or 3, and the same is true of <var>l</var>.</p>
  
@@ -5739,7 +5719,7 @@ diff -ru a/math/pillow-problems.html b/math/pillow-problems.html
  <tr><td>Hence possible values of <math><mfrac><mi>k</mi><mrow><mi>k</mi><mo>+</mo><mi>l</mi></mrow></mfrac></math> are <math><mfrac><mn>1</mn><mn>2</mn></mfrac></math>,</td><td>so that <math><mrow><mfrac><mi>l</mi><mrow><mi>k</mi><mo>+</mo><mi>l</mi></mrow></mfrac><mo>=</mo></mrow></math></td><td><math><mfrac><mn>1</mn><mn>2</mn></mfrac></math></td></tr>
  <tr><td><math><mfrac><mn>3</mn><mn>4</mn></mfrac></math>,</td><td><span class="after-dotfill"></span></td><td><math><mfrac><mn>1</mn><mn>4</mn></mfrac></math>.</td></tr>
  </table>
-@@ -2597,13 +2593,13 @@
+@@ -2595,13 +2592,13 @@
  <p>Now <math><mrow><mo>∠</mo><mi>X</mi><mi>A</mi><mi>C</mi><mo>=</mo><mtext>150°</mtext></mrow></math>;</p>
  
  <p>∴ Equation to <math><mrow><mi>A</mi><mi>C</mi></mrow></math> is <math><mrow><mi>y</mi><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><msqrt><mn>3</mn></msqrt></mfrac><mo>.</mo><mo stretchy="false">(</mo><mi>x</mi><mo>−</mo><mi>a</mi><mo stretchy="false">)</mo></mrow></math>;<br>
@@ -5756,7 +5736,7 @@ diff -ru a/math/pillow-problems.html b/math/pillow-problems.html
  
  <p>Also, by similar ▵s <math><mrow><msup><mi>D</mi><mo>′</mo></msup><mi>Q</mi><msup><mi>A</mi><mo>′</mo></msup></mrow></math>, <math><mrow><msup><mi>D</mi><mo>′</mo></msup><mi>O</mi><mi>R</mi></mrow></math>, <math><mrow><mi>Q</mi><msup><mi>A</mi><mo>′</mo></msup><mo>:</mo><mi>Q</mi><msup><mi>D</mi><mo>′</mo></msup><mo>::</mo><mi>O</mi><mi>R</mi><mo>:</mo><mi>O</mi><msup><mi>D</mi><mo>′</mo></msup></mrow></math></p>
  
-@@ -2757,16 +2753,15 @@
+@@ -2755,16 +2752,15 @@
  <p>Hence we must go <i>down</i> back-edge, up again, and then about 7 down again. This answers question&nbsp;(2).</p>
  
  <p>(3) We need to go down the back-edge, and up again; i.&thinsp;e. we must use up the upward bases of ‘<var>α</var>’ and ‘<var>γ</var>’. Hence the base of the required right-angled Triangle is <math><mrow><mn>2</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>. Hence the required left-hand base-angle is
@@ -5791,15 +5771,6 @@ diff -ru a/math/the-formulae-of-plane-trigonometry.html b/math/the-formulae-of-p
 diff -ru a/math/the-principles-of-parliamentary-representation.html b/math/the-principles-of-parliamentary-representation.html
 --- a/math/the-principles-of-parliamentary-representation.html
 +++ b/math/the-principles-of-parliamentary-representation.html
-@@ -105,7 +105,7 @@
- <p>This, then, is the formula required. An example will make it clear. Suppose the universal quota to be 6,000: then a District containing 50,000 Electors would have 7 Members assigned to it.</p>
- 
- <p>We have yet to find a formula for determining <var>Q</var>. Let ‘<math><msub><mi>e</mi><mn>1</mn></msub></math>’ be the number of Electors in District No.&nbsp;1, ‘<math><msub><mi>e</mi><mn>2</mn></msub></math>’ the number in No.&nbsp;2, and so on; let ‘<math><msub><mi>m</mi><mn>1</mn></msub></math>’ be the number of Members assigned to District No.&nbsp;1, ‘<math><msub><mi>m</mi><mn>2</mn></msub></math>’ the number assigned to No.&nbsp;2, and so on; also let ‘<var>E</var>’ be the total number of Electors in the Kingdom, ‘<var>M</var>’ the number of Members in the House, and ‘<var>D</var>’ the number of Districts. Then we have
--<math display="block"><mtable displaystyle="false" rowspacing="0.5ex" columnalign="right left"><mtr><mtd><mo stretchy="false">(</mo><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mo>.</mo><mi>Q</mi></mtd><mtd><mo>=</mo><msub><mi>e</mi><mn>1</mn></msub><mo>,</mo></mtd></mtr><mtr><mtd><mo stretchy="false">(</mo><msub><mi>m</mi><mn>2</mn></msub><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mo>.</mo><mi>Q</mi></mtd><mtd><mo>=</mo><msub><mi>e</mi><mn>2</mn></msub><mo>,</mo></mtd></mtr><mtr><mtd></mtd><mtd><mtext>&amp;c.</mtext></mtd></mtr><mtr><mtd><mo>∴</mo><mo stretchy="false">(</mo><mi>M</mi><mo>+</mo><mi>D</mi><mo stretchy="false">)</mo><mo>.</mo><mi>Q</mi></mtd><mtd><mo>=</mo><mi>E</mi><mo>;</mo><mtext> i.&thinsp;e. </mtext><mi>Q</mi><mo>=</mo><mfrac><mi>E</mi><mrow><mi>M</mi><mo>+</mo><mi>D</mi></mrow></mfrac><mo>;</mo></mtd></mtr></mtable></math>
-+<math display="block"><mtable displaystyle="false" rowspacing="0.5ex" columnalign="right left"><mtr><mtd><mo stretchy="false">(</mo><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mo>.</mo><mi>Q</mi></mtd><mtd><mo>=</mo><msub><mi>e</mi><mn>1</mn></msub><mo>,</mo></mtd></mtr><mtr><mtd><mo stretchy="false">(</mo><msub><mi>m</mi><mn>2</mn></msub><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mo>.</mo><mi>Q</mi></mtd><mtd><mo>=</mo><msub><mi>e</mi><mn>2</mn></msub><mo>,</mo></mtd></mtr><mtr><mtd></mtd><mtd><mtext>&amp;c.</mtext></mtd></mtr><mtr><mtd><mo>∴</mo><mo stretchy="false">(</mo><mi>M</mi><mo>+</mo><mi>D</mi><mo stretchy="false">)</mo><mo>.</mo><mi>Q</mi></mtd><mtd><mo>=</mo><mi>E</mi><mtext>;</mtext><mtext> i.&thinsp;e. </mtext><mi>Q</mi><mo>=</mo><mfrac><mi>E</mi><mrow><mi>M</mi><mo>+</mo><mi>D</mi></mrow></mfrac><mo>;</mo></mtd></mtr></mtable></math>
- <math display="block"><mrow><mo>∴</mo><mi>m</mi><mo>=</mo><mi>e</mi><mo>.</mo><mfrac><mrow><mi>M</mi><mo>+</mo><mi>D</mi></mrow><mi>E</mi></mfrac><mo>−</mo><mn>1</mn><mtext>.</mtext></mrow></math></p>
- 
- <h4>§ 4. Tables calculated by the preceding Formulæ.</h4>
 @@ -131,30 +131,29 @@
  
  <p>In the following Table, the second column gives the number of Members to be returned by a District, the first the number of Electors by Formula (<i>a</i>), and the third the same by Formula (<i>b</i>).</p>
@@ -6311,33 +6282,29 @@ diff -ru a/notes-oxford-chiel/clarendon.html b/notes-oxford-chiel/clarendon.html
 diff -ru a/notes-oxford-chiel/new-method-evaluation.html b/notes-oxford-chiel/new-method-evaluation.html
 --- a/notes-oxford-chiel/new-method-evaluation.html
 +++ b/notes-oxford-chiel/new-method-evaluation.html
-@@ -82,11 +82,8 @@
+@@ -82,9 +82,8 @@
  <p>Let E = Essays, and R = Reviews: then the locus of (E + R), referred to multilinear co-ordinates, will be found to be a superficies (i.&thinsp;e. a locus possessing length and breadth, but no depth). Let <var>ν</var> = novelty, and assume (E + R) as a function of <var>ν</var>.</p>
  
  <p>Taking this superficies as the plane of reference, we get—
--<math display="block"><merror><mtext>\begin{array}{rl}
--E = R &amp;= B\\
+-<math display="block"><merror><mtext>\begin{array}{rl}E = R &amp;= B\\
 -\therefore EB = B^2 &amp;= HL \text{ (\variant{by the last}{by last} article.)}\\
--\text{Multiplying by P, } EBP &amp;= HPL.
--\end{array}</mtext></merror></math></p>
+-\text{Multiplying by P, } EBP &amp;= HPL\text{.}\end{array}</mtext></merror></math></p>
 +<math display="block"><mtable displaystyle="false" rowspacing="0.5ex" columnalign="right left"><mtr><mtd><mi>E</mi><mo>=</mo><mi>R</mi></mtd><mtd><mo>=</mo><mi>B</mi></mtd></mtr><mtr><mtd><mo>∴</mo><mi>E</mi><mi>B</mi><mo>=</mo><msup><mi>B</mi><mn>2</mn></msup></mtd><mtd><mo>=</mo><mi>H</mi><mi>L</mi><mtext> (<span class="annotated variant" data-ref="annotation-8.5">by the last</span> article.)</mtext></mtd></mtr><mtr><mtd><mtext>Multiplying by P, </mtext><mi>E</mi><mi>B</mi><mi>P</mi></mtd><mtd><mo>=</mo><mi>H</mi><mi>P</mi><mi>L</mi><mo>.</mo></mtd></mtr></mtable></math></p>
 +<aside class="toggle variant" id="annotation-8.5">by last</aside>
  
  <p>It was now necessary to investigate the locus of EBP: this was found to be a species of Catenary, called the Patristic Catenary, which is usually defined as ‘passing through origen, and containing many multiple points.’ The locus of HPL will be found almost entirely to coincide with this.</p>
  
-@@ -122,15 +119,7 @@
+@@ -120,13 +119,7 @@
  <p>We have now to develop <math><mrow><mi>ϕ</mi><mo stretchy="false">(</mo><mi>H</mi><mi>G</mi><mi>L</mi><mo stretchy="false">)</mo></mrow></math> by Maclaurin’s Theorem.</p>
  
  <p><span class="annotated variant" data-ref="annotation-10">The function itself vanishes when the variable vanishes:</span>
--<math display="block"><merror><mtext>\begin{array}{rl}
--\text{i.&amp;thinsp;e. } \phi(0) &amp;= O\\
+-<math display="block"><merror><mtext>\begin{array}{rl}\text{i.&amp;thinsp;e. } \phi(0) &amp;= O\\
 -\phi'(0) &amp;= C \text{ (a prime constant)}\\
 -\phi''(0) &amp;= 2\mo{.} J\\
 -\phi'''(0) &amp;= 2\mo{.}3\mo{.} H\\
 -\phi''''(0) &amp;= 2\mo{.}3\mo{.}4\mo{.} S\\
 -\phi'''''(0) &amp;= 2\mo{.}3\mo{.}4\mo{.}5\mo{.} P\\
--\phi''''''(0) &amp;= 2\mo{.}3\mo{.}4\mo{.}5\mo{.}6\mo{.} J
--\end{array}</mtext></merror></math>
+-\phi''''''(0) &amp;= 2\mo{.}3\mo{.}4\mo{.}5\mo{.}6\mo{.} J\end{array}</mtext></merror></math>
 +<math display="block"><mtable displaystyle="false" rowspacing="0.5ex" columnalign="right left"><mtr><mtd><mtext>i.&thinsp;e.&nbsp;</mtext><mi>ϕ</mi><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo></mtd><mtd><mo>=</mo><mi>O</mi></mtd></mtr><mtr><mtd><msup><mi>ϕ</mi><mo>′</mo></msup><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo></mtd><mtd><mo>=</mo><mi>C</mi><mtext> (a prime constant)</mtext></mtd></mtr><mtr><mtd><msup><mi>ϕ</mi><mo>″</mo></msup><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo></mtd><mtd><mo>=</mo><mn>2</mn><mo>.</mo><mi>J</mi></mtd></mtr><mtr><mtd><msup><mi>ϕ</mi><mo>‴</mo></msup><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo></mtd><mtd><mo>=</mo><mn>2</mn><mo>.</mo><mn>3</mn><mo>.</mo><mi>H</mi></mtd></mtr><mtr><mtd><msup><mi>ϕ</mi><mo>⁗</mo></msup><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo></mtd><mtd><mo>=</mo><mn>2</mn><mo>.</mo><mn>3</mn><mo>.</mo><mn>4</mn><mo>.</mo><mi>S</mi></mtd></mtr><mtr><mtd><msup><mi>ϕ</mi><mo>⁗′</mo></msup><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo></mtd><mtd><mo>=</mo><mn>2</mn><mo>.</mo><mn>3</mn><mo>.</mo><mn>4</mn><mo>.</mo><mn>5</mn><mo>.</mo><mi>P</mi></mtd></mtr><mtr><mtd><msup><mi>ϕ</mi><mo>⁗″</mo></msup><mo stretchy="false">(</mo><mn>0</mn><mo stretchy="false">)</mo></mtd><mtd><mo>=</mo><mn>2</mn><mo>.</mo><mn>3</mn><mo>.</mo><mn>4</mn><mo>.</mo><mn>5</mn><mo>.</mo><mn>6</mn><mo>.</mo><mi>J</mi></mtd></mtr></mtable></math>
  after which the quantities recur in the same order.</p>
  <aside class="toggle variant wide" id="annotation-10"><p>In the original publication all but the first line of the following equation are prefixed by some explanation:</p>
@@ -7326,12 +7293,11 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <p>Hence proposed Conclusion is right.</p>
  
-@@ -3554,20 +3545,7 @@
+@@ -3554,18 +3545,7 @@
  
  <p><math display="block"><mtable displaystyle="false" rowspacing="0.5ex" columnalign="center center center center center center center center center center center center center"><mtr><mtd><mn>1</mn></mtd><mtd></mtd><mtd><mn>2</mn></mtd><mtd></mtd><mtd><mn>3</mn></mtd><mtd></mtd><mtd><mn>4</mn></mtd><mtd></mtd><mtd><mn>5</mn></mtd><mtd></mtd><mtd><mn>6</mn></mtd><mtd></mtd><mtd><mn>7</mn></mtd></mtr><mtr><mtd><msub><mi>k</mi><mn>1</mn></msub><msubsup><mi>l</mi><mn>0</mn><mo>′</mo></msubsup></mtd><mtd><mo>†</mo></mtd><mtd><mi>d</mi><msubsup><mi>h</mi><mn>0</mn><mo>′</mo></msubsup></mtd><mtd><mo>†</mo></mtd><mtd><msub><mi>a</mi><mn>1</mn></msub><msub><mi>c</mi><mn>0</mn></msub></mtd><mtd><mo>†</mo></mtd><mtd><msub><mi>b</mi><mn>1</mn></msub><msubsup><mi>e</mi><mn>0</mn><mo>′</mo></msubsup></mtd><mtd><mo>†</mo></mtd><mtd><msup><mi>k</mi><mo>′</mo></msup><msub><mi>h</mi><mn>0</mn></msub></mtd><mtd><mo>†</mo></mtd><mtd><msup><mi>b</mi><mo>′</mo></msup><msub><mi>l</mi><mn>0</mn></msub></mtd><mtd><mo>†</mo></mtd><mtd><msubsup><mi>d</mi><mn>1</mn><mo>′</mo></msubsup><msubsup><mi>c</mi><mn>0</mn><mo>′</mo></msubsup></mtd></mtr></mtable></math></p>
  
--<p><math display="block"><merror><mtext>
--\begin{array}{cccccccccccccc}
+-<p><math display="block"><merror><mtext>\begin{array}{cccccccccccccc}
 -1 &amp;&amp; 5 &amp;&amp; 2 &amp;&amp; 6 &amp;&amp; 4 &amp;&amp; 7 &amp;&amp; 3 &amp; \\
 -
 -\underline{k}\,\underline{l'} &amp; \mo{†} &amp;
@@ -7342,13 +7308,12 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
 -\underline{\underline{d'}}\,\underline{c'} &amp; \mo{†} &amp;
 -a\,\underline{\underline{c}} &amp;
 -\mo{⁋} e'a_0 \mo{†} a_1 \text{\textit{i.\,e.}} \mo{⁋} a_1e'_0;
--\end{array}
--</mtext></merror></math>
+-\end{array}</mtext></merror></math>
 +<p><math display="block"><mtable displaystyle="false" rowspacing="0.5ex" columnalign="center center center center center center center center center center center center center center"><mtr><mtd><mn>1</mn></mtd><mtd></mtd><mtd><mn>5</mn></mtd><mtd></mtd><mtd><mn>2</mn></mtd><mtd></mtd><mtd><mn>6</mn></mtd><mtd></mtd><mtd><mn>4</mn></mtd><mtd></mtd><mtd><mn>7</mn></mtd><mtd></mtd><mtd><mn>3</mn></mtd><mtd></mtd></mtr><mtr><mtd><munder><mi>k</mi><mo>_</mo></munder><mspace width="0.16666666666666666em"/><munder><msup><mi>l</mi><mo>′</mo></msup><mo>_</mo></munder></mtd><mtd><mo>†</mo></mtd><mtd><munder><munder><msup><mi>k</mi><mo>′</mo></msup><mo>_</mo></munder><mo>_</mo></munder><mspace width="0.16666666666666666em"/><munder><mi>h</mi><mo>_</mo></munder></mtd><mtd><mo>†</mo></mtd><mtd><munder><mi>d</mi><mo>_</mo></munder><mspace width="0.16666666666666666em"/><munder><munder><msup><mi>h</mi><mo>′</mo></msup><mo>_</mo></munder><mo>_</mo></munder></mtd><mtd><mo>†</mo></mtd><mtd><munder><msup><mi>b</mi><mo>′</mo></msup><mo>_</mo></munder><mspace width="0.16666666666666666em"/><munder><munder><mi>l</mi><mo>_</mo></munder><mo>_</mo></munder></mtd><mtd><mo>†</mo></mtd><mtd><munder><munder><mi>b</mi><mo>_</mo></munder><mo>_</mo></munder><mspace width="0.16666666666666666em"/><msup><mi>e</mi><mo>′</mo></msup></mtd><mtd><mo>†</mo></mtd><mtd><munder><munder><msup><mi>d</mi><mo>′</mo></msup><mo>_</mo></munder><mo>_</mo></munder><mspace width="0.16666666666666666em"/><munder><msup><mi>c</mi><mo>′</mo></msup><mo>_</mo></munder></mtd><mtd><mo>†</mo></mtd><mtd><mi>a</mi><mspace width="0.16666666666666666em"/><munder><munder><mi>c</mi><mo>_</mo></munder><mo>_</mo></munder></mtd><mtd><mo>⁋</mo><msup><mi>e</mi><mo>′</mo></msup><msub><mi>a</mi><mn>0</mn></msub><mo>†</mo><msub><mi>a</mi><mn>1</mn></msub><mtext><i>i.&thinsp;e.</i></mtext><mo>⁋</mo><msub><mi>a</mi><mn>1</mn></msub><msubsup><mi>e</mi><mn>0</mn><mo>′</mo></msubsup><mtext>;</mtext></mtd></mtr></mtable></math>
  <i>i.&thinsp;e.</i> “All <var>a</var> are <var>e</var>.”</p>
  
  <p>The Reader should now take a second piece of paper, and copy the Data only, and try to work out the solution for himself, beginning with some other Premiss.</p>
-@@ -4368,8 +4346,7 @@
+@@ -4366,8 +4346,7 @@
  
  <h5>§ 6. Trios of Abstract Propositions, proposed as Syllogisms: to be examined.</h5>
  
@@ -7358,7 +7323,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  <tr><td>1.<span id="symbolic-logic:ex-6-1"></span></td><td>Some <var>x</var> are <var>m</var>;</td><td>No <var>m</var> are <math><msup><mi>y</mi><mo>′</mo></msup></math>.</td><td>Some <var>x</var> are <var>y</var>.</td></tr>
  <tr><td>2.</td><td>All <var>x</var> are <var>m</var>;</td><td>No <var>y</var> are <math><msup><mi>m</mi><mo>′</mo></msup></math>.</td><td>No <var>y</var> are <math><msup><mi>x</mi><mo>′</mo></msup></math>.</td></tr>
  <tr><td>3.</td><td>Some <var>x</var> are <math><msup><mi>m</mi><mo>′</mo></msup></math>;</td><td>All <math><msup><mi>y</mi><mo>′</mo></msup></math> are <var>m</var>.</td><td>Some <var>x</var> are <var>y</var>.</td></tr>
-@@ -6765,7 +6742,7 @@
+@@ -6763,7 +6742,7 @@
  <p>The Major Premiss requires only <i>one</i> Diagram, viz.</p>
  
  <figure>
@@ -7367,7 +7332,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="150.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6778,7 +6755,7 @@
+@@ -6776,7 +6755,7 @@
  <p>The Minor requires <i>three</i>, viz.</p>
  
  <figure>
@@ -7376,7 +7341,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="150.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6789,7 +6766,7 @@
+@@ -6787,7 +6766,7 @@
  </figure>
  
  <figure>
@@ -7385,7 +7350,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="102.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6800,7 +6777,7 @@
+@@ -6798,7 +6777,7 @@
  </figure>
  
  <figure>
@@ -7394,7 +7359,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="70.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6815,7 +6792,7 @@
+@@ -6813,7 +6792,7 @@
  <p>Figs.&nbsp;1 and 2 give</p>
  
  <figure>
@@ -7403,7 +7368,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="214.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6828,7 +6805,7 @@
+@@ -6826,7 +6805,7 @@
  </figure>
  
  <figure>
@@ -7412,7 +7377,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="182.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6841,7 +6818,7 @@
+@@ -6839,7 +6818,7 @@
  </figure>
  
  <figure>
@@ -7421,7 +7386,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="150.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6852,7 +6829,7 @@
+@@ -6850,7 +6829,7 @@
  </figure>
  
  <figure>
@@ -7430,7 +7395,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="150.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6865,7 +6842,7 @@
+@@ -6863,7 +6842,7 @@
  </figure>
  
  <figure>
@@ -7439,7 +7404,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="150.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6880,7 +6857,7 @@
+@@ -6878,7 +6857,7 @@
  <p>Figs.&nbsp;1 and 3 give</p>
  
  <figure>
@@ -7448,7 +7413,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="182.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6893,7 +6870,7 @@
+@@ -6891,7 +6870,7 @@
  </figure>
  
  <figure>
@@ -7457,7 +7422,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="166.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6906,7 +6883,7 @@
+@@ -6904,7 +6883,7 @@
  </figure>
  
  <figure>
@@ -7466,7 +7431,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="134.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6921,7 +6898,7 @@
+@@ -6919,7 +6898,7 @@
  <p>Figs.&nbsp;1 and 4 give</p>
  
  <figure>
@@ -7475,7 +7440,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="150.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6938,7 +6915,7 @@
+@@ -6936,7 +6915,7 @@
  <p>We thus get five Biliteral Diagrams for <var>x</var> and <var>y</var>, viz.</p>
  
  <figure>
@@ -7484,7 +7449,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="150.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6949,7 +6926,7 @@
+@@ -6947,7 +6926,7 @@
  </figure>
  
  <figure>
@@ -7493,7 +7458,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="102.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6960,7 +6937,7 @@
+@@ -6958,7 +6937,7 @@
  </figure>
  
  <figure>
@@ -7502,7 +7467,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="70.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6969,7 +6946,7 @@
+@@ -6967,7 +6946,7 @@
  </figure>
  
  <figure>
@@ -7511,7 +7476,7 @@ diff -ru a/symbolic-logic/content.html b/symbolic-logic/content.html
  
  <svg stroke="currentColor" width="70.4" height="70.4">
  <circle fill="none" cx="35.2" cy="35.2" r="32" />
-@@ -6980,7 +6957,7 @@
+@@ -6978,7 +6957,7 @@
  </figure>
  
  <figure>

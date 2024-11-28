@@ -107,12 +107,13 @@ function mathToHtml (math, mode) {
 	mathFixCallbacks.forEach(function (callback) {
 		math = callback(math, mode);
 	});
-	/*TODO enable
+	/*TODO enable, also for curly and square, but not inside text
 	//TeXZilla behaves much better when \left and \right is always used, so just add them if that seems ok
 	if (math.replace(/[^(]+/g, '').length === math.replace(/[^)]+/g, '').length) {
 		math = math.replace(/\(/g, '\\left(').replace(/\)/g, '\\right)')
 			.replace(/\\left\\left\(/g, '\\left(').replace(/\\right\\right\)/g, '\\right)');
 	}*/
+	math = math.trim();
 	math = math.replace(/\\not>/g, '≯').replace(/\\not</g, '≮');
 	math = math.replace(/\\S\b/g, '\\mo{§}');
 	math = math.replace(/::/g, '\\mo{::}');
@@ -131,6 +132,7 @@ function mathToHtml (math, mode) {
 		math = math.replace(/<undefined\/>/g, ''); //happens for \left. etc.
 		math = math.replace(/<annotation encoding="TeX">[\s\S]*<\/annotation>/, '').replace(/<\/?semantics>/g, '');
 		math = math.replace(' xmlns="http://www.w3.org/1998/Math/MathML"', '');
+		math = math.replace(/(<mtext>[.,;]<\/mtext>)(<\/mrow>)$/, '$2$1'); //don't include trailing punctuation
 		math = math.replace(/<math><mo>([^<]+)<\/mo><\/math>/, '$1'); //just a single operator
 		math = math.replace(/<math>(?:<mrow>)?(?:<mo>([+−])<\/mo>)?<mn>([^<]+)<\/mn>(?:<\/mrow>)?<\/math>/, '$1$2'); //just a number
 		math = math.replace(/<math><mi>(.)<\/mi><\/math>/, '<var>$1</var>'); //just a single one-letter variable
