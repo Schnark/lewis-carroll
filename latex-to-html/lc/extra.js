@@ -755,9 +755,7 @@ toHtml.fixMath(function (latex) {
 		.replace(/\\COT/g, '\\mo{carrollCOT}')
 		.replace(/\\SEC/g, '\\mo{carrollSEC}')
 		.replace(/\\CSC/g, '\\mo{carrollCSC}')
-		.replace(/\\VSIN/g, '\\mo{carrollVSIN}')
-		.replace(/~/g, ' ')
-		.replace(/\\&/g, '&');
+		.replace(/\\VSIN/g, '\\mo{carrollVSIN}');
 });
 toHtml.fixup(function (html) {
 	var SVG = {

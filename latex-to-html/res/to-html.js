@@ -107,37 +107,68 @@ function mathToHtml (math, mode) {
 	mathFixCallbacks.forEach(function (callback) {
 		math = callback(math, mode);
 	});
-	/*TODO enable, also for curly and square, but not inside text
-	//TeXZilla behaves much better when \left and \right is always used, so just add them if that seems ok
-	if (math.replace(/[^(]+/g, '').length === math.replace(/[^)]+/g, '').length) {
-		math = math.replace(/\(/g, '\\left(').replace(/\)/g, '\\right)')
-			.replace(/\\left\\left\(/g, '\\left(').replace(/\\right\\right\)/g, '\\right)');
-	}*/
 	math = math.trim();
 	math = math.replace(/\\not>/g, '≯').replace(/\\not</g, '≮');
 	math = math.replace(/\\S\b/g, '\\mo{§}');
 	math = math.replace(/::/g, '\\mo{::}');
+	//wrap trailing punctuation in \text{}
 	if (mode !== 'math' && ['.', ',', ';'].indexOf(math.slice(-1)) > -1) {
 		math = math.slice(0, -1) + '\\text{' + math.slice(-1) + '}';
 	}
+	if (mode !== 'math') {
+		math = math.replace(/([.,;])(\s*\\end\{array\})$/g, '\\text{$1}$2');
+	}
+	math = math.replace(/([.,;])\\quad/g, '\\text{$1}\\quad');
+	math = math.replace(/; \\text\{/g, '\\text{; '); //only for semicola, a comma is probably part of a series
+	//simulate align by using array
 	if (['align', 'align*'].indexOf(mode) > -1) {
 		math = '\\begin{array}{rl}' + math + '\\end{array}';
 	}
-	math = math.replace(/\\text\{[^{}]+\}/g, function (text) {
-		return text.replace(/\\ /g, ' ').replace(/\\,/g, '&thinsp;');
+	//TeXZilla behaves much better when \left and \right are always used, so just add them if that seems ok
+	//doing the same for square brackets is more difficult, so just leave them alone
+	//TODO do this also for | and \|, at least in simple cases
+	if (
+		math.replace(/[^(]+/g, '').length === math.replace(/[^)]+/g, '').length &&
+		!(/\([^()]*(?:&|\\\\)/.test(math.replace(/\\&/g, '+'))) //unbalanced parens in matrix cell
+	) {
+		math = math.replace(/\(/g, '\\left(').replace(/\)/g, '\\right)')
+	}
+	if (
+		math.replace(/[^{]+/g, '').length === math.replace(/[^}]+/g, '').length &&
+		!(/\{[^{}]*(?:&|\\\\)/.test(math.replace(/\\&/g, '+')))
+	) {
+		math = math.replace(/\\\{/g, '\\left\\{').replace(/\\\}/g, '\\right\\}')
+	}
+	math = math.replace(/\|(\w)\|/g, '\\left|$1\\right|');
+	math = math.replace(/\\\|(\w)\\\|/g, '\\left\\|$1\\right\\|');
+	math = math.replace(/\\left\\left/g, '\\left').replace(/\\right\\right/g, '\\right');
+	//fix commands in \text{}
+	math = math.replace(/~/g, ' ');
+	math = math.replace(/\\textit\{([^{}]+)\}/g, function (all, it) {
+		//should only happen inside \text
+		return 'LTIGT' + it + 'LTSLIGT';
+	});
+	math = math.replace(/\\text\{([^{}]+|\{[^{}]*\})*\}/g, function (text) {
+		return text
+			//various spaces, some need unescaping below
+			.replace(/\\ /g, ' ').replace(/\\,/g, '&thinsp;').replace(/\\quad/g, '&emsp;')
+			.replace(/\\&/g, '&')
+			//do not add \left and \right inside text
+			.replace(/\\left/g, '').replace(/\\right/g, '');
 	});
 	try {
 		math = TeXZilla.toMathMLString(math, mode !== 'math', false, true);
-		math = math.replace(/&amp;thinsp;/g, '&thinsp;');
+		math = math.replace(/&amp;thinsp;/g, '&thinsp;').replace(/&amp;emsp;/g, '&emsp;');
+		math = math.replace(/LTIGT/g, '<i>').replace(/LTSLIGT/g, '</i>');
 		math = math.replace(/<undefined\/>/g, ''); //happens for \left. etc.
 		math = math.replace(/<annotation encoding="TeX">[\s\S]*<\/annotation>/, '').replace(/<\/?semantics>/g, '');
 		math = math.replace(' xmlns="http://www.w3.org/1998/Math/MathML"', '');
-		math = math.replace(/(<mtext>[.,;]<\/mtext>)(<\/mrow>)$/, '$2$1'); //don't include trailing punctuation
 		math = math.replace(/<math><mo>([^<]+)<\/mo><\/math>/, '$1'); //just a single operator
 		math = math.replace(/<math>(?:<mrow>)?(?:<mo>([+−])<\/mo>)?<mn>([^<]+)<\/mn>(?:<\/mrow>)?<\/math>/, '$1$2'); //just a number
 		math = math.replace(/<math><mi>(.)<\/mi><\/math>/, '<var>$1</var>'); //just a single one-letter variable
 		return math;
 	} catch (e) {
+		warn('Math error: ' + math.replace(/\n/g, ' '));
 		return '<math' + (mode !== 'math' ? ' display="block"' : '') + '>' +
 			'<merror><mtext>' + escapeHtml(math) + '</mtext></merror></math>';
 	}

@@ -765,7 +765,8 @@ aside.toggle.wide {
 }
 /*Print*/
 @media print {
-	html {
+	html,
+	m|mtext {
 		font-family: serif;
 	}
 	html,
@@ -798,6 +799,7 @@ aside.toggle.wide {
 		margin-top: 2em;
 	}
 	html::after {
+		break-before: avoid;
 		display: block;
 		margin-top: 1em;
 		border-top: solid thin;

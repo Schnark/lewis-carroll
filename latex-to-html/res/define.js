@@ -941,6 +941,7 @@ registerEnvironment('picture', function (size, content) {
 }, ['coords']);
 
 ignoreSimpleCommands([
+	'leavevmode',
 	'newpage',
 	'clearpage',
 	'cleardoublepage',
