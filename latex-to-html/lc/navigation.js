@@ -361,8 +361,8 @@ function getNav (page) {
 		'Memoria Technica': {
 			'texts/memoria-technica-1877.html': '1877',
 			'texts/specific-gravities-of-metals.html': 'Specific Gravities of Metals, &amp;c.',
-			'texts/logs-of-nos.html': 'Logs of Nos.',
-			'texts/various-memoria-technica-verses.html': 'Various Verses',
+			'manuscripts-proofs/logs-of-nos.html': 'Logs of Nos.',
+			'manuscripts-proofs/various-memoria-technica-verses.html': 'Various Verses',
 			'texts/memoria-technica-1888.html': '1888'
 		},
 		'Shakespeare for Girls': {

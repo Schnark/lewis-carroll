@@ -120,6 +120,7 @@ function mathToHtml (math, mode) {
 	}
 	math = math.replace(/([.,;])\\quad/g, '\\text{$1}\\quad');
 	math = math.replace(/; \\text\{/g, '\\text{; '); //only for semicola, a comma is probably part of a series
+	math = math.replace(/\\right\\text\{\.\}/g, '\\right.'); //fix \right. when the above code messed with the .
 	//simulate align by using array
 	if (['align', 'align*'].indexOf(mode) > -1) {
 		math = '\\begin{array}{rl}' + math + '\\end{array}';

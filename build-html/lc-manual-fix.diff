@@ -148,7 +148,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>Table of contents</li>
  <li>List of Illustrations</li>
  <li><a href="../poems/three-sunsets.html">Three Sunsets</a></li>
-@@ -498,7 +498,7 @@
+@@ -492,7 +492,7 @@
  <li>Title</li>
  <li><a href="../euclid-and-his-modern-rivals/preface-supplement.html">Preface</a></li>
  <li><a href="../euclid-and-his-modern-rivals/content.html#supplement-euclid-modern-rivals:henrici">Act II. Scene VI. Henrici</a></li>
@@ -157,7 +157,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Euclid. Books I, II</h4>
-@@ -535,7 +535,7 @@
+@@ -529,7 +529,7 @@
  <li>Title</li>
  <li><a href="../math/the-principles-of-parliamentary-representation.html#principles-parliamentary:supplement">Main content</a></li>
  </ul></li>
@@ -166,7 +166,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>A Tangled Tale</h4>
-@@ -678,7 +678,7 @@
+@@ -672,7 +672,7 @@
  <li>Title</li>
  <li>Introduction (moved to content)</li>
  <li>Table of Contents</li>
@@ -175,7 +175,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>“The New Method of Evaluation as Applied to <var>π</var>” forms the third chapter and is missing in the fourth edition (which is the one included in “Notes by an Oxford Chiel”). In the fourth edition also the subtitle is missing and the motto added to the title page.</p>
-@@ -751,14 +751,13 @@
+@@ -745,14 +745,13 @@
  <p>scan from <a href="https://books.google.de/books?id=vU0P7jFnpjgC">https://books.google.de/books?id=vU0P7jFnpjgC</a></p>
  
  <ul>
@@ -192,7 +192,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <h4>Notes by an Oxford Chiel</h4>
  <p>Anonymous, published 1874</p>
-@@ -766,9 +765,7 @@
+@@ -760,9 +759,7 @@
  <p>scan from <a href="https://archive.org/details/notesbyoxfordchi00carrrich">https://archive.org/details/notesbyoxfordchi00carrrich</a></p>
  
  <ul>
@@ -203,7 +203,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>Table of contents</li>
  <li>The New Method of Evaluation as Applied to <var>π</var>.<ul>
  <li>Title (motto moved to content)</li>
-@@ -781,15 +778,13 @@
+@@ -775,15 +772,13 @@
  <li>Table of contents</li>
  <li><a href="../notes-oxford-chiel/dynamics-particle.html">Content</a></li>
  </ul></li>
@@ -222,7 +222,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>The New Belfry of Christ Church, Oxford.<ul>
  <li>Title (motto and image moved to content)</li>
  <li>Table of Contents</li>
-@@ -805,6 +800,8 @@
+@@ -799,6 +794,8 @@
  <li><a href="../notes-oxford-chiel/blank-cheque.html">Content</a></li>
  </ul></li>
  </ul>
@@ -231,7 +231,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <h4>An Easter Greeting</h4>
  <p class="subtitle">To Every Child Who Loves “Alice.”</p>
-@@ -918,7 +915,7 @@
+@@ -912,7 +909,7 @@
  <li>Title</li>
  <li>Table of Contents</li>
  <li><a href="../texts/eight-or-nine-wise-words-about-letter-writing.html">Main Content</a></li>
@@ -240,7 +240,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Curiosissima Curatoria</h4>
-@@ -946,14 +943,14 @@
+@@ -940,14 +937,14 @@
  <li>Table of Contents</li>
  <li><a href="../syzygies-and-lanrick/syzygies.html">Syzygies</a></li>
  <li><a href="../syzygies-and-lanrick/lanrick.html">Lanrick</a></li>
@@ -259,7 +259,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>Chapter 11 of <i>The Lost Plum Cake</i> might also be written by Carroll, see <i>Pamphlets: A Miscellany</i>, item 34.</p>
-@@ -967,7 +964,7 @@
+@@ -961,7 +958,7 @@
  
  <ul>
  <li><a href="../poems/the-lady-of-the-ladle.html">The Lady of the Ladle</a> (August 1854)</li>
@@ -268,7 +268,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>The Comic Times</h4>
-@@ -1095,10 +1092,10 @@
+@@ -1089,10 +1086,10 @@
  “The Organization of Charity” also included in the <i>Scrapbook</i></p>
  
  <ul>
@@ -281,7 +281,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/vivisection-as-a-sign-of-the-times.html">Vivisection as a Sign of the Times</a> (February 1875)</li>
  <li><a href="../magazines/vivisection.html">Vivisection</a> (February 1875)</li>
  <li><a href="../magazines/natural-science-at-oxford.html">Natural Science at Oxford</a> (May 1877)</li>
-@@ -1117,7 +1114,7 @@
+@@ -1111,7 +1108,7 @@
  <ul>
  <li><a href="../magazines/the-science-of-betting.html#times:betting">The Science of Betting</a> (November 1866)</li>
  <li><a href="../magazines/a-complete-postage-guide.html">A Complete Postage Guide</a> (September 1883)</li>
@@ -290,7 +290,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Proceedings of the Royal Society of London</h4>
-@@ -1150,8 +1147,8 @@
+@@ -1144,8 +1141,8 @@
  <ul>
  <li><a href="../magazines/castle-croquet-1866.html">Castle Croquet</a> (August 1867)</li>
  <li><a href="../magazines/brunos-revenge.html">Bruno’s Revenge</a> (December 1867)</li>
@@ -301,7 +301,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../poems/dreamland.html">Dreamland</a> (July 1882)</li>
  </ul>
  
-@@ -1188,7 +1185,7 @@
+@@ -1182,7 +1179,7 @@
  <a href="https://www.informedparent.co.uk/wp-content/uploads/2017/10/1877-EASTBOURNE-CHRONICLE-debate-with-Lewis-Carroll-C-Dodgson.pdf">https://www.informedparent.co.uk/wp-content/uploads/2017/10/1877-EASTBOURNE-CHRONICLE-debate-with-Lewis-Carroll-C-Dodgson.pdf</a></p>
  
  <ul>
@@ -310,7 +310,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Vanity Fair</h4>
-@@ -1200,7 +1197,7 @@
+@@ -1194,7 +1191,7 @@
  <a href="https://books.google.de/books?id=TfJHAQAAMAAJ">https://books.google.de/books?id=TfJHAQAAMAAJ</a></p>
  
  <ul>
@@ -319,7 +319,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>The Doublets were managed by Choker (the editor), it is not clear how much of the content was actually written by Carroll. Here only those parts are reproduced, that were reprinted as book, as well as all the doublets. Several of these were also published as offprints.</p>
-@@ -1261,28 +1258,28 @@
+@@ -1255,28 +1252,28 @@
  <li><a href="../tangled-tale/content.html#tangled:mp-2">Romantic Problems; A Tangled Tale. Knot II. Mad Mathesis</a> (July 1880)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-2a">Answers to “Romantic Problems. Knot II”</a> (September 1880)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-3">A Tangled Tale. Knot III. The Dead Reckoning</a> (October 1880)</li>
@@ -353,9 +353,9 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/note-about-shakespeare-for-girls.html">Untitled note about “Shakespeare for Girls”</a> (June 1882)</li>
  </ul></li>
  <li><a href="../magazines/mischmasch-1882.html">Mischmasch</a> (November 1882)</li>
-@@ -1306,19 +1303,19 @@
+@@ -1300,19 +1297,19 @@
  <ul>
- <li><a href="../magazines/the-purity-of-election.html">The Purity of Election</a> (May 1881)</li>
+ <li><a href="../math/purity-of-election.html">Purity of Election</a> (May 1881)</li>
  <li><a href="../magazines/traitors-in-the-camp.html">Traitors in the Camp</a> (December 1881)</li>
 -<li>Education for the Stage (February/March 1882, → <a href="../magazines/education-for-the-stage.html#james:education-1">here<!--TODO--></a>, → <a href="../magazines/education-for-the-stage.html#james:education-2">here<!--TODO--></a>)</li>
 +<li><a href="../magazines/education-for-the-stage.html">Education for the Stage</a> (February/March 1882, 2 letters)</li>
@@ -370,14 +370,14 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/notes-1884.html">Notes</a> (August 1884)</li>
 -<li>Redistribution (October 1884, → <a href="../magazines/redistribution.html#james:redistribution-1">here<!--TODO--></a>, → <a href="../magazines/redistribution.html#james:redistribution-2">here<!--TODO--></a>)</li>
 +<li><a href="../magazines/redistribution.html">Redistribution</a> (October 1884, 2 letters)</li>
- <li><a href="../prefaces/the-principles-of-parliamentary-representation-advertisment.html">The Principles of Parliamentary Representation</a> (December 1884)</li>
+ <li><a href="../texts/the-principles-of-parliamentary-representation-advertisment.html">The Principles of Parliamentary Representation</a> (December 1884)</li>
  <li><a href="../magazines/vivisection-vivisected.html">Vivisection Vivisected</a> (March 1885)</li>
 -<li>Mr.&nbsp;Gladstone’s New Book (March 1885, → <a href="../magazines/mr-gladstones-new-book.html">here<!--TODO--></a>; authorship not entirely certain)</li>
 +<li><a href="../magazines/mr-gladstones-new-book.html">Mr.&nbsp;Gladstone’s New Book</a> (March 1885; authorship not entirely certain)</li>
  <li><a href="../magazines/whoso-shall-offend-one-of-these-little-ones.html">“Whoso Shall Offend One of These Little Ones—”</a> (July 1885)</li>
  <li><a href="../magazines/hydrophobia-curable.html">Hydrophobia Curable</a> (October 1885)</li>
  <li><a href="../magazines/election-gains-and-losses.html">Election Gains and Losses</a> (December 1885)</li>
-@@ -1436,7 +1433,7 @@
+@@ -1430,7 +1427,7 @@
  for detailed description see also <i>Lewis Carroll and the Press</i></p>
  
  <ul>
@@ -386,7 +386,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/nyctograph.html">Nyctograph</a> (October 1891)</li>
  <li><a href="../magazines/a-postal-problem.html">A Postal Problem</a> (December 1891)</li>
  <li><a href="../magazines/for-all-lovers-of-children.html">For All Lovers of Children</a> (March–May 1892)</li>
-@@ -1510,13 +1507,13 @@
+@@ -1504,13 +1501,13 @@
  <li><a href="../texts/objections-submitted-to-the-governing-body.html">Objections, Submitted to the Governing Body of Christ Church, Oxford</a>, 1873 (text from <i>Oxford Pamphlets</i>, item 14, partial scan from <a href="https://lewiscarroll25.blogspot.com/2014/06/dodgsons-objections-against-proposed.html?m=1">https://lewiscarroll25.blogspot.com/2014/06/dodgsons-objections-against-proposed.html?m=1</a>)<!--TODO scan--></li>
  <li><a href="../texts/the-professorship-of-comparative-philology.html">The Professorship of Comparative Philology</a>, 1876 (three pamphlets, text from <i>Oxford Pamphlets</i>, item 17, partial scans from <i>Bibliography</i>, p.&nbsp;229)<!--TODO scan (last page of last pamphlet)--></li>
  <li><a href="../poems/fames-penny-trumpet.html">Fame’s Penny-Trumpet</a>, 1876 (text from <i>Pamphlets: A Miscellany</i>, item 90, partial scan from <a href="https://www.bonhams.com/auctions/24116/lot/34/?category=results">https://www.bonhams.com/auctions/24116/lot/34/?category=results</a>)<!--TODO scan--></li>
@@ -402,7 +402,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../poems/four-riddles-no-iv.html">A Charade</a>, 1878 (scan from <i>The Story of Lewis Carroll</i>, pp.&nbsp;108–110)</li>
  <li><a href="../texts/word-links-cyclostyled.html">Word-Links</a>, 1878 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;89–92)</li>
  <li><a href="../texts/word-links-printed.html">Word-Links</a>, 1878 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;93–96)</li>
-@@ -1543,20 +1540,20 @@
+@@ -1537,20 +1534,20 @@
  <li><a href="../math/questions-in-logic.html">Questions in Logic</a>, 1887 (text from <i>Logic Pamphlets</i>, item 21)<!--TODO scan--></li>
  <li><a href="../poems/to-my-child-friend.html">To my Child-Friend</a>, 1888 (scan from <i>Bibliography</i>, p.&nbsp;254)</li>
  <li><a href="../texts/memoria-technica-1888.html">Memoria Technica</a>, 1888 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;33–35)</li>
@@ -426,18 +426,20 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../texts/resident-women-students.html">Resident Women-Students</a>, 1896 (scan from <a href="https://iiif.bodleian.ox.ac.uk/iiif/viewer/8c4d795d-3b6a-4c70-b974-dc11083c1975#?c=0&amp;m=0&amp;s=0&amp;cv=72&amp;r=0&amp;xywh=-246%2C-1%2C3971%2C2902">https://iiif.bodleian.ox.ac.uk/iiif/viewer/8c4d795d-3b6a-4c70-b974-dc11083c1975#?c=0&amp;m=0&amp;s=0&amp;cv=72&amp;r=0&amp;xywh=-246%2C-1%2C3971%2C2902</a>)</li>
  </ul>
  
-@@ -1564,8 +1561,8 @@
- 
+@@ -1559,9 +1556,9 @@
  <ul>
  <li><a href="../manuscripts-proofs/the-wasp-in-a-wig.html">The Wasp in a Wig</a>, 1870 (first published 1977, scan from <a href="https://archive.org/details/waspinwigsuppres0000carr_m8q0">https://archive.org/details/waspinwigsuppres0000carr_m8q0</a>)</li>
+ <li><a href="../manuscripts-proofs/limits-of-circle-squaring.html">Limits of Circle-Squaring</a>, 1882? (first published 1994, scan from <i>Mathematical Pamphlets</i>, item 8)</li>
 -<li>Symbolic Logic. Part II, 1887–1897 (first published 1977, text (and a few scans) from <i>Lewis Carroll’s Symbolic Logic</i> by W. W. Bartley, → <a href="../manuscripts-proofs/symbolic-logic-part-ii.html">here<!--TODO--></a>)</li>
+-<li>Rule for Finding Easter-Day, 1892?/1897? (first published 1994, text from <i>Mathematical Pamphlets</i>, item 35, → <a href="../manuscripts-proofs/rule-for-finding-easter-day.html">here<!--TODO--></a>)</li>
 -<li>Eternal Punishment, 1895/1897 (first published 1899, text from the <i>Picture Book</i>, pp.&nbsp;345–355, → <a href="../manuscripts-proofs/eternal-punishment.html">here<!--TODO--></a>)</li>
 +<li><a href="../manuscripts-proofs/symbolic-logic-part-ii.html">Symbolic Logic. Part II</a>, 1887–1897 (first published 1977, text (and a few scans) from <i>Lewis Carroll’s Symbolic Logic</i> by W. W. Bartley)</li>
++<li><a href="../manuscripts-proofs/rule-for-finding-easter-day.html">Rule for Finding Easter-Day</a>, 1892?/1897? (first published 1994, text from <i>Mathematical Pamphlets</i>, item 35)</li>
 +<li><a href="../manuscripts-proofs/eternal-punishment.html">Eternal Punishment</a>, 1895/1897 (first published 1899, text from the <i>Picture Book</i>, pp.&nbsp;345–355)</li>
  <li><a href="../manuscripts-proofs/curiosa-mathematica-part-iii.html">Curiosa Mathematica Part III</a>, 1897 (first published 1899, text from the <i>Picture Book</i>, pp.&nbsp;240–263)</li>
  </ul>
  
-@@ -1634,7 +1631,7 @@
+@@ -1632,7 +1629,7 @@
  <li><a href="../rectory-magazine/introductions.html#rectory:rust">Rust</a></li>
  <li><a href="../poems/as-it-fell-upon-a-day.html">As It Fell upon a Day</a></li>
  <li><a href="../rectory-magazine/sidney-hamilton.html#sidney-hamilton:4">Sidney Hamilton. Ch.&nbsp;4</a></li>
@@ -446,7 +448,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>A Tale of the Wars. Part&nbsp;2 (by Wilfred L. Dodgson)</li>
  <li><a href="../rectory-magazine/crundle-castle.html#crundle-castle:3">Crundle Castle. Ch.&nbsp;3</a></li>
  <li><a href="../poems/terrors.html">Terrors</a></li>
-@@ -1683,10 +1680,9 @@
+@@ -1681,10 +1678,9 @@
  <li>Mrs Stoggle’s Dinner-Party. Ch.&nbsp;4 (by Elisabeth L. Dodgson)</li>
  <li>Farmer Grubbins. Ch.&nbsp;2 (by Skeffington H. Dodgson)</li>
  </ul></li>
@@ -459,7 +461,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <h4>The Rectory Umbrella</h4>
  <p>Written about 1850, first published 1932, scan from
-@@ -1734,7 +1730,7 @@
+@@ -1732,7 +1728,7 @@
  <a href="http://www.europeana.eu/portal/record/9200143/BibliographicResource_2000069294604.html">http://www.europeana.eu/portal/record/9200143/BibliographicResource_2000069294604.html</a><!--TODO scan (Harcourt Armory Collection, not (yet) digitized)--></p>
  
  <ul>
@@ -468,7 +470,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../mischmasch/preface.html#mischmasch:preface">Preface</a></li>
  <li><a href="../mischmasch/studies-from-english-poets.html#english-poets:1">Studies from English Poets. No.&nbsp;I</a></li>
  <li><a href="../mischmasch/studies-from-english-poets.html#english-poets:2">Studies from English Poets. No.&nbsp;II</a></li>
-@@ -1770,7 +1766,7 @@
+@@ -1768,7 +1764,7 @@
  
  <h4>Other Manuscripts</h4>
  <ul>
@@ -477,16 +479,16 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../manuscripts-proofs/loves-railway-guide.html">“Love’s” Railway Guide</a>, 1847? (first published 1932, scan from <i>The Raven and the Writing Desk</i>, p.&nbsp;161)<!--TODO readable table--></li>
  <li><a href="../poems/la-guida-di-bragia.html">La Guida di Bragia</a>, 1850? (first published 1931, text from <a href="https://archive.org/details/knightletterno6100lewi">https://archive.org/details/knightletterno6100lewi</a>, partial scan at <a href="https://archive.org/details/b31639987">https://archive.org/details/b31639987</a>, p.&nbsp;126)<!--TODO scan (Berol Collection)--></li>
  <li><a href="../manuscripts-proofs/the-christ-church-commoner.html">The Christ-Church Commoner</a>, 1851 (first published 1973, text from <i>Lewis Carroll, a Biography</i> by Anne Clark Amor, p.&nbsp;72)<!--TODO scan (Berg Collection, http://archives.nypl.org/brg/19160)--></li>
-@@ -1783,7 +1779,7 @@
+@@ -1781,7 +1777,7 @@
  <li><a href="../poems/prologue-1873.html">Prologue</a>, 1873 (for the Hatch family, first published 1898, scan from <i>The Story of Lewis Carroll</i>, p.&nbsp;115)</li>
  <li><a href="../manuscripts-proofs/an-inconceivable-conversation.html">An Inconceivable Conversation</a>, 1874 (first published 1974, scan from <a href="https://iiif.bodleian.ox.ac.uk/iiif/viewer/dd6d9ce9-c190-4728-a849-524a06f7ade8">https://iiif.bodleian.ox.ac.uk/iiif/viewer/dd6d9ce9-c190-4728-a849-524a06f7ade8</a>)<!--https://www.chch.ox.ac.uk/sites/default/files/Carroll-MS%208%20-%20An%20Inconceivable%20Conversation.pdf--></li>
  <li><a href="../poems/a-russians-day-in-england.html">A Russian’s Day in England</a>, 1874 (for Lady Gwendolen Cecil, first published 1979, text from <i>The Russian Journal—II</i>, p.&nbsp;52)<!--TODO scan--></li>
--<li>Various Memoria Technica Verses, 1877–1897 (first published 1898/1933/1979/1994, text from <i>Life and Letters</i>, p.&nbsp;270, <i>Letters to Child-Friends</i>, pp.&nbsp;232–234, <i>Library Chronicle of the University of Texas at Austin, 1979</i>, <a href="https://archive.org/details/sim_library-chronicle-of-the-university-of-texas-at-austin_1979_11">https://archive.org/details/sim_library-chronicle-of-the-university-of-texas-at-austin_1979_11</a>, p.&nbsp;88, <i>Mathematical Pamphlets</i>, item 35, → <a href="../texts/various-memoria-technica-verses.html">here<!--TODO--></a>)<!--also https://archive.org/details/b31639987, p. 124f TODO scans where available--></li>
-+<li><a href="../texts/various-memoria-technica-verses.html">Various Memoria Technica Verses</a>, 1877–1897 (first published 1898/1933/1979/1994, text from <i>Life and Letters</i>, p.&nbsp;270, <i>Letters to Child-Friends</i>, pp.&nbsp;232–234, <i>Library Chronicle of the University of Texas at Austin, 1979</i>, <a href="https://archive.org/details/sim_library-chronicle-of-the-university-of-texas-at-austin_1979_11">https://archive.org/details/sim_library-chronicle-of-the-university-of-texas-at-austin_1979_11</a>, p.&nbsp;88, <i>Mathematical Pamphlets</i>, item 35)<!--also https://archive.org/details/b31639987, p. 124f TODO scans where available--></li>
+-<li>Various Memoria Technica Verses, 1877–1897 (first published 1898/1933/1979/1994, text from <i>Life and Letters</i>, p.&nbsp;270, <i>Letters to Child-Friends</i>, pp.&nbsp;232–234, <i>Library Chronicle of the University of Texas at Austin, 1979</i>, <a href="https://archive.org/details/sim_library-chronicle-of-the-university-of-texas-at-austin_1979_11">https://archive.org/details/sim_library-chronicle-of-the-university-of-texas-at-austin_1979_11</a>, p.&nbsp;88, <i>Mathematical Pamphlets</i>, item 35, → <a href="../manuscripts-proofs/various-memoria-technica-verses.html">here<!--TODO--></a>)<!--also https://archive.org/details/b31639987, p. 124f TODO scans where available--></li>
++<li><a href="../manuscripts-proofs/various-memoria-technica-verses.html">Various Memoria Technica Verses</a>, 1877–1897 (first published 1898/1933/1979/1994, text from <i>Life and Letters</i>, p.&nbsp;270, <i>Letters to Child-Friends</i>, pp.&nbsp;232–234, <i>Library Chronicle of the University of Texas at Austin, 1979</i>, <a href="https://archive.org/details/sim_library-chronicle-of-the-university-of-texas-at-austin_1979_11">https://archive.org/details/sim_library-chronicle-of-the-university-of-texas-at-austin_1979_11</a>, p.&nbsp;88, <i>Mathematical Pamphlets</i>, item 35)<!--also https://archive.org/details/b31639987, p. 124f TODO scans where available--></li>
  <li><a href="../manuscripts-proofs/marriage-service.html">Marriage Service</a>, 1877 (first published 1974, text from <i>Pamphlets: A Miscellany</i>, item 27/<i>The Carrollian</i>, No. 15, 2005, pp.&nbsp;47–48, <a href="https://archive.org/details/the-carrollian-2005-15/page/46">https://archive.org/details/the-carrollian-2005-15/page/46</a>)<!--TODO scan (Harcourt Armory Collection, digitized, but not public)--></li>
- <li><a href="../texts/logs-of-nos.html">Logs of Nos.</a>, 1878 (first published 1974, text from <i>Rare Verses</i>, pp.&nbsp;88–89)<!--TODO scan--></li>
+ <li><a href="../manuscripts-proofs/logs-of-nos.html">Logs of Nos.</a>, 1878 (first published 1974, text from <i>Rare Verses</i>, pp.&nbsp;88–89)<!--TODO scan--></li>
  <li><a href="../poems/verses-for-christmas-cards.html">Verses for Christmas Cards</a>, 1879 (first published 1974, scan from <i>Lewis Carroll and Alice, 1832–1982</i>, p.&nbsp;126)<!--TODO drawings by E. Gertrude Thomson, see also http://corsair.themorgan.org/vwebv/holdingsInfo?bibId=412946&searchType=13&holdingsBibId=412886&returnUrl=holdingsInfo%3FbibId=412886--></li>
-@@ -1854,7 +1850,7 @@
+@@ -1852,7 +1848,7 @@
  <li><a href="../poems/maggie-b.html">Maggie B—</a>, 1891 (for Maggie Bowman, first published 1931, text from <i>Humorous Verse</i>, p.&nbsp;344)<!--Aug 13--></li>
  <li><a href="../poems/my-first-is-a-berry.html">My First is a berry</a>, 1892 (for Olive, Ruth, and Violet Butler, first published 1933, text from <i>Letters to Child-Friends</i>, p.&nbsp;229)<!--Dec 29--></li>
  <li><a href="../poems/girlie-to-whom-in-perennial-bloom.html">Girlie to whom in perennial bloom</a>, 1895? (for Gladys Baly, first published 1932, text from <i>Diaries</i>, p.&nbsp;487)<!--Christmas?--></li>
@@ -495,7 +497,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>Some poems from letters Carroll published himself. These are not listed above and their differences are not reproduced in the poems, but noted where available. These poems are <i>Girt with a Boyish Garb</i> (for Gertrude Chataway), <i>A Charade</i> (<i>Four Riddles. No.&nbsp;III</i>, for Marion Terry), <i>Matilda Jane</i> (for Catherine Holiday), <i>A Game of Fives</i>, and <i>Puck Lost and Found</i>. The first of the <i>Puzzles from Wonderland</i> can be found in his letters, too, but without changes. The poem <i>Lines</i> was published by Carroll, too, but since the manuscript variant is more prominent than the printed one, it is included above. <i>Disillusionized</i>, too, has such a variant, though it is not clear where it comes from.</p>
-@@ -1967,9 +1963,9 @@
+@@ -1963,9 +1959,9 @@
  
  <p>The circular about Senior Student’s biographies asked for details for a planned publication <i>Senior Students</i>.</p>
  
@@ -507,7 +509,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>Carroll sent several circulars on behalf of friends and relatives, to help them in various matters.</p>
  
-@@ -1977,7 +1973,7 @@
+@@ -1973,7 +1969,7 @@
  
  <p>The circular about counters asks for suggestions for the colours of the counters in the <i>Game of Logic</i>.</p>
  
@@ -516,7 +518,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>The <i>Stranger Circular</i> is a letter (in two variants) intended to be sent to those who addressed C. L. Dodgson about books written by Lewis Carroll, protesting against this.</p>
  
-@@ -2045,7 +2041,7 @@
+@@ -2030,7 +2026,7 @@
  
  <p>Most of the following texts are minor mathematical manuscripts.</p>
  
@@ -550,7 +552,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <ul>
  <li><a href="../math/a-syllabus-of-plane-algebraical-geometry.html">A Syllabus of Plane Algebraical Geometry</a></li>
  <li><a href="../math/notes-on-the-first-two-books-of-euclid.html">Notes on the First Two Books of Euclid</a></li>
-@@ -64,8 +66,8 @@
+@@ -66,8 +68,8 @@
  <li><a href="../magazines/euclids-theory-of-parallels.html">Euclid’s Theory of Parallels</a></li>
  <li><a href="../math/a-new-theory-of-parallels.html">A New Theory of Parallels (Curiosa Mathematica. Part I)</a></li>
  </ul>
@@ -561,7 +563,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <ul>
  <li><a href="../math/a-discussion-of-the-various-methods-of-elections.html">A Discussion of the Various Methods of Procedure in Conductiong Elections</a></li>
  <li><a href="../math/suggestions-as-to-the-best-method-of-taking-votes.html">Suggestions As to the Best Method of Taking Votes</a></li>
-@@ -78,7 +80,7 @@
+@@ -80,7 +82,7 @@
  <li><a href="../math/the-principles-of-parliamentary-representation.html">The Principles of Parliamentary Representation</a></li>
  <li><a href="../magazines/election-gains-and-losses.html">Election Gains and Losses</a></li>
  </ul>
@@ -570,7 +572,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <ul>
  <li><a href="../math/first-paper-on-logic.html">First Paper on Logic</a></li>
  <li><a href="../math/fourth-paper-on-logic.html">Fourth Paper on Logic</a></li>
-@@ -106,7 +108,7 @@
+@@ -108,7 +110,7 @@
  <li><a href="../symbolic-logic/content.html">Symbolic Logic. Part I: Elementary</a></li>
  <li><a href="../manuscripts-proofs/symbolic-logic-part-ii.html">Symbolic Logic. Part II</a></li>
  </ul>
@@ -579,7 +581,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <p>Carroll developed several alternative methods of computation that in some situations are more efficient than the standard ones.</p>
  <ul>
  <li><a href="../magazines/condensation-of-determinants.html">Condensation of Determinants</a></li>
-@@ -116,7 +118,7 @@
+@@ -119,7 +121,7 @@
  <li><a href="../magazines/abridged-long-division.html">Abridged Long Division</a></li>
  <li><a href="../manuscripts-proofs/curiosa-mathematica-part-iii.html">Curiosa Mathematica. Part III</a></li>
  </ul>
@@ -588,7 +590,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <p>See also <a href="../math/the-formulae-of-plane-trigonometry.html"><i>The Formulæ of Plane Trigonometry</i></a> and <a href="../math/notes-on-the-first-part-of-algebra.html"><i>Notes on the First Part of Algebra</i></a>.</p>
  <ul>
  <li><a href="../math/algebraical-formulae.html">Algebraical Formulæ</a></li>
-@@ -126,7 +128,7 @@
+@@ -129,7 +131,7 @@
  <li><a href="../math/formulae.html">Formulæ</a></li>
  <li><a href="../math/formulae-group-c.html">Formulæ (Group C)</a></li>
  </ul>
@@ -597,7 +599,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <ul>
  <li><a href="../math/notes-on-the-first-part-of-algebra.html">Notes on the First Part of Algebra</a></li>
  <li><a href="../math/test-paper-arithmetic-1.html">Test-Paper. Arithmetic. [1]</a></li>
-@@ -154,7 +156,7 @@
+@@ -157,7 +159,7 @@
  <li><a href="../magazines/a-mysterious-number.html">A Mysterious Number</a></li>
  </ul>
  <h3 id="games">Games</h3>
@@ -606,7 +608,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <ul>
  <li><a href="../texts/rules-for-court-circular-1860.html">Rules for Court Circular (1860)</a></li>
  <li><a href="../texts/rules-for-court-circular-1862.html">Rules for Court Circular (1862)</a></li>
-@@ -317,7 +319,7 @@
+@@ -320,7 +322,7 @@
  <li><a href="../mischmasch/images.html">Other Images in Mischmasch</a></li>
  </ul>
  <h3 id="poems">Poems</h3>
@@ -615,7 +617,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <ul>
  <li><a href="../poems/a-boat-beneath-a-sunny-sky.html">A boat, beneath a sunny sky</a></li>
  <li>A is for .&thinsp;.&thinsp;.&thinsp;.&thinsp;.&thinsp;., who’d physic the Masses: <a href="../poems/examination-statute.html">Examination Statute</a></li>
-@@ -389,7 +391,7 @@
+@@ -392,7 +394,7 @@
  <li>I have a horse—a ryghte goode horse: <a href="../poems/ye-carpette-knyghte.html">Ye Carpette Knyghte</a></li>
  <li>I love the stillness of the wood: <a href="../poems/solitude.html">Solitude</a></li>
  <li>I met an aged, aged man: <a href="../poems/upon-the-lonely-moor.html">Upon the Lonely Moor</a></li>
@@ -624,7 +626,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <li>I never loved a dear Gazelle: <a href="../poems/tema-con-variazioni.html">Tèma con Variazióni</a></li>
  <li>I often wondered when I cursed: <a href="../poems/square-poem.html">Square Poem</a></li>
  <li>I painted her a gushing thing: <a href="../poems/disillusionized.html">Disillusionized</a></li>
-@@ -413,7 +415,7 @@
+@@ -416,7 +418,7 @@
  <li>It is the lawyer’s daugh…: <a href="../poems/the-lyceum.html">The Lyceum</a></li>
  <li>“Just the place for a Snark!” the Bellman cried: <a href="../poems/the-hunting-of-the-snark.html">The Hunting of the Snark. An Agony in Eight Fits.</a></li>
  <li>King Fisher courted Lady Bird: <a href="../poems/king-fisher-song.html">King-fisher Song</a></li>
@@ -633,7 +635,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <li>Lady Clara Vere de Vere: <a href="../poems/echoes.html">Echoes</a></li>
  <li>Lady dear, if Fairies may: <a href="../poems/christmas-greetings.html">Christmas-Greetings</a></li>
  <li><a href="../poems/let-craft-ambition-spite.html">Let craft, ambition, spite</a></li>
-@@ -497,7 +499,7 @@
+@@ -500,7 +502,7 @@
  <li><a href="../poems/three-children.html">Three Children</a></li>
  <li>Three little maidens, weary of the Rail: <a href="../poems/to-three-puzzled-little-girls-from-the-author.html">To Three Puzzled Little Girls, From the Author</a></li>
  <li><a href="../poems/three-little-maids.html">Three Little Maids</a></li>
@@ -642,7 +644,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <li><a href="../poems/tis-the-voice-of-the-lobster.html">’Tis the voice of the Lobster</a></li>
  <li><a href="../poems/to-the-looking-glass-world-it-was-alice-that-said.html">To the Looking-Glass world it was Alice that said</a></li>
  <li>Twas bryllyg, and the slythy toves: <a href="../poems/stanza-of-anglo-saxon-poetry.html">Stanza of Anglo-Saxon Poetry</a></li>
-@@ -519,14 +521,14 @@
+@@ -522,14 +524,14 @@
  <li>When midnight mists are creeping: <a href="../poems/dreamland.html">Dreamland</a></li>
  <li>When on the sandy shore I sit: <a href="../poems/size-and-tears.html">Size and Tears</a></li>
  <li>While once in haste I crossed the street: <a href="../poems/charity.html">Charity</a></li>
@@ -776,8 +778,8 @@ diff -ru a/about/introduction.html b/about/introduction.html
  <p>I have other shadowy ideas, e.&thinsp;g., a Geometry for Boys, a vol. of Essays on theological points freely and plainly treated, and a drama on “Alice” (for which Mr.&nbsp;Mackenzie would write music) […]
  </p></blockquote>
  
--<p>What became of these? (1), (2), (7), (9), (11), (14) and (15) were published as planned, (10) under the title “Three Sunsets and Other Poems” and without drawings by Mr.&nbsp;Furniss. (3) was published with less content than planned, but you will find some parts of the omitted content in the fragments of <a href="../manuscripts-proofs/curiosa-mathematica-part-iii.html"><i>Curiosa Mathematica. Part III</i></a>. Carroll started publishing (6) with <a href="../game-of-logic/content.html"><i>The Game of Logic</i></a>, which can be called “volume zero” of the series, and also the real <a href="../symbolic-logic/content.html">volume one</a>. The rest exists in some galley proofs and manuscripts, some of them included in this collection (→ <a href="../manuscripts-proofs/symbolic-logic-part-ii.html">here<!--TODO--></a>). Some content of (5) survives, you will find the preface in this collection (→ <a href="../manuscripts-proofs/limits-of-circle-squaring.html">here<!--TODO--></a>). Most of the content of (8) exists, the fairy pictures made it into <a href="../texts/three-sunsets-and-other-poems.html"><i>Three Sunsets and Other Poems</i></a>, the scheme for letter-registration into <a href="../texts/eight-or-nine-wise-words-about-letter-writing.html"><i>Eight or Nine Wise Words About Letter-Writing</i></a>, and many games had been published separately and will be found in their own section in this collection. One essay on theological points exists, <a href="../manuscripts-proofs/eternal-punishment.html"><i>Eternal Punishment</i></a>. The dramatization of “Alice” was done by H. Savile Clarke, with music by Walter Slaughter. Carroll’s additions are added to the poems in the poem section.</p>
-+<p>What became of these? (1), (2), (7), (9), (11), (14) and (15) were published as planned, (10) under the title “Three Sunsets and Other Poems” and without drawings by Mr.&nbsp;Furniss. (3) was published with less content than planned, but you will find some parts of the omitted content in the fragments of <a href="../manuscripts-proofs/curiosa-mathematica-part-iii.html"><i>Curiosa Mathematica. Part III</i></a>. Carroll started publishing (6) with <a href="../game-of-logic/content.html"><i>The Game of Logic</i></a>, which can be called “volume zero” of the series, and also the real <a href="../symbolic-logic/content.html">volume one</a>. The rest exists in <a href="../manuscripts-proofs/symbolic-logic-part-ii.html">some galley proofs</a> and manuscripts, some of them included in this collection. Some content of (5) survives, you will find the <a href="../manuscripts-proofs/limits-of-circle-squaring.html">preface</a> in this collection. Most of the content of (8) exists, the fairy pictures made it into <a href="../texts/three-sunsets-and-other-poems.html"><i>Three Sunsets and Other Poems</i></a>, the scheme for letter-registration into <a href="../texts/eight-or-nine-wise-words-about-letter-writing.html"><i>Eight or Nine Wise Words About Letter-Writing</i></a>, and many games had been published separately and will be found in their own section in this collection. One essay on theological points exists, <a href="../manuscripts-proofs/eternal-punishment.html"><i>Eternal Punishment</i></a>. The dramatization of “Alice” was done by H. Savile Clarke, with music by Walter Slaughter. Carroll’s additions are added to the poems in the poem section.</p>
+-<p>What became of these? (1), (2), (7), (9), (11), (14) and (15) were published as planned, (10) under the title “Three Sunsets and Other Poems” and without drawings by Mr.&nbsp;Furniss. (3) was published with less content than planned, but you will find some parts of the omitted content in the fragments of <a href="../manuscripts-proofs/curiosa-mathematica-part-iii.html"><i>Curiosa Mathematica. Part III</i></a>. Carroll started publishing (6) with <a href="../game-of-logic/content.html"><i>The Game of Logic</i></a>, which can be called “volume zero” of the series, and also the real <a href="../symbolic-logic/content.html">volume one</a>. The rest exists in some galley proofs and manuscripts, some of them included in this collection (→ <a href="../manuscripts-proofs/symbolic-logic-part-ii.html">here<!--TODO--></a>). Some content of (5) survives, you will find the <a href="../manuscripts-proofs/limits-of-circle-squaring-preface.html">preface</a> and <a href="../manuscripts-proofs/limits-of-circle-squaring.html">two theorems</a> in this collection. Most of the content of (8) exists, the fairy pictures made it into <a href="../texts/three-sunsets-and-other-poems.html"><i>Three Sunsets and Other Poems</i></a>, the scheme for letter-registration into <a href="../texts/eight-or-nine-wise-words-about-letter-writing.html"><i>Eight or Nine Wise Words About Letter-Writing</i></a>, the <a href="../manuscripts-proofs/rule-for-finding-easter-day.html"><i>Rule for Finding Easter-Day</i></a> survived as proof, and many games had been published separately and will be found in their own section in this collection. One essay on theological points exists, <a href="../manuscripts-proofs/eternal-punishment.html"><i>Eternal Punishment</i></a>. The dramatization of “Alice” was done by H. Savile Clarke, with music by Walter Slaughter. Carroll’s additions are added to the poems in the poem section.</p>
++<p>What became of these? (1), (2), (7), (9), (11), (14) and (15) were published as planned, (10) under the title “Three Sunsets and Other Poems” and without drawings by Mr.&nbsp;Furniss. (3) was published with less content than planned, but you will find some parts of the omitted content in the fragments of <a href="../manuscripts-proofs/curiosa-mathematica-part-iii.html"><i>Curiosa Mathematica. Part III</i></a>. Carroll started publishing (6) with <a href="../game-of-logic/content.html"><i>The Game of Logic</i></a>, which can be called “volume zero” of the series, and also the real <a href="../symbolic-logic/content.html">volume one</a>. The rest exists in <a href="../manuscripts-proofs/symbolic-logic-part-ii.html">some galley proofs</a> and manuscripts, some of them included in this collection. Some content of (5) survives, you will find the <a href="../manuscripts-proofs/limits-of-circle-squaring-preface.html">preface</a> and <a href="../manuscripts-proofs/limits-of-circle-squaring.html">two theorems</a> in this collection. Most of the content of (8) exists, the fairy pictures made it into <a href="../texts/three-sunsets-and-other-poems.html"><i>Three Sunsets and Other Poems</i></a>, the scheme for letter-registration into <a href="../texts/eight-or-nine-wise-words-about-letter-writing.html"><i>Eight or Nine Wise Words About Letter-Writing</i></a>, the <a href="../manuscripts-proofs/rule-for-finding-easter-day.html"><i>Rule for Finding Easter-Day</i></a> survived as proof, and many games had been published separately and will be found in their own section in this collection. One essay on theological points exists, <a href="../manuscripts-proofs/eternal-punishment.html"><i>Eternal Punishment</i></a>. The dramatization of “Alice” was done by H. Savile Clarke, with music by Walter Slaughter. Carroll’s additions are added to the poems in the poem section.</p>
  
  <p>Speaking of poems, the poem section will give you not only the popular and often reprinted poems, but also early variants of them, as well as some not so widely spread ones.</p>
  
@@ -1368,7 +1370,7 @@ diff -ru a/index.html b/index.html
  </figure>
 -
 -<h1>Preface</h1>
-+<p>PDF version: <a href="../complete-lewis-carroll.pdf">the collection as one large file</a> (32.8&nbsp;MB, still with many overfull boxes and other defects)</p>
++<p>PDF version: <a href="../complete-lewis-carroll.pdf">the collection as one large file</a> (32.9&nbsp;MB, still with many overfull boxes and other defects)</p>
 +<p>HTML version: <a href="about/introduction.html">Introduction</a>, <a href="about/contents-by-source.html">Contents by Source</a>, <a href="about/contents-by-topic.html">Contents by Topic</a>, <a href="about/search.html">Search</a></p>
  </article>
  <footer>
@@ -3430,18 +3432,6 @@ diff -ru a/manuscripts-proofs/curiosa-mathematica-part-iii.html b/manuscripts-pr
  
  <p>The Divisor is 6997 (where <math><mrow><mi>h</mi><mo>=</mo><mn>7</mn></mrow></math>, <math><mrow><mi>k</mi><mo>=</mo><mn>3</mn></mrow></math>). Here you are supposed to have just entered the 281 in the Quotient. The Dividend, for these two columns, is 1972 | 103; the Quotient is 281, and the Remainder 5946. The Test is <math><mrow><mi>h</mi><mi>Q</mi><mo>.</mo><msup><mi>t</mi><mi>n</mi></msup><mo>+</mo><mi>R</mi></mrow></math> (<i>i.&thinsp;e.</i>, <math><mrow><mn>7</mn><mo>×</mo><mn>281000</mn><mo>+</mo><mn>5946</mn></mrow></math>), the Mental Process being as follows: Write down, on a separate slip of paper, the last three digits of <var>R</var>, viz., 946, and carry the 5 into the next period, adding it to the <math><mrow><mn>7</mn><mo>×</mo><mn>281</mn></mrow></math>, thus, “5 and 7, 12.” Enter the 2, and carry the 1. “1 and 56, 57.” Enter the 7, and carry the 5. “5 and 14, 19.” Enter it. Having got your Test, try whether <math><mrow><mo>(</mo><mrow><mi>N</mi><mo>+</mo><mi>k</mi><mi>Q</mi></mrow><mo>)</mo></mrow></math> is equal to it. This you compute, comparing it with your Test, digit by digit, as you go on, thus, “3 and 3, 6.” Observe it in the Test. “0 and 24, 24.” Observe the 4, and carry the 2. “3 and 6, 9.” Observe it. “1972 and 0, 1972.” Observe it. The Test is satisfied.</p>
  
-diff -ru a/manuscripts-proofs/limits-of-circle-squaring.html b/manuscripts-proofs/limits-of-circle-squaring.html
---- a/manuscripts-proofs/limits-of-circle-squaring.html
-+++ b/manuscripts-proofs/limits-of-circle-squaring.html
-@@ -50,7 +50,7 @@
- <p>The exact value of <var>π</var> (the name usually given to “the ratio which the area of a circle bears to the square on its radius”) has in all ages proved an <i>ignis fatuus</i>, that has led hundreds, if not thousands, of hapless mathematicians to waste valuable years in the hope of immortalizing themselves by discovering what has been so long sought in vain. I cherish the hope that this little book may fall into the hands of some who have been dazzled by its mocking light, and may prove the means of saving to them much time and labour that would otherwise be wasted.</p>
- 
- </article>
--<footer><p>There is also a proof sheet with two propositions. It has many annotations, indicating that the text would have been more or less completely re-written before publication. Therefore this proof sheet is not included here. The first proposition proves <math><mrow><mn>2</mn><mo>&lt;</mo><mi>π</mi><mo>&lt;</mo><mn>4</mn></mrow></math>, the second <math><mrow><mn>2</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>&lt;</mo><mi>π</mi><mo>&lt;</mo><mn>3</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>. The second relies on <math><mrow><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>=</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math> with a geometric proof for (quite rough) limits of <math><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup></math> and allows for generalisations in the way of Question 11530 in the <i>Educational Times</i> (→ <a href="../magazines/questions-for-solution-11530.html">here<!--TODO--></a>), though much better limits are required to get the precision aimed at.</p>
-+<footer><p>There is also a proof sheet with two propositions. It has many annotations, indicating that the text would have been more or less completely re-written before publication. Therefore this proof sheet is not included here. The first proposition proves <math><mrow><mn>2</mn><mo>&lt;</mo><mi>π</mi><mo>&lt;</mo><mn>4</mn></mrow></math>, the second <math><mrow><mn>2</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>&lt;</mo><mi>π</mi><mo>&lt;</mo><mn>3</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>. The second relies on <math><mrow><mfrac><mi>π</mi><mn>4</mn></mfrac><mo>=</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math> with a geometric proof for (quite rough) limits of <math><msup><mo lspace="0em" rspace="0em">tan</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup></math> and allows for generalisations in the way of <a href="../magazines/questions-for-solution-11530.html">Question 11530</a> in the <i>Educational Times</i>, though much better limits are required to get the precision aimed at.</p>
- <nav><ul>
- <li><a href="../index.html">Home</a></li>
- <li><a href="../about/introduction.html">Introduction</a></li>
 diff -ru a/manuscripts-proofs/loves-railway-guide.html b/manuscripts-proofs/loves-railway-guide.html
 --- a/manuscripts-proofs/loves-railway-guide.html
 +++ b/manuscripts-proofs/loves-railway-guide.html
@@ -3456,6 +3446,24 @@ diff -ru a/manuscripts-proofs/loves-railway-guide.html b/manuscripts-proofs/love
  <tr style="border-bottom: solid thin;"><td>Croft</td><td>immediatly after dinner</td><td>when the engine is rested</td></tr>
  <tr style="border-top: solid thin;border-bottom: solid thin;"><td>Liverpool</td><td>about 5&nbsp;m after</td><td>durant stage</td></tr>
  <tr style="border-top: solid thin;border-bottom: solid thin;"><td>York</td><td>about 3&nbsp;p.&thinsp;m.</td><td>4. 1&nbsp;m p.&thinsp;m.</td></tr>
+diff -ru a/manuscripts-proofs/rule-for-finding-easter-day.html b/manuscripts-proofs/rule-for-finding-easter-day.html
+--- a/manuscripts-proofs/rule-for-finding-easter-day.html
++++ b/manuscripts-proofs/rule-for-finding-easter-day.html
+@@ -139,10 +139,10 @@
+ 
+ <p>(1) Name the given Date, and then recall, by memory, the values of <var>a</var> and <var>h</var> belonging to it. For Old Style the values are always 15 and 6. For New Style, they are given in the following Table:—</p>
+ 
+-<div class="center"><table class="r2 r3 r4 r5 r6 r7 r8 r9 r10 r11 TODO">
+-<tr style="border-bottom: solid thin;"><td>No. of hundreds in Date</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td></tr>
+-<tr style="border-top: solid thin;"><td>Value of <var>a</var> <span class="after-dotfill"></span></td><td>8</td><td>8</td><td>7</td><td>7</td><td>6</td><td>6</td><td>6</td><td>5</td><td>4</td><td>5</td></tr>
+-<tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 1em;"></span> ” <span style="display: inline-block; width: 1em;"></span> <var>h</var> <span class="after-dotfill"></span></td><td>2</td><td>2</td><td>3</td><td>4</td><td>5</td><td>5</td><td>6</td><td>0</td><td>1</td><td>1</td></tr>
++<div class="center"><table class="r2 r3 r4 r5 r6 r7 r8 r9 r10 r11">
++<tr style="border-bottom: solid thin;"><td>No. of hundreds in Date</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td style="text-align: right;">24</td></tr>
++<tr style="border-top: solid thin;"><td>Value of <var>a</var> <span class="after-dotfill"></span></td><td>8</td><td>8</td><td>7</td><td>7</td><td>6</td><td>6</td><td>6</td><td>5</td><td>4</td><td style="text-align: right;">5</td></tr>
++<tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 1em;"></span> ” <span style="display: inline-block; width: 1em;"></span> <var>h</var> <span class="after-dotfill"></span></td><td>2</td><td>2</td><td>3</td><td>4</td><td>5</td><td>5</td><td>6</td><td>0</td><td>1</td><td style="text-align: right;">1</td></tr>
+ </table></div>
+ 
+ <p>Picture this in your mind’s eye, and say over the Nos. of hundreds, till you reach the given one; then name the values of <var>a</var> and <var>h</var> in each column.</p>
 diff -ru a/manuscripts-proofs/symbolic-logic-part-ii.html b/manuscripts-proofs/symbolic-logic-part-ii.html
 --- a/manuscripts-proofs/symbolic-logic-part-ii.html
 +++ b/manuscripts-proofs/symbolic-logic-part-ii.html
@@ -5566,6 +5574,22 @@ diff -ru a/math/pillow-problems.html b/math/pillow-problems.html
  <tr><td></td><td></td><td><math><mrow><mphantom><mn>0</mn></mphantom><mn>⋅32</mn><mtext>&amp;c.</mtext></mrow></math></td></tr>
  </table>
  
+diff -ru a/math/the-fifth-book-of-euclid-treated-algebraically.html b/math/the-fifth-book-of-euclid-treated-algebraically.html
+--- a/math/the-fifth-book-of-euclid-treated-algebraically.html
++++ b/math/the-fifth-book-of-euclid-treated-algebraically.html
+@@ -72,11 +72,7 @@
+ <p>2. The ‘conclusion’ is <math><mrow><mi>A</mi><mo>:</mo><mi>B</mi><mo>::</mo><mi>C</mi><mo>:</mo><mi>D</mi></mrow></math>; and this, reduced to its simplest form, becomes <math><mrow><mfrac><mi>A</mi><mi>B</mi></mfrac><mo>=</mo><mfrac><mi>C</mi><mi>D</mi></mfrac></mrow></math>.</p>
+ 
+ <p>We have now to seek for a link to connect the equation <math><mrow><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>=</mo><mfrac><mi>c</mi><mi>d</mi></mfrac></mrow></math> with the equation <math><mrow><mfrac><mi>A</mi><mi>B</mi></mfrac><mo>=</mo><mfrac><mi>C</mi><mi>D</mi></mfrac></mrow></math>, and it is tolerably obvious that this may be done by multiplying both sides of the first by <math><mfrac><mi>m</mi><mi>n</mi></mfrac></math>; we thus obtain <math><mrow><mfrac><mrow><mi>m</mi><mi>a</mi></mrow><mrow><mi>n</mi><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>m</mi><mi>c</mi></mrow><mrow><mi>n</mi><mi>d</mi></mrow></mfrac></mrow></math>, and thence <math><mrow><mfrac><mi>A</mi><mi>B</mi></mfrac><mo>=</mo><mfrac><mi>C</mi><mi>D</mi></mfrac></mrow></math>: we then arrange the proof this:—
+-<math display="block"><merror><mtext>\begin{array}{rl}\because\quad   &amp; a : b \mo{::} c : d;\\
+-\therefore\quad &amp; \frac{a}{b} = \frac{c}{d};\\
+-\therefore\quad &amp; \text{(\texttimes\textsuperscript{ng} by $\frac{m}{n}$), } \frac{ma}{nb} = \frac{mc}{nd};\\
+-\therefore\quad &amp; \frac{A}{B} = \frac{C}{D};\\
+-\therefore\quad &amp; A: B \mo{::} C : D\text{.}\end{array}</mtext></merror></math>
++<math display="block"><mtable displaystyle="false" rowspacing="0.5ex" columnalign="right left"><mtr><mtd><mo>∵</mo><mspace width="1em"/></mtd><mtd><mi>a</mi><mo>:</mo><mi>b</mi><mo>::</mo><mi>c</mi><mo>:</mo><mi>d</mi><mo>;</mo></mtd></mtr><mtr><mtd><mo>∴</mo><mspace width="1em"/></mtd><mtd><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>=</mo><mfrac><mi>c</mi><mi>d</mi></mfrac><mo>;</mo></mtd></mtr><mtr><mtd><mo>∴</mo><mspace width="1em"/></mtd><mtd><mtext>(×<sup>ng</sup> by <math><mfrac><mi>m</mi><mi>n</mi></mfrac></math>), </mtext><mfrac><mrow><mi>m</mi><mi>a</mi></mrow><mrow><mi>n</mi><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>m</mi><mi>c</mi></mrow><mrow><mi>n</mi><mi>d</mi></mrow></mfrac><mo>;</mo></mtd></mtr><mtr><mtd><mo>∴</mo><mspace width="1em"/></mtd><mtd><mfrac><mi>A</mi><mi>B</mi></mfrac><mo>=</mo><mfrac><mi>C</mi><mi>D</mi></mfrac><mo>;</mo></mtd></mtr><mtr><mtd><mo>∴</mo><mspace width="1em"/></mtd><mtd><mi>A</mi><mo>:</mo><mi>B</mi><mo>::</mo><mi>C</mi><mo>:</mo><mi>D</mi><mtext>.</mtext></mtd></mtr></mtable></math>
+ <span class="after-hfill">Q.E.D.</span></p>
+ 
+ <p>But suppose this connecting link were not obvious. We then obtain, from the data, values of some of the mangitudes in terms of others, thus: <math><mrow><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>=</mo><mfrac><mi>c</mi><mi>d</mi></mfrac><mo>=</mo><mi>k</mi></mrow></math>; ∴ <math><mrow><mi>a</mi><mo>=</mo><mi>k</mi><mi>b</mi></mrow></math>, <math><mrow><mi>c</mi><mo>=</mo><mi>k</mi><mi>d</mi></mrow></math>. Now the terms of the conclusion are <math><mfrac><mi>A</mi><mi>B</mi></mfrac></math>, <math><mfrac><mi>C</mi><mi>D</mi></mfrac></math>; taking these one by one, and substituting in them the values obtained from the data, we get <math><mrow><mfrac><mi>A</mi><mi>B</mi></mfrac><mo>=</mo><mfrac><mrow><mi>m</mi><mi>a</mi></mrow><mrow><mi>n</mi><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>m</mi><mi>k</mi><mi>b</mi></mrow><mrow><mi>n</mi><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>m</mi><mi>k</mi></mrow><mi>n</mi></mfrac></mrow></math>, and <math><mrow><mfrac><mi>C</mi><mi>D</mi></mfrac><mo>=</mo><mfrac><mrow><mi>m</mi><mi>c</mi></mrow><mrow><mi>n</mi><mi>d</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>m</mi><mi>k</mi><mi>d</mi></mrow><mrow><mi>n</mi><mi>d</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>m</mi><mi>k</mi></mrow><mi>n</mi></mfrac></mrow></math>. Having thus proved that <math><mfrac><mi>A</mi><mi>B</mi></mfrac></math> and <math><mfrac><mi>C</mi><mi>D</mi></mfrac></math> are each equal to the same thing, viz. <math><mfrac><mrow><mi>m</mi><mi>k</mi></mrow><mi>n</mi></mfrac></math>, we see that they are equal to each other, and the conclusion follows as before: we then arrange the proof thus:—
 diff -ru a/math/the-principles-of-parliamentary-representation.html b/math/the-principles-of-parliamentary-representation.html
 --- a/math/the-principles-of-parliamentary-representation.html
 +++ b/math/the-principles-of-parliamentary-representation.html
@@ -7624,8 +7648,8 @@ diff -ru a/texts/a-fascinating-mental-recreation.html b/texts/a-fascinating-ment
  
  <h4>(1) For Village-Libraries, &amp;c.</h4>
  
-@@ -104,8 +105,6 @@
- <p>Applications, from Hospitals, &amp;c., for these books, or for “The Nursery Alice” named above, should be addressed to himself, care of Messrs.&nbsp;Macmillan and Co.&nbsp;Ltd., and should be signed by some official of the Hospital, &amp;c., and should state the number of children, capable of enjoying such books, who are there at once, the number of copies in hand, and also whether it possesses any funds with which such books could be purchased.</p>
+@@ -106,8 +107,6 @@
+ <p>Applications, from Hospitals, &amp;c., for these books, or for “The Nursery Alice” named above, should be addressed to himself, care of Messrs.&nbsp;Macmillan and Co., Ltd., and should be signed by some official of the Hospital, &amp;c., and should state the number of children, capable of enjoying such books, who are there at once, the number of copies in hand, and also whether it possesses any funds with which such books could be purchased.</p>
  
  <div class="signature"><p>January, 1896.</p></div>
 -
@@ -7636,27 +7660,69 @@ diff -ru a/texts/a-fascinating-mental-recreation.html b/texts/a-fascinating-ment
 diff -ru a/texts/an-analysis-of-responsions-lists.html b/texts/an-analysis-of-responsions-lists.html
 --- a/texts/an-analysis-of-responsions-lists.html
 +++ b/texts/an-analysis-of-responsions-lists.html
-@@ -73,15 +73,15 @@
- <tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 1em;"></span>” whole List</td><td>54</td><td>58</td><td>57</td><td>66</td><td>68</td><td>55</td><td>62</td><td>53</td><td>59</td></tr>
+@@ -48,40 +48,40 @@
+ 
+ <p>Wherever the percentages on the two halves of a List differ much from each other, it is probable that, in the <i>vivâ voce</i> Examination, 3 of the Examiners were using a different standard from the other 3. Instances may be noted in Hilary 1877, Act 1878, Michaelmas 1878, and Act 1879.</p>
+ 
+-<div class="center"><!--TODO manual fixing probably needed-->
++<div class="center">
+ <table class="b0 b1 r2 b2 r3 b3 r4 b4 r5 b5 r6 b6 r7 b7 r8 b8 r9 d9 r10 b10">
+-<tr style="border-top: solid thin;border-bottom: solid thin;"><td colspan="1"><b>Hilary Term.</b></td><td><b>1874</b></td><td><b>1875</b></td><td><b>1876</b></td><td><b>1877</b></td><td><b>1878</b></td><td><b>1879</b></td><td><b>1880</b></td><td><b>1881</b></td><td><b>Total</b></td></tr>
++<tr style="border-top: solid thin;border-bottom: solid thin;"><th style="text-align: center;">Hilary Term.</th><th>1874</th><th>1875</th><th>1876</th><th>1877</th><th>1878</th><th>1879</th><th>1880</th><th>1881</th><th>Total</th></tr>
+ <tr style="border-top: solid thin;border-bottom: solid thin;"><td>Candidates<span class="after-dotfill"></span></td><td>268</td><td>281</td><td>262</td><td>237</td><td>241</td><td>256</td><td>213</td><td>200</td><td>1958</td></tr>
+-<tr style="border-top: solid thin;"><td>Passed, in first half</td><td>73</td><td>89</td><td>91</td><td>55</td><td>86</td><td>80</td><td>76</td><td>70</td></tr>
+-<tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 1.5em;"></span>”<span style="display: inline-block; width: 1.5em;"></span> second do.</td><td>75</td><td>84</td><td>79</td><td>81</td><td>87</td><td>86</td><td>75</td><td>62</td></tr>
++<tr style="border-top: solid thin;"><td>Passed, in first half</td><td>73</td><td>89</td><td>91</td><td>55</td><td>86</td><td>80</td><td>76</td><td>70</td><td></td></tr>
++<tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 1.5em;"></span>”<span style="display: inline-block; width: 1.5em;"></span> second do.</td><td>75</td><td>84</td><td>79</td><td>81</td><td>87</td><td>86</td><td>75</td><td>62</td><td></td></tr>
+ <tr style="border-top: solid thin;border-bottom: solid thin;"><td><span style="display: inline-block; width: 1.5em;"></span>”<span style="display: inline-block; width: 1.5em;"></span> whole List</td><td>148</td><td>173</td><td>170</td><td>136</td><td>173</td><td>166</td><td>151</td><td>132</td><td>1249</td></tr>
+-<tr style="border-top: solid thin;"><td>Percentage, first half</td><td>51</td><td>63</td><td>69</td><td>47</td><td>72</td><td>63</td><td>71</td><td>70</td></tr>
+-<tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 2em;"></span>”<span style="display: inline-block; width: 2em;"></span> second do.</td><td>56</td><td>60</td><td>60</td><td>68</td><td>72</td><td>67</td><td>71</td><td>62</td></tr>
++<tr style="border-top: solid thin;"><td>Percentage, first half</td><td>51</td><td>63</td><td>69</td><td>47</td><td>72</td><td>63</td><td>71</td><td>70</td><td></td></tr>
++<tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 2em;"></span>”<span style="display: inline-block; width: 2em;"></span> second do.</td><td>56</td><td>60</td><td>60</td><td>68</td><td>72</td><td>67</td><td>71</td><td>62</td><td></td></tr>
+ <tr style="border-top: solid thin;border-bottom: solid thin;"><td><span style="display: inline-block; width: 2em;"></span>”<span style="display: inline-block; width: 2em;"></span> whole List</td><td>55</td><td>62</td><td>65</td><td>57</td><td>72</td><td>65</td><td>71</td><td>66</td><td>64</td></tr>
  </table></div>
  
--<div class="center"><table class="r2 r3 r4 r5 r6 r7 r8 r9 r10 r11 TODO">
--<tr style="border-top: solid thin;border-bottom: solid thin;"><td>Michaelmas Term</td><td>1873</td><td>1874</td><td>1875</td><td>1876</td><td>1877</td><td>1878</td><td>1879</td><td>1880</td><td>1881</td><td>Total</td></tr>
--<tr style="border-top: solid thin;"><td>Candidates</td><td>412</td><td>387</td><td>400</td><td>346</td><td>384</td><td>339</td><td>406</td><td>391</td><td>493</td><td>3558</td></tr>
-+<div class="center"><table class="r2 r3 r4 r5 r6 r7 r8 r9 r10 r11">
-+<tr style="border-top: solid thin;border-bottom: solid thin;"><td>Michaelmas Term</td><td>1873</td><td>1874</td><td>1875</td><td>1876</td><td>1877</td><td>1878</td><td>1879</td><td>1880</td><td>1881</td><td style="text-align: right;">Total</td></tr>
-+<tr style="border-top: solid thin;"><td>Candidates</td><td>412</td><td>387</td><td>400</td><td>346</td><td>384</td><td>339</td><td>406</td><td>391</td><td>493</td><td style="text-align: right;">3558</td></tr>
- <tr><td>Passed, in first half</td><td>137</td><td>111</td><td>118</td><td>101</td><td>134</td><td>124</td><td>166</td><td>145</td></tr>
- <tr><td><span style="display: inline-block; width: 1em;"></span>” second do.</td><td>141</td><td>101</td><td>132</td><td>106</td><td>138</td><td>105</td><td>168</td><td>139</td></tr>
--<tr><td><span style="display: inline-block; width: 1em;"></span>” whole List</td><td>278</td><td>212</td><td>250</td><td>207</td><td>272</td><td>229</td><td>334</td><td>284</td><td>312</td><td>2378</td></tr>
-+<tr><td><span style="display: inline-block; width: 1em;"></span>” whole List</td><td>278</td><td>212</td><td>250</td><td>207</td><td>272</td><td>229</td><td>334</td><td>284</td><td>312</td><td style="text-align: right;">2378</td></tr>
- <tr><td>Percentage, first half</td><td>67</td><td>57</td><td>59</td><td>58</td><td>70</td><td>73</td><td>82</td><td>74</td></tr>
- <tr><td><span style="display: inline-block; width: 1em;"></span>” second do.</td><td>68</td><td>52</td><td>66</td><td>61</td><td>72</td><td>62</td><td>83</td><td>70</td></tr>
--<tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 1em;"></span>” whole List</td><td>67</td><td>55</td><td>63</td><td>60</td><td>71</td><td>68</td><td>82</td><td>73</td><td>63</td><td>67</td></tr>
-+<tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 1em;"></span>” whole List</td><td>67</td><td>55</td><td>63</td><td>60</td><td>71</td><td>68</td><td>82</td><td>73</td><td>63</td><td style="text-align: right;">67</td></tr>
+-<div class="center"><!--TODO manual fixing probably needed-->
++<div class="center">
+ <table class="b0 b1 r2 b2 r3 b3 r4 b4 r5 b5 r6 b6 r7 b7 r8 b8 r9 d9 r10 b10">
+-<tr style="border-top: solid thin;border-bottom: solid thin;"><td colspan="1"><b>Act Term.</b></td><td><b>1874</b></td><td><b>1875</b></td><td><b>1876</b></td><td><b>1877</b></td><td><b>1878</b></td><td><b>1879</b></td><td><b>1880</b></td><td><b>1881</b></td><td><b>Total</b></td></tr>
++<tr style="border-top: solid thin;border-bottom: solid thin;"><th style="text-align: center;">Act Term.</th><th>1874</th><th>1875</th><th>1876</th><th>1877</th><th>1878</th><th>1879</th><th>1880</th><th>1881</th><th>Total</th></tr>
+ <tr style="border-top: solid thin;border-bottom: solid thin;"><td>Candidates<span class="after-dotfill"></span></td><td>208</td><td>187</td><td>166</td><td>174</td><td>169</td><td>184</td><td>173</td><td>175</td><td>1436</td></tr>
+-<tr style="border-top: solid thin;"><td>Passed, in first half</td><td>56</td><td>57</td><td>49</td><td>60</td><td>63</td><td>56</td><td>57</td><td>50</td></tr>
+-<tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 1.5em;"></span>”<span style="display: inline-block; width: 1.5em;"></span> second do.</td><td>57</td><td>52</td><td>45</td><td>55</td><td>52</td><td>45</td><td>50</td><td>43</td></tr>
++<tr style="border-top: solid thin;"><td>Passed, in first half</td><td>56</td><td>57</td><td>49</td><td>60</td><td>63</td><td>56</td><td>57</td><td>50</td><td></td></tr>
++<tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 1.5em;"></span>”<span style="display: inline-block; width: 1.5em;"></span> second do.</td><td>57</td><td>52</td><td>45</td><td>55</td><td>52</td><td>45</td><td>50</td><td>43</td><td></td></tr>
+ <tr style="border-top: solid thin;border-bottom: solid thin;"><td><span style="display: inline-block; width: 1.5em;"></span>”<span style="display: inline-block; width: 1.5em;"></span> whole List</td><td>113</td><td>109</td><td>94</td><td>115</td><td>115</td><td>101</td><td>107</td><td>93</td><td>847</td></tr>
+-<tr style="border-top: solid thin;"><td>Percentage, first half</td><td>54</td><td>61</td><td>59</td><td>69</td><td>74</td><td>61</td><td>66</td><td>57</td></tr>
+-<tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 2em;"></span>”<span style="display: inline-block; width: 2em;"></span> second do.</td><td>55</td><td>56</td><td>54</td><td>63</td><td>62</td><td>49</td><td>58</td><td>49</td></tr>
++<tr style="border-top: solid thin;"><td>Percentage, first half</td><td>54</td><td>61</td><td>59</td><td>69</td><td>74</td><td>61</td><td>66</td><td>57</td><td></td></tr>
++<tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 2em;"></span>”<span style="display: inline-block; width: 2em;"></span> second do.</td><td>55</td><td>56</td><td>54</td><td>63</td><td>62</td><td>49</td><td>58</td><td>49</td><td></td></tr>
+ <tr style="border-top: solid thin;border-bottom: solid thin;"><td><span style="display: inline-block; width: 2em;"></span>”<span style="display: inline-block; width: 2em;"></span> whole List</td><td>54</td><td>58</td><td>57</td><td>66</td><td>68</td><td>55</td><td>62</td><td>53</td><td>59</td></tr>
  </table></div>
- </article>
- <footer>
+ 
+-<div class="center"><!--TODO manual fixing probably needed-->
+-<table class="b0 b1 r2 b2 r3 b3 r4 b4 r5 b5 r6 b6 r7 b7 r8 b8 r9 b9 r10 d10 r11 b11 TODO">
+-<tr style="border-top: solid thin;border-bottom: solid thin;"><td colspan="1"><b>Michaelmas Term.</b></td><td><b>1873</b></td><td><b>1874</b></td><td><b>1875</b></td><td><b>1876</b></td><td><b>1877</b></td><td><b>1878</b></td><td><b>1879</b></td><td><b>1880</b></td><td><b>1881</b></td><td><b>Total</b></td></tr>
+-<tr style="border-top: solid thin;border-bottom: solid thin;"><td>Candidates<span class="after-dotfill"></span></td><td>412</td><td>387</td><td>400</td><td>346</td><td>384</td><td>339</td><td>406</td><td>391</td><td>493</td><td>3558</td></tr>
+-<tr style="border-top: solid thin;"><td>Passed, in first half</td><td>137</td><td>111</td><td>118</td><td>101</td><td>134</td><td>124</td><td>166</td><td>145</td></tr>
+-<tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 1.5em;"></span>”<span style="display: inline-block; width: 1.5em;"></span> second do.</td><td>141</td><td>101</td><td>132</td><td>106</td><td>138</td><td>105</td><td>168</td><td>139</td></tr>
+-<tr style="border-top: solid thin;border-bottom: solid thin;"><td><span style="display: inline-block; width: 1.5em;"></span>”<span style="display: inline-block; width: 1.5em;"></span> whole List</td><td>278</td><td>212</td><td>250</td><td>207</td><td>272</td><td>229</td><td>334</td><td>284</td><td>312</td><td>2378</td></tr>
+-<tr style="border-top: solid thin;"><td>Percentage, first half</td><td>67</td><td>57</td><td>59</td><td>58</td><td>70</td><td>73</td><td>82</td><td>74</td></tr>
+-<tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 2em;"></span>”<span style="display: inline-block; width: 2em;"></span> second do.</td><td>68</td><td>52</td><td>66</td><td>61</td><td>72</td><td>62</td><td>83</td><td>70</td></tr>
+-<tr style="border-top: solid thin;border-bottom: solid thin;"><td><span style="display: inline-block; width: 2em;"></span>”<span style="display: inline-block; width: 2em;"></span> whole List</td><td>67</td><td>55</td><td>63</td><td>60</td><td>71</td><td>68</td><td>82</td><td>73</td><td>63</td><td>67</td></tr>
++<div class="center">
++<table class="b0 b1 r2 b2 r3 b3 r4 b4 r5 b5 r6 b6 r7 b7 r8 b8 r9 b9 r10 d10 r11 b11" style="border-right: solid thin;">
++<tr style="border-top: solid thin;border-bottom: solid thin;"><th style="text-align: center;">Michaelmas Term.</th><th>1873</th><th>1874</th><th>1875</th><th>1876</th><th>1877</th><th>1878</th><th>1879</th><th>1880</th><th>1881</th><th style="text-align: right;">Total</th></tr>
++<tr style="border-top: solid thin;border-bottom: solid thin;"><td>Candidates<span class="after-dotfill"></span></td><td>412</td><td>387</td><td>400</td><td>346</td><td>384</td><td>339</td><td>406</td><td>391</td><td>493</td><td style="text-align: right;">3558</td></tr>
++<tr style="border-top: solid thin;"><td>Passed, in first half</td><td>137</td><td>111</td><td>118</td><td>101</td><td>134</td><td>124</td><td>166</td><td>145</td><td></td><td></td></tr>
++<tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 1.5em;"></span>”<span style="display: inline-block; width: 1.5em;"></span> second do.</td><td>141</td><td>101</td><td>132</td><td>106</td><td>138</td><td>105</td><td>168</td><td>139</td><td></td><td></td></tr>
++<tr style="border-top: solid thin;border-bottom: solid thin;"><td><span style="display: inline-block; width: 1.5em;"></span>”<span style="display: inline-block; width: 1.5em;"></span> whole List</td><td>278</td><td>212</td><td>250</td><td>207</td><td>272</td><td>229</td><td>334</td><td>284</td><td>312</td><td style="text-align: right;">2378</td></tr>
++<tr style="border-top: solid thin;"><td>Percentage, first half</td><td>67</td><td>57</td><td>59</td><td>58</td><td>70</td><td>73</td><td>82</td><td>74</td><td></td><td></td></tr>
++<tr style="border-bottom: solid thin;"><td><span style="display: inline-block; width: 2em;"></span>”<span style="display: inline-block; width: 2em;"></span> second do.</td><td>68</td><td>52</td><td>66</td><td>61</td><td>72</td><td>62</td><td>83</td><td>70</td><td></td><td></td></tr>
++<tr style="border-top: solid thin;border-bottom: solid thin;"><td><span style="display: inline-block; width: 2em;"></span>”<span style="display: inline-block; width: 2em;"></span> whole List</td><td>67</td><td>55</td><td>63</td><td>60</td><td>71</td><td>68</td><td>82</td><td>73</td><td>63</td><td style="text-align: right;">67</td></tr>
+ </table></div>
+ 
+ <div class="signature"><p>Charles L. Dodgson.<br>
 diff -ru a/texts/a-postal-problem-june-1891.html b/texts/a-postal-problem-june-1891.html
 --- a/texts/a-postal-problem-june-1891.html
 +++ b/texts/a-postal-problem-june-1891.html
@@ -9270,7 +9336,7 @@ diff -ru a/ttlg/preface.html b/ttlg/preface.html
 diff -ru a/warnings.txt b/warnings.txt
 --- a/warnings.txt
 +++ b/warnings.txt
-@@ -1,104 +1 @@
+@@ -1,105 +1 @@
 -index.html used more than once
 -about/contents-by-topic.html used more than once
 -about/contents-by-topic.html used more than once
@@ -9322,6 +9388,7 @@ diff -ru a/warnings.txt b/warnings.txt
 -Math error: \begin{array}{r|l@{}}6 & 60{,}001\\\cline{2-2}\end{array}
 -Math error: x_1m'_0 \mo{†} y_1m_0 \mo{⁋} x_1y_0 \mo{†} y_1x_0 \text{&emsp; [Fig. I (\itbeta).}
 -Math error: x_1m'_0 \mo{†} m_1y'_0 \mo{⁋} x_1y'_0 \text{&emsp; [Fig. I (\italpha).}
+-Math error: \begin{array}{rl}\because\quad   & a : b \mo{::} c : d;\\ \therefore\quad & \frac{a}{b} = \frac{c}{d};\\ \therefore\quad & \text{(\texttimes\textsuperscript{ng} by $\frac{m}{n}$), } \frac{ma}{nb} = \frac{mc}{nd};\\ \therefore\quad & \frac{A}{B} = \frac{C}{D};\\ \therefore\quad & A: B \mo{::} C : D\text{.}\end{array}
 -Math error: \angle C'A'B' + \angle B'A'C = \text{supp. of $\theta$}\text{,}
 -Math error: \angle B'A'C + \angle A'CB' = \text{supp. of $\theta$}\text{;}
 -Math error: \left(y+z\right), \left(z+x\right), \left(x+y\right)\text{;  i.&thinsp;e. it is $\frac{2s}{3}$}\text{.}

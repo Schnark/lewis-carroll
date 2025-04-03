@@ -193,6 +193,7 @@ function getPath (chapter, section) {
 			'prefaces/phantasmagoria-and-other-poems': 'texts/phantasmagoria-and-other-poems',
 			'prefaces/rhyme-and-reason': 'texts/rhyme-and-reason',
 			'prefaces/the-hunting-of-the-snark': 'texts/the-hunting-of-the-snark',
+			'prefaces/the-principles-of-parliamentary-representation-advertisment': 'texts/the-principles-of-parliamentary-representation-advertisment',
 			'prefaces/three-sunsets-and-other-poems': 'texts/three-sunsets-and-other-poems',
 
 			'texts/railway-rules': 'manuscripts-proofs/railway-rules',
@@ -211,7 +212,11 @@ function getPath (chapter, section) {
 			'texts/marriage-service': 'manuscripts-proofs/marriage-service',
 			'texts/eternal-punishment': 'manuscripts-proofs/eternal-punishment',
 			'texts/life-of-richard-hakluyt': 'manuscripts-proofs/life-of-richard-hakluyt',
-			'prefaces/limits-of-circle-squaring': 'manuscripts-proofs/limits-of-circle-squaring',
+			'math/limits-of-circle-squaring': 'manuscripts-proofs/limits-of-circle-squaring',
+			'prefaces/limits-of-circle-squaring': 'manuscripts-proofs/limits-of-circle-squaring-preface',
+			'math/rule-for-finding-easter-day-for-any-date-till-textsc-a-d': 'manuscripts-proofs/rule-for-finding-easter-day',
+			'texts/logs-of-nos': 'manuscripts-proofs/logs-of-nos',
+			'texts/various-memoria-technica-verses': 'manuscripts-proofs/various-memoria-technica-verses',
 
 			'math/a-new-theory-of-parallels-curiosa-mathematica-part-i': 'math/a-new-theory-of-parallels',
 			'math/pillow-problems-curiosa-mathematica-part-ii': 'math/pillow-problems',
