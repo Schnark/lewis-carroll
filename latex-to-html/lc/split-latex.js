@@ -98,7 +98,7 @@ function getPath (chapter, section) {
 			'texts/a-photographers-day-out': 'magazines/a-photographers-day-out',
 			'texts/brunos-revenge': 'magazines/brunos-revenge',
 			'math/euclids-theory-of-parallels': 'magazines/euclids-theory-of-parallels',
-			'math/the-purity-of-election': 'magazines/the-purity-of-election',
+			'math/purity-of-election': 'magazines/purity-of-election',
 			'math/proportionate-representation': 'magazines/proportionate-representation',
 			'math/parliamentary-elections': 'magazines/parliamentary-elections',
 			'math/notes': 'magazines/notes-1884',
