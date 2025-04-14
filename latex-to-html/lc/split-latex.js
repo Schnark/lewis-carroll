@@ -182,6 +182,7 @@ function getPath (chapter, section) {
 			'prefaces/for-all-lovers-of-children': 'magazines/for-all-lovers-of-children',
 			'prefaces/for-all-writers-of-letters': 'magazines/for-all-writers-of-letters',
 			'prefaces/sylvie-and-bruno-st-jamess-gazette': 'magazines/sylvie-and-bruno',
+			'prefaces/the-principles-of-parliamentary-representation-advertisment': 'magazines/the-principles-of-parliamentary-representation-advertisment',
 
 			'magazines/the-guildford-gazette-extraordinary': 'texts/the-guildford-gazette-extraordinary',
 			'prefaces/advertisement': 'texts/advertisement',
@@ -193,7 +194,6 @@ function getPath (chapter, section) {
 			'prefaces/phantasmagoria-and-other-poems': 'texts/phantasmagoria-and-other-poems',
 			'prefaces/rhyme-and-reason': 'texts/rhyme-and-reason',
 			'prefaces/the-hunting-of-the-snark': 'texts/the-hunting-of-the-snark',
-			'prefaces/the-principles-of-parliamentary-representation-advertisment': 'texts/the-principles-of-parliamentary-representation-advertisment',
 			'prefaces/three-sunsets-and-other-poems': 'texts/three-sunsets-and-other-poems',
 
 			'texts/railway-rules': 'manuscripts-proofs/railway-rules',
