@@ -265,7 +265,7 @@ registerCommand('rbraceSyllogismText', function (l, text) {
 }, ['optional', 'short']);
 
 registerCommand('see', function (ref) {
-	return '→ <a href="#' + ref + '">here<!--TODO--></a>'; //TODO
+	return '→ <a href="#' + ref + '">here<!--TODO--></a>';
 });
 
 toHtml.fixup(function (html) {
@@ -275,6 +275,10 @@ toHtml.fixup(function (html) {
 		return '<li>' + link + text + '</a>' + rest + end;
 	});
 });
+
+registerCommand('extracted', function (extra, ref) {
+	return '(<a href="#' + ref + '">extracted</a>' + (extra ? ', ' + extra : '') + ')';
+}, ['optional', 'short']);
 
 registerCommand('parenSee', function (title, ref) {
 	return '<a href="#' + ref + '">' + title + '</a>';

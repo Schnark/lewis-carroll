@@ -45,7 +45,7 @@ diff -ru a/aaiw/content.html b/aaiw/content.html
  <aside class="toggle variant" id="annotation-9">a</aside></div></div>
  
 @@ -1582,12 +1582,13 @@
- <div class="verse"><p><span style="font-style: italic;">“<span class="annotated parody" data-ref="annotation-28">’Tis the voice of the Lobster: I heard him declare<br>
+ <div class="verse"><span id="context:tis-the-voice-of-the-lobster"></span><p><span style="font-style: italic;">“<span class="annotated parody" data-ref="annotation-28">’Tis the voice of the Lobster: I heard him declare<br>
  ‘You have baked me too brown, I must sugar my hair.’<br>
  As a duck with its eyelids, so he with his nose<br>
 -Trims his belt and his buttons, and turns out his <span class="annotated variant" data-ref="annotation-27">toes.</span></span><br>
@@ -6728,10 +6728,10 @@ diff -ru a/rectory-umbrella/the-walking-stick-of-destiny.html b/rectory-umbrella
 @@ -129,8 +129,8 @@
  <h3 id="walkingstick:5">Ch.&nbsp;5</h3>
  <figure style="max-width:15em;">
- <img src="../../images/rectory-umbrella/walkingstick-5-1.jpg" width="379" height="506" alt="A man writing on a scroll.">
--<div class="transcription" style="top: 10%; left: 60%;"><p>The Spell</p></div>
+ <p><img src="../../images/rectory-umbrella/walkingstick-5-1.jpg" width="379" height="506" alt="A man writing on a scroll."><span id="context:the-spell"></span>
+-</p><div class="transcription" style="top: 10%; left: 60%;"><p>The Spell</p></div>
 -<div class="transcription" style="top: 20%; left: 40%;"><p>From a window thrown,<br>
-+<div class="transcription" style="top: 10%; left: 60%; font-size: 90%; transform: rotate(20deg);"><p>The Spell</p></div>
++</p><div class="transcription" style="top: 10%; left: 60%; font-size: 90%; transform: rotate(20deg);"><p>The Spell</p></div>
 +<div class="transcription" style="top: 20%; left: 40%; font-size: 60%; transform: rotate(20deg);"><p>From a window thrown,<br>
  To the ground he fell,<br>
  Yet he broke no bone,<br>
