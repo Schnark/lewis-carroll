@@ -38,7 +38,7 @@ toHtml.fixup(function (html) {
 	//this may lead to invalid HTML, but in most cases it is better just to do it than to be careful
 	//only do this once you identified all places where a manual fix is needed, to reduce that number
 	//as it may well hide problems that do exist
-	return html.replace(/<!--TODO \\(hfill|dotfill|hrulefill)-->(.*?)(<br>|<\/p>|<\/td>)/g, function (all, fill, after, close) {
+	return html.replace(/<!--TODO \\(hfill|dotfill|hrulefill)-->(.*?)(<br>|\n?<\/p>|<\/td>)/g, function (all, fill, after, close) {
 		if (after.indexOf('<!--TODO') > -1 || after.indexOf('class="after-') > -1) {
 			return all;
 		}
@@ -216,6 +216,10 @@ toHtml.fixup(function (html) {
 	});
 });
 
+registerCommand('dotspace', function (length) {
+	return '<span style="display: inline-block; width: ' + define.parseLength(length) + '; border-bottom: thin dotted;"></span>';
+}, ['raw']);
+
 registerCommand('otherLang', function (lang, content) {
 	return '<span lang="' + lang + '">' + content + '</span>';
 });
@@ -281,6 +285,10 @@ registerCommand('extracted', function (extra, ref) {
 }, ['optional', 'short']);
 
 registerCommand('parenSee', function (title, ref) {
+	return '<a href="#' + ref + '">' + title + '</a>';
+});
+
+registerCommand('commaSee', function (title, ref) {
 	return '<a href="#' + ref + '">' + title + '</a>';
 });
 
@@ -395,7 +403,14 @@ registerCommand('origref', function (orig, adapted) {
 			return orig;
 		}
 	}
-	label = /\\(?:ref|pageref|maybeThisPage|oneOrTwoPages)\{([^}]+)\}/.exec(adapted);
+	label = /\\oneOrTwoPagesPlain\{([^}]+)\}\{([^}]+)\}/.exec(adapted);
+	if (label) {
+		orig = orig.replace(/^(\d+)(, )(\d+)$/, '<a href="#' + label[1] + '">$1</a>$2<a href="#' + label[2] + '">$3</a>');
+		if (orig.indexOf('<a ') > -1) {
+			return orig;
+		}
+	}
+	label = /\\(?:ref|pageref|maybeThisPage|oneOrTwoPages|oneOrTwoPagesPlain)\{([^}]+)\}/.exec(adapted);
 	label = label ? label[1] : 'TODO';
 	return '<a href="#' + label + '">' + orig + '</a>';
 }, ['short', 'raw']);

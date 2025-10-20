@@ -417,6 +417,7 @@ var TOC = [ //TODO more?
 	'poems/phantasmagoria.html',
 	'poems/the-hunting-of-the-snark.html',
 
+	'math/a-syllabus-of-plane-algebraical-geometry.html',
 	'math/the-formulae-of-plane-trigonometry.html',
 	'math/a-guide-to-the-mathematical-student.html',
 	'math/an-elementary-treatis-on-determinants.html',

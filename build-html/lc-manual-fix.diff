@@ -148,7 +148,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>Table of contents</li>
  <li>List of Illustrations</li>
  <li><a href="../poems/three-sunsets.html">Three Sunsets</a></li>
-@@ -490,7 +490,7 @@
+@@ -487,7 +487,7 @@
  <li>Title</li>
  <li><a href="../euclid-and-his-modern-rivals/preface-supplement.html">Preface</a></li>
  <li><a href="../euclid-and-his-modern-rivals/content.html#supplement-euclid-modern-rivals:henrici">Act II. Scene VI. Henrici</a></li>
@@ -157,7 +157,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Euclid. Books I, II</h4>
-@@ -527,7 +527,7 @@
+@@ -524,7 +524,7 @@
  <li>Title</li>
  <li><a href="../math/the-principles-of-parliamentary-representation.html#principles-parliamentary:supplement">Main content</a></li>
  </ul></li>
@@ -166,7 +166,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>A Tangled Tale</h4>
-@@ -671,7 +671,7 @@
+@@ -668,7 +668,7 @@
  <li>Title</li>
  <li>Introduction (moved to content)</li>
  <li>Table of Contents</li>
@@ -175,7 +175,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>“The New Method of Evaluation as Applied to <var>π</var>” forms the third chapter and is missing in the fourth edition (which is the one included in “Notes by an Oxford Chiel”). In the fourth edition also the subtitle is missing and the motto added to the title page.</p>
-@@ -745,14 +745,13 @@
+@@ -742,14 +742,13 @@
  <p>scan from <a href="https://books.google.de/books?id=vU0P7jFnpjgC">https://books.google.de/books?id=vU0P7jFnpjgC</a></p>
  
  <ul>
@@ -192,7 +192,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <h4>Notes by an Oxford Chiel</h4>
  <p>Anonymous, published 1874</p>
-@@ -760,9 +759,7 @@
+@@ -757,9 +756,7 @@
  <p>scan from <a href="https://archive.org/details/notesbyoxfordchi00carrrich">https://archive.org/details/notesbyoxfordchi00carrrich</a></p>
  
  <ul>
@@ -203,7 +203,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>Table of contents</li>
  <li>The New Method of Evaluation as Applied to <var>π</var>.<ul>
  <li>Title (motto moved to content)</li>
-@@ -775,15 +772,13 @@
+@@ -772,15 +769,13 @@
  <li>Table of contents</li>
  <li><a href="../notes-oxford-chiel/dynamics-particle.html">Content</a></li>
  </ul></li>
@@ -222,7 +222,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>The New Belfry of Christ Church, Oxford.<ul>
  <li>Title (motto and image moved to content)</li>
  <li>Table of Contents</li>
-@@ -799,6 +794,8 @@
+@@ -796,6 +791,8 @@
  <li><a href="../notes-oxford-chiel/blank-cheque.html">Content</a></li>
  </ul></li>
  </ul>
@@ -231,7 +231,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <h4>An Easter Greeting</h4>
  <p class="subtitle">To Every Child Who Loves “Alice.”</p>
-@@ -912,7 +909,7 @@
+@@ -909,7 +906,7 @@
  <li>Title</li>
  <li>Table of Contents</li>
  <li><a href="../texts/eight-or-nine-wise-words-about-letter-writing.html">Main Content</a></li>
@@ -240,7 +240,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Curiosissima Curatoria</h4>
-@@ -940,14 +937,14 @@
+@@ -937,14 +934,14 @@
  <li>Table of Contents</li>
  <li><a href="../syzygies-and-lanrick/syzygies.html">Syzygies</a></li>
  <li><a href="../syzygies-and-lanrick/lanrick.html">Lanrick</a></li>
@@ -259,7 +259,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>Chapter 11 of <i>The Lost Plum Cake</i> might also be written by Carroll, see <i>Pamphlets: A Miscellany</i>, item 34.</p>
-@@ -961,7 +958,7 @@
+@@ -958,7 +955,7 @@
  
  <ul>
  <li><a href="../poems/the-lady-of-the-ladle.html">The Lady of the Ladle</a> (August 1854)</li>
@@ -268,7 +268,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>The Comic Times</h4>
-@@ -1089,10 +1086,10 @@
+@@ -1086,10 +1083,10 @@
  “The Organization of Charity” also included in the <i>Scrapbook</i></p>
  
  <ul>
@@ -281,7 +281,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/vivisection-as-a-sign-of-the-times.html">Vivisection as a Sign of the Times</a> (February 1875)</li>
  <li><a href="../magazines/vivisection.html">Vivisection</a> (February 1875)</li>
  <li><a href="../magazines/natural-science-at-oxford.html">Natural Science at Oxford</a> (May 1877)</li>
-@@ -1111,7 +1108,7 @@
+@@ -1108,7 +1105,7 @@
  <ul>
  <li><a href="../magazines/the-science-of-betting.html#times:betting">The Science of Betting</a> (November 1866)</li>
  <li><a href="../magazines/a-complete-postage-guide.html">A Complete Postage Guide</a> (September 1883)</li>
@@ -290,7 +290,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Proceedings of the Royal Society of London</h4>
-@@ -1144,8 +1141,8 @@
+@@ -1141,8 +1138,8 @@
  <ul>
  <li><a href="../magazines/castle-croquet-1866.html">Castle Croquet</a> (August 1867)</li>
  <li><a href="../magazines/brunos-revenge.html">Bruno’s Revenge</a> (December 1867)</li>
@@ -301,7 +301,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../poems/dreamland.html">Dreamland</a> (July 1882)</li>
  </ul>
  
-@@ -1182,7 +1179,7 @@
+@@ -1179,7 +1176,7 @@
  <a href="https://www.informedparent.co.uk/wp-content/uploads/2017/10/1877-EASTBOURNE-CHRONICLE-debate-with-Lewis-Carroll-C-Dodgson.pdf">https://www.informedparent.co.uk/wp-content/uploads/2017/10/1877-EASTBOURNE-CHRONICLE-debate-with-Lewis-Carroll-C-Dodgson.pdf</a></p>
  
  <ul>
@@ -310,7 +310,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <h4>Vanity Fair</h4>
-@@ -1194,7 +1191,7 @@
+@@ -1191,7 +1188,7 @@
  <a href="https://books.google.de/books?id=TfJHAQAAMAAJ">https://books.google.de/books?id=TfJHAQAAMAAJ</a></p>
  
  <ul>
@@ -319,7 +319,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>The Doublets were managed by Choker (the editor), it is not clear how much of the content was actually written by Carroll. Here only those parts are reproduced, that were reprinted as book, as well as all the doublets. Several of these were also published as offprints.</p>
-@@ -1255,28 +1252,28 @@
+@@ -1252,28 +1249,28 @@
  <li><a href="../tangled-tale/content.html#tangled:mp-2">Romantic Problems; A Tangled Tale. Knot II. Mad Mathesis</a> (July 1880)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-2a">Answers to “Romantic Problems. Knot II”</a> (September 1880)</li>
  <li><a href="../tangled-tale/content.html#tangled:mp-3">A Tangled Tale. Knot III. The Dead Reckoning</a> (October 1880)</li>
@@ -353,7 +353,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/note-about-shakespeare-for-girls.html">Untitled note about “Shakespeare for Girls”</a> (June 1882)</li>
  </ul></li>
  <li><a href="../magazines/mischmasch-1882.html">Mischmasch</a> (November 1882)</li>
-@@ -1300,19 +1297,19 @@
+@@ -1295,19 +1292,19 @@
  <ul>
  <li><a href="../magazines/purity-of-election.html">Purity of Election</a> (May 1881)</li>
  <li><a href="../magazines/traitors-in-the-camp.html">Traitors in the Camp</a> (December 1881)</li>
@@ -377,7 +377,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/whoso-shall-offend-one-of-these-little-ones.html">“Whoso Shall Offend One of These Little Ones—”</a> (July 1885)</li>
  <li><a href="../magazines/hydrophobia-curable.html">Hydrophobia Curable</a> (October 1885)</li>
  <li><a href="../magazines/election-gains-and-losses.html">Election Gains and Losses</a> (December 1885)</li>
-@@ -1430,7 +1427,7 @@
+@@ -1425,7 +1422,7 @@
  for detailed description see also <i>Lewis Carroll and the Press</i></p>
  
  <ul>
@@ -386,7 +386,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../magazines/nyctograph.html">Nyctograph</a> (October 1891)</li>
  <li><a href="../magazines/a-postal-problem.html">A Postal Problem</a> (December 1891)</li>
  <li><a href="../magazines/for-all-lovers-of-children.html">For All Lovers of Children</a> (March–May 1892)</li>
-@@ -1504,13 +1501,13 @@
+@@ -1499,13 +1496,13 @@
  <li><a href="../texts/objections-submitted-to-the-governing-body.html">Objections, Submitted to the Governing Body of Christ Church, Oxford</a>, 1873 (text from <i>Oxford Pamphlets</i>, item 14, partial scan from <a href="https://lewiscarroll25.blogspot.com/2014/06/dodgsons-objections-against-proposed.html?m=1">https://lewiscarroll25.blogspot.com/2014/06/dodgsons-objections-against-proposed.html?m=1</a>)<!--TODO scan--></li>
  <li><a href="../texts/the-professorship-of-comparative-philology.html">The Professorship of Comparative Philology</a>, 1876 (three pamphlets, text from <i>Oxford Pamphlets</i>, item 17, partial scans from <i>Bibliography</i>, p.&nbsp;229)<!--TODO scan (last page of last pamphlet)--></li>
  <li><a href="../poems/fames-penny-trumpet.html">Fame’s Penny-Trumpet</a>, 1876 (text from <i>Pamphlets: A Miscellany</i>, item 90, partial scan from <a href="https://www.bonhams.com/auctions/24116/lot/34/?category=results">https://www.bonhams.com/auctions/24116/lot/34/?category=results</a>)<!--TODO scan--></li>
@@ -402,7 +402,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../poems/four-riddles-no-iv.html">A Charade</a>, 1878 (scan from <i>The Story of Lewis Carroll</i>, pp.&nbsp;108–110)</li>
  <li><a href="../texts/word-links-cyclostyled.html">Word-Links</a>, 1878 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;89–92)</li>
  <li><a href="../texts/word-links-printed.html">Word-Links</a>, 1878 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;93–96)</li>
-@@ -1537,20 +1534,20 @@
+@@ -1532,20 +1529,20 @@
  <li><a href="../math/questions-in-logic.html">Questions in Logic</a>, 1887 (text from <i>Logic Pamphlets</i>, item 21)<!--TODO scan--></li>
  <li><a href="../poems/to-my-child-friend.html">To my Child-Friend</a>, 1888 (scan from <i>Bibliography</i>, p.&nbsp;254)</li>
  <li><a href="../texts/memoria-technica-1888.html">Memoria Technica</a>, 1888 (scan from <i>The Universe in a Handkerchief</i>, pp.&nbsp;33–35)</li>
@@ -426,7 +426,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../texts/resident-women-students.html">Resident Women-Students</a>, 1896 (scan from <a href="https://iiif.bodleian.ox.ac.uk/iiif/viewer/8c4d795d-3b6a-4c70-b974-dc11083c1975#?c=0&amp;m=0&amp;s=0&amp;cv=72&amp;r=0&amp;xywh=-246%2C-1%2C3971%2C2902">https://iiif.bodleian.ox.ac.uk/iiif/viewer/8c4d795d-3b6a-4c70-b974-dc11083c1975#?c=0&amp;m=0&amp;s=0&amp;cv=72&amp;r=0&amp;xywh=-246%2C-1%2C3971%2C2902</a>)</li>
  </ul>
  
-@@ -1559,9 +1556,9 @@
+@@ -1554,9 +1551,9 @@
  <ul>
  <li><a href="../manuscripts-proofs/the-wasp-in-a-wig.html">The Wasp in a Wig</a>, 1870 (first published 1977, scan from <a href="https://archive.org/details/waspinwigsuppres0000carr_m8q0">https://archive.org/details/waspinwigsuppres0000carr_m8q0</a>)</li>
  <li><a href="../manuscripts-proofs/limits-of-circle-squaring.html">Limits of Circle-Squaring</a>, 1882? (first published 1994, scan from <i>Mathematical Pamphlets</i>, item 8)</li>
@@ -439,7 +439,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../manuscripts-proofs/curiosa-mathematica-part-iii.html">Curiosa Mathematica Part III</a>, 1897 (first published 1899, text from the <i>Picture Book</i>, pp.&nbsp;240–263)</li>
  </ul>
  
-@@ -1632,7 +1629,7 @@
+@@ -1628,7 +1625,7 @@
  <li><a href="../rectory-magazine/introductions.html#rectory:rust">Rust</a></li>
  <li><a href="../poems/as-it-fell-upon-a-day.html">As It Fell upon a Day</a></li>
  <li><a href="../rectory-magazine/sidney-hamilton.html#sidney-hamilton:4">Sidney Hamilton. Ch.&nbsp;4</a></li>
@@ -448,7 +448,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li>A Tale of the Wars. Part&nbsp;2 (by Wilfred L. Dodgson)</li>
  <li><a href="../rectory-magazine/crundle-castle.html#crundle-castle:3">Crundle Castle. Ch.&nbsp;3</a></li>
  <li><a href="../poems/terrors.html">Terrors</a></li>
-@@ -1681,10 +1678,9 @@
+@@ -1677,10 +1674,9 @@
  <li>Mrs Stoggle’s Dinner-Party. Ch.&nbsp;4 (by Elisabeth L. Dodgson)</li>
  <li>Farmer Grubbins. Ch.&nbsp;2 (by Skeffington H. Dodgson)</li>
  </ul></li>
@@ -461,7 +461,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <h4>The Rectory Umbrella</h4>
  <p>Written about 1850, first published 1932, scan from
-@@ -1732,7 +1728,7 @@
+@@ -1728,7 +1724,7 @@
  <a href="http://www.europeana.eu/portal/record/9200143/BibliographicResource_2000069294604.html">http://www.europeana.eu/portal/record/9200143/BibliographicResource_2000069294604.html</a><!--TODO scan (Harcourt Armory Collection, not (yet) digitized)--></p>
  
  <ul>
@@ -470,7 +470,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../mischmasch/preface.html#mischmasch:preface">Preface</a></li>
  <li><a href="../mischmasch/studies-from-english-poets.html#english-poets:1">Studies from English Poets. No.&nbsp;I</a></li>
  <li><a href="../mischmasch/studies-from-english-poets.html#english-poets:2">Studies from English Poets. No.&nbsp;II</a></li>
-@@ -1768,7 +1764,7 @@
+@@ -1764,7 +1760,7 @@
  
  <h4>Other Manuscripts</h4>
  <ul>
@@ -479,7 +479,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../manuscripts-proofs/loves-railway-guide.html">“Love’s” Railway Guide</a>, 1847? (first published 1932, scan from <i>The Raven and the Writing Desk</i>, p.&nbsp;161)<!--TODO readable table--></li>
  <li><a href="../poems/la-guida-di-bragia.html">La Guida di Bragia</a>, 1850? (first published 1931, text from <a href="https://archive.org/details/knightletterno6100lewi">https://archive.org/details/knightletterno6100lewi</a>, partial scan at <a href="https://archive.org/details/b31639987">https://archive.org/details/b31639987</a>, p.&nbsp;126)<!--TODO scan (Berol Collection)--></li>
  <li><a href="../manuscripts-proofs/the-christ-church-commoner.html">The Christ-Church Commoner</a>, 1851 (first published 1973, text from <i>Lewis Carroll, a Biography</i> by Anne Clark Amor, p.&nbsp;72)<!--TODO scan (Berg Collection, http://archives.nypl.org/brg/19160)--></li>
-@@ -1781,7 +1777,7 @@
+@@ -1777,7 +1773,7 @@
  <li><a href="../poems/prologue-1873.html">Prologue</a>, 1873 (for the Hatch family, first published 1898, scan from <i>The Story of Lewis Carroll</i>, p.&nbsp;115)</li>
  <li><a href="../manuscripts-proofs/an-inconceivable-conversation.html">An Inconceivable Conversation</a>, 1874 (first published 1974, scan from <a href="https://iiif.bodleian.ox.ac.uk/iiif/viewer/dd6d9ce9-c190-4728-a849-524a06f7ade8">https://iiif.bodleian.ox.ac.uk/iiif/viewer/dd6d9ce9-c190-4728-a849-524a06f7ade8</a>)<!--https://www.chch.ox.ac.uk/sites/default/files/Carroll-MS%208%20-%20An%20Inconceivable%20Conversation.pdf--></li>
  <li><a href="../poems/a-russians-day-in-england.html">A Russian’s Day in England</a>, 1874 (for Lady Gwendolen Cecil, first published 1979, text from <i>The Russian Journal—II</i>, p.&nbsp;52)<!--TODO scan--></li>
@@ -488,7 +488,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../manuscripts-proofs/marriage-service.html">Marriage Service</a>, 1877 (first published 1974, text from <i>Pamphlets: A Miscellany</i>, item 27/<i>The Carrollian</i>, No. 15, 2005, pp.&nbsp;47–48, <a href="https://archive.org/details/the-carrollian-2005-15/page/46">https://archive.org/details/the-carrollian-2005-15/page/46</a>)<!--TODO scan (Harcourt Armory Collection, digitized, but not public)--></li>
  <li><a href="../manuscripts-proofs/logs-of-nos.html">Logs of Nos.</a>, 1878 (first published 1974, text from <i>Rare Verses</i>, pp.&nbsp;88–89)<!--TODO scan--></li>
  <li><a href="../poems/verses-for-christmas-cards.html">Verses for Christmas Cards</a>, 1879 (first published 1974, scan from <i>Lewis Carroll and Alice, 1832–1982</i>, p.&nbsp;126)<!--TODO drawings by E. Gertrude Thomson, see also http://corsair.themorgan.org/vwebv/holdingsInfo?bibId=412946&searchType=13&holdingsBibId=412886&returnUrl=holdingsInfo%3FbibId=412886--></li>
-@@ -1852,7 +1848,7 @@
+@@ -1848,7 +1844,7 @@
  <li><a href="../poems/the-year-when-boilers-froze.html">The year when boilers froze</a>, 1891 (for Robert Holford Macdowall Bosanquet, first published 1966, text from <i>Jabberwocky and Other Poems</i>)<!--Oct 20, https://www.google.de/books/edition/The_Story_of_the_Bosanquets/pQBIAAAAMAAJ--></li>
  <li><a href="../poems/my-first-is-a-berry.html">My First is a berry</a>, 1892 (for Olive, Ruth, and Violet Butler, first published 1933, text from <i>Letters to Child-Friends</i>, p.&nbsp;229)<!--Dec 29--></li>
  <li><a href="../poems/girlie-to-whom-in-perennial-bloom.html">Girlie to whom in perennial bloom</a>, 1895? (for Gladys Baly, first published 1932, text from <i>Diaries</i>, p.&nbsp;487)<!--Christmas?--></li>
@@ -497,7 +497,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  </ul>
  
  <p>Some poems from letters Carroll published himself. These are not listed above and their differences are not reproduced in the poems, but noted where available. These poems are <i>Girt with a Boyish Garb</i> (for Gertrude Chataway), <i>A Charade</i> (<i>Four Riddles. No.&nbsp;III</i>, for Marion Terry), <i>Matilda Jane</i> (for Catherine Holiday), <i>A Game of Fives</i>, and <i>Puck Lost and Found</i>. The first of the <i>Puzzles from Wonderland</i> can be found in his letters, too, but without changes. The poem <i>Lines</i> was published by Carroll, too, but since the manuscript variant is more prominent than the printed one, it is included above. <i>Disillusionized</i>, too, has such a variant, though it is not clear where it comes from.</p>
-@@ -1963,9 +1959,9 @@
+@@ -1959,9 +1955,9 @@
  
  <p>The circular about Senior Student’s biographies asked for details for a planned publication <i>Senior Students</i>.</p>
  
@@ -509,7 +509,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>Carroll sent several circulars on behalf of friends and relatives, to help them in various matters.</p>
  
-@@ -1973,7 +1969,7 @@
+@@ -1969,7 +1965,7 @@
  
  <p>The circular about counters asks for suggestions for the colours of the counters in the <i>Game of Logic</i>.</p>
  
@@ -518,7 +518,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>The <i>Stranger Circular</i> is a letter (in two variants) intended to be sent to those who addressed C. L. Dodgson about books written by Lewis Carroll, protesting against this.</p>
  
-@@ -2030,7 +2026,7 @@
+@@ -2026,7 +2022,7 @@
  
  <p>Most of the following texts are minor mathematical manuscripts.</p>
  
@@ -764,15 +764,6 @@ diff -ru a/about/introduction.html b/about/introduction.html
 +<p>Take for example Carroll’s view in the <a href="../magazines/note-on-question-7695.html">Note on Question 7695</a>. Most modern mathematicians will agree with Simmons, but in Nonstandard Analysis Carroll’s view can be formalized: Choose some infinite nonstandard natural number, and let the players play for that many rounds at most. Then the inifinite sum will become a *-finite one. To be precise: Let <math><mrow><mi>ω</mi><mo>∊</mo><msup><mi>ℕ</mi><mo>*</mo></msup><mo>∖</mo><mi>ℕ</mi></mrow></math>. Then A’s chance is <math><mrow><mi>k</mi><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>0</mn></mrow><mi>ω</mi></munderover><msup><mrow><mo>(</mo><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>k</mi></mrow><mo>)</mo></mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>l</mi></mrow><mo>)</mo></mrow></mrow><mo>)</mo></mrow><mi>i</mi></msup><mo>=</mo><mi>k</mi><mo>⋅</mo><mfrac><mrow><mn>1</mn><mo>−</mo><msup><mrow><mo>(</mo><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>k</mi></mrow><mo>)</mo></mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>l</mi></mrow><mo>)</mo></mrow></mrow><mo>)</mo></mrow><mrow><mi>ω</mi><mo>+</mo><mn>1</mn></mrow></msup></mrow><mrow><mn>1</mn><mo>−</mo><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>k</mi></mrow><mo>)</mo></mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>l</mi></mrow><mo>)</mo></mrow></mrow></mfrac><mo>=</mo><mfrac><mi>k</mi><mrow><mi>k</mi><mo>+</mo><mi>l</mi><mo>−</mo><mi>k</mi><mi>l</mi></mrow></mfrac><mo>⋅</mo><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><msup><mrow><mo>(</mo><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>k</mi></mrow><mo>)</mo></mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>l</mi></mrow><mo>)</mo></mrow></mrow><mo>)</mo></mrow><mrow><mi>ω</mi><mo>+</mo><mn>1</mn></mrow></msup></mrow><mo>)</mo></mrow></mrow></math> Similarly B’s chance is <math><mrow><mfrac><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>k</mi></mrow><mo>)</mo></mrow><mi>l</mi></mrow><mrow><mi>k</mi><mo>+</mo><mi>l</mi><mo>−</mo><mi>k</mi><mi>l</mi></mrow></mfrac><mo>⋅</mo><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><msup><mrow><mo>(</mo><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>k</mi></mrow><mo>)</mo></mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>l</mi></mrow><mo>)</mo></mrow></mrow><mo>)</mo></mrow><mrow><mi>ω</mi><mo>+</mo><mn>1</mn></mrow></msup></mrow><mo>)</mo></mrow></mrow></math>. The probability of a draw is what remains to 1, i.&thinsp;e. <math><msup><mrow><mo>(</mo><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>k</mi></mrow><mo>)</mo></mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>l</mi></mrow><mo>)</mo></mrow></mrow><mo>)</mo></mrow><mrow><mi>ω</mi><mo>+</mo><mn>1</mn></mrow></msup></math>. This actually means that the ratio, of A’s expectation to B’s, is exactly <math><mfrac><mi>k</mi><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>k</mi></mrow><mo>)</mo></mrow><mi>l</mi></mrow></mfrac></math>, but there is still an infinitesimal chance of a draw, the ratio being <math><mrow><mi>k</mi><mo>:</mo><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>k</mi></mrow><mo>)</mo></mrow><mi>l</mi><mo>:</mo><mrow><mo>(</mo><mrow><mi>k</mi><mo>+</mo><mi>l</mi><mo>−</mo><mi>k</mi><mi>l</mi></mrow><mo>)</mo></mrow><mo>⋅</mo><mfrac><msup><mrow><mo>(</mo><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>k</mi></mrow><mo>)</mo></mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>l</mi></mrow><mo>)</mo></mrow></mrow><mo>)</mo></mrow><mrow><mi>ω</mi><mo>+</mo><mn>1</mn></mrow></msup><mrow><mn>1</mn><mo>−</mo><msup><mrow><mo>(</mo><mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>k</mi></mrow><mo>)</mo></mrow><mrow><mo>(</mo><mrow><mn>1</mn><mo>−</mo><mi>l</mi></mrow><mo>)</mo></mrow></mrow><mo>)</mo></mrow><mrow><mi>ω</mi><mo>+</mo><mn>1</mn></mrow></msup></mrow></mfrac></mrow></math>.</p>
  
  <p>Some other treatment of probabilities can be explained by its state at that time. To properly understand in which cases probabilities are additiv, it is necessary to understand the different kinds of infinity. This theory was developed by Cantor in the late 1870s, and only accepted some time later. The consequences for probability theory were first really understood by Kolmogorov in the 1930s.</p>
- 
-@@ -179,7 +177,7 @@
- 
- <p>On the other hand, the famous <a href="../math/pillow-problems.html#pillow-problems-72q">Pillow-Problem 72</a> isn’t a problem in probability theory, but in “Transcendental Probabilities”. That is, it is a clever paradox, the real problem is to detect the fallacy in the solution.</p>
- 
--<p>In his later years Carroll turned to logic. As I understand it, he tried to formalize the natural language and its reasoning. This is different from modern logic which has given up in trying to adapt to “normal reasoning”, and therefore is sometimes regarded as strange. The most difficult part is to formalize “if <var>a</var> then <var>b</var>”. Modern logic uses two different symbols in different situations, <math><mrow><mi>a</mi><mo stretchy="false">→</mo><mi>b</mi></mrow></math> and <math><mrow><mi>a</mi><mo>⊢</mo><mi>b</mi></mrow></math>. That two different symbols are necessary can be seen in <a href="../magazines/what-the-tortoise-said-to-achilles.html"><i>What the Tortoise Said to Achilles</i></a>. But why shouldn’t there be a third? “If the moon were made of cheese, it would taste like chocolate” is true in modern logic, but Carroll would say it is false. It would taste like cheese, not like chocolate. (You can find a more mathematical example in <i>Euclid and His Modern Rivals</i>, → <a href="../euclid-and-his-modern-rivals/content.html#euclid-modern-rivals:logic">here<!--TODO--></a>.) Note the tight connection to existential import: “All moons made of cheese taste like chocolate” is a similar or even equivalent variant. Unfortunately, we ca’n’t know what kind of formalization Carroll would have invented had he lived long enough to complete his studies, but perhaps it would have been similar to Hugh MacColl’s ideas.</p>
-+<p>In his later years Carroll turned to logic. As I understand it, he tried to formalize the natural language and its reasoning. This is different from modern logic which has given up in trying to adapt to “normal reasoning”, and therefore is sometimes regarded as strange. The most difficult part is to formalize “if <var>a</var> then <var>b</var>”. Modern logic uses two different symbols in different situations, <math><mrow><mi>a</mi><mo stretchy="false">→</mo><mi>b</mi></mrow></math> and <math><mrow><mi>a</mi><mo>⊢</mo><mi>b</mi></mrow></math>. That two different symbols are necessary can be seen in <a href="../magazines/what-the-tortoise-said-to-achilles.html"><i>What the Tortoise Said to Achilles</i></a>. But why shouldn’t there be a third? “If the moon were made of cheese, it would taste like chocolate” is true in modern logic, but Carroll would say it is false. It would taste like cheese, not like chocolate. (You can find a more mathematical example in <a href="../euclid-and-his-modern-rivals/content.html#euclid-modern-rivals:logic"><i>Euclid and His Modern Rivals</i></a>.) Note the tight connection to existential import: “All moons made of cheese taste like chocolate” is a similar or even equivalent variant. Unfortunately, we ca’n’t know what kind of formalization Carroll would have invented had he lived long enough to complete his studies, but perhaps it would have been similar to Hugh MacColl’s ideas.</p>
- 
- <p>But not only late works are included, you will also find very early works in this collection, including <a href="../poems/la-guida-di-bragia.html"><i>La Guida di Bragia</i></a>, which really deserves more attention than it got by only reprinting the prologue. Also included are his family magazines and other early manuscripts.</p>
  
 @@ -219,7 +217,7 @@
  <p>I have other shadowy ideas, e.&thinsp;g., a Geometry for Boys, a vol. of Essays on theological points freely and plainly treated, and a drama on “Alice” (for which Mr.&nbsp;Mackenzie would write music) […]
@@ -1370,7 +1361,7 @@ diff -ru a/index.html b/index.html
  </figure>
 -
 -<h1>Preface</h1>
-+<p>PDF version: <a href="../complete-lewis-carroll.pdf">the collection as one large file</a> (32.9&nbsp;MB, still with many overfull boxes and other defects)</p>
++<p>PDF version: <a href="../complete-lewis-carroll.pdf">the collection as one large file</a> (33.1&nbsp;MB, still with many overfull boxes and other defects)</p>
 +<p>HTML version: <a href="about/introduction.html">Introduction</a>, <a href="about/contents-by-source.html">Contents by Source</a>, <a href="about/contents-by-topic.html">Contents by Topic</a>, <a href="about/search.html">Search</a></p>
  </article>
  <footer>
@@ -3670,7 +3661,7 @@ diff -ru a/manuscripts-proofs/symbolic-logic-part-ii.html b/manuscripts-proofs/s
 +</svg>
  </figure>
  
- <footer><p>Charts 1 to 5 can be interpreted as tetrahedra, with terms at all vertices, at the centers of all edges, and at the the centers of all sides. Only the fourth side is not visible, the term for it is “No <var>x</var> exist.”</p>
+ <footer><p>Charts 1 to 5 can be interpreted as tetrahedra, with terms at all vertices, at the centers of all edges, and at the the centers of all faces. Only the fourth side is not visible, the term for it is “No <var>x</var> exist.”</p>
 @@ -282,17 +282,17 @@
  <p>Where terms are conntected by lines, the middle one is the conjunction of the outer ones. Since the four terms at the vertices together are contradictory, any term is the invers of the opposite term.</p></footer>
  
@@ -5209,6 +5200,55 @@ diff -ru a/math/arithmetical-formulae-and-rules.html b/math/arithmetical-formula
  
  <tr><td>values of <var>a</var>, <var>b</var>, <var>c</var>, <var>d</var>, each in terms of the other three, are</td><td><math><mfrac><mrow><mi>b</mi><mi>c</mi></mrow><mi>d</mi></mfrac></math>, <math><mfrac><mrow><mi>a</mi><mi>d</mi></mrow><mi>c</mi></mfrac></math>, <math><mfrac><mrow><mi>a</mi><mi>d</mi></mrow><mi>b</mi></mfrac></math>, <math><mfrac><mrow><mi>b</mi><mi>c</mi></mrow><mi>a</mi></mfrac></math>.</td></tr>
  
+diff -ru a/math/a-syllabus-of-plane-algebraical-geometry.html b/math/a-syllabus-of-plane-algebraical-geometry.html
+--- a/math/a-syllabus-of-plane-algebraical-geometry.html
++++ b/math/a-syllabus-of-plane-algebraical-geometry.html
+@@ -1170,6 +1170,7 @@
+ 
+ <h5>V.</h5>
+ <p>Given <span style="font-variant: small-caps;">the referents of a Point, referred to a Trilinear System</span>: to find <span style="font-variant: small-caps;">its co-ordinates referred to two of the three lines of reference, considered as a Cartesian System</span>, or, (which is the same thing,) to find <span style="font-variant: small-caps;"><span class="annotated corrected" data-ref="annotation-4">three</span> Equations expressing the values of its referents in terms of its co-ordinates</span>, (from which Equations the values of its co-ordinates may be found, if required.)</p>
++<aside class="toggle corrected" id="annotation-4">Corrected from “two” according to Errata.</aside>
+ 
+ <h5>VI.</h5>
+ <p>Given <span style="font-variant: small-caps;">an Equation, containing <var>α</var>, <var>β</var>, <var>γ</var>, (any or all of them,) which is known to be true of the referents of a Point, referred to a Trilinear System</span>: to find <span style="font-variant: small-caps;">an Equation which shall be true of the co-ordinates of the same Point, referred to two of the three lines of reference, considered as a Cartesian System</span>.</p>
+@@ -1349,6 +1350,7 @@
+ </p></div></div>
+ 
+ <h5>V. <span class="annotated corrected" data-ref="annotation-5">*</span></h5>
++<aside class="toggle corrected" id="annotation-5">Added according to Errata.</aside>
+ <p>Given <span style="font-variant: small-caps;">a Line</span> and <span style="font-variant: small-caps;">2 Points</span>: to find <span style="font-variant: small-caps;">the ratio in which the given Line divides, (whether internally or externally,) the line joining the given Points</span>.</p>
+ 
+ <h5>VI.</h5>
+@@ -1438,11 +1440,13 @@
+ <p class="fakeheadline">(<i>β</i>) Points required</p>
+ 
+ <h5>I. <span class="annotated corrected" data-ref="annotation-6">*</span></h5>
++<aside class="toggle corrected" id="annotation-6">Corrected from § according to Errata.</aside>
+ <p>Given <span style="font-variant: small-caps;">the vertices of a Triangle</span>: to find <span style="font-variant: small-caps;">the Point, which being joined to the 3 vertices, the Triangle shall be divided <i>internally</i> into 3 parts having given ratios</span>.</p>
+ 
+ <p><span style="font-variant: small-caps;">Corollary</span>. Given <span style="font-variant: small-caps;">the vertices of a Triangle</span>: to find <span style="font-variant: small-caps;">the Point, which being joined to the 3 vertices, the Triangle shall be <i>trisected</i></span>.</p>
+ 
+ <h5>II. <span class="annotated corrected" data-ref="annotation-7">*</span></h5>
++<aside class="toggle corrected" id="annotation-7">Corrected from § according to Errata.</aside>
+ <p>Given <span style="font-variant: small-caps;">the vertices of a Triangle</span>: to find <span style="font-variant: small-caps;">the Point, which being joined to the 3 vertices, the Triangle shall be divided <i>externally</i> into 3 parts having given ratios</span>.</p>
+ 
+ <p class="fakeheadline">D. Discussion of Pencils</p>
+@@ -2107,6 +2111,7 @@
+ </p></div></div>
+ 
+ <h5><span class="annotated corrected" data-ref="annotation-13">II.</span></h5>
++<aside class="toggle corrected" id="annotation-13">Swapped with the next Proposition according to the Errata.</aside>
+ <p>Given <span style="font-variant: small-caps;">the co-ordinates of the centre</span>, and <span style="font-variant: small-caps;">the length of the radius, of a Circle</span>: to find <span style="font-variant: small-caps;">an Equation to it in terms of those magnitudes</span>.</p>
+ 
+ <h5>III.</h5>
+@@ -2478,7 +2483,6 @@
+ <div class="footnotes"><ol>
+ <li id="footnote-1">(Or, which is the same thing, as “the cosines of the angles which the line makes with the two axes.”) <a href="#footnote-1-back" class="footnote-back">↩</a></li>
+ </ol></div>
+-<!--TODO missing annotations: annotation-4, annotation-5, annotation-6, annotation-7, annotation-13 -->
+ </article>
+ <footer>
+ <nav><ul>
 diff -ru a/math/eighth-paper-on-logic.html b/math/eighth-paper-on-logic.html
 --- a/math/eighth-paper-on-logic.html
 +++ b/math/eighth-paper-on-logic.html
@@ -5356,21 +5396,6 @@ diff -ru a/math/formulae-in-algebra.html b/math/formulae-in-algebra.html
  
  <tr><td>Permutation of <var>n</var> things</td><td></td></tr>
  
-diff -ru a/math/notes-on-the-first-part-of-algebra.html b/math/notes-on-the-first-part-of-algebra.html
---- a/math/notes-on-the-first-part-of-algebra.html
-+++ b/math/notes-on-the-first-part-of-algebra.html
-@@ -79,9 +79,9 @@
- <span style="display: inline-block; width: 2em;"></span> <math><mrow><msup><mi>a</mi><mrow><mo>−</mo><mi>m</mi></mrow></msup><mo>=</mo></mrow></math> <span class="after-hfill">(<sup id="footnote-20-back" class="footnote"><a href="#footnote-20">20</a></sup>)</span><br>
- <span style="display: inline-block; width: 2em;"></span> <math><mrow><msup><mi>a</mi><mn>0</mn></msup><mo>=</mo></mrow></math> <span class="after-hfill">(<sup id="footnote-21-back" class="footnote"><a href="#footnote-21">21</a></sup>)</span><br>
- Involution and Evolution,<br>
--<span style="display: inline-block; width: 2em;"></span> <math><mrow><msup><msup><mi>a</mi><mi>m</mi></msup><mi>n</mi></msup><mo>=</mo></mrow></math> <span class="after-hfill">(<sup id="footnote-22-back" class="footnote"><a href="#footnote-22">22</a></sup>)</span><br>
-+<span style="display: inline-block; width: 2em;"></span> <math><mrow><msup><msup><mi>a</mi><mi>m</mi></msup><mi>n</mi></msup><mo>=</mo></mrow></math> <span id="footnote-22-back" class="after-hfill">(<sup class="footnote"><a href="#footnote-22">22</a></sup>)</span><br>
- <span style="display: inline-block; width: 2em;"></span> the <var>n</var>th root of <math><msup><mi>a</mi><mi>m</mi></msup></math>, i.&thinsp;e. <math><mrow><mroot><msup><mi>a</mi><mi>m</mi></msup><mi>n</mi></mroot><mo>=</mo></mrow></math> <span class="after-hfill">(<sup id="footnote-23-back" class="footnote"><a href="#footnote-23">23</a></sup>)</span><br>
--<span style="display: inline-block; width: 2em;"></span> hence, the <var>n</var>th root of <var>a</var>, i.&thinsp;e. <math><mroot><mi>a</mi><mi>n</mi></mroot></math> <!--TODO \hfill-->(<sup id="footnote-24-back" class="footnote"><a href="#footnote-24">24</a></sup>)
-+<span style="display: inline-block; width: 2em;"></span> hence, the <var>n</var>th root of <var>a</var>, i.&thinsp;e. <math><mroot><mi>a</mi><mi>n</mi></mroot></math> <span class="after-hfill">(<sup id="footnote-24-back" class="footnote"><a href="#footnote-24">24</a></sup>)</span>
- </p></div>
- 
- <div class="footnotes"><ol>
 diff -ru a/math/notes-on-the-first-two-books-of-euclid.html b/math/notes-on-the-first-two-books-of-euclid.html
 --- a/math/notes-on-the-first-two-books-of-euclid.html
 +++ b/math/notes-on-the-first-two-books-of-euclid.html
@@ -6741,7 +6766,7 @@ diff -ru a/rectory-umbrella/the-walking-stick-of-destiny.html b/rectory-umbrella
  <p>In this state of mind it is not surprising that his first answer to their question, “is the Baron at home?” should be, “the fish, sir, was the cook’s affair, I had nothing whatsumdever to do with it,” which on reflection he immediately afterwards corrected to, “the trains was late, so it was unpossible as the wine could come sooner.” “The man is surely mad or drunk!” angrily exclaimed one of the strangers, no other than the mysterious man in a cloak: “not so,” was the reply in gentle voice, as the great magician stepped forward, “but let me interrogate him—ho! fellow!” he continued in a louder tone, “is thy master at home?” The man gazed at him for a moment like one in a dream, and then suddenly recollecting himself he replied, “I begs pardon, gentlemen, The Baron <i>is</i> at home: would you please to walk in?” and with these words he ushered them up stairs.</p>
  
 -<figure><img src="../../images/rectory-umbrella/walkingstick-7-2.jpg" width="314" height="179" style="max-width:15em;" alt="Two bowing man.">
--<!--TODO \hfill--><img src="../../images/rectory-umbrella/walkingstick-7-3.jpg" width="172" height="221" style="max-width:7em;" alt="The Baron Muggzwig.">
+-<span class="after-hfill"><img src="../../images/rectory-umbrella/walkingstick-7-3.jpg" width="172" height="221" style="max-width:7em;" alt="The Baron Muggzwig."></span>
 +<figure><img src="../../images/rectory-umbrella/walkingstick-7-2.jpg" width="314" height="179" style="max-width:15em; display:inline-block;" alt="Two bowing man.">
 +<img src="../../images/rectory-umbrella/walkingstick-7-3.jpg" width="172" height="221" style="max-width:7em; display:inline-block; float: right;" alt="The Baron Muggzwig.">
  </figure>
