@@ -36,6 +36,33 @@ function copyEnvironment (name0, name1) {
 	registeredEnvironments[name1] = registeredEnvironments[name0];
 }
 
+function keepAfterPar (command) {
+	var oldCommand = registeredCommands[command];
+	if (!oldCommand) {
+		throw new Error(command + ' not defined');
+	}
+	registerCommand(command, function () {
+		var i, afterPar = '', result;
+		for (i = 0; i < arguments.length; i++) {
+			if (arguments[i] !== undefined && arguments[i].afterPar) {
+				afterPar += arguments[i].afterPar;
+			}
+		}
+		result = oldCommand.apply(null, arguments);
+		if (afterPar) {
+			if (typeof result === 'string') {
+				return stringWithProps(result, {afterPar: afterPar});
+			}
+			if (result.afterPar) {
+				warn('Command ' + command + ' does not need keepAfterPar');
+			} else {
+				result.afterPar = afterPar;
+			}
+		}
+		return result;
+	});
+}
+
 function escapeRe (str) {
 	return str.replace(/([\\{}()|.?*+\-\^$\[\]])/g, '\\$1');
 }
@@ -371,6 +398,7 @@ nodeToHtml.registerCommand = registerCommand;
 nodeToHtml.registerEnvironment = registerEnvironment;
 nodeToHtml.copyCommand = copyCommand;
 nodeToHtml.copyEnvironment = copyEnvironment;
+nodeToHtml.keepAfterPar = keepAfterPar;
 nodeToHtml.addLigature = addLigature;
 nodeToHtml.stringWithProps = stringWithProps;
 nodeToHtml.currentEnvironment = function () {

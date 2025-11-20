@@ -3,17 +3,6 @@
 (function (registerCommand, registerEnvironment) {
 "use strict";
 
-function keepAfterPar (result, afterPar) {
-	if (afterPar) {
-		if (typeof result === 'string') {
-			return toHtml.stringWithProps(result, {afterPar: afterPar});
-		}
-		result.afterPar = afterPar;
-		return result;
-	}
-	return result;
-}
-
 registerCommand('=', function () { //we don't use \={char}, but only the command inside tabbing
 	return toHtml.stringWithProps('', {separator: 'col'});
 });
@@ -293,11 +282,11 @@ registerCommand('commaSee', function (title, ref) {
 });
 
 registerCommand('subtitle', function (title) {
-	return keepAfterPar(toHtml.stringWithProps('<p class="subtitle">' + title + '</p>', {mode: 'block'}), title.afterPar);
+	return toHtml.stringWithProps('<p class="subtitle">' + title + '</p>', {mode: 'block'});
 });
 
 registerCommand('fakeheadline', function (title) {
-	return keepAfterPar(toHtml.stringWithProps('<p class="fakeheadline">' + title + '</p>', {mode: 'block'}), title.afterPar);
+	return toHtml.stringWithProps('<p class="fakeheadline">' + title + '</p>', {mode: 'block'});
 });
 
 registerCommand('motto', function (motto) {
@@ -363,9 +352,14 @@ toHtml.atEnd(function () {
 	annotations = 0;
 	return '';
 });
-registerCommand('textit', function (text) {
-	return keepAfterPar('<i>' + text + '</i>', text.afterPar);
-});
+
+toHtml.keepAfterPar('textit');
+toHtml.keepAfterPar('textsc');
+toHtml.keepAfterPar('subsection');
+toHtml.keepAfterPar('paragraph');
+toHtml.keepAfterPar('subtitle');
+toHtml.keepAfterPar('fakeheadline');
+
 toHtml.fixup(function (html) {
 	var re = /data-ref="([^"]+)"/g, m, missing = [];
 	while ((m = re.exec(html))) {

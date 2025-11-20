@@ -488,16 +488,18 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  <li><a href="../manuscripts-proofs/marriage-service.html">Marriage Service</a>, 1877 (first published 1974, text from <i>Pamphlets: A Miscellany</i>, item 27/<i>The Carrollian</i>, No. 15, 2005, pp.&nbsp;47–48, <a href="https://archive.org/details/the-carrollian-2005-15/page/46">https://archive.org/details/the-carrollian-2005-15/page/46</a>)<!--TODO scan (Harcourt Armory Collection, digitized, but not public)--></li>
  <li><a href="../manuscripts-proofs/logs-of-nos.html">Logs of Nos.</a>, 1878 (first published 1974, text from <i>Rare Verses</i>, pp.&nbsp;88–89)<!--TODO scan--></li>
  <li><a href="../poems/verses-for-christmas-cards.html">Verses for Christmas Cards</a>, 1879 (first published 1974, scan from <i>Lewis Carroll and Alice, 1832–1982</i>, p.&nbsp;126)<!--TODO drawings by E. Gertrude Thomson, see also http://corsair.themorgan.org/vwebv/holdingsInfo?bibId=412946&searchType=13&holdingsBibId=412886&returnUrl=holdingsInfo%3FbibId=412886--></li>
-@@ -1848,7 +1844,7 @@
+@@ -1848,8 +1844,8 @@
  <li><a href="../poems/the-year-when-boilers-froze.html">The year when boilers froze</a>, 1891 (for Robert Holford Macdowall Bosanquet, first published 1966, text from <i>Jabberwocky and Other Poems</i>)<!--Oct 20, https://www.google.de/books/edition/The_Story_of_the_Bosanquets/pQBIAAAAMAAJ--></li>
  <li><a href="../poems/my-first-is-a-berry.html">My First is a berry</a>, 1892 (for Olive, Ruth, and Violet Butler, first published 1933, text from <i>Letters to Child-Friends</i>, p.&nbsp;229)<!--Dec 29--></li>
  <li><a href="../poems/girlie-to-whom-in-perennial-bloom.html">Girlie to whom in perennial bloom</a>, 1895? (for Gladys Baly, first published 1932, text from <i>Diaries</i>, p.&nbsp;487)<!--Christmas?--></li>
+-<li>A Double Acrostic (for Marion Miller, first published 1999, scan from <i>All in the golden afternoon: the Inventions of Lewis Carroll</i>, p.&nbsp;32, → <a href="../poems/a-double-acrostic-marion-miller.html">here<!--TODO--></a>)<!--claimed to be around 1881, but could be any date--></li>
 -<li>Square Poem (for the brother of Lady Ure, first published 1974, text from <i>The Universe in a Handkerchief</i>, p.&nbsp;20, → <a href="../poems/square-poem.html">here<!--TODO--></a>; authorship not certain)</li>
++<li><a href="../poems/a-double-acrostic-marion-miller.html">A Double Acrostic</a> (for Marion Miller, first published 1999, scan from <i>All in the golden afternoon: the Inventions of Lewis Carroll</i>, p.&nbsp;32)<!--claimed to be around 1881, but could be any date--></li>
 +<li><a href="../poems/square-poem.html">Square Poem</a> (for the brother of Lady Ure, first published 1974, text from <i>The Universe in a Handkerchief</i>, p.&nbsp;20; authorship not certain)</li>
  </ul>
  
  <p>Some poems from letters Carroll published himself. These are not listed above and their differences are not reproduced in the poems, but noted where available. These poems are <i>Girt with a Boyish Garb</i> (for Gertrude Chataway), <i>A Charade</i> (<i>Four Riddles. No.&nbsp;III</i>, for Marion Terry), <i>Matilda Jane</i> (for Catherine Holiday), <i>A Game of Fives</i>, and <i>Puck Lost and Found</i>. The first of the <i>Puzzles from Wonderland</i> can be found in his letters, too, but without changes. The poem <i>Lines</i> was published by Carroll, too, but since the manuscript variant is more prominent than the printed one, it is included above. <i>Disillusionized</i>, too, has such a variant, though it is not clear where it comes from.</p>
-@@ -1959,9 +1955,9 @@
+@@ -1960,9 +1956,9 @@
  
  <p>The circular about Senior Student’s biographies asked for details for a planned publication <i>Senior Students</i>.</p>
  
@@ -509,7 +511,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>Carroll sent several circulars on behalf of friends and relatives, to help them in various matters.</p>
  
-@@ -1969,7 +1965,7 @@
+@@ -1970,7 +1966,7 @@
  
  <p>The circular about counters asks for suggestions for the colours of the counters in the <i>Game of Logic</i>.</p>
  
@@ -518,7 +520,7 @@ diff -ru a/about/contents-by-source.html b/about/contents-by-source.html
  
  <p>The <i>Stranger Circular</i> is a letter (in two variants) intended to be sent to those who addressed C. L. Dodgson about books written by Lewis Carroll, protesting against this.</p>
  
-@@ -2026,7 +2022,7 @@
+@@ -2027,7 +2023,7 @@
  
  <p>Most of the following texts are minor mathematical manuscripts.</p>
  
@@ -616,8 +618,8 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
 +<p>This part contains all poems by Lewis Carroll I could find. It also includes poems extracted from his stories (except those poems that he only quotes, and are not by him; and except for very short verses, especially Memoria Technica verses like <a href="../texts/specific-gravities-of-metals.html"><i>Specific Gravities of Metals</i></a>. When there is more than one version (not counting just differences in punctuation etc.), all versions are collected here. The titles for poems without original title are derived from the surrounding text, or just the incipit. The poems are in alphabetical order of their first words (ignoring any introductions, even the introduction of <i>Hiawatha’s Photographing</i>), so you can find a poem when you know how it starts, with one exception: The poem starting with “I watch the drowsy night expire” is found among “T”, because the later version starts with “The night creeps onward, sad and slow” (<a href="../poems/faces-in-the-fire.html"><i>Faces in the Fire</i></a>).</p>
  <ul>
  <li><a href="../poems/a-boat-beneath-a-sunny-sky.html">A boat, beneath a sunny sky</a></li>
- <li>A is for .&thinsp;.&thinsp;.&thinsp;.&thinsp;.&thinsp;., who’d physic the Masses: <a href="../poems/examination-statute.html">Examination Statute</a></li>
-@@ -392,7 +394,7 @@
+ <li>A certain Child—’tis true, though sad: <a href="../poems/a-double-acrostic-marion-miller.html">A Double Acrostic (Marion Miller)</a></li>
+@@ -393,7 +395,7 @@
  <li>I have a horse—a ryghte goode horse: <a href="../poems/ye-carpette-knyghte.html">Ye Carpette Knyghte</a></li>
  <li>I love the stillness of the wood: <a href="../poems/solitude.html">Solitude</a></li>
  <li>I met an aged, aged man: <a href="../poems/upon-the-lonely-moor.html">Upon the Lonely Moor</a></li>
@@ -626,7 +628,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <li>I never loved a dear Gazelle: <a href="../poems/tema-con-variazioni.html">Tèma con Variazióni</a></li>
  <li>I often wondered when I cursed: <a href="../poems/square-poem.html">Square Poem</a></li>
  <li>I painted her a gushing thing: <a href="../poems/disillusionized.html">Disillusionized</a></li>
-@@ -416,7 +418,7 @@
+@@ -417,7 +419,7 @@
  <li>It is the lawyer’s daugh…: <a href="../poems/the-lyceum.html">The Lyceum</a></li>
  <li>“Just the place for a Snark!” the Bellman cried: <a href="../poems/the-hunting-of-the-snark.html">The Hunting of the Snark. An Agony in Eight Fits.</a></li>
  <li>King Fisher courted Lady Bird: <a href="../poems/king-fisher-song.html">King-fisher Song</a></li>
@@ -635,7 +637,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <li>Lady Clara Vere de Vere: <a href="../poems/echoes.html">Echoes</a></li>
  <li>Lady dear, if Fairies may: <a href="../poems/christmas-greetings.html">Christmas-Greetings</a></li>
  <li><a href="../poems/let-craft-ambition-spite.html">Let craft, ambition, spite</a></li>
-@@ -500,7 +502,7 @@
+@@ -501,7 +503,7 @@
  <li><a href="../poems/three-children.html">Three Children</a></li>
  <li>Three little maidens, weary of the Rail: <a href="../poems/to-three-puzzled-little-girls-from-the-author.html">To Three Puzzled Little Girls, From the Author</a></li>
  <li><a href="../poems/three-little-maids.html">Three Little Maids</a></li>
@@ -644,7 +646,7 @@ diff -ru a/about/contents-by-topic.html b/about/contents-by-topic.html
  <li><a href="../poems/tis-the-voice-of-the-lobster.html">’Tis the voice of the Lobster</a></li>
  <li><a href="../poems/to-the-looking-glass-world-it-was-alice-that-said.html">To the Looking-Glass world it was Alice that said</a></li>
  <li>Twas bryllyg, and the slythy toves: <a href="../poems/stanza-of-anglo-saxon-poetry.html">Stanza of Anglo-Saxon Poetry</a></li>
-@@ -522,14 +524,14 @@
+@@ -523,14 +525,14 @@
  <li>When midnight mists are creeping: <a href="../poems/dreamland.html">Dreamland</a></li>
  <li>When on the sandy shore I sit: <a href="../poems/size-and-tears.html">Size and Tears</a></li>
  <li>While once in haste I crossed the street: <a href="../poems/charity.html">Charity</a></li>
@@ -774,7 +776,7 @@ diff -ru a/about/introduction.html b/about/introduction.html
  
  <p>Speaking of poems, the poem section will give you not only the popular and often reprinted poems, but also early variants of them, as well as some not so widely spread ones.</p>
  
-@@ -319,15 +317,13 @@
+@@ -320,15 +318,13 @@
  <a href="../poems/tell-me-truly-maidens-three.html"><i>Tell me truly, Maidens three</i></a>,
  <a href="../poems/puzzle.html"><i>Puzzle</i></a></p>
  
@@ -5200,55 +5202,6 @@ diff -ru a/math/arithmetical-formulae-and-rules.html b/math/arithmetical-formula
  
  <tr><td>values of <var>a</var>, <var>b</var>, <var>c</var>, <var>d</var>, each in terms of the other three, are</td><td><math><mfrac><mrow><mi>b</mi><mi>c</mi></mrow><mi>d</mi></mfrac></math>, <math><mfrac><mrow><mi>a</mi><mi>d</mi></mrow><mi>c</mi></mfrac></math>, <math><mfrac><mrow><mi>a</mi><mi>d</mi></mrow><mi>b</mi></mfrac></math>, <math><mfrac><mrow><mi>b</mi><mi>c</mi></mrow><mi>a</mi></mfrac></math>.</td></tr>
  
-diff -ru a/math/a-syllabus-of-plane-algebraical-geometry.html b/math/a-syllabus-of-plane-algebraical-geometry.html
---- a/math/a-syllabus-of-plane-algebraical-geometry.html
-+++ b/math/a-syllabus-of-plane-algebraical-geometry.html
-@@ -1170,6 +1170,7 @@
- 
- <h5>V.</h5>
- <p>Given <span style="font-variant: small-caps;">the referents of a Point, referred to a Trilinear System</span>: to find <span style="font-variant: small-caps;">its co-ordinates referred to two of the three lines of reference, considered as a Cartesian System</span>, or, (which is the same thing,) to find <span style="font-variant: small-caps;"><span class="annotated corrected" data-ref="annotation-4">three</span> Equations expressing the values of its referents in terms of its co-ordinates</span>, (from which Equations the values of its co-ordinates may be found, if required.)</p>
-+<aside class="toggle corrected" id="annotation-4">Corrected from “two” according to Errata.</aside>
- 
- <h5>VI.</h5>
- <p>Given <span style="font-variant: small-caps;">an Equation, containing <var>α</var>, <var>β</var>, <var>γ</var>, (any or all of them,) which is known to be true of the referents of a Point, referred to a Trilinear System</span>: to find <span style="font-variant: small-caps;">an Equation which shall be true of the co-ordinates of the same Point, referred to two of the three lines of reference, considered as a Cartesian System</span>.</p>
-@@ -1349,6 +1350,7 @@
- </p></div></div>
- 
- <h5>V. <span class="annotated corrected" data-ref="annotation-5">*</span></h5>
-+<aside class="toggle corrected" id="annotation-5">Added according to Errata.</aside>
- <p>Given <span style="font-variant: small-caps;">a Line</span> and <span style="font-variant: small-caps;">2 Points</span>: to find <span style="font-variant: small-caps;">the ratio in which the given Line divides, (whether internally or externally,) the line joining the given Points</span>.</p>
- 
- <h5>VI.</h5>
-@@ -1438,11 +1440,13 @@
- <p class="fakeheadline">(<i>β</i>) Points required</p>
- 
- <h5>I. <span class="annotated corrected" data-ref="annotation-6">*</span></h5>
-+<aside class="toggle corrected" id="annotation-6">Corrected from § according to Errata.</aside>
- <p>Given <span style="font-variant: small-caps;">the vertices of a Triangle</span>: to find <span style="font-variant: small-caps;">the Point, which being joined to the 3 vertices, the Triangle shall be divided <i>internally</i> into 3 parts having given ratios</span>.</p>
- 
- <p><span style="font-variant: small-caps;">Corollary</span>. Given <span style="font-variant: small-caps;">the vertices of a Triangle</span>: to find <span style="font-variant: small-caps;">the Point, which being joined to the 3 vertices, the Triangle shall be <i>trisected</i></span>.</p>
- 
- <h5>II. <span class="annotated corrected" data-ref="annotation-7">*</span></h5>
-+<aside class="toggle corrected" id="annotation-7">Corrected from § according to Errata.</aside>
- <p>Given <span style="font-variant: small-caps;">the vertices of a Triangle</span>: to find <span style="font-variant: small-caps;">the Point, which being joined to the 3 vertices, the Triangle shall be divided <i>externally</i> into 3 parts having given ratios</span>.</p>
- 
- <p class="fakeheadline">D. Discussion of Pencils</p>
-@@ -2107,6 +2111,7 @@
- </p></div></div>
- 
- <h5><span class="annotated corrected" data-ref="annotation-13">II.</span></h5>
-+<aside class="toggle corrected" id="annotation-13">Swapped with the next Proposition according to the Errata.</aside>
- <p>Given <span style="font-variant: small-caps;">the co-ordinates of the centre</span>, and <span style="font-variant: small-caps;">the length of the radius, of a Circle</span>: to find <span style="font-variant: small-caps;">an Equation to it in terms of those magnitudes</span>.</p>
- 
- <h5>III.</h5>
-@@ -2478,7 +2483,6 @@
- <div class="footnotes"><ol>
- <li id="footnote-1">(Or, which is the same thing, as “the cosines of the angles which the line makes with the two axes.”) <a href="#footnote-1-back" class="footnote-back">↩</a></li>
- </ol></div>
--<!--TODO missing annotations: annotation-4, annotation-5, annotation-6, annotation-7, annotation-13 -->
- </article>
- <footer>
- <nav><ul>
 diff -ru a/math/eighth-paper-on-logic.html b/math/eighth-paper-on-logic.html
 --- a/math/eighth-paper-on-logic.html
 +++ b/math/eighth-paper-on-logic.html
@@ -6107,25 +6060,15 @@ diff -ru a/mischmasch/studies-from-english-poets.html b/mischmasch/studies-from-
 diff -ru a/notes-oxford-chiel/clarendon.html b/notes-oxford-chiel/clarendon.html
 --- a/notes-oxford-chiel/clarendon.html
 +++ b/notes-oxford-chiel/clarendon.html
-@@ -73,6 +73,7 @@
- <aside class="toggle quoted" id="annotation-1"><b>Quoted</b> from <i>King Henry IV Part II</i> by William Shakespeare</aside>
- 
- <p><span style="font-variant: small-caps;"><span class="annotated variant" data-ref="annotation-2">Dear Senior Censor,</span></span></p>
-+<aside class="toggle variant" id="annotation-2">The original publication starts from here, with “My dear Sandford”</aside>
- 
- <p>In a desultory conversation on a point connected with the dinner at our high table, you incidentally remarked to me that lobster-sauce, ‘though a necessary adjunct to turbot, was not entirely wholesome.’</p>
- 
-@@ -109,9 +110,8 @@
+@@ -110,7 +110,7 @@
  <aside class="toggle variant" id="annotation-4">Ch.&nbsp;Ch. Feb.&nbsp;6, 1868.</aside></div>
  
  <div class="footnotes"><ol>
 -<li id="footnote-1">See <a href="../poems/the-elections-to-the-hebdomadal-council.html#hebdomadal:footnote-1">page&nbsp;10</a>, Notes <a href="../poems/the-elections-to-the-hebdomadal-council.html#hebdomadal:footnote-1">?</a>, <a href="../poems/the-elections-to-the-hebdomadal-council.html#hebdomadal:footnote-2">?</a>. <a href="#footnote-1-back" class="footnote-back">↩</a></li>
 +<li id="footnote-1">See <a href="../poems/the-elections-to-the-hebdomadal-council.html#hebdomadal:footnote-1">page&nbsp;10</a>, Notes <a href="../poems/the-elections-to-the-hebdomadal-council.html#footnote-2">2</a>, <a href="../poems/the-elections-to-the-hebdomadal-council.html#footnote-3">3</a>. <a href="#footnote-1-back" class="footnote-back">↩</a></li>
  </ol></div>
--<!--TODO missing annotations: annotation-2 -->
  </article>
  <footer>
- <nav><ol>
 diff -ru a/notes-oxford-chiel/new-method-evaluation.html b/notes-oxford-chiel/new-method-evaluation.html
 --- a/notes-oxford-chiel/new-method-evaluation.html
 +++ b/notes-oxford-chiel/new-method-evaluation.html
@@ -7628,60 +7571,19 @@ diff -ru a/tangled-tale/content.html b/tangled-tale/content.html
  
  <h4 id="tangled:mp-c">Answers to Correspondents</h4>
  <header><p>Source: The Monthly Packet, November 1881 (with minor differences as noted); A Tangled Tale</p></header>
-@@ -1629,6 +1629,7 @@
- <header><p>Source: The Monthly Packet, November 1883 (as “Answers to Knot IX”, with minor differences as noted); A Tangled Tale</p></header>
- 
- <h5><span class="annotated variant" data-ref="annotation-113">§ 1. The Pigs</span></h5>
-+<aside class="toggle variant" id="annotation-113">missing in the <i>Monthly Packet</i></aside>
- 
- <p><span class="annotated variant" data-ref="annotation-114"><i>Problem</i>.</span>—Place twenty-four pigs in four sties so that, as you go round and round, you may always find the number in each sty nearer to ten than the number in the last.</p>
- <aside class="toggle variant" id="annotation-114"><i>Problem</i> 1</aside>
-@@ -1640,6 +1641,7 @@
- <p>This problem is noticed by only two correspondents. <span style="font-variant: small-caps;">Balbus</span> says “it certainly cannot be solved mathematically, nor do I see how to solve it by any verbal quibble.” <span style="font-variant: small-caps;">Nolens Volens</span> makes Her Radiancy change the direction of going round; and even then is obliged to add “the pigs must be carried in front of her”!</p>
- 
- <h5><span class="annotated variant" data-ref="annotation-116">§ 2. The Grurmstipths</span></h5>
-+<aside class="toggle variant" id="annotation-116">missing in the <i>Monthly Packet</i></aside>
- 
- <p><span class="annotated variant" data-ref="annotation-117"><i>Problem</i>.</span>—Omnibuses start from a certain point, both ways, every 15 minutes. A traveller, starting on foot along with one of them, meets one in <math><mrow><mn>12</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math> minutes: when will he be overtaken by one?</p>
- <aside class="toggle variant" id="annotation-117"><i>Problem</i> 2</aside>
-@@ -1799,7 +1801,8 @@
+@@ -1800,9 +1800,9 @@
+ <p><span style="font-variant: small-caps;">Algernon Bray</span> enquires for copies of the original edition of <i>The Hunting of the Snark</i>. There are still a few on hand, which may be obtained from Messrs.&nbsp;Macmaillan &amp; Co., 29, Bedford Street, Covent Garden, London.
  </p></aside></div>
  
- <h5 id="tangled:mp-10a2"><span class="annotated variant" data-ref="annotation-127">§ 2. Change of Day</span></h5>
+-<h5><span class="annotated variant" data-ref="annotation-127">§ 2. Change of Day</span></h5>
+-<aside class="toggle variant" id="annotation-127">Part 2 in the <i>Monthly Packet</i> starts here, but ommits this headline.</aside><span id="tangled:mp-10a2"></span>
 -<aside id="day-begin:0"><b>Other versions</b>: <a href="../rectory-umbrella/difficulties.html#day-begin:1">Difficulties. No. 1</a>, <a href="../magazines/where-does-the-day-begin.html">Where Does the Day Begin?</a></aside>
++<h5 id="tangled:mp-10a2"><span class="annotated variant" data-ref="annotation-127">§ 2. Change of Day</span></h5>
 +<aside class="toggle variant" id="annotation-127">Part 2 in the <i>Monthly Packet</i> starts here, but ommits this headline.</aside>
 +<aside id="day-begin:0"><b>Other versions</b>: <a href="../rectory-umbrella/difficulties.html">Difficulties. No. 1</a>, <a href="../magazines/where-does-the-day-begin.html">Where Does the Day Begin?</a></aside>
  
  <p><span class="annotated variant" data-ref="annotation-128">I must postpone, <i>sine die</i>,</span> the geographical problem—partly because I have not yet received the statistics I am hoping for, and partly because I am myself so entirely puzzled by it; and when an examiner is himself dimly hovering between a second class and a third how is he to decide the position of <span class="annotated variant" data-ref="annotation-129">others?</span></p>
  <aside class="toggle variant" id="annotation-128">Once more I must postpone</aside>
-@@ -1874,7 +1877,6 @@
- <li id="footnote-1">“<i>Maskee</i>,” in Pigeon-English, means “<i>without</i>.” <a href="#footnote-1-back" class="footnote-back">↩</a></li>
- <li id="footnote-2"><i>Note by the writer.</i>—For the above Essay I am indebted to a dear friend, now deceased. <a href="#footnote-2-back" class="footnote-back">↩</a></li>
- </ol></div>
--<!--TODO missing annotations: annotation-113, annotation-116, annotation-127 -->
- </article>
- <footer>
- <nav><ol>
-diff -ru a/texts/a-fascinating-mental-recreation.html b/texts/a-fascinating-mental-recreation.html
---- a/texts/a-fascinating-mental-recreation.html
-+++ b/texts/a-fascinating-mental-recreation.html
-@@ -76,6 +76,7 @@
- <aside class="toggle variant" id="annotation-7">The version from 1895 is followed by: “P.S.—The book is nearly all in type, and will, I <i>hope</i>, be ready for delivery by Christmas.”</aside></div>
- 
- <h3>N.B. <span class="annotated variant" data-ref="annotation-8">Books to be Given Away.</span></h3>
-+<aside class="toggle variant" id="annotation-8">only in version from January</aside>
- 
- <h4>(1) For Village-Libraries, &amp;c.</h4>
- 
-@@ -106,8 +107,6 @@
- <p>Applications, from Hospitals, &amp;c., for these books, or for “The Nursery Alice” named above, should be addressed to himself, care of Messrs.&nbsp;Macmillan and Co., Ltd., and should be signed by some official of the Hospital, &amp;c., and should state the number of children, capable of enjoying such books, who are there at once, the number of copies in hand, and also whether it possesses any funds with which such books could be purchased.</p>
- 
- <div class="signature"><p>January, 1896.</p></div>
--
--<!--TODO missing annotations: annotation-8 -->
- </article>
- <footer>
- <nav><ol>
 diff -ru a/texts/an-analysis-of-responsions-lists.html b/texts/an-analysis-of-responsions-lists.html
 --- a/texts/an-analysis-of-responsions-lists.html
 +++ b/texts/an-analysis-of-responsions-lists.html
